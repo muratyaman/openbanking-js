@@ -1,0 +1,598 @@
+{
+  "meta": {
+    "LastUpdated": "2018-03-02T09:05:13.000Z",
+    "TotalResults": 1,
+    "Agreement": "Use of the APIs and any related data will be subject to the terms of the Open Licence and subject to terms and conditions",
+    "License": "https://www.openbanking.org.uk/open-licence",
+    "TermsOfUse": "https://www.openbanking.org.uk/terms"
+  },
+  "data": [
+    {
+      "Brand": [
+        {
+          "BrandName": "DanskeBank",
+          "SMELoan": [
+            {
+              "Name": "Variable Rate Business Loan",
+              "Identification": "43F",
+              "Segment": [
+                "FlexibleBusinessLoan"
+              ],
+              "SMELoanMarketingState": [
+                {
+                  "Identification": "43F",
+                  "MarketingState": "Regular",
+                  "LoanInterest": {
+                    "LoanInterestTierBandSet": [
+                      {
+                        "TierBandMethod": "Whole",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "0",
+                            "TierValueMaximum": "5000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 1,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "12.4",
+                            "LoanProviderInterestRateType": "BOEBaseRate",
+                            "LoanProviderInterestRate": "7.5",
+                            "Notes": [
+                              "Total Cost of Credit £5351.89"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "15001",
+                            "TierValueMaximum": "20000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 1,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "8.9",
+                            "LoanProviderInterestRateType": "BOEBaseRate",
+                            "LoanProviderInterestRate": "7.5",
+                            "Notes": [
+                              "Total Cost of Credit £ 21032.53"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "5001",
+                            "TierValueMaximum": "10000",
+                            "TierValueMinTerm": 4,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 4,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "8.4",
+                            "LoanProviderInterestRateType": "BOEBaseRate",
+                            "LoanProviderInterestRate": "7.5",
+                            "Notes": [
+                              "Total Cost of Credit £11779.35"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "15001",
+                            "TierValueMaximum": "20000",
+                            "TierValueMinTerm": 2,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 2,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "8.3",
+                            "LoanProviderInterestRateType": "BOEBaseRate",
+                            "LoanProviderInterestRate": "7.5",
+                            "Notes": [
+                              "Total Cost of Credit £ 21813.03"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "0",
+                            "TierValueMaximum": "5000",
+                            "TierValueMinTerm": 2,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 2,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "10.3",
+                            "LoanProviderInterestRateType": "BOEBaseRate",
+                            "LoanProviderInterestRate": "7.5",
+                            "Notes": [
+                              "Total Cost of Credit £5547.00"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "20001",
+                            "TierValueMaximum": "25000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 1,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "8.6",
+                            "LoanProviderInterestRateType": "BOEBaseRate",
+                            "LoanProviderInterestRate": "7.5",
+                            "Notes": [
+                              "Total Cost of Credit £ 26259.42"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "5001",
+                            "TierValueMaximum": "10000",
+                            "TierValueMinTerm": 3,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 3,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "8.6",
+                            "LoanProviderInterestRateType": "BOEBaseRate",
+                            "LoanProviderInterestRate": "7.5",
+                            "Notes": [
+                              "Total Cost of Credit £11369.57"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "15001",
+                            "TierValueMaximum": "20000",
+                            "TierValueMinTerm": 5,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 5,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "8",
+                            "LoanProviderInterestRateType": "BOEBaseRate",
+                            "LoanProviderInterestRate": "7.5",
+                            "Notes": [
+                              "Total Cost of Credit £24307.96"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "15001",
+                            "TierValueMaximum": "20000",
+                            "TierValueMinTerm": 3,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 3,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "8.2",
+                            "LoanProviderInterestRateType": "BOEBaseRate",
+                            "LoanProviderInterestRate": "7.5",
+                            "Notes": [
+                              "Total Cost of Credit £22657.66"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "15001",
+                            "TierValueMaximum": "20000",
+                            "TierValueMinTerm": 4,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 4,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "8.1",
+                            "LoanProviderInterestRateType": "BOEBaseRate",
+                            "LoanProviderInterestRate": "7.5",
+                            "Notes": [
+                              "Total Cost of Credit £23469.10"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "5001",
+                            "TierValueMaximum": "10000",
+                            "TierValueMinTerm": 2,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 2,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9",
+                            "LoanProviderInterestRateType": "BOEBaseRate",
+                            "LoanProviderInterestRate": "7.5",
+                            "Notes": [
+                              "Total Cost of Credit £10969.03"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "10001",
+                            "TierValueMaximum": "15000",
+                            "TierValueMinTerm": 5,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 5,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "8.1",
+                            "LoanProviderInterestRateType": "BOEBaseRate",
+                            "LoanProviderInterestRate": "7.5",
+                            "Notes": [
+                              "Total Cost of Credit £18262.21"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "5001",
+                            "TierValueMaximum": "10000",
+                            "TierValueMinTerm": 5,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 5,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "8.3",
+                            "LoanProviderInterestRateType": "BOEBaseRate",
+                            "LoanProviderInterestRate": "7.5",
+                            "Notes": [
+                              "Total Cost of Credit £12198.11"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "0",
+                            "TierValueMaximum": "5000",
+                            "TierValueMinTerm": 5,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 5,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "8.8",
+                            "LoanProviderInterestRateType": "BOEBaseRate",
+                            "LoanProviderInterestRate": "7.5",
+                            "Notes": [
+                              "Total Cost of Credit £6161.53"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "20001",
+                            "TierValueMaximum": "25000",
+                            "TierValueMinTerm": 2,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 2,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "8.2",
+                            "LoanProviderInterestRateType": "BOEBaseRate",
+                            "LoanProviderInterestRate": "7.5",
+                            "Notes": [
+                              "Total Cost of Credit £ 27235.06"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "10001",
+                            "TierValueMaximum": "15000",
+                            "TierValueMinTerm": 2,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 2,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "8.6",
+                            "LoanProviderInterestRateType": "BOEBaseRate",
+                            "LoanProviderInterestRate": "7.5",
+                            "Notes": [
+                              "Total Cost of Credit £ 16391.02"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "0",
+                            "TierValueMaximum": "5000",
+                            "TierValueMinTerm": 4,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 4,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9.1",
+                            "LoanProviderInterestRateType": "BOEBaseRate",
+                            "LoanProviderInterestRate": "7.5",
+                            "Notes": [
+                              "Total Cost of Credit £5952.16"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "20001",
+                            "TierValueMaximum": "25000",
+                            "TierValueMinTerm": 5,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 5,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "7.9",
+                            "LoanProviderInterestRateType": "BOEBaseRate",
+                            "LoanProviderInterestRate": "7.5",
+                            "Notes": [
+                              "Total Cost of Credit £30353.64"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "10001",
+                            "TierValueMaximum": "15000",
+                            "TierValueMinTerm": 3,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 3,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "8.3",
+                            "LoanProviderInterestRateType": "BOEBaseRate",
+                            "LoanProviderInterestRate": "7.5",
+                            "Notes": [
+                              "Total Cost of Credit £ 17024.47"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "0",
+                            "TierValueMaximum": "5000",
+                            "TierValueMinTerm": 3,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 3,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9.5",
+                            "LoanProviderInterestRateType": "BOEBaseRate",
+                            "LoanProviderInterestRate": "7.5",
+                            "Notes": [
+                              "Total Cost of Credit £5747.31"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "10001",
+                            "TierValueMaximum": "15000",
+                            "TierValueMinTerm": 4,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 4,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "8.2",
+                            "LoanProviderInterestRateType": "BOEBaseRate",
+                            "LoanProviderInterestRate": "7.5",
+                            "Notes": [
+                              "Total Cost of Credit £17640.20"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "20001",
+                            "TierValueMaximum": "25000",
+                            "TierValueMinTerm": 4,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 4,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "8",
+                            "LoanProviderInterestRateType": "BOEBaseRate",
+                            "LoanProviderInterestRate": "7.5",
+                            "Notes": [
+                              "Total Cost of Credit £29305.13"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "5001",
+                            "TierValueMaximum": "10000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 1,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "10",
+                            "LoanProviderInterestRateType": "BOEBaseRate",
+                            "LoanProviderInterestRate": "7.5",
+                            "Notes": [
+                              "Total Cost of Credit £10578.76"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "20001",
+                            "TierValueMaximum": "25000",
+                            "TierValueMinTerm": 3,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 3,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "8.1",
+                            "LoanProviderInterestRateType": "BOEBaseRate",
+                            "LoanProviderInterestRate": "7.5",
+                            "Notes": [
+                              "Total Cost of Credit £28290.87"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "10001",
+                            "TierValueMaximum": "15000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 1,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9.2",
+                            "LoanProviderInterestRateType": "BOEBaseRate",
+                            "LoanProviderInterestRate": "7.5",
+                            "Notes": [
+                              "Total Cost of Credit £15805.65"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "Repayment": [
+                    {
+                      "RepaymentType": "CapitalAndInterest",
+                      "RepaymentFrequency": "Monthly",
+                      "AmountType": "CapitalAndInterest",
+                      "RepaymentFeeCharges": {
+                        "RepaymentFeeChargeDetail": [
+                          {
+                            "FeeType": "Arrangement",
+                            "FeeAmount": "125",
+                            "ApplicationFrequency": "OnOpening",
+                            "CalculationFrequency": "OnOpening"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "CoreProduct": {
+                    "ProductDescription": "The Variable Rate Business Loan gives you the flexibility to choose the repayment frequency and adjust the payments to suit your cash flow.  ",
+                    "ProductURL": "http://www.danskebank.co.uk/en-gb/Business/Small-business/financing/loans-and-credit/Variable-Rate-Loan/Pages/Variable-Rate-Loan.aspx?tab=0#tabanchor",
+                    "TcsAndCsURL": "http://www.danskebank.co.uk",
+                    "SalesAccessChannels": [
+                      "Branch"
+                    ],
+                    "ServicingAccessChannels": [
+                      "Branch",
+                      "CallCentre",
+                      "Online",
+                      "MobileBankingApp"
+                    ],
+                    "EarlyPaymentFeeApplicable": false,
+                    "OverPaymentFeeApplicable": false,
+                    "LoanApplicationFeeChargeType": "NoLoanApplicatioFee",
+                    "OverpaymentAllowedIndicator": true,
+                    "FullEarlyRepaymentAllowedIndicator": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

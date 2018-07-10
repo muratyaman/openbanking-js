@@ -1,0 +1,3478 @@
+{
+  "meta": {
+    "LastUpdated": "2018-06-25T02:38:13.418Z",
+    "TotalResults": 30,
+    "Agreement": "Use of the APIs and any related data will be subject to the terms of the Open Licence and subject to terms and conditions",
+    "License": "https://openbanking.org.uk/open-licence",
+    "TermsOfUse": "https://openbanking.org.uk/terms"
+  },
+  "data": {
+    "Brand": [
+      {
+        "BrandName": "Bank of Ireland (UK) Plc",
+        "Branch": [
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "902127",
+            "Name": "Belfast City Branch",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2890244901"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2890234388"
+              }
+            ],
+            "Photo": "https://www.google.com/maps/@54.5996032,-5.9282088,3a,90y,327.98h,100.44t/data=!3m6!1e1!3m4!1s6UAgS6h2Y4ALDQaQ8EZytg!2e0!7i13312!8i6656!6m1!1e1?hl=en-IE",
+            "PostalAddress": {
+              "AddressLine": [
+                "8-Apr"
+              ],
+              "BuildingNumber": "8-Apr",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Antrim"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "54.5996032",
+                  "Longitude": "-5.9282088"
+                }
+              },
+              "PostCode": "BT12BA",
+              "StreetName": "High Street",
+              "TownName": "Belfast"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "902127"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "902442",
+            "Name": "Andersonstown",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2890602787"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2890603494"
+              }
+            ],
+            "Photo": "https://www.google.co.uk/maps/@54.5730649,-5.9932975,3a,75y,173.63h,85.1t/data=!3m6!1e1!3m4!1s9sF7ewAUzjXNb0Mjm4Wz-w!2e0!7i13312!8i6656!6m1!1e1",
+            "PostalAddress": {
+              "AddressLine": [
+                "202"
+              ],
+              "BuildingNumber": "202",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Antrim"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "54.5730649",
+                  "Longitude": "-5.9932975"
+                }
+              },
+              "PostCode": "BT119EB",
+              "StreetName": "Andersonstown Road",
+              "TownName": "Belfast"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "902442"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "Notes": "Branch Closed Between\n12:30pm and 1:30pm",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "902071",
+            "Name": "Bangor",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2891270689"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2891271622"
+              }
+            ],
+            "Photo": "https://www.google.com/maps/@54.6609017,-5.6680963,3a,75y,282.15h,94.18t/data=!3m6!1e1!3m4!1sbdLgvzGonfibdkELp9TBaA!2e0!7i13312!8i6656!6m1!1e1?hl=en-IE",
+            "PostalAddress": {
+              "AddressLine": [
+                "82 A"
+              ],
+              "BuildingNumber": "82 A",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Down"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "54.6609017",
+                  "Longitude": "-5.6609017"
+                }
+              },
+              "PostCode": "BT204AG",
+              "StreetName": "Main Street",
+              "TownName": "Bangor"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "902071"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "905002",
+            "Name": "Omagh",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2882247821"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2882246200"
+              }
+            ],
+            "Photo": "https://www.google.com/maps/@54.6007203,-7.2949143,3a,75y,175.68h,88.92t/data=!3m6!1e1!3m4!1sG0YDNi0WMuDAtUmD-Hoqkg!2e0!7i13312!8i6656!6m1!1e1?hl=en-IE",
+            "PostalAddress": {
+              "AddressLine": [
+                "25"
+              ],
+              "BuildingNumber": "25",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Tyrone"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "54.6007203",
+                  "Longitude": "-7.2949143"
+                }
+              },
+              "PostCode": "BT790AE",
+              "StreetName": "Campsie Road",
+              "TownName": "Omagh"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "905002"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "904800",
+            "Name": "Coleraine",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2870342176"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2870353293"
+              }
+            ],
+            "PostalAddress": {
+              "AddressLine": [
+                "2"
+              ],
+              "BuildingNumber": "2",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Derry"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "55.1314403",
+                  "Longitude": "-6.6714563"
+                }
+              },
+              "PostCode": "BT521DE",
+              "StreetName": "The Diamond",
+              "TownName": "Coleraine"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "904800"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "902389",
+            "Name": "Antrim",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2894463777"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2894465810"
+              }
+            ],
+            "Photo": "https://www.google.co.uk/maps/@54.7144155,-6.218782,3a,75y,217.33h,96.64t/data=!3m6!1e1!3m4!1s38GoJDSnO8wda5xSpgkr7w!2e0!7i13312!8i6656!6m1!1e1",
+            "PostalAddress": {
+              "AddressLine": [
+                "27"
+              ],
+              "BuildingNumber": "27",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Antrim"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "54.7144155",
+                  "Longitude": "-6.218782"
+                }
+              },
+              "PostCode": "BT414AX",
+              "StreetName": "High Street",
+              "TownName": "Antrim"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "902389"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "902426",
+            "Name": "Glengormley",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2890342531"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2890342804"
+              }
+            ],
+            "Photo": "https://www.google.co.uk/maps/@54.6701041,-5.9570523,3a,89.2y,84.47h,79.96t/data=!3m6!1e1!3m4!1sHiy89VBOhpX8lTCpHW5H1A!2e0!7i13312!8i6656!6m1!1e1",
+            "PostalAddress": {
+              "AddressLine": [
+                "275/279"
+              ],
+              "BuildingNumber": "275/279",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Antrim"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "54.6701041",
+                  "Longitude": "-5.9570523"
+                }
+              },
+              "PostCode": "BT367QN",
+              "StreetName": "Antrim Road",
+              "TownName": "Glengormley"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "902426"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "902207",
+            "Name": "Lisburn Road",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2890669522"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2890381093"
+              }
+            ],
+            "Photo": "https://www.google.co.uk/maps/@54.5732327,-5.9587732,3a,75y,108.09h,78.53t/data=!3m6!1e1!3m4!1stNpesOZdQMI7CfcRO_2FhA!2e0!7i13312!8i6656!6m1!1e1",
+            "PostalAddress": {
+              "AddressLine": [
+                "364"
+              ],
+              "BuildingNumber": "364",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Antrim"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "54.5732327",
+                  "Longitude": "-5.9587732"
+                }
+              },
+              "PostCode": "BT9 6GL",
+              "StreetName": "Lisburn Road",
+              "TownName": "Belfast"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "902207"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "Notes": "Branch Closed Between\n12:30pm and 1:30pm",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "902223",
+            "Name": "Ormeau Road",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2890459082"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2890642771"
+              }
+            ],
+            "Photo": "https://www.google.com/maps/@54.5762687,-5.9175502,3a,90y,88.84h,96.41t/data=!3m6!1e1!3m4!1sCX_tkYiLU7_iAa74MRl_Yw!2e0!7i13312!8i6656!6m1!1e1?hl=en-IE6.6714564,3a,75y,90t/data=!3m8!1e2!3m6!1shttp:%2F%2Fs0.geograph.org.uk%2Fgeophotos%2F03%2F49%2F14%2F3491402_b78992f8.jpg!2e7!3e27!6s%2F%2Flh4.googleusercontent.com%2Fproxy%2FzWqWJ7rxzHDpOUvrQc5kfMLR43DgXMPax-gnaahw4Ie9EqdqeCdNw5jIjtcTDopPeQ6OBf2QY0NDyCQn48n1Ar6CJQMQhIBATaBkXN5_vm5UTwhRvbir5xRg2KEaV8QI23i2czIFDVfV69weZs4nQcc1f6hciA%3Dw114-h86!7i640!8i480!4m5!3m4!1s0x48603b4b4886578d:0x9b37c0e139fbf4e9!8m2!3d55.1313756!4d-6.6708659!6m1!1e1?hl=en-IE",
+            "PostalAddress": {
+              "AddressLine": [
+                "306-310"
+              ],
+              "BuildingNumber": "306-310",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Antrim"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "54.5762687",
+                  "Longitude": "-5.9175502"
+                }
+              },
+              "PostCode": "BT72GE",
+              "StreetName": "Ormeau Road",
+              "TownName": "Belfast"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "902223"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "Notes": "Branch Closed Between\n12:30pm and 1:30pm",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "900295",
+            "Name": "University Road",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2890245616"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2890438367"
+              }
+            ],
+            "Photo": "https://www.google.com/maps/@54.5869609,-5.9358893,3a,75y,97.84h,96.12t/data=!3m6!1e1!3m4!1sr0xykNrM9xHXBe_Zdthl6A!2e0!7i13312!8i6656!6m1!1e1",
+            "PostalAddress": {
+              "AddressLine": [
+                "28"
+              ],
+              "BuildingNumber": "28",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Antrim"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "54.5869609",
+                  "Longitude": "-5.9358893"
+                }
+              },
+              "PostCode": "BT71NH",
+              "StreetName": "University Road",
+              "TownName": "Belfast"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "900295"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "902047",
+            "Name": "Armagh",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2837522800"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2837527938"
+              }
+            ],
+            "Photo": "https://www.google.com/maps/@54.3485648,-6.6533982,3a,90y,92.6h,92.83t/data=!3m6!1e1!3m4!1sceVz56RQtq1ee_cAxYlGYg!2e0!7i13312!8i6656!6m1!1e1",
+            "PostalAddress": {
+              "AddressLine": [
+                "11"
+              ],
+              "BuildingNumber": "11",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Armagh"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "54.3485648",
+                  "Longitude": "-6.6533982"
+                }
+              },
+              "PostCode": "BT617BH",
+              "StreetName": "Upper English Street",
+              "TownName": "Armagh"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "902047"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "Notes": "Branch Closed Between\n12:30pm and 1:30pm",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "900770",
+            "Name": "Banbridge",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2840622476"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2840624179"
+              }
+            ],
+            "Photo": "https://www.google.com/maps/@54.3491977,-6.269643,3a,90y,95.93h,89.72t/data=!3m6!1e1!3m4!1s6Fz0JGTlrtDywoIwX_xBQw!2e0!7i13312!8i6656!6m1!1e1",
+            "PostalAddress": {
+              "AddressLine": [
+                "17-21"
+              ],
+              "BuildingNumber": "17-21",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Down"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "54.3491977",
+                  "Longitude": "-6.269643"
+                }
+              },
+              "PostCode": "BT323JL",
+              "StreetName": "Bridge Street",
+              "TownName": "Banbridge"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "900770"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "Notes": "Branch Closed Between\n12:30pm and 1:30pm",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "902282",
+            "Name": "Crossmaglen",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2830861238"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2830868184"
+              }
+            ],
+            "Photo": "https://www.google.com/maps/@54.0776051,-6.6077818,3a,75y,47.13h,93.7t/data=!3m6!1e1!3m4!1sFQmGq7P4q7srM5hUES_nEw!2e0!7i13312!8i6656!6m1!1e1",
+            "PostalAddress": {
+              "AddressLine": [
+                "53"
+              ],
+              "BuildingNumber": "53",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Armagh"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "54.0776051",
+                  "Longitude": "-6.6077818"
+                }
+              },
+              "PostCode": "BT359HQ",
+              "StreetName": "The Square",
+              "TownName": "Crossmaglen"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "902282"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "Notes": "Branch Closed Between\n12:30pm and 1:30pm",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "902450",
+            "Name": "Downpatrick",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2844612911"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2844614485"
+              }
+            ],
+            "Photo": "https://www.google.com/maps/@54.3268481,-5.7180145,3a,75y,162.76h,98.12t/data=!3m6!1e1!3m4!1slg4IlZndnb1UVNZ1wInqOA!2e0!7i13312!8i6656!6m1!1e1?hl=en-IE6.6714564,3a,75y,90t/data=!3m8!1e2!3m6!1shttp:%2F%2Fs0.geograph.org.uk%2Fgeophotos%2F03%2F49%2F14%2F3491402_b78992f8.jpg!2e7!3e27!6s%2F%2Flh4.googleusercontent.com%2Fproxy%2FzWqWJ7rxzHDpOUvrQc5kfMLR43DgXMPax-gnaahw4Ie9EqdqeCdNw5jIjtcTDopPeQ6OBf2QY0NDyCQn48n1Ar6CJQMQhIBATaBkXN5_vm5UTwhRvbir5xRg2KEaV8QI23i2czIFDVfV69weZs4nQcc1f6hciA%3Dw114-h86!7i640!8i480!4m5!3m4!1s0x48603b4b4886578d:0x9b37c0e139fbf4e9!8m2!3d55.1313756!4d-6.6708659!6m1!1e1?hl=en-IE",
+            "PostalAddress": {
+              "AddressLine": [
+                "80-82"
+              ],
+              "BuildingNumber": "80-82",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Down"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "54.3268481",
+                  "Longitude": "-5.7180145"
+                }
+              },
+              "PostCode": "BT306LZ",
+              "StreetName": "Market Street",
+              "TownName": "Downpatrick"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "902450"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "904851",
+            "Name": "Dungannon",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2887725242"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2887724125"
+              }
+            ],
+            "Photo": "https://www.google.com/maps/place/Bank+of+Ireland/@54.503559,-6.7706644,3a,90y,137.03h,102.21t/data=!3m7!1e1!3m5!1sMjoDoP0ut69AcK3UqDnZKg!2e0!6s%2F%2Fgeo2.ggpht.com%2Fcbk%3Fpanoid%3DMjoDoP0ut69AcK3UqDnZKg%26output%3Dthumbnail%26cb_client%3Dsearch.TACTILE.gps%26thumb%3D2%26w%3D86%26h%3D86%26yaw%3D119.29099%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656!4m5!3m4!1s0x48608c01468f9cc5:0xf03fa72799d02ab4!8m2!3d54.503502!4d-6.770548!6m1!1e1",
+            "PostalAddress": {
+              "AddressLine": [
+                "24"
+              ],
+              "BuildingNumber": "24",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Tyrone"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "54.503559",
+                  "Longitude": "-6.7706644"
+                }
+              },
+              "PostCode": "BT701AR",
+              "StreetName": "Scotch Street",
+              "TownName": "Dungannon"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "904851"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "Notes": "Branch Closed Between\n12:30pm and 1:30pm",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "902290",
+            "Name": "Keady",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2837531210"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2837538986"
+              }
+            ],
+            "Photo": "https://www.google.co.uk/maps/@54.2495045,-6.70413,3a,75y,95.42h,85.13t/data=!3m6!1e1!3m4!1sXLNlscbZbNR24aLXMvSCkQ!2e0!7i13312!8i6656",
+            "PostalAddress": {
+              "AddressLine": [
+                "14"
+              ],
+              "BuildingNumber": "14",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Armagh"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "54.2495045",
+                  "Longitude": "-6.70413"
+                }
+              },
+              "PostCode": "BT603SU",
+              "StreetName": "Kinelowen Street",
+              "TownName": "Keady"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "902290"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "902194",
+            "Name": "Lisburn",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2892675347"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2892607342"
+              }
+            ],
+            "Photo": "https://www.google.com/maps/@54.5110223,-6.0441888,3a,75y,0.68h,78.3t/data=!3m6!1e1!3m4!1sMGVtgWXURggxfr9i1crnww!2e0!7i13312!8i6656!6m1!1e1",
+            "PostalAddress": {
+              "AddressLine": [
+                "22-24"
+              ],
+              "BuildingNumber": "22-24",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Antrim"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "54.5110223",
+                  "Longitude": "-6.0441888"
+                }
+              },
+              "PostCode": "BT281AG",
+              "StreetName": "Market Square",
+              "TownName": "Lisburn"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "902194"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "Notes": "Branch Closed Between\n12:30pm and 1:30pm",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "902311",
+            "Name": "Lurgan",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2838322866"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2838327378"
+              }
+            ],
+            "Photo": "https://www.google.ie/maps/@54.4625759,-6.333072,3a,90y,223.72h,88.27t/data=!3m6!1e1!3m4!1sgcK-nps0ShVPOcEdoKuOpQ!2e0!7i13312!8i6656!6m1!1e1",
+            "PostalAddress": {
+              "AddressLine": [
+                "13"
+              ],
+              "BuildingNumber": "13",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Armagh"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "54.4625759",
+                  "Longitude": "-6.333072"
+                }
+              },
+              "PostCode": "BT666AR",
+              "StreetName": "Market Street",
+              "TownName": "Lurgan"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "902311"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "902338",
+            "Name": "Newry",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2830265137"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2830263125"
+              }
+            ],
+            "Photo": "https://www.google.ie/maps/@54.178592,-6.3348799,3a,90y,139.59h,101.6t/data=!3m6!1e1!3m4!1sDCG2pPk8-fLfGk5wztA4mw!2e0!7i13312!8i6656!6m1!1e1",
+            "PostalAddress": {
+              "AddressLine": [
+                "12"
+              ],
+              "BuildingNumber": "12",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Armagh"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "54.178592",
+                  "Longitude": "-6.3348799"
+                }
+              },
+              "PostCode": "BT341DN",
+              "StreetName": "Trevor Hill",
+              "TownName": "Newry"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "902338"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "902354",
+            "Name": "Portadown",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2838332104"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2838330684"
+              }
+            ],
+            "Photo": "https://www.google.ie/maps/@54.4230549,-6.4428088,3a,75y,317.36h,94.01t/data=!3m6!1e1!3m4!1sSDYyiNzk8wUqd3UisQEecw!2e0!7i13312!8i6656!6m1!1e1",
+            "PostalAddress": {
+              "AddressLine": [
+                "43"
+              ],
+              "BuildingNumber": "43",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Armagh"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "54.4230549",
+                  "Longitude": "-6.4428088"
+                }
+              },
+              "PostCode": "BT621HY",
+              "StreetName": "High Street",
+              "TownName": "Portadown"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "902354"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "902055",
+            "Name": "Ballymena",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2825652443"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2825648138"
+              }
+            ],
+            "Photo": "https://www.google.co.uk/maps/place/Bank+Of+Ireland/@54.8664141,-6.2736512,3a,75y,126.87h,89.63t/data=!3m6!1e1!3m4!1sEqTsOv-PfMvbMPk0v72o1A!2e0!7i13312!8i6656!4m5!3m4!1s0x4861b34aaed7eecf:0x3db67abb4ae0795e!8m2!3d54.8664344!4d-6.2733513!6m1!1e1",
+            "PostalAddress": {
+              "AddressLine": [
+                "155"
+              ],
+              "BuildingNumber": "155",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Antrim"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "54.8664141",
+                  "Longitude": "-6.2736512"
+                }
+              },
+              "PostCode": "BT436DG",
+              "StreetName": "Church Street",
+              "TownName": "Ballymena"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "902055"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "904819",
+            "Name": "Cookstown",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2886758700"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2886762301"
+              }
+            ],
+            "Photo": "https://www.google.ie/maps/@54.6456911,-6.7450563,3a,37.5y,82.17h,94.17t/data=!3m6!1e1!3m4!1sGfHwGCSw6IKS0MMwASTZ9g!2e0!7i13312!8i6656!6m1!1e1",
+            "PostalAddress": {
+              "AddressLine": [
+                "32"
+              ],
+              "BuildingNumber": "32",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Tyrone"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "54.6456911",
+                  "Longitude": "-6.7450563"
+                }
+              },
+              "PostCode": "BT808LT",
+              "StreetName": "James Street",
+              "TownName": "Cookstown"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "904819"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "Notes": "Branch Closed Between\n12:30pm and 1:30pm",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "905096",
+            "Name": "Limavady",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2877765351"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2877764878"
+              }
+            ],
+            "Photo": "https://www.google.co.uk/maps/@55.0518437,-6.9520748,3a,75y,163.63h,75.21t/data=!3m6!1e1!3m4!1sBQ8mb6_AOcEB8j1VFbbUYw!2e0!7i13312!8i6656",
+            "PostalAddress": {
+              "AddressLine": [
+                "Unit A 37/39"
+              ],
+              "BuildingNumber": "Unit A 37/39",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Derry"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "55.0518437",
+                  "Longitude": "-6.9520748"
+                }
+              },
+              "PostCode": "BT49OEP",
+              "StreetName": "Main Street",
+              "TownName": "Limavady"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "905096"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "904982",
+            "Name": "Magherafelt",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2879631703"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2879631838"
+              }
+            ],
+            "Photo": "https://www.google.ie/maps/@54.7551761,-6.6078557,3a,75y,170.91h,96.03t/data=!3m6!1e1!3m4!1s9IzbLcoL3FkZ1GgAYBS78A!2e0!7i13312!8i6656!6m1!1e1",
+            "PostalAddress": {
+              "AddressLine": [
+                "11"
+              ],
+              "BuildingNumber": "11",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Derry"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "54.7551761",
+                  "Longitude": "-6.6078557"
+                }
+              },
+              "PostCode": "BT456EE",
+              "StreetName": "Market Street",
+              "TownName": "Magherafelt"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "904982"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "Notes": "Branch Closed Between\n12:30pm and 1:30pm",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "902653",
+            "Name": "Culmore Road",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2871267763"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2871368730"
+              }
+            ],
+            "Photo": "https://www.google.co.uk/maps/@55.0153979,-7.3123536,3a,37.5y,160.03h,88.81t/data=!3m6!1e1!3m4!1s81iuitPYZldurx4w2TChsg!2e0!7i13312!8i6656!6m1!1e1",
+            "PostalAddress": {
+              "AddressLine": [
+                "27"
+              ],
+              "BuildingNumber": "27",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Derry"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "55.0153979",
+                  "Longitude": "-7.3123536"
+                }
+              },
+              "PostCode": "BT488JB",
+              "StreetName": "Culmore road",
+              "TownName": "Derry"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "902653"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "Notes": "Branch Closed Between\n12:30pm and 1:30pm",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "905010",
+            "Name": "Strabane",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2871882337"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2871382860"
+              }
+            ],
+            "Photo": "https://www.google.co.uk/maps/@54.8262847,-7.4629294,3a,75y,35.38h,79.61t/data=!3m6!1e1!3m4!1sVJI-xg27fGK0vlXrp58akA!2e0!7i13312!8i6656!6m1!1e1",
+            "PostalAddress": {
+              "AddressLine": [
+                "1"
+              ],
+              "BuildingNumber": "1",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Tyrone"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "54.8262847",
+                  "Longitude": "-7.4629294"
+                }
+              },
+              "PostCode": "BT828AG",
+              "StreetName": "Abercorn Square",
+              "TownName": "Strabane"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "905010"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "904974",
+            "Name": "Strand Road",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2871264141"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2871361097"
+              }
+            ],
+            "Photo": "https://www.google.co.uk/maps/@54.9988443,-7.3217785,3a,75y,230.58h,94.44t/data=!3m6!1e1!3m4!1sShG640w5CeJFlOr_nQitEQ!2e0!7i13312!8i6656!6m1!1e1",
+            "PostalAddress": {
+              "AddressLine": [
+                "15"
+              ],
+              "BuildingNumber": "15",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Derry"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "54.9988443",
+                  "Longitude": "-7.3217785"
+                }
+              },
+              "PostCode": "BT487BJ",
+              "StreetName": "Strand Road",
+              "TownName": "Derry"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "904974"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "905053",
+            "Name": "Lisnaskea",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2867721001"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2867721728"
+              }
+            ],
+            "Photo": "https://www.google.co.uk/maps/place/141+Main+St,+Lisnaskea,+Enniskillen+BT92+0JE/@54.2530059,-7.4429398,3a,90y,241.58h,86.47t/data=!3m7!1e1!3m5!1sIG2k0mbCitUcUdkF-vGFjw!3e11!6s%2F%2Fgeo0.ggpht.com%2Fmaps%2Fphotothumb%2Ffd%2Fv1%3Fbpb%3DChAKDnNlYXJjaC5UQUNUSUxFEjQKEgkZaunriz5eSBF9pk8TdAr13hoSCXf_vpiMPl5IEfHBVaLw5wf9KgoNQFZWIBVoQpD7GgQIVhBW%26gl%3DGB!7i13312!8i6656!4m5!3m4!1s0x485e3e8bebe96a19:0xdef50a74134fa67d!8m2!3d54.2528363!4d-7.4427166!6m1!1e1",
+            "PostalAddress": {
+              "AddressLine": [
+                "141"
+              ],
+              "BuildingNumber": "141",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Fermanagh"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "54.2530059",
+                  "Longitude": "-7.4429398"
+                }
+              },
+              "PostCode": "BT920JF",
+              "StreetName": "Main Street",
+              "TownName": "Lisnaskea"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "905053"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "904886",
+            "Name": "Enniskillen",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2866322136"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2866325741"
+              }
+            ],
+            "Photo": "https://www.google.co.uk/maps/@54.3445707,-7.6385744,3a,90y,243.2h,100.01t/data=!3m6!1e1!3m4!1sAb0CBltrSUT26P5_iBAalA!2e0!7i13312!8i6656!6m1!1e1",
+            "PostalAddress": {
+              "AddressLine": [
+                "7"
+              ],
+              "BuildingNumber": "7",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Fermanagh"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "54.3445707",
+                  "Longitude": "-7.6385744"
+                }
+              },
+              "PostCode": "BT747BD",
+              "StreetName": "Townhall Street",
+              "TownName": "Enniskillen"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "904886"
+            ]
+          },
+          {
+            "Accessibility": [
+              "WheelchairAccess"
+            ],
+            "Availability": {
+              "NonStandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Wednesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "10:00"
+                      }
+                    ]
+                  }
+                ],
+                "Name": "Every Wednesday"
+              },
+              "StandardAvailability": {
+                "Day": [
+                  {
+                    "Name": "Monday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Tuesday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Thursday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  },
+                  {
+                    "Name": "Friday",
+                    "OpeningHours": [
+                      {
+                        "ClosingTime": "16:30",
+                        "OpeningTime": "09:30"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "CustomerSegment": [
+              "Personal",
+              "Business",
+              "SME"
+            ],
+            "Identification": "905045",
+            "Name": "Belleek",
+            "ContactInfo": [
+              {
+                "ContactType": "Phone",
+                "ContactContent": "+44-2868658340"
+              },
+              {
+                "ContactType": "Fax",
+                "ContactContent": "+44-2868658043"
+              }
+            ],
+            "Photo": "https://www.google.co.uk/maps/@54.4800936,-8.0917135,3a,49.3y,45.74h,96.78t/data=!3m6!1e1!3m4!1szDjSy0aGyWoQs_XxHsF9-Q!2e0!7i13312!8i6656!6m1!1e1",
+            "PostalAddress": {
+              "AddressLine": [
+                "34"
+              ],
+              "BuildingNumber": "34",
+              "Country": "GB",
+              "CountrySubDivision": [
+                "Fermanagh"
+              ],
+              "GeoLocation": {
+                "GeographicCoordinates": {
+                  "Latitude": "54.4800936",
+                  "Longitude": "-8.0917135"
+                }
+              },
+              "PostCode": "BT933FX",
+              "StreetName": "Main Street",
+              "TownName": "Belleek"
+            },
+            "SequenceNumber": "1",
+            "ServiceAndFacility": [
+              "InternalATM",
+              "ExternalATM",
+              "OnlineBankingPoint",
+              "LodgementDevice",
+              "CounterServices",
+              "MortgageAdvisor",
+              "NightSafe",
+              "BureauDeChange",
+              "OnDemandCurrency",
+              "StatementPrinter"
+            ],
+            "Type": "Physical",
+            "SortCode": [
+              "905045"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

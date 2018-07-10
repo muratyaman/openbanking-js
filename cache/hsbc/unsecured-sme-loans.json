@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "LastUpdated": "2017-10-13T09:11:25.942Z",
+    "TotalResults": 1,
+    "Agreement": "Use of the APIs and any related data will be subject to the terms of the Open Licence and subject to terms and conditions",
+    "License": "https://www.openbanking.org.uk/open-licence",
+    "TermsOfUse": "https://www.openbanking.org.uk/terms"
+  },
+  "data": [
+    {
+      "Brand": [
+        {
+          "BrandName": "Small Business Loan",
+          "SMELoan": [
+            {
+              "Name": "Small Business Loan",
+              "Identification": "Small Business Loan",
+              "Segment": [
+                "Business"
+              ],
+              "SMELoanMarketingState": [
+                {
+                  "Identification": "Small Business Loan",
+                  "MarketingState": "Regular",
+                  "CoreProduct": {
+                    "ProductDescription": "A fixed rate, fixed term loan, which provides finance for a variety of business purposes.",
+                    "ProductURL": "http://www.business.hsbc.uk/en-gb/finance-and-borrowing/credit-and-lending/small-business-loan",
+                    "TcsAndCsURL": "http://www.business.hsbc.uk/en-gb/finance-and-borrowing/credit-and-lending/small-business-loan",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "RelationshipManager",
+                      "Online"
+                    ],
+                    "ServicingAccessChannels": [
+                      "ATM",
+                      "Branch",
+                      "CallCentre",
+                      "MobileBankingApp",
+                      "Online",
+                      "RelationshipManager"
+                    ],
+                    "EarlyPaymentFeeApplicable": true,
+                    "OverPaymentFeeApplicable": false,
+                    "LoanApplicationFeeChargeType": "ChargedAfterLoanAprroval",
+                    "OverpaymentAllowedIndicator": true
+                  },
+                  "LoanInterest": {
+                    "Notes": [],
+                    "LoanInterestTierBandSet": [
+                      {
+                        "TierBandMethod": "Whole",
+                        "Identification": "£1000-£25000",
+                        "CalculationMethod": "SimpleInterest",
+                        "LoanInterestTierBand": [
+                          {
+                            "Identification": "£1000-£25000",
+                            "TierValueMinimum": "1000.00",
+                            "TierValueMaximum": "25000.00",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 10,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "7.4",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "Arrangement",
+                                    "NegotiableIndicator": false,
+                                    "FeeAmount": "100.00",
+                                    "ApplicationFrequency": "OnOpening",
+                                    "CalculationFrequency": "OnOpening",
+                                    "Notes": [
+                                      "Arrangement fee of £100.00 collected upfront."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "Repayment": [
+                    {
+                      "RepaymentType": "FixedCapitalFullyAmortising",
+                      "RepaymentFrequency": "Monthly",
+                      "AmountType": "CapitalAndInterest",
+                      "RepaymentFeeCharges": {
+                        "RepaymentFeeChargeDetail": [
+                          {
+                            "FeeType": "EarlyRepayment",
+                            "NegotiableIndicator": false,
+                            "ApplicationFrequency": "OnClosing",
+                            "CalculationFrequency": "OnClosing",
+                            "Notes": [
+                              "Early Repayment Charges: An interest charge of 1 month and 28 days, automatically included in the settlement figure"
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  "Eligibility": {
+                    "AgeEligibility": {
+                      "MinimumAge": 18
+                    },
+                    "ResidencyEligibility": [
+                      {
+                        "ResidencyType": "Incorporated",
+                        "ResidencyIncluded": [
+                          "ELUK"
+                        ]
+                      }
+                    ],
+                    "CreditCheckEligibility": {
+                      "ScoringType": "Hard",
+                      "Notes": [
+                        "Only Applicable upon Application"
+                      ]
+                    },
+                    "OtherEligibility": [
+                      {
+                        "Name": "Any business customer",
+                        "Description": "Any creditworthy business customer who is assessed to meet bank's affordability requirements.",
+                        "Type": "BusinessOnly",
+                        "Notes": []
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "Other",
+                        "FeeType": "Arrangement",
+                        "NegotiableIndicator": false,
+                        "FeeAmount": "100.00",
+                        "ApplicationFrequency": "OnOpening",
+                        "CalculationFrequency": "OnOpening"
+                      }
+                    ]
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitItem": [
+                      {
+                        "Identification": "Fixed Interest Rate and Repayment",
+                        "Type": "Other",
+                        "Name": "Fixed Interest Rate and Repayment",
+                        "Textual": "Know where you stand as your interest rate and repayments are fixed for the life of the loan.",
+                        "OtherType": {
+                          "Name": "Repayment",
+                          "Description": "Benefits related to Repayment"
+                        }
+                      },
+                      {
+                        "Identification": "Track Repayments using BIB",
+                        "Type": "Other",
+                        "Name": "Track Repayments using BIB",
+                        "Textual": "Track your repayments and the outstanding balance using Business Internet Banking",
+                        "OtherType": {
+                          "Name": "Repayment",
+                          "Description": "Benefits related to Repayment"
+                        }
+                      },
+                      {
+                        "Identification": "Tax Liability",
+                        "Type": "Other",
+                        "Name": "Offset interest against tax liability",
+                        "Textual": "Offset the interest against your tax liabilities, as with all business finance",
+                        "OtherType": {
+                          "Name": "Tax liability",
+                          "Description": "Benefits related to Tax liability"
+                        }
+                      },
+                      {
+                        "Identification": "Payment Holiday",
+                        "Type": "PaymentHolidays",
+                        "Name": "Payment Holiday",
+                        "Textual": "Take a payment holiday for the first 3 months of the loan"
+                      },
+                      {
+                        "Identification": "Protect cash flow",
+                        "Type": "Other",
+                        "Name": "Protect cash flow",
+                        "Textual": "Protect your cash flow from the impact of large purchases with fixed monthly repayments.",
+                        "OtherType": {
+                          "Name": "Cash Flow",
+                          "Description": "Benefits related to cash flow"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

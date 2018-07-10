@@ -1,0 +1,2592 @@
+{
+  "meta": {
+    "LastUpdated": "2018-05-04T12:08:27.834Z",
+    "TotalResults": 4,
+    "Agreement": "Use of the APIs and any related data will be subject to the terms of the Open Licence and subject to terms and conditions",
+    "License": "https://www.openbanking.org.uk/open-licence",
+    "TermsOfUse": "https://www.openbanking.org.uk/terms"
+  },
+  "data": [
+    {
+      "Brand": [
+        {
+          "BrandName": "Lloyds Bank",
+          "SMELoan": [
+            {
+              "Name": "Fixed Rate Loan",
+              "Identification": "LRBB-LN-002",
+              "Segment": [
+                "Business"
+              ],
+              "SMELoanMarketingState": [
+                {
+                  "Identification": "LRBB-LN-002",
+                  "MarketingState": "Regular",
+                  "LoanInterest": {
+                    "LoanInterestTierBandSet": [
+                      {
+                        "TierBandMethod": "Whole",
+                        "Identification": "RBB_L_FRL_TBS1",
+                        "CalculationMethod": "SimpleInterest",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "1000",
+                            "TierValueMaximum": "5000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 1,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example:\n9.30% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940. 80.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "1000",
+                            "TierValueMaximum": "5000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 2,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example:\n9.30% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940. 80.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "1000",
+                            "TierValueMaximum": "5000",
+                            "TierValueMinTerm": 2,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 3,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example:\n9.30% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940. 80.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "1000",
+                            "TierValueMaximum": "5000",
+                            "TierValueMinTerm": 3,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 4,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example:\n9.30% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940. 80.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "1000",
+                            "TierValueMaximum": "5000",
+                            "TierValueMinTerm": 4,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 5,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example:\n9.30% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940. 80.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "Identification": "RBB_L_FRL_TBS2",
+                        "CalculationMethod": "SimpleInterest",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "5000.01",
+                            "TierValueMaximum": "10000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 1,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example:\n9.30% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940. 80.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "5000.01",
+                            "TierValueMaximum": "10000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 2,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example:\n9.30% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940. 80.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "5000.01",
+                            "TierValueMaximum": "10000",
+                            "TierValueMinTerm": 2,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 3,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example:\n9.30% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940. 80.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "5000.01",
+                            "TierValueMaximum": "10000",
+                            "TierValueMinTerm": 3,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 4,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example:\n9.30% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940. 80.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "5000.01",
+                            "TierValueMaximum": "10000",
+                            "TierValueMinTerm": 4,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 5,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example:\n9.30% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940. 80.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "Identification": "RBB_L_FRL_TBS3",
+                        "CalculationMethod": "SimpleInterest",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "10000.01",
+                            "TierValueMaximum": "15000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 1,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example:\n9.30% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940. 80.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "10000.01",
+                            "TierValueMaximum": "15000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 2,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example:\n9.30% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940. 80.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "10000.01",
+                            "TierValueMaximum": "15000",
+                            "TierValueMinTerm": 2,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 3,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example:\n9.30% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940. 80.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "10000.01",
+                            "TierValueMaximum": "15000",
+                            "TierValueMinTerm": 3,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 4,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example:\n9.30% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940. 80.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "10000.01",
+                            "TierValueMaximum": "15000",
+                            "TierValueMinTerm": 4,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 5,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example:\n9.30% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940. 80.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "Identification": "RBB_L_FRL_TBS4",
+                        "CalculationMethod": "SimpleInterest",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "15000.01",
+                            "TierValueMaximum": "20000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 1,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example:\n9.30% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940. 80.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "15000.01",
+                            "TierValueMaximum": "20000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 2,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example:\n9.30% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940. 80.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "15000.01",
+                            "TierValueMaximum": "20000",
+                            "TierValueMinTerm": 2,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 3,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example:\n9.30% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940. 80.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "15000.01",
+                            "TierValueMaximum": "20000",
+                            "TierValueMinTerm": 3,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 4,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example:\n9.30% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940. 80.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "15000.01",
+                            "TierValueMaximum": "20000",
+                            "TierValueMinTerm": 4,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 5,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example:\n9.30% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940. 80.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "Identification": "RBB_L_FRL_TBS5",
+                        "CalculationMethod": "SimpleInterest",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "20000.01",
+                            "TierValueMaximum": "25000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 1,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example:\n9.30% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940. 80.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "20000.01",
+                            "TierValueMaximum": "25000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 2,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example:\n9.30% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940. 80.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "20000.01",
+                            "TierValueMaximum": "25000",
+                            "TierValueMinTerm": 2,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 3,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example:\n9.30% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940. 80.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "20000.01",
+                            "TierValueMaximum": "25000",
+                            "TierValueMinTerm": 3,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 4,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example:\n9.30% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940. 80.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "20000.01",
+                            "TierValueMaximum": "25000",
+                            "TierValueMinTerm": 4,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 5,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example:\n9.30% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940. 80.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "Repayment": [
+                    {
+                      "RepaymentType": "CapitalAndInterest",
+                      "RepaymentFrequency": "Monthly",
+                      "AmountType": "CapitalAndInterest",
+                      "Notes": [
+                        "You should not apply for an amount that you cannot comfortably afford to repay now and in the future to avoid the possibility of legal action."
+                      ]
+                    }
+                  ],
+                  "Eligibility": {
+                    "OtherEligibility": [
+                      {
+                        "Name": "Business Use",
+                        "Description": "Require the loan for business use.",
+                        "Type": "BusinessOnly",
+                        "Indicator": true
+                      },
+                      {
+                        "Name": "Minimum Loan Amount",
+                        "Description": "Apply for a minimum of £1000.",
+                        "Type": "Other",
+                        "Amount": "1000",
+                        "Indicator": true,
+                        "OtherType": {
+                          "Name": "MinimumLoanAmount",
+                          "Description": "Apply for a minimum of £1000."
+                        }
+                      }
+                    ],
+                    "AgeEligibility": {
+                      "MinimumAge": 18
+                    },
+                    "ResidencyEligibility": [
+                      {
+                        "ResidencyType": "Trading",
+                        "ResidencyIncluded": [
+                          "UK"
+                        ]
+                      }
+                    ],
+                    "TradingHistoryEligibility": [
+                      {
+                        "TradingType": "Turnover",
+                        "MinMaxType": "Minimum",
+                        "Amount": "0",
+                        "Indicator": true
+                      },
+                      {
+                        "TradingType": "Turnover",
+                        "MinMaxType": "Maximum",
+                        "Amount": "3000000",
+                        "Indicator": true
+                      }
+                    ],
+                    "LegalStructureEligibility": [
+                      {
+                        "LegalStructure": "CIO"
+                      },
+                      {
+                        "LegalStructure": "ClubSociety"
+                      },
+                      {
+                        "LegalStructure": "Charity"
+                      },
+                      {
+                        "LegalStructure": "Ltd"
+                      },
+                      {
+                        "LegalStructure": "LBG"
+                      },
+                      {
+                        "LegalStructure": "LLP"
+                      },
+                      {
+                        "LegalStructure": "Partnership"
+                      },
+                      {
+                        "LegalStructure": "SoleTrader"
+                      },
+                      {
+                        "LegalStructure": "Trust"
+                      }
+                    ],
+                    "OfficerEligibility": [
+                      {
+                        "OfficerType": "Director",
+                        "MinAmount": 1,
+                        "Notes": [
+                          "Be a sole trader, partner or director with authority to borrow on behalf of your business."
+                        ]
+                      },
+                      {
+                        "OfficerType": "Partner",
+                        "MinAmount": 2,
+                        "Notes": [
+                          "Be a sole trader, partner or director with authority to borrow on behalf of your business."
+                        ]
+                      },
+                      {
+                        "OfficerType": "Other",
+                        "MinAmount": 1,
+                        "MaxAmount": 1,
+                        "Notes": [
+                          "Be a sole trader, partner or director with authority to borrow on behalf of your business."
+                        ],
+                        "OtherOfficerType": {
+                          "Name": "Sole Trader",
+                          "Description": "Sole Trader"
+                        }
+                      },
+                      {
+                        "OfficerType": "Owner",
+                        "MinAmount": 1,
+                        "Notes": [
+                          "Be a sole trader, partner or director with authority to borrow on behalf of your business."
+                        ]
+                      }
+                    ],
+                    "IDEligibility": {
+                      "URL": "http://www.lloydsbank.com/business/retail-business/loans-and-financing/loans/finance-application-checklist.asp"
+                    },
+                    "CreditCheckEligibility": {
+                      "ScoringType": "Soft",
+                      "Notes": [
+                        "All lending is subject to a satisfactory credit assessment and we will need your permission to carry out a credit check on you and your business."
+                      ]
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitItem": [
+                      {
+                        "Type": "Other",
+                        "Name": "Flexible Borrowing Amount",
+                        "Indicator": true,
+                        "Textual": "Borrow from £1,000.00.",
+                        "OtherType": {
+                          "Name": "FlexibleBorrowingAmount",
+                          "Description": "Borrow from £1,000.00."
+                        }
+                      },
+                      {
+                        "Type": "Other",
+                        "Name": "Flexible Term",
+                        "Indicator": true,
+                        "Textual": "Choose a term to suit your business needs.",
+                        "OtherType": {
+                          "Name": "FlexibleTerm",
+                          "Description": "Choose a term to suit your business needs."
+                        }
+                      },
+                      {
+                        "Type": "EarlySettlement",
+                        "Name": "Repayment Costs",
+                        "Indicator": true,
+                        "Textual": "No early repayment costs."
+                      },
+                      {
+                        "Type": "Other",
+                        "Name": "Fixed Monthly Repayments",
+                        "Indicator": true,
+                        "Textual": "Fixed monthly repayments.",
+                        "OtherType": {
+                          "Name": "FixedMonthlyRepayments",
+                          "Description": "Fixed monthly repayments."
+                        }
+                      },
+                      {
+                        "Type": "Other",
+                        "Name": "No Set Up Fees",
+                        "Indicator": true,
+                        "Textual": "No Arrangement fee for loans up to £25,000.",
+                        "OtherType": {
+                          "Name": "NoSetUpFees",
+                          "Description": "No Arrangement fee for loans up to £25,000."
+                        }
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductDescription": "By borrowing at a fixed interest rate, you'll know exactly how much your repayments will be every month. This can help you plan and manage your finances in advance, without needing to worry about changing market conditions.",
+                    "ProductURL": "http://www.lloydsbank.com/business/retail-business/loans-and-financing/loans/fixed-rate-business.asp?WT.ac=RBB_Loans_Fixed_FOM",
+                    "TcsAndCsURL": "http://www.lloydsbank.com/business/retail-business/loans-and-financing/loans/fixed-rate-business.asp?WT.ac=RBB_Loans_Fixed_FOM",
+                    "SalesAccessChannels": [
+                      "Online",
+                      "CallCentre",
+                      "Branch"
+                    ],
+                    "ServicingAccessChannels": [
+                      "CallCentre",
+                      "Online",
+                      "Post",
+                      "Branch"
+                    ],
+                    "EarlyPaymentFeeApplicable": false,
+                    "OverPaymentFeeApplicable": false,
+                    "LoanApplicationFeeChargeType": "NoLoanApplicationFee",
+                    "OverpaymentAllowedIndicator": true,
+                    "FullEarlyRepaymentAllowedIndicator": true,
+                    "Notes": [
+                      "For loans above £25,000 an arrangement fee will apply and is related to the amount you choose to borrow. These terms will be discussed with you before you take out the loan."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "Base Rate Loan",
+              "Identification": "LRBB-LN-001",
+              "Segment": [
+                "Business"
+              ],
+              "SMELoanMarketingState": [
+                {
+                  "Identification": "LRBB-LN-001",
+                  "MarketingState": "Regular",
+                  "LoanInterest": {
+                    "LoanInterestTierBandSet": [
+                      {
+                        "TierBandMethod": "Whole",
+                        "Identification": "RBB_L_BRL_TBS1",
+                        "CalculationMethod": "SimpleInterest",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "1000",
+                            "TierValueMaximum": "5000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 1,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.65",
+                            "Notes": [
+                              "Representative example:\n9.0%  APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "1000",
+                            "TierValueMaximum": "5000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 2,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.65",
+                            "Notes": [
+                              "Representative example:\n9.0%  APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "1000",
+                            "TierValueMaximum": "5000",
+                            "TierValueMinTerm": 2,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 3,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.65",
+                            "Notes": [
+                              "Representative example:\n9.0%  APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "1000",
+                            "TierValueMaximum": "5000",
+                            "TierValueMinTerm": 3,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 4,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.65",
+                            "Notes": [
+                              "Representative example:\n9.0%  APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "1000",
+                            "TierValueMaximum": "5000",
+                            "TierValueMinTerm": 4,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 5,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.65",
+                            "Notes": [
+                              "Representative example:\n9.0%  APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "Identification": "RBB_L_BRL_TBS2",
+                        "CalculationMethod": "SimpleInterest",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "5000.01",
+                            "TierValueMaximum": "10000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 1,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.65",
+                            "Notes": [
+                              "Representative example:\n9.0%  APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "5000.01",
+                            "TierValueMaximum": "10000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 2,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.65",
+                            "Notes": [
+                              "Representative example:\n9.0%  APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "5000.01",
+                            "TierValueMaximum": "10000",
+                            "TierValueMinTerm": 2,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 3,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.65",
+                            "Notes": [
+                              "Representative example:\n9.0%  APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "5000.01",
+                            "TierValueMaximum": "10000",
+                            "TierValueMinTerm": 3,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 4,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.65",
+                            "Notes": [
+                              "Representative example:\n9.0%  APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "5000.01",
+                            "TierValueMaximum": "10000",
+                            "TierValueMinTerm": 4,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 5,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.65",
+                            "Notes": [
+                              "Representative example:\n9.0%  APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "Identification": "RBB_L_BRL_TBS3",
+                        "CalculationMethod": "SimpleInterest",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "10000.01",
+                            "TierValueMaximum": "15000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 1,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.65",
+                            "Notes": [
+                              "Representative example:\n9.0%  APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "10000.01",
+                            "TierValueMaximum": "15000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 2,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.65",
+                            "Notes": [
+                              "Representative example:\n9.0%  APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "10000.01",
+                            "TierValueMaximum": "15000",
+                            "TierValueMinTerm": 2,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 3,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.65",
+                            "Notes": [
+                              "Representative example:\n9.0%  APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "10000.01",
+                            "TierValueMaximum": "15000",
+                            "TierValueMinTerm": 3,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 4,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.65",
+                            "Notes": [
+                              "Representative example:\n9.0%  APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "10000.01",
+                            "TierValueMaximum": "15000",
+                            "TierValueMinTerm": 4,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 5,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.65",
+                            "Notes": [
+                              "Representative example:\n9.0%  APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "Identification": "RBB_L_BRL_TBS4",
+                        "CalculationMethod": "SimpleInterest",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "15000.01",
+                            "TierValueMaximum": "20000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 1,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.65",
+                            "Notes": [
+                              "Representative example:\n9.0%  APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "15000.01",
+                            "TierValueMaximum": "20000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 2,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.65",
+                            "Notes": [
+                              "Representative example:\n9.0%  APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "15000.01",
+                            "TierValueMaximum": "20000",
+                            "TierValueMinTerm": 2,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 3,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.65",
+                            "Notes": [
+                              "Representative example:\n9.0%  APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "15000.01",
+                            "TierValueMaximum": "20000",
+                            "TierValueMinTerm": 3,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 4,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.65",
+                            "Notes": [
+                              "Representative example:\n9.0%  APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "15000.01",
+                            "TierValueMaximum": "20000",
+                            "TierValueMinTerm": 4,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 5,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.65",
+                            "Notes": [
+                              "Representative example:\n9.0%  APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "Identification": "RBB_L_BRL_TBS5",
+                        "CalculationMethod": "SimpleInterest",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "20000.01",
+                            "TierValueMaximum": "25000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 1,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.65",
+                            "Notes": [
+                              "Representative example:\n9.0%  APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "20000.01",
+                            "TierValueMaximum": "25000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 2,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.65",
+                            "Notes": [
+                              "Representative example:\n9.0%  APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "20000.01",
+                            "TierValueMaximum": "25000",
+                            "TierValueMinTerm": 2,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 3,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.65",
+                            "Notes": [
+                              "Representative example:\n9.0%  APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "20000.01",
+                            "TierValueMaximum": "25000",
+                            "TierValueMinTerm": 3,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 4,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.65",
+                            "Notes": [
+                              "Representative example:\n9.0%  APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "20000.01",
+                            "TierValueMaximum": "25000",
+                            "TierValueMinTerm": 4,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 5,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.65",
+                            "Notes": [
+                              "Representative example:\n9.0%  APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "Repayment": [
+                    {
+                      "RepaymentType": "CapitalAndInterest",
+                      "RepaymentFrequency": "Monthly",
+                      "AmountType": "CapitalAndInterest",
+                      "Notes": [
+                        "You should not apply for an amount that you cannot comfortably afford to repay now and in the future to avoid the possibility of legal action."
+                      ]
+                    }
+                  ],
+                  "Eligibility": {
+                    "OtherEligibility": [
+                      {
+                        "Name": "Business Use",
+                        "Description": "Require the loan for business use.",
+                        "Type": "BusinessOnly",
+                        "Indicator": true
+                      },
+                      {
+                        "Name": "Minimum Loan Amount",
+                        "Description": "Apply for a minimum of £1000.",
+                        "Type": "Other",
+                        "Amount": "1000",
+                        "Indicator": true,
+                        "OtherType": {
+                          "Name": "MinimumLoanAmount",
+                          "Description": "Apply for a minimum of £1000."
+                        }
+                      }
+                    ],
+                    "AgeEligibility": {
+                      "MinimumAge": 18
+                    },
+                    "ResidencyEligibility": [
+                      {
+                        "ResidencyType": "Trading",
+                        "ResidencyIncluded": [
+                          "UK"
+                        ]
+                      }
+                    ],
+                    "TradingHistoryEligibility": [
+                      {
+                        "TradingType": "Turnover",
+                        "MinMaxType": "Minimum",
+                        "Amount": "0",
+                        "Indicator": true
+                      },
+                      {
+                        "TradingType": "Turnover",
+                        "MinMaxType": "Maximum",
+                        "Amount": "3000000",
+                        "Indicator": true
+                      }
+                    ],
+                    "LegalStructureEligibility": [
+                      {
+                        "LegalStructure": "CIO"
+                      },
+                      {
+                        "LegalStructure": "ClubSociety"
+                      },
+                      {
+                        "LegalStructure": "Charity"
+                      },
+                      {
+                        "LegalStructure": "Ltd"
+                      },
+                      {
+                        "LegalStructure": "LBG"
+                      },
+                      {
+                        "LegalStructure": "LLP"
+                      },
+                      {
+                        "LegalStructure": "Partnership"
+                      },
+                      {
+                        "LegalStructure": "SoleTrader"
+                      },
+                      {
+                        "LegalStructure": "Trust"
+                      }
+                    ],
+                    "OfficerEligibility": [
+                      {
+                        "OfficerType": "Director",
+                        "MinAmount": 1,
+                        "Notes": [
+                          "Be a sole trader, partner or director with authority to borrow on behalf of your business."
+                        ]
+                      },
+                      {
+                        "OfficerType": "Partner",
+                        "MinAmount": 2,
+                        "Notes": [
+                          "Be a sole trader, partner or director with authority to borrow on behalf of your business."
+                        ]
+                      },
+                      {
+                        "OfficerType": "Other",
+                        "MinAmount": 1,
+                        "MaxAmount": 1,
+                        "Notes": [
+                          "Be a sole trader, partner or director with authority to borrow on behalf of your business."
+                        ],
+                        "OtherOfficerType": {
+                          "Name": "Sole Trader",
+                          "Description": "Sole Trader"
+                        }
+                      },
+                      {
+                        "OfficerType": "Owner",
+                        "MinAmount": 1,
+                        "Notes": [
+                          "Be a sole trader, partner or director with authority to borrow on behalf of your business."
+                        ]
+                      }
+                    ],
+                    "IDEligibility": {
+                      "URL": "http://www.lloydsbank.com/business/retail-business/loans-and-financing/loans/finance-application-checklist.asp"
+                    },
+                    "CreditCheckEligibility": {
+                      "ScoringType": "Soft",
+                      "Notes": [
+                        "All lending is subject to a satisfactory credit assessment and we will need your permission to carry out a credit check on you and your business."
+                      ]
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitItem": [
+                      {
+                        "Type": "Other",
+                        "Name": "Flexible Borrowing Amount",
+                        "Indicator": true,
+                        "Textual": "Choose a term to suit your business needs.",
+                        "OtherType": {
+                          "Name": "FlexibleBorrowingAmount",
+                          "Description": "Borrow from £1,000.00."
+                        }
+                      },
+                      {
+                        "Type": "Other",
+                        "Name": "Flexible Term",
+                        "Indicator": true,
+                        "Textual": "Choose a term to suit your business needs.",
+                        "OtherType": {
+                          "Name": "FlexibleTerm",
+                          "Description": "Choose a term to suit your business needs."
+                        }
+                      },
+                      {
+                        "Type": "Other",
+                        "Name": "Bank of England Bank Rate variable",
+                        "Indicator": true,
+                        "Textual": "Interest rate varies with Bank of England Bank Rate.",
+                        "OtherType": {
+                          "Name": "BoEBankRateVariable",
+                          "Description": "Interest rate varies with Bank of England Bank Rate."
+                        }
+                      },
+                      {
+                        "Type": "EarlySettlement",
+                        "Name": "Repayment Costs",
+                        "Indicator": true,
+                        "Textual": "No early repayment costs."
+                      },
+                      {
+                        "Type": "Other",
+                        "Name": "No Set Up Fees",
+                        "Indicator": true,
+                        "Textual": "No Arrangement fee for loans up to £25,000.",
+                        "OtherType": {
+                          "Name": "NoSetUpFees",
+                          "Description": "No Arrangement fee for loans up to £25,000."
+                        }
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductDescription": "Our Base Rate Loan is a flexible finance option that can be tailored to suit your short or long-term financial goals. It is linked to the Bank of England bank rate so the interest rate that you pay will change as the bank rate changes, resulting in your monthly repayments increasing or decreasing.",
+                    "ProductURL": "http://www.lloydsbank.com/business/retail-business/loans-and-financing/loans/base-rate-business-loan.asp?WT.ac=RBB_Loans_Base_FOM",
+                    "TcsAndCsURL": "http://www.lloydsbank.com/business/retail-business/loans-and-financing/loans/base-rate-business-loan.asp?WT.ac=RBB_Loans_Base_FOM",
+                    "SalesAccessChannels": [
+                      "Online",
+                      "CallCentre",
+                      "Branch"
+                    ],
+                    "ServicingAccessChannels": [
+                      "CallCentre",
+                      "Online",
+                      "Post",
+                      "Branch"
+                    ],
+                    "EarlyPaymentFeeApplicable": false,
+                    "OverPaymentFeeApplicable": false,
+                    "LoanApplicationFeeChargeType": "NoLoanApplicationFee",
+                    "OverpaymentAllowedIndicator": true,
+                    "FullEarlyRepaymentAllowedIndicator": true,
+                    "Notes": [
+                      "For loans above £25,000 an arrangement fee will apply and is related to the amount you choose to borrow. These terms will be discussed with you before you take out the loan."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "Base Rate Loan",
+              "Identification": "LSMELN-0001",
+              "Segment": [
+                "FlexibleBusinessLoan"
+              ],
+              "SMELoanMarketingState": [
+                {
+                  "Identification": "LSMELN-0001",
+                  "MarketingState": "Regular",
+                  "LoanInterest": {
+                    "LoanInterestTierBandSet": [
+                      {
+                        "TierBandMethod": "Whole",
+                        "Identification": "SME_L_BRL_TBS1",
+                        "CalculationMethod": "SimpleInterest",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "1000",
+                            "TierValueMaximum": "5000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 1,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9.0000",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.6500",
+                            "Notes": [
+                              "9.0% APR (variable) representative\n\nRepresentative example: 9.0% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. Our representative APR applies to all unsecured loans with a borrowing amount of up to £25,000 for businesses with a turnover of up to £25 million. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "1000",
+                            "TierValueMaximum": "5000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 2,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9.0000",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.6500",
+                            "Notes": [
+                              "9.0% APR (variable) representative\n\nRepresentative example: 9.0% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. Our representative APR applies to all unsecured loans with a borrowing amount of up to £25,000 for businesses with a turnover of up to £25 million. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "1000",
+                            "TierValueMaximum": "5000",
+                            "TierValueMinTerm": 2,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 3,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9.0000",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.6500",
+                            "Notes": [
+                              "9.0% APR (variable) representative\n\nRepresentative example: 9.0% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. Our representative APR applies to all unsecured loans with a borrowing amount of up to £25,000 for businesses with a turnover of up to £25 million. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "1000",
+                            "TierValueMaximum": "5000",
+                            "TierValueMinTerm": 3,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 4,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9.0000",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.6500",
+                            "Notes": [
+                              "9.0% APR (variable) representative\n\nRepresentative example: 9.0% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. Our representative APR applies to all unsecured loans with a borrowing amount of up to £25,000 for businesses with a turnover of up to £25 million. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "1000",
+                            "TierValueMaximum": "5000",
+                            "TierValueMinTerm": 4,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 5,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9.0000",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.6500",
+                            "Notes": [
+                              "9.0% APR (variable) representative\n\nRepresentative example: 9.0% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. Our representative APR applies to all unsecured loans with a borrowing amount of up to £25,000 for businesses with a turnover of up to £25 million. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "Identification": "SME_L_BRL_TBS2",
+                        "CalculationMethod": "SimpleInterest",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "5000.01",
+                            "TierValueMaximum": "10000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 1,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9.0000",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.6500",
+                            "Notes": [
+                              "9.0% APR (variable) representative\n\nRepresentative example: 9.0% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. Our representative APR applies to all unsecured loans with a borrowing amount of up to £25,000 for businesses with a turnover of up to £25 million. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "5000.01",
+                            "TierValueMaximum": "10000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 2,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9.0000",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.6500",
+                            "Notes": [
+                              "9.0% APR (variable) representative\n\nRepresentative example: 9.0% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. Our representative APR applies to all unsecured loans with a borrowing amount of up to £25,000 for businesses with a turnover of up to £25 million. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "5000.01",
+                            "TierValueMaximum": "10000",
+                            "TierValueMinTerm": 2,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 3,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9.0000",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.6500",
+                            "Notes": [
+                              "9.0% APR (variable) representative\n\nRepresentative example: 9.0% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. Our representative APR applies to all unsecured loans with a borrowing amount of up to £25,000 for businesses with a turnover of up to £25 million. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "5000.01",
+                            "TierValueMaximum": "10000",
+                            "TierValueMinTerm": 3,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 4,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9.0000",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.6500",
+                            "Notes": [
+                              "9.0% APR (variable) representative\n\nRepresentative example: 9.0% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. Our representative APR applies to all unsecured loans with a borrowing amount of up to £25,000 for businesses with a turnover of up to £25 million. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "5000.01",
+                            "TierValueMaximum": "10000",
+                            "TierValueMinTerm": 4,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 5,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9.0000",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.6500",
+                            "Notes": [
+                              "9.0% APR (variable) representative\n\nRepresentative example: 9.0% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. Our representative APR applies to all unsecured loans with a borrowing amount of up to £25,000 for businesses with a turnover of up to £25 million. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "Identification": "SME_L_BRL_TBS3",
+                        "CalculationMethod": "SimpleInterest",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "10000.01",
+                            "TierValueMaximum": "15000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 1,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9.0000",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.6500",
+                            "Notes": [
+                              "9.0% APR (variable) representative\n\nRepresentative example: 9.0% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. Our representative APR applies to all unsecured loans with a borrowing amount of up to £25,000 for businesses with a turnover of up to £25 million. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "10000.01",
+                            "TierValueMaximum": "15000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 2,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9.0000",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.6500",
+                            "Notes": [
+                              "9.0% APR (variable) representative\n\nRepresentative example: 9.0% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. Our representative APR applies to all unsecured loans with a borrowing amount of up to £25,000 for businesses with a turnover of up to £25 million. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "10000.01",
+                            "TierValueMaximum": "15000",
+                            "TierValueMinTerm": 2,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 3,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9.0000",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.6500",
+                            "Notes": [
+                              "9.0% APR (variable) representative\n\nRepresentative example: 9.0% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. Our representative APR applies to all unsecured loans with a borrowing amount of up to £25,000 for businesses with a turnover of up to £25 million. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "10000.01",
+                            "TierValueMaximum": "15000",
+                            "TierValueMinTerm": 3,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 4,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9.0000",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.6500",
+                            "Notes": [
+                              "9.0% APR (variable) representative\n\nRepresentative example: 9.0% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. Our representative APR applies to all unsecured loans with a borrowing amount of up to £25,000 for businesses with a turnover of up to £25 million. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "10000.01",
+                            "TierValueMaximum": "15000",
+                            "TierValueMinTerm": 4,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 5,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9.0000",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.6500",
+                            "Notes": [
+                              "9.0% APR (variable) representative\n\nRepresentative example: 9.0% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. Our representative APR applies to all unsecured loans with a borrowing amount of up to £25,000 for businesses with a turnover of up to £25 million. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "Identification": "SME_L_BRL_TBS4",
+                        "CalculationMethod": "SimpleInterest",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "15000.01",
+                            "TierValueMaximum": "20000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 1,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9.0000",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.6500",
+                            "Notes": [
+                              "9.0% APR (variable) representative\n\nRepresentative example: 9.0% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. Our representative APR applies to all unsecured loans with a borrowing amount of up to £25,000 for businesses with a turnover of up to £25 million. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "15000.01",
+                            "TierValueMaximum": "20000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 2,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9.0000",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.6500",
+                            "Notes": [
+                              "9.0% APR (variable) representative\n\nRepresentative example: 9.0% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. Our representative APR applies to all unsecured loans with a borrowing amount of up to £25,000 for businesses with a turnover of up to £25 million. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "15000.01",
+                            "TierValueMaximum": "20000",
+                            "TierValueMinTerm": 2,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 3,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9.0000",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.6500",
+                            "Notes": [
+                              "9.0% APR (variable) representative\n\nRepresentative example: 9.0% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. Our representative APR applies to all unsecured loans with a borrowing amount of up to £25,000 for businesses with a turnover of up to £25 million. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "15000.01",
+                            "TierValueMaximum": "20000",
+                            "TierValueMinTerm": 3,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 4,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9.0000",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.6500",
+                            "Notes": [
+                              "9.0% APR (variable) representative\n\nRepresentative example: 9.0% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. Our representative APR applies to all unsecured loans with a borrowing amount of up to £25,000 for businesses with a turnover of up to £25 million. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "15000.01",
+                            "TierValueMaximum": "20000",
+                            "TierValueMinTerm": 4,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 5,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9.0000",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.6500",
+                            "Notes": [
+                              "9.0% APR (variable) representative\n\nRepresentative example: 9.0% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. Our representative APR applies to all unsecured loans with a borrowing amount of up to £25,000 for businesses with a turnover of up to £25 million. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "Identification": "SME_L_BRL_TBS5",
+                        "CalculationMethod": "SimpleInterest",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "20000.01",
+                            "TierValueMaximum": "25000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 1,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9.0000",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.6500",
+                            "Notes": [
+                              "9.0% APR (variable) representative\n\nRepresentative example: 9.0% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. Our representative APR applies to all unsecured loans with a borrowing amount of up to £25,000 for businesses with a turnover of up to £25 million. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "20000.01",
+                            "TierValueMaximum": "25000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 2,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9.0000",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.6500",
+                            "Notes": [
+                              "9.0% APR (variable) representative\n\nRepresentative example: 9.0% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. Our representative APR applies to all unsecured loans with a borrowing amount of up to £25,000 for businesses with a turnover of up to £25 million. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "20000.01",
+                            "TierValueMaximum": "25000",
+                            "TierValueMinTerm": 2,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 3,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9.0000",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.6500",
+                            "Notes": [
+                              "9.0% APR (variable) representative\n\nRepresentative example: 9.0% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. Our representative APR applies to all unsecured loans with a borrowing amount of up to £25,000 for businesses with a turnover of up to £25 million. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "20000.01",
+                            "TierValueMaximum": "25000",
+                            "TierValueMinTerm": 3,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 4,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9.0000",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.6500",
+                            "Notes": [
+                              "9.0% APR (variable) representative\n\nRepresentative example: 9.0% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. Our representative APR applies to all unsecured loans with a borrowing amount of up to £25,000 for businesses with a turnover of up to £25 million. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "20000.01",
+                            "TierValueMaximum": "25000",
+                            "TierValueMinTerm": 4,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 5,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "9.0000",
+                            "LoanProviderInterestRateType": "LoanProviderBaseRate",
+                            "LoanProviderInterestRate": "8.6500",
+                            "Notes": [
+                              "9.0% APR (variable) representative\n\nRepresentative example: 9.0% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £164.71 at an annual interest rate of 8.65% (variable). Total amount payable £9,882.60.\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances. Our representative APR applies to all unsecured loans with a borrowing amount of up to £25,000 for businesses with a turnover of up to £25 million. This figure is not necessarily the rate you will be receiving and is for illustrative purposes only."
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "Repayment": [
+                    {
+                      "RepaymentType": "CapitalAndInterest",
+                      "RepaymentFrequency": "Monthly",
+                      "AmountType": "CapitalAndInterest",
+                      "Notes": [
+                        "You should not apply for an amount that you cannot comfortably afford to repay now and in the future to avoid the possibility of legal action."
+                      ],
+                      "RepaymentHoliday": [
+                        {
+                          "MaxHolidayLength": 24,
+                          "MaxHolidayPeriod": "Month"
+                        }
+                      ]
+                    }
+                  ],
+                  "Eligibility": {
+                    "OtherEligibility": [
+                      {
+                        "Name": "Business Use",
+                        "Description": "This loan must be required for business use",
+                        "Type": "BusinessOnly",
+                        "Indicator": true
+                      },
+                      {
+                        "Name": "Minimum Loan Amount",
+                        "Description": "Apply for a minimum loan of £1000.",
+                        "Type": "Other",
+                        "Amount": "1000",
+                        "Indicator": true,
+                        "OtherType": {
+                          "Name": "MinimumLoanAmount",
+                          "Description": "Minimum loan amount"
+                        }
+                      }
+                    ],
+                    "AgeEligibility": {
+                      "MinimumAge": 18,
+                      "Notes": [
+                        "You must be aged 18 or over to apply for a business loan"
+                      ]
+                    },
+                    "ResidencyEligibility": [
+                      {
+                        "ResidencyType": "Trading",
+                        "ResidencyIncluded": [
+                          "UK"
+                        ]
+                      }
+                    ],
+                    "TradingHistoryEligibility": [
+                      {
+                        "TradingType": "Turnover",
+                        "MinMaxType": "Minimum",
+                        "Amount": "3000000",
+                        "Indicator": true,
+                        "Notes": [
+                          "The business must have a minimum turnover of £3,000,000"
+                        ]
+                      },
+                      {
+                        "TradingType": "Turnover",
+                        "MinMaxType": "Maximum",
+                        "Amount": "25000000",
+                        "Indicator": true,
+                        "Notes": [
+                          "The business must have a maximum turnover of £25,000,000"
+                        ]
+                      }
+                    ],
+                    "LegalStructureEligibility": [
+                      {
+                        "LegalStructure": "Charity"
+                      },
+                      {
+                        "LegalStructure": "Ltd"
+                      },
+                      {
+                        "LegalStructure": "LBG"
+                      },
+                      {
+                        "LegalStructure": "LLP"
+                      },
+                      {
+                        "LegalStructure": "Partnership"
+                      },
+                      {
+                        "LegalStructure": "SoleTrader"
+                      },
+                      {
+                        "LegalStructure": "ClubSociety"
+                      },
+                      {
+                        "LegalStructure": "CIO"
+                      },
+                      {
+                        "LegalStructure": "Trust"
+                      }
+                    ],
+                    "OfficerEligibility": [
+                      {
+                        "OfficerType": "Director",
+                        "MinAmount": 1,
+                        "Notes": [
+                          "Be a sole trader, partner or director with authority to borrow on behalf of your business."
+                        ]
+                      },
+                      {
+                        "OfficerType": "Partner",
+                        "MinAmount": 2,
+                        "Notes": [
+                          "Be a sole trader, partner or director with authority to borrow on behalf of your business."
+                        ]
+                      },
+                      {
+                        "OfficerType": "Owner",
+                        "MinAmount": 1,
+                        "MaxAmount": 1,
+                        "Notes": [
+                          "Be a sole trader, partner or director with authority to borrow on behalf of your business."
+                        ]
+                      },
+                      {
+                        "OfficerType": "Other",
+                        "MinAmount": 1,
+                        "MaxAmount": 1,
+                        "Notes": [
+                          "Be a sole trader, partner or director with authority to borrow on behalf of your business."
+                        ],
+                        "OtherOfficerType": {
+                          "Name": "Sole Trader",
+                          "Description": "Sole Trader"
+                        }
+                      }
+                    ],
+                    "IDEligibility": {
+                      "URL": "https://commercialbanking.lloydsbank.com/WorkArea/DownloadAsset.aspx?id=2147484524"
+                    },
+                    "CreditCheckEligibility": {
+                      "ScoringType": "Soft",
+                      "Notes": [
+                        "All lending is subject to a satisfactory credit assessment and we will need your permission to carry out a credit check on you and your business."
+                      ]
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitItem": [
+                      {
+                        "Type": "Other",
+                        "Name": "Flexible borrowing amount",
+                        "Indicator": true,
+                        "Textual": "Borrow from as little as £1,000",
+                        "OtherType": {
+                          "Name": "FlexibleBorrowingAmount",
+                          "Description": "Borrow from £1,000.00."
+                        }
+                      },
+                      {
+                        "Type": "Other",
+                        "Name": "Flexible term",
+                        "Indicator": true,
+                        "Textual": "Choose a term to suit your business needs",
+                        "OtherType": {
+                          "Name": "FlexibleTerm",
+                          "Description": "Choose a term to suit your business needs."
+                        }
+                      },
+                      {
+                        "Type": "Other",
+                        "Name": "Interest rate",
+                        "Indicator": true,
+                        "Textual": "Interest rate varies with Bank of England bank rate",
+                        "OtherType": {
+                          "Name": "InterestRate",
+                          "Description": "Interest rate varies with Bank of England bank rate"
+                        }
+                      },
+                      {
+                        "Type": "EarlySettlement",
+                        "Name": "No early repayment costs.",
+                        "Indicator": true,
+                        "Textual": "No early repayment costs."
+                      },
+                      {
+                        "Type": "Other",
+                        "Name": "Borrow on a secured or unsecured basis",
+                        "Indicator": true,
+                        "Textual": "Loans available on a secured or unsecured basis",
+                        "OtherType": {
+                          "Name": "FlexibleBorrowing",
+                          "Description": "Borrow on a secured or unsecured basis."
+                        }
+                      },
+                      {
+                        "Type": "RepaymentHoliday",
+                        "Name": "Capital repayment holidays",
+                        "Indicator": true,
+                        "Textual": "Capital repayment holidays of up to two years may be available in certain circumstances only"
+                      },
+                      {
+                        "Type": "Other",
+                        "Name": "No Set Up Fees",
+                        "Indicator": true,
+                        "Textual": "No Arrangement fee for loans up to £25,000.",
+                        "OtherType": {
+                          "Name": "NoSetUpFees",
+                          "Description": "No Arrangement fee for loans up to £25,000."
+                        }
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductDescription": "Our Base Rate Loan is a flexible finance option that can be tailored to suit your short or long-term financial goals. It is linked to the Bank of England bank rate so the interest rate that you pay will change as the bank rate changes.",
+                    "ProductURL": "http://www.lloydsbank.com/business/commercial-banking/loans-and-financing/loans/base-rate-business-loan.asp",
+                    "TcsAndCsURL": "http://www.lloydsbank.com/business/commercial-banking/loans-and-financing/loans/base-rate-business-loan.asp",
+                    "SalesAccessChannels": [
+                      "RelationshipManager",
+                      "Online",
+                      "Branch"
+                    ],
+                    "ServicingAccessChannels": [
+                      "RelationshipManager",
+                      "Branch",
+                      "CallCentre",
+                      "Online"
+                    ],
+                    "EarlyPaymentFeeApplicable": false,
+                    "OverPaymentFeeApplicable": false,
+                    "LoanApplicationFeeChargeType": "NoLoanApplicationFee",
+                    "OverpaymentAllowedIndicator": true,
+                    "FullEarlyRepaymentAllowedIndicator": true
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "Fixed Rate Loan",
+              "Identification": "LSMELN-0002",
+              "Segment": [
+                "FixedGroup"
+              ],
+              "SMELoanMarketingState": [
+                {
+                  "Identification": "LSMELN-0002",
+                  "MarketingState": "Regular",
+                  "LoanInterest": {
+                    "LoanInterestTierBandSet": [
+                      {
+                        "TierBandMethod": "Whole",
+                        "Identification": "SME_L_FRL_TBS1",
+                        "CalculationMethod": "SimpleInterest",
+                        "LoanInterestTierBand": [
+                          {
+                            "TierValueMinimum": "1000",
+                            "TierValueMaximum": "5000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 1,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example: 9.3% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940.80\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "1000",
+                            "TierValueMaximum": "5000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 2,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example: 9.3% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940.80\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "1000",
+                            "TierValueMaximum": "5000",
+                            "TierValueMinTerm": 2,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 3,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example: 9.3% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940.80\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "1000",
+                            "TierValueMaximum": "5000",
+                            "TierValueMinTerm": 3,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 4,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example: 9.3% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940.80\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "1000",
+                            "TierValueMaximum": "5000",
+                            "TierValueMinTerm": 4,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 5,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example: 9.3% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940.80\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "5000.01",
+                            "TierValueMaximum": "10000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 1,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example: 9.3% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940.80\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "5000.01",
+                            "TierValueMaximum": "10000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 2,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example: 9.3% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940.80\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "5000.01",
+                            "TierValueMaximum": "10000",
+                            "TierValueMinTerm": 2,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 3,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example: 9.3% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940.80\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "5000.01",
+                            "TierValueMaximum": "10000",
+                            "TierValueMinTerm": 3,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 4,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example: 9.3% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940.80\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "5000.01",
+                            "TierValueMaximum": "10000",
+                            "TierValueMinTerm": 4,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 5,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example: 9.3% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940.80\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "10000.01",
+                            "TierValueMaximum": "15000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 1,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example: 9.3% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940.80\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "10000.01",
+                            "TierValueMaximum": "15000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 2,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example: 9.3% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940.80\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "10000.01",
+                            "TierValueMaximum": "15000",
+                            "TierValueMinTerm": 2,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 3,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example: 9.3% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940.80\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "10000.01",
+                            "TierValueMaximum": "15000",
+                            "TierValueMinTerm": 3,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 4,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example: 9.3% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940.80\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "10000.01",
+                            "TierValueMaximum": "15000",
+                            "TierValueMinTerm": 4,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 5,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example: 9.3% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940.80\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "15000.01",
+                            "TierValueMaximum": "20000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 1,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example: 9.3% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940.80\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "15000.01",
+                            "TierValueMaximum": "20000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 2,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example: 9.3% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940.80\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "15000.01",
+                            "TierValueMaximum": "20000",
+                            "TierValueMinTerm": 2,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 3,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example: 9.3% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940.80\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "15000.01",
+                            "TierValueMaximum": "20000",
+                            "TierValueMinTerm": 3,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 4,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example: 9.3% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940.80\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "15000.01",
+                            "TierValueMaximum": "20000",
+                            "TierValueMinTerm": 4,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 5,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example: 9.3% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940.80\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "20000.01",
+                            "TierValueMaximum": "25000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 1,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example: 9.3% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940.80\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "20000.01",
+                            "TierValueMaximum": "25000",
+                            "TierValueMinTerm": 1,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 2,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example: 9.3% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940.80\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "20000.01",
+                            "TierValueMaximum": "25000",
+                            "TierValueMinTerm": 2,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 3,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example: 9.3% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940.80\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "20000.01",
+                            "TierValueMaximum": "25000",
+                            "TierValueMinTerm": 3,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 4,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example: 9.3% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940.80\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances."
+                            ]
+                          },
+                          {
+                            "TierValueMinimum": "20000.01",
+                            "TierValueMaximum": "25000",
+                            "TierValueMinTerm": 4,
+                            "MinTermPeriod": "Year",
+                            "TierValueMaxTerm": 5,
+                            "MaxTermPeriod": "Year",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.3",
+                            "LoanProviderInterestRateType": "FixedRate",
+                            "LoanProviderInterestRate": "8.9",
+                            "Notes": [
+                              "Representative example: 9.3% APR based on an assumed unsecured loan amount of £8,000 with 60 monthly repayments of £165.68 at an annual interest rate of 8.90% (fixed). Total amount payable £9,940.80\n\nThe representative APR is an illustration of the rate that the majority of customers will receive. If a loan is described as having a particular representative APR, then we expect to offer that rate or better to at least 51% of the applicants we accept. Other customers may get a different rate based on their individual circumstances."
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "Identification": "SME_L_FRL_TBS2",
+                        "CalculationMethod": "SimpleInterest"
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "Identification": "SME_L_FRL_TBS3",
+                        "CalculationMethod": "SimpleInterest"
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "Identification": "SME_L_FRL_TBS4",
+                        "CalculationMethod": "SimpleInterest"
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "Identification": "SME_L_FRL_TBS5",
+                        "CalculationMethod": "SimpleInterest"
+                      }
+                    ]
+                  },
+                  "Repayment": [
+                    {
+                      "RepaymentType": "CapitalAndInterest",
+                      "RepaymentFrequency": "Monthly",
+                      "AmountType": "CapitalAndInterest",
+                      "Notes": [
+                        "You should not apply for an amount that you cannot comfortably afford to repay now and in the future to avoid the possibility of legal action."
+                      ],
+                      "RepaymentHoliday": [
+                        {
+                          "MaxHolidayLength": 24,
+                          "MaxHolidayPeriod": "Month"
+                        }
+                      ]
+                    }
+                  ],
+                  "Eligibility": {
+                    "OtherEligibility": [
+                      {
+                        "Name": "Business Use",
+                        "Description": "This loan must be required for business use",
+                        "Type": "BusinessOnly",
+                        "Indicator": true
+                      },
+                      {
+                        "Name": "Minimum Loan Amount",
+                        "Description": "Apply for a minimum loan of £1000.",
+                        "Type": "Other",
+                        "Amount": "1000",
+                        "Indicator": true,
+                        "OtherType": {
+                          "Name": "MinimumLoanAmount",
+                          "Description": "Minimum loan amount"
+                        }
+                      }
+                    ],
+                    "AgeEligibility": {
+                      "MinimumAge": 18,
+                      "Notes": [
+                        "You must be aged 18 or over to apply for a business loan"
+                      ]
+                    },
+                    "ResidencyEligibility": [
+                      {
+                        "ResidencyType": "Trading",
+                        "ResidencyIncluded": [
+                          "UK"
+                        ]
+                      }
+                    ],
+                    "TradingHistoryEligibility": [
+                      {
+                        "TradingType": "Turnover",
+                        "MinMaxType": "Minimum",
+                        "Amount": "3000000",
+                        "Indicator": true,
+                        "Notes": [
+                          "The business must have a minimum turnover of £3,000,000"
+                        ]
+                      },
+                      {
+                        "TradingType": "Turnover",
+                        "MinMaxType": "Maximum",
+                        "Amount": "25000000",
+                        "Indicator": true,
+                        "Notes": [
+                          "The business must have a maximum turnover of £25,000,000"
+                        ]
+                      }
+                    ],
+                    "LegalStructureEligibility": [
+                      {
+                        "LegalStructure": "Charity"
+                      },
+                      {
+                        "LegalStructure": "Ltd"
+                      },
+                      {
+                        "LegalStructure": "LBG"
+                      },
+                      {
+                        "LegalStructure": "LLP"
+                      },
+                      {
+                        "LegalStructure": "Partnership"
+                      },
+                      {
+                        "LegalStructure": "SoleTrader"
+                      },
+                      {
+                        "LegalStructure": "ClubSociety"
+                      },
+                      {
+                        "LegalStructure": "CIO"
+                      },
+                      {
+                        "LegalStructure": "Trust"
+                      }
+                    ],
+                    "OfficerEligibility": [
+                      {
+                        "OfficerType": "Director",
+                        "MinAmount": 1,
+                        "Notes": [
+                          "Be a sole trader, partner or director with authority to borrow on behalf of your business."
+                        ]
+                      },
+                      {
+                        "OfficerType": "Partner",
+                        "MinAmount": 2,
+                        "Notes": [
+                          "Be a sole trader, partner or director with authority to borrow on behalf of your business."
+                        ]
+                      },
+                      {
+                        "OfficerType": "Owner",
+                        "MinAmount": 1,
+                        "Notes": [
+                          "Be a sole trader, partner or director with authority to borrow on behalf of your business."
+                        ]
+                      },
+                      {
+                        "OfficerType": "Other",
+                        "MinAmount": 1,
+                        "MaxAmount": 1,
+                        "Notes": [
+                          "Be a sole trader, partner or director with authority to borrow on behalf of your business."
+                        ],
+                        "OtherOfficerType": {
+                          "Name": "Sole Trader",
+                          "Description": "Sole Trader"
+                        }
+                      }
+                    ],
+                    "IDEligibility": {
+                      "URL": "https://commercialbanking.lloydsbank.com/WorkArea/DownloadAsset.aspx?id=2147484524"
+                    },
+                    "CreditCheckEligibility": {
+                      "ScoringType": "Soft",
+                      "Notes": [
+                        "All lending is subject to a satisfactory credit assessment and we will need your permission to carry out a credit check on you and your business."
+                      ]
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitItem": [
+                      {
+                        "Type": "Other",
+                        "Name": "Flexible Borrowing Amount",
+                        "Indicator": true,
+                        "Textual": "Borrow from £1,000.00.",
+                        "OtherType": {
+                          "Name": "FlexibleBorrowingAmount",
+                          "Description": "Borrow from £1,000.00."
+                        }
+                      },
+                      {
+                        "Type": "Other",
+                        "Name": "Flexible Term",
+                        "Indicator": true,
+                        "Textual": "Choose a term to suit your business needs.",
+                        "OtherType": {
+                          "Name": "FlexibleTerm",
+                          "Description": "Choose a term to suit your business needs."
+                        }
+                      },
+                      {
+                        "Type": "EarlySettlement",
+                        "Name": "Repayment Costs",
+                        "Indicator": true,
+                        "Textual": "No early repayment costs."
+                      },
+                      {
+                        "Type": "Other",
+                        "Name": "Fixed Monthly Repayments",
+                        "Indicator": true,
+                        "Textual": "Fixed monthly repayments.",
+                        "OtherType": {
+                          "Name": "FixedMonthlyRepayments",
+                          "Description": "Fixed monthly repayments."
+                        }
+                      },
+                      {
+                        "Type": "Other",
+                        "Name": "No Set Up Fees",
+                        "Indicator": true,
+                        "Textual": "No Arrangement fee for loans up to £25,000.",
+                        "OtherType": {
+                          "Name": "NoSetUpFees",
+                          "Description": "No Arrangement fee for loans up to £25,000."
+                        }
+                      },
+                      {
+                        "Type": "RepaymentHoliday",
+                        "Name": "Capital repayment holidays",
+                        "Indicator": true,
+                        "Textual": "Capital repayment holidays of up to two years may be available in certain circumstances only"
+                      },
+                      {
+                        "Type": "Other",
+                        "Name": "Borrow on a secured or unsecured basis",
+                        "Indicator": true,
+                        "Textual": "Loans available on a secured or unsecured basis",
+                        "OtherType": {
+                          "Name": "FlexibleBorrowing",
+                          "Description": "Borrow on a secured or unsecured basis."
+                        }
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductDescription": "A fixed rate loan enables you to plan your finances better, as you'll know exactly what your repayments will be each month and with a fixed interest rate for the whole term you’re less dependent on market conditions, giving you confidence that you’ll be able to meet your financial obligations. ",
+                    "ProductURL": "http://www.lloydsbank.com/business/commercial-banking/loans-and-financing/loans/fixed-rate-business-loan.asp",
+                    "TcsAndCsURL": "http://www.lloydsbank.com/business/commercial-banking/loans-and-financing/loans/fixed-rate-business-loan.asp",
+                    "SalesAccessChannels": [
+                      "RelationshipManager",
+                      "Online",
+                      "Branch"
+                    ],
+                    "ServicingAccessChannels": [
+                      "RelationshipManager",
+                      "Branch",
+                      "CallCentre",
+                      "Online"
+                    ],
+                    "EarlyPaymentFeeApplicable": false,
+                    "OverPaymentFeeApplicable": false,
+                    "LoanApplicationFeeChargeType": "NoLoanApplicationFee",
+                    "OverpaymentAllowedIndicator": true,
+                    "FullEarlyRepaymentAllowedIndicator": true,
+                    "Notes": [
+                      "There is always a possibility that interest rates may go down leaving a fixed rate loan at a higher level compared to a variable rate loan. However, if interest rates rise, a fixed rate loan will remain at the same rate.\n\nFor loans above £25,000 an arrangement fee will apply and is related to the amount you choose to borrow. These terms will be discussed with you before you take out the loan."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

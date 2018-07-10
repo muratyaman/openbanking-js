@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "LastUpdated": "2018-07-10T04:33:48.662Z",
+    "TotalResults": 1,
+    "Agreement": "Use of the APIs and any related data will be subject to the terms of the Open Licence and subject to terms and conditions",
+    "License": "https://www.openbanking.org.uk/open-licence",
+    "TermsOfUse": "https://www.openbanking.org.uk/terms"
+  },
+  "data": [
+    {
+      "Brand": [
+        {
+          "BrandName": "ESME",
+          "SMELoan": [
+            {
+              "Name": "Esme Small Business Loan",
+              "Identification": "974",
+              "SMELoanMarketingState": [
+                {
+                  "Identification": "1",
+                  "MarketingState": "Regular",
+                  "Repayment": [
+                    {
+                      "RepaymentFeeCharges": {
+                        "RepaymentFeeChargeDetail": [
+                          {
+                            "FeeType": "LatePayment",
+                            "Notes": [
+                              "Charge - Late payment"
+                            ],
+                            "FeeAmount": "20",
+                            "ApplicationFrequency": "PerOccurrence",
+                            "CalculationFrequency": "PerOccurrence"
+                          }
+                        ]
+                      },
+                      "RepaymentType": "CapitalAndInterest",
+                      "RepaymentFrequency": "Monthly",
+                      "AmountType": "CapitalAndInterest",
+                      "RepaymentHoliday": [
+                        {
+                          "MaxHolidayLength": 0
+                        }
+                      ]
+                    }
+                  ],
+                  "CoreProduct": {
+                    "ProductDescription": "Small Business loan of £5,000-£150,000 for 1 to 5 years for UK-based limited companies established for over 18 months.",
+                    "EarlyPaymentFeeApplicable": false,
+                    "OverPaymentFeeApplicable": false,
+                    "LoanApplicationFeeChargeType": "NoLoanApplicatioFee",
+                    "FullEarlyRepaymentAllowedIndicator": true,
+                    "OverpaymentAllowedIndicator": true,
+                    "SalesAccessChannels": [
+                      "Online"
+                    ],
+                    "ServicingAccessChannels": [
+                      "Branch",
+                      "MobileBankingApp",
+                      "Online",
+                      "RelationshipManager"
+                    ],
+                    "ProductURL": "https://www.esmeloans.com/",
+                    "TcsAndCsURL": "https://www.esmeloans.com/esme-terms-and-conditions/"
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitItem": [
+                      {
+                        "Identification": "30602",
+                        "Name": "CapitalRepaymentHolidays",
+                        "Type": "PaymentHolidays",
+                        "Indicator": false
+                      },
+                      {
+                        "Identification": "30603",
+                        "Name": "EarlyRepaymentCharge",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "EarlyRepaymentCharge",
+                          "Description": "States if the product charges for any early redemptions."
+                        },
+                        "Indicator": false
+                      },
+                      {
+                        "Identification": "30604",
+                        "Name": "TrancheDrawdown",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "TrancheDrawdown",
+                          "Description": "Highlights if tranches from the loan can be drawn down (this defines if the loan will be drawn in one lump sum or if the borrower can drawdown the facility amount, in instalments)."
+                        },
+                        "Indicator": false
+                      },
+                      {
+                        "Identification": "30605",
+                        "Name": "InterestRateType",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "InterestRateType",
+                          "Description": "A categorisation of the basis on which interest on an agreement is calculated. Examples are variable, fixed, capped, etc."
+                        },
+                        "Textual": "Fixed"
+                      },
+                      {
+                        "Identification": "30606",
+                        "Name": "ReferenceRate",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "ReferenceRate",
+                          "Description": "States the reference rate of the product."
+                        },
+                        "Textual": "n/a"
+                      },
+                      {
+                        "Identification": "30601",
+                        "Name": "Currency",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "Currency",
+                          "Description": "A system of money, in any form, that can be used as a unit of account, medium of exchange and store of value."
+                        },
+                        "Textual": "GBP"
+                      },
+                      {
+                        "Identification": "30594",
+                        "Name": "RepaymentType",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "RepaymentType",
+                          "Description": "A categorisation of a loan's repayment method."
+                        },
+                        "Textual": "Capital & Interest"
+                      },
+                      {
+                        "Identification": "30607",
+                        "Name": "Term",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "Term",
+                          "Description": "This is the advised tenor of the product."
+                        },
+                        "Textual": "1-5 yrs"
+                      },
+                      {
+                        "Identification": "30608",
+                        "Name": "InterestCalculationFrequency",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "InterestCalculationFrequency",
+                          "Description": "The occurrence at which interest is calculated on a balance."
+                        },
+                        "Textual": "Monthly"
+                      },
+                      {
+                        "Identification": "30609",
+                        "Name": "AvailabilityPeriod",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "AvailabilityPeriod",
+                          "Description": "The period in which a borrower should draw down a loan."
+                        },
+                        "Textual": "14 days"
+                      }
+                    ]
+                  },
+                  "LoanInterest": {
+                    "LoanInterestTierBandSet": [
+                      {
+                        "TierBandMethod": "Tiered",
+                        "CalculationMethod": "SimpleInterest",
+                        "LoanInterestTierBand": [
+                          {
+                            "FixedVariableInterestRateType": "Fixed",
+                            "MaxTermPeriod": "Month",
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 60,
+                            "TierValueMinTerm": 12,
+                            "TierValueMinimum": "5000",
+                            "TierValueMaximum": "10000",
+                            "RepAPR": "16.72"
+                          },
+                          {
+                            "FixedVariableInterestRateType": "Fixed",
+                            "MaxTermPeriod": "Month",
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 24,
+                            "TierValueMinTerm": 12,
+                            "TierValueMinimum": "10001",
+                            "TierValueMaximum": "25000",
+                            "RepAPR": "17.58"
+                          },
+                          {
+                            "FixedVariableInterestRateType": "Fixed",
+                            "MaxTermPeriod": "Month",
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 60,
+                            "TierValueMinTerm": 25,
+                            "TierValueMinimum": "10001",
+                            "TierValueMaximum": "25000",
+                            "RepAPR": "13.81"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "Eligibility": {
+                    "AgeEligibility": {
+                      "MinimumAge": 18
+                    },
+                    "LegalStructureEligibility": [
+                      {
+                        "LegalStructure": "Ltd"
+                      }
+                    ],
+                    "OfficerEligibility": [
+                      {
+                        "OfficerType": "Director",
+                        "Notes": [
+                          "Must be a director of the company to apply for a loan"
+                        ]
+                      }
+                    ],
+                    "ResidencyEligibility": [
+                      {
+                        "ResidencyType": "Incorporated",
+                        "ResidencyIncluded": [
+                          "GBXX"
+                        ]
+                      }
+                    ],
+                    "TradingHistoryEligibility": [
+                      {
+                        "TradingType": "TradingLength",
+                        "MinMaxType": "Minimum",
+                        "Amount": "18.0",
+                        "Period": "Month"
+                      }
+                    ],
+                    "IDEligibility": {},
+                    "CreditCheckEligibility": {
+                      "ScoringType": "Soft"
+                    }
+                  },
+                  "FirstMarketedDate": "2017-07-04",
+                  "LastMarketedDate": "9999-12-31"
+                }
+              ],
+              "Segment": [
+                "Business"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

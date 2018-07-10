@@ -1,0 +1,644 @@
+{
+  "meta": {
+    "LastUpdated": "2018-03-21T17:01:22.854Z",
+    "TotalResults": 1,
+    "Agreement": "Use of the APIs and any related data will be subject to the terms of the Open Licence and subject to terms and conditions",
+    "License": "https://www.openbanking.org.uk/open-licence",
+    "TermsOfUse": "https://www.openbanking.org.uk/terms"
+  },
+  "data": [
+    {
+      "Brand": [
+        {
+          "BrandName": "First Trust Bank",
+          "SMELoan": [
+            {
+              "Name": "Business Loan",
+              "Identification": "FTB55001.4",
+              "Segment": [
+                "AgricultureSector",
+                "Business"
+              ],
+              "SMELoanMarketingState": [
+                {
+                  "Identification": "FTB55001.4",
+                  "MarketingState": "Regular",
+                  "LoanInterest": {
+                    "LoanInterestTierBandSet": [
+                      {
+                        "TierBandMethod": "Whole",
+                        "Identification": "FTBLN005",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "Identification": "LN25000-3YR",
+                            "TierValueMinimum": "25000.00",
+                            "TierValueMaximum": "25000.00",
+                            "TierValueMinTerm": 36,
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 36,
+                            "MaxTermPeriod": "Month",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "6.90",
+                            "LoanProviderInterestRateType": "Gross",
+                            "LoanProviderInterestRate": "6",
+                            "Notes": [
+                              "Other loan amounts available at alternative rates."
+                            ]
+                          },
+                          {
+                            "Identification": "LN25000-1YR",
+                            "TierValueMinimum": "25000.00",
+                            "TierValueMaximum": "25000.00",
+                            "TierValueMinTerm": 12,
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 12,
+                            "MaxTermPeriod": "Month",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "8.20",
+                            "LoanProviderInterestRateType": "Gross",
+                            "LoanProviderInterestRate": "6",
+                            "Notes": [
+                              "Other loan amounts available at alternative rates."
+                            ]
+                          },
+                          {
+                            "Identification": "LN25000-4YR",
+                            "TierValueMinimum": "25000.00",
+                            "TierValueMaximum": "25000.00",
+                            "TierValueMinTerm": 48,
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 48,
+                            "MaxTermPeriod": "Month",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "6.70",
+                            "LoanProviderInterestRateType": "Gross",
+                            "LoanProviderInterestRate": "6",
+                            "Notes": [
+                              "Other loan amounts available at alternative rates."
+                            ]
+                          },
+                          {
+                            "Identification": "LN25000-2YR",
+                            "TierValueMinimum": "25000.00",
+                            "TierValueMaximum": "25000.00",
+                            "TierValueMinTerm": 24,
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 24,
+                            "MaxTermPeriod": "Month",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "7.20",
+                            "LoanProviderInterestRateType": "Gross",
+                            "LoanProviderInterestRate": "6",
+                            "Notes": [
+                              "Other loan amounts available at alternative rates."
+                            ]
+                          },
+                          {
+                            "Identification": "LN25000-5YR",
+                            "TierValueMinimum": "25000.00",
+                            "TierValueMaximum": "25000.00",
+                            "TierValueMinTerm": 60,
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 60,
+                            "MaxTermPeriod": "Month",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "6.60",
+                            "LoanProviderInterestRateType": "Gross",
+                            "LoanProviderInterestRate": "6",
+                            "Notes": [
+                              "Other loan amounts available at alternative rates."
+                            ]
+                          }
+                        ],
+                        "LoanInterestFeesCharges": [
+                          {
+                            "LoanInterestFeeChargeDetail": [
+                              {
+                                "FeeType": "Arrangement",
+                                "NegotiableIndicator": true,
+                                "FeeRate": "1.00",
+                                "FeeRateType": "Gross",
+                                "ApplicationFrequency": "OnOpening",
+                                "CalculationFrequency": "OnOpening",
+                                "Notes": [
+                                  "Normally 1% of agreed facility (minimum £55.00)"
+                                ]
+                              }
+                            ],
+                            "LoanInterestFeeChargeCap": []
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "Identification": "FTBLN001",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "Identification": "LN5000-4YR",
+                            "TierValueMinimum": "5000.00",
+                            "TierValueMaximum": "5000.00",
+                            "TierValueMinTerm": 48,
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 48,
+                            "MaxTermPeriod": "Month",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "6.70",
+                            "LoanProviderInterestRateType": "Gross",
+                            "LoanProviderInterestRate": "6",
+                            "Notes": [
+                              "Other loan amounts available at alternative rates."
+                            ]
+                          },
+                          {
+                            "Identification": "LN5000-5YR",
+                            "TierValueMinimum": "5000.00",
+                            "TierValueMaximum": "5000.00",
+                            "TierValueMinTerm": 60,
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 60,
+                            "MaxTermPeriod": "Month",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "6.60",
+                            "LoanProviderInterestRateType": "Gross",
+                            "LoanProviderInterestRate": "6",
+                            "Notes": [
+                              "Other loan amounts available at alternative rates."
+                            ]
+                          },
+                          {
+                            "Identification": "LN5000-2YR",
+                            "TierValueMinimum": "5000.00",
+                            "TierValueMaximum": "5000.00",
+                            "TierValueMinTerm": 24,
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 24,
+                            "MaxTermPeriod": "Month",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "7.30",
+                            "LoanProviderInterestRateType": "Gross",
+                            "LoanProviderInterestRate": "6",
+                            "Notes": [
+                              "Other loan amounts available at alternative rates."
+                            ]
+                          },
+                          {
+                            "Identification": "LN5000-1YR",
+                            "TierValueMinimum": "5000.00",
+                            "TierValueMaximum": "5000.00",
+                            "TierValueMinTerm": 12,
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 12,
+                            "MaxTermPeriod": "Month",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "8.40",
+                            "LoanProviderInterestRateType": "Gross",
+                            "LoanProviderInterestRate": "6",
+                            "Notes": [
+                              "Other loan amounts available at alternative rates."
+                            ]
+                          },
+                          {
+                            "Identification": "LN5000-3YR",
+                            "TierValueMinimum": "5000.00",
+                            "TierValueMaximum": "5000.00",
+                            "TierValueMinTerm": 36,
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 36,
+                            "MaxTermPeriod": "Month",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "6.90",
+                            "LoanProviderInterestRateType": "Gross",
+                            "LoanProviderInterestRate": "6",
+                            "Notes": [
+                              "Other loan amounts available at alternative rates."
+                            ]
+                          }
+                        ],
+                        "LoanInterestFeesCharges": [
+                          {
+                            "LoanInterestFeeChargeDetail": [
+                              {
+                                "FeeType": "Arrangement",
+                                "NegotiableIndicator": true,
+                                "FeeRate": "1.00",
+                                "FeeRateType": "Gross",
+                                "ApplicationFrequency": "OnOpening",
+                                "CalculationFrequency": "OnOpening",
+                                "Notes": [
+                                  "Normally 1% of agreed facility (minimum £55.00)"
+                                ]
+                              }
+                            ],
+                            "LoanInterestFeeChargeCap": []
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "Identification": "FTBLN003",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "Identification": "LN15000-5YR",
+                            "TierValueMinimum": "15000.00",
+                            "TierValueMaximum": "15000.00",
+                            "TierValueMinTerm": 60,
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 60,
+                            "MaxTermPeriod": "Month",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "6.60",
+                            "LoanProviderInterestRateType": "Gross",
+                            "LoanProviderInterestRate": "6",
+                            "Notes": [
+                              "Other loan amounts available at alternative rates."
+                            ]
+                          },
+                          {
+                            "Identification": "LN15000-3YR",
+                            "TierValueMinimum": "15000.00",
+                            "TierValueMaximum": "15000.00",
+                            "TierValueMinTerm": 36,
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 36,
+                            "MaxTermPeriod": "Month",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "6.90",
+                            "LoanProviderInterestRateType": "Gross",
+                            "LoanProviderInterestRate": "6",
+                            "Notes": [
+                              "Other loan amounts available at alternative rates."
+                            ]
+                          },
+                          {
+                            "Identification": "LN15000-1YR",
+                            "TierValueMinimum": "15000.00",
+                            "TierValueMaximum": "15000.00",
+                            "TierValueMinTerm": 12,
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 12,
+                            "MaxTermPeriod": "Month",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "8.20",
+                            "LoanProviderInterestRateType": "Gross",
+                            "LoanProviderInterestRate": "6",
+                            "Notes": [
+                              "Other loan amounts available at alternative rates."
+                            ]
+                          },
+                          {
+                            "Identification": "LN15000-2YR",
+                            "TierValueMinimum": "15000.00",
+                            "TierValueMaximum": "15000.00",
+                            "TierValueMinTerm": 24,
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 24,
+                            "MaxTermPeriod": "Month",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "7.20",
+                            "LoanProviderInterestRateType": "Gross",
+                            "LoanProviderInterestRate": "6",
+                            "Notes": [
+                              "Other loan amounts available at alternative rates."
+                            ]
+                          },
+                          {
+                            "Identification": "LN15000-4YR",
+                            "TierValueMinimum": "15000.00",
+                            "TierValueMaximum": "15000.00",
+                            "TierValueMinTerm": 48,
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 48,
+                            "MaxTermPeriod": "Month",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "6.70",
+                            "LoanProviderInterestRateType": "Gross",
+                            "LoanProviderInterestRate": "6",
+                            "Notes": [
+                              "Other loan amounts available at alternative rates."
+                            ]
+                          }
+                        ],
+                        "LoanInterestFeesCharges": [
+                          {
+                            "LoanInterestFeeChargeDetail": [
+                              {
+                                "FeeType": "Arrangement",
+                                "NegotiableIndicator": true,
+                                "FeeRate": "1.00",
+                                "FeeRateType": "Gross",
+                                "ApplicationFrequency": "OnOpening",
+                                "CalculationFrequency": "OnOpening",
+                                "Notes": [
+                                  "Normally 1% of agreed facility (minimum £55.00)"
+                                ]
+                              }
+                            ],
+                            "LoanInterestFeeChargeCap": []
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "Identification": "FTBLN004",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "Identification": "LN20000-4YR",
+                            "TierValueMinimum": "20000.00",
+                            "TierValueMaximum": "20000.00",
+                            "TierValueMinTerm": 48,
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 48,
+                            "MaxTermPeriod": "Month",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "6.70",
+                            "LoanProviderInterestRateType": "Gross",
+                            "LoanProviderInterestRate": "6",
+                            "Notes": [
+                              "Other loan amounts available at alternative rates."
+                            ]
+                          },
+                          {
+                            "Identification": "LN20000-2YR",
+                            "TierValueMinimum": "20000.00",
+                            "TierValueMaximum": "20000.00",
+                            "TierValueMinTerm": 24,
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 24,
+                            "MaxTermPeriod": "Month",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "7.20",
+                            "LoanProviderInterestRateType": "Gross",
+                            "LoanProviderInterestRate": "6",
+                            "Notes": [
+                              "Other loan amounts available at alternative rates."
+                            ]
+                          },
+                          {
+                            "Identification": "LN20000-3YR",
+                            "TierValueMinimum": "20000.00",
+                            "TierValueMaximum": "20000.00",
+                            "TierValueMinTerm": 36,
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 36,
+                            "MaxTermPeriod": "Month",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "6.90",
+                            "LoanProviderInterestRateType": "Gross",
+                            "LoanProviderInterestRate": "6",
+                            "Notes": [
+                              "Other loan amounts available at alternative rates."
+                            ]
+                          },
+                          {
+                            "Identification": "LN20000-5YR",
+                            "TierValueMinimum": "20000.00",
+                            "TierValueMaximum": "20000.00",
+                            "TierValueMinTerm": 60,
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 60,
+                            "MaxTermPeriod": "Month",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "6.60",
+                            "LoanProviderInterestRateType": "Gross",
+                            "LoanProviderInterestRate": "6",
+                            "Notes": [
+                              "Other loan amounts available at alternative rates."
+                            ]
+                          },
+                          {
+                            "Identification": "LN20000-1YR",
+                            "TierValueMinimum": "20000.00",
+                            "TierValueMaximum": "20000.00",
+                            "TierValueMinTerm": 12,
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 12,
+                            "MaxTermPeriod": "Month",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "8.20",
+                            "LoanProviderInterestRateType": "Gross",
+                            "LoanProviderInterestRate": "6",
+                            "Notes": [
+                              "Other loan amounts available at alternative rates."
+                            ]
+                          }
+                        ],
+                        "LoanInterestFeesCharges": [
+                          {
+                            "LoanInterestFeeChargeDetail": [
+                              {
+                                "FeeType": "Arrangement",
+                                "NegotiableIndicator": true,
+                                "FeeRate": "1.00",
+                                "FeeRateType": "Gross",
+                                "ApplicationFrequency": "OnOpening",
+                                "CalculationFrequency": "OnOpening",
+                                "Notes": [
+                                  "Normally 1% of agreed facility (minimum £55.00)"
+                                ]
+                              }
+                            ],
+                            "LoanInterestFeeChargeCap": []
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Whole",
+                        "Identification": "FTBLN002",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "Identification": "LN10000-4YR",
+                            "TierValueMinimum": "10000.00",
+                            "TierValueMaximum": "10000.00",
+                            "TierValueMinTerm": 48,
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 48,
+                            "MaxTermPeriod": "Month",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "6.70",
+                            "LoanProviderInterestRateType": "Gross",
+                            "LoanProviderInterestRate": "6",
+                            "Notes": [
+                              "Other loan amounts available at alternative rates."
+                            ]
+                          },
+                          {
+                            "Identification": "LN10000-3YR",
+                            "TierValueMinimum": "10000.00",
+                            "TierValueMaximum": "10000.00",
+                            "TierValueMinTerm": 36,
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 36,
+                            "MaxTermPeriod": "Month",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "6.90",
+                            "LoanProviderInterestRateType": "Gross",
+                            "LoanProviderInterestRate": "6",
+                            "Notes": [
+                              "Other loan amounts available at alternative rates."
+                            ]
+                          },
+                          {
+                            "Identification": "LN10000-1YR",
+                            "TierValueMinimum": "10000.00",
+                            "TierValueMaximum": "10000.00",
+                            "TierValueMinTerm": 12,
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 12,
+                            "MaxTermPeriod": "Month",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "8.20",
+                            "LoanProviderInterestRateType": "Gross",
+                            "LoanProviderInterestRate": "6",
+                            "Notes": [
+                              "Other loan amounts available at alternative rates."
+                            ]
+                          },
+                          {
+                            "Identification": "LN10000-5YR",
+                            "TierValueMinimum": "10000.00",
+                            "TierValueMaximum": "10000.00",
+                            "TierValueMinTerm": 60,
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 60,
+                            "MaxTermPeriod": "Month",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "6.60",
+                            "LoanProviderInterestRateType": "Gross",
+                            "LoanProviderInterestRate": "6",
+                            "Notes": [
+                              "Other loan amounts available at alternative rates."
+                            ]
+                          },
+                          {
+                            "Identification": "LN10000-2YR",
+                            "TierValueMinimum": "10000.00",
+                            "TierValueMaximum": "10000.00",
+                            "TierValueMinTerm": 24,
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 24,
+                            "MaxTermPeriod": "Month",
+                            "FixedVariableInterestRateType": "Variable",
+                            "RepAPR": "7.20",
+                            "LoanProviderInterestRateType": "Gross",
+                            "LoanProviderInterestRate": "6",
+                            "Notes": [
+                              "Other loan amounts available at alternative rates."
+                            ]
+                          }
+                        ],
+                        "LoanInterestFeesCharges": [
+                          {
+                            "LoanInterestFeeChargeDetail": [
+                              {
+                                "FeeType": "Arrangement",
+                                "NegotiableIndicator": true,
+                                "FeeRate": "1.00",
+                                "FeeRateType": "Gross",
+                                "ApplicationFrequency": "OnOpening",
+                                "CalculationFrequency": "OnOpening",
+                                "Notes": [
+                                  "Normally 1% of agreed facility (minimum £55.00)"
+                                ]
+                              }
+                            ],
+                            "LoanInterestFeeChargeCap": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "Repayment": [
+                    {
+                      "RepaymentType": "EarlyRepayment",
+                      "RepaymentHoliday": [
+                        {}
+                      ]
+                    },
+                    {
+                      "RepaymentType": "Bullet",
+                      "RepaymentFrequency": "Quarterly",
+                      "RepaymentHoliday": [
+                        {}
+                      ]
+                    },
+                    {
+                      "RepaymentType": "InterestOnly",
+                      "RepaymentFrequency": "Monthly",
+                      "Notes": [
+                        "Other repayment frequency is available for this type of repayment - Quarterly"
+                      ],
+                      "RepaymentHoliday": [
+                        {}
+                      ]
+                    },
+                    {
+                      "RepaymentType": "CapitalAndInterest",
+                      "RepaymentFrequency": "Monthly",
+                      "Notes": [
+                        "Other repayment frequencies are available for this type of repayment - Weekly, Fortnightly, Quarterly, HalfYearly, Yearly"
+                      ],
+                      "RepaymentHoliday": [
+                        {}
+                      ]
+                    }
+                  ],
+                  "Eligibility": {
+                    "CreditCheckEligibility": {
+                      "ScoringType": "Hard"
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitItem": [
+                      {
+                        "Identification": "FB0022",
+                        "Type": "EarlySettlement",
+                        "Name": "EarlyRepayment",
+                        "Indicator": true,
+                        "Textual": "Early repayment of Loan amount"
+                      },
+                      {
+                        "Identification": "FB0023",
+                        "Type": "OverPayment",
+                        "Name": "OverRepayment",
+                        "Indicator": true,
+                        "Textual": "Offers prepayemnt/overpayment of Loan installment"
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductDescription": "Designed to give your business the support it needs, making extra medium or long-term finance available for you to continue to grow and develop your business. ",
+                    "ProductURL": "https://firsttrustbank.co.uk/business/our-products/finance/business-loan",
+                    "TcsAndCsURL": "https://firsttrustbank.co.uk/business/business-docs/our-products/finance-and-loans/business-lending-t-and-cs.pdf",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "Post",
+                      "CallCentre",
+                      "RelationshipManager"
+                    ],
+                    "ServicingAccessChannels": [
+                      "RelationshipManager",
+                      "Branch",
+                      "CallCentre",
+                      "PostOffice",
+                      "Online"
+                    ],
+                    "EarlyPaymentFeeApplicable": false,
+                    "OverPaymentFeeApplicable": false,
+                    "LoanApplicationFeeChargeType": "ChargedAfterLoanAprroval",
+                    "OverpaymentAllowedIndicator": true,
+                    "FullEarlyRepaymentAllowedIndicator": true
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

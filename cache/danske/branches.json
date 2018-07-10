@@ -1,0 +1,4760 @@
+{
+  "meta": {
+    "LastUpdated": "2018-02-13T14:25:17.000Z",
+    "TotalResults": 48,
+    "Agreement": "Use of the APIs and any related data will be subject to the terms of the Open Licence and subject to terms and conditions",
+    "License": "https://www.openbanking.org.uk/open-licence",
+    "TermsOfUse": "https://www.openbanking.org.uk/terms"
+  },
+  "data": [
+    {
+      "Brand": [
+        {
+          "BrandName": "DanskeBank",
+          "Branch": [
+            {
+              "Identification": "950611",
+              "SequenceNumber": "0",
+              "Name": "Belfast Business Centre",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Business"
+              ],
+              "ServiceAndFacility": [
+                "InternalATM",
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "P.O. Box 183",
+                "StreetName": "Donegall Square West",
+                "TownName": "Belfast",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT1 6JS",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.596184",
+                    "Longitude": "-5.931737"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950121",
+              "SequenceNumber": "0",
+              "Name": "Donegall Square West",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "InternalATM",
+                "ExternalATM",
+                "LodgementDevice",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROS",
+                  "Name": "SaturdayService",
+                  "Description": "No counter service on Saturdays, but pre-ordered foreign currency can be collected.   "
+                },
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "Danske Bank",
+                "StreetName": "Donegall Square West",
+                "TownName": "Belfast",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT1 6JS",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.596184",
+                    "Longitude": "-5.931737"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950132",
+              "SequenceNumber": "0",
+              "Name": "Lisburn Road",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "353",
+                "StreetName": "Lisburn Road",
+                "TownName": "Belfast",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT9 7EP",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.580721",
+                    "Longitude": "-5.949233"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950134",
+              "SequenceNumber": "0",
+              "Name": "Forestside",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "InternalATM",
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "Forestside Shopping Centre",
+                "StreetName": "Upper Galwally",
+                "TownName": "Belfast",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT8 6FX",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.564009",
+                    "Longitude": "-5.909266"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950149",
+              "SequenceNumber": "0",
+              "Name": "University Road",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "49-51",
+                "StreetName": "University Road",
+                "TownName": "Belfast",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT7 1ND",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.585965",
+                    "Longitude": "-5.936299"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950373",
+              "SequenceNumber": "0",
+              "Name": "Mallusk",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "39",
+                "StreetName": "Mallusk Road",
+                "TownName": "Newtownabbey",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT36 4PP",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.675808",
+                    "Longitude": "-5.987647"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950394",
+              "SequenceNumber": "0",
+              "Name": "Abbeycentre",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "InternalATM",
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "Danske Bank",
+                "StreetName": "Longwood Road",
+                "TownName": "Newtownabbey",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT37 9UH",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.65534",
+                    "Longitude": "-5.918906"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950128",
+              "SequenceNumber": "0",
+              "Name": "Knock",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "520",
+                "StreetName": "Upper Newtownards Road",
+                "TownName": "Belfast",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT4 3HD",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.594807",
+                    "Longitude": "-5.854922"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950103",
+              "SequenceNumber": "0",
+              "Name": "Kennedy Centre",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "InternalATM",
+                "LodgementDevice",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROC",
+                  "Name": "CounterServiceStop",
+                  "Description": "Counter service stops at 18:30 on Thursdays.  "
+                },
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "19:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "564-568",
+                "StreetName": "Falls Road",
+                "TownName": "Belfast",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT11 9AE",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.58197",
+                    "Longitude": "-5.978689"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950361",
+              "SequenceNumber": "0",
+              "Name": "Lisburn",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "InternalATM",
+                "ExternalATM",
+                "LodgementDevice",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROS",
+                  "Name": "SaturdayService",
+                  "Description": "No counter service on Saturdays, but pre-ordered foreign currency can be collected.   "
+                },
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "62-66",
+                "StreetName": "Bow Street",
+                "TownName": "Lisburn",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT28 1YS",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.51344",
+                    "Longitude": "-6.048639"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950392",
+              "SequenceNumber": "0",
+              "Name": "Newry",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "InternalATM",
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROP",
+                  "Name": "MortgageAdvisorPT",
+                  "Description": "Mortgage advisor in branch part-time. "
+                },
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "58",
+                "StreetName": "Hill Street",
+                "TownName": "Newry",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT34 1AR",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.175447",
+                    "Longitude": "-6.338186"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950396",
+              "SequenceNumber": "0",
+              "Name": "Newtownards",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "InternalATM",
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROS",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "No counter service on Saturdays, but pre-ordered foreign currency can be collected.  Mortgage advisors are also available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "35",
+                "StreetName": "High Street",
+                "TownName": "Newtownards",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT23 7HS",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.592834",
+                    "Longitude": "-5.695322"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950251",
+              "SequenceNumber": "0",
+              "Name": "Bloomfield",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "InternalATM",
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROC",
+                  "Name": "CounterServiceStop",
+                  "Description": "Counter service stops at 18:30 on Thursdays."
+                },
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "19:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "The Bloomfield Shopping Centre",
+                "StreetName": "South Circular Road",
+                "TownName": "Bangor",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT19 7HB",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.64766",
+                    "Longitude": "-5.65684"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950241",
+              "SequenceNumber": "0",
+              "Name": "Ballynahinch",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "29",
+                "StreetName": "High Street",
+                "TownName": "Ballynahinch",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT24 8AB",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.401744",
+                    "Longitude": "-5.897657"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950246",
+              "SequenceNumber": "0",
+              "Name": "Banbridge",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "37-39",
+                "StreetName": "Bridge Street",
+                "TownName": "Banbridge",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT32 3JL",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.349581",
+                    "Longitude": "-6.269226"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950326",
+              "SequenceNumber": "0",
+              "Name": "Hillsborough",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "20",
+                "StreetName": "Ballynahinch Street",
+                "TownName": "Hillsborough",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT26 9AW",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.463706",
+                    "Longitude": "-6.08113"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950434",
+              "SequenceNumber": "0",
+              "Name": "Saintfield",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "Notes": "Closed for lunch 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "Notes": "Unavailable time 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "Notes": "Unavailable time 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "Notes": "Unavailable time 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "Notes": "Closed for lunch 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "32",
+                "StreetName": "Main Street",
+                "TownName": "Ballynahinch",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT24 7AB",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.460323",
+                    "Longitude": "-5.832683"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950344",
+              "SequenceNumber": "0",
+              "Name": "Kilkeel",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "42",
+                "StreetName": "Greencastle Street",
+                "TownName": "Newry",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT34 4BH",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.06142",
+                    "Longitude": "-6.00956"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950281",
+              "SequenceNumber": "0",
+              "Name": "Comber",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "1",
+                "StreetName": "Killinchy Street",
+                "TownName": "Newtownards",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT23 5AP",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.54978",
+                    "Longitude": "-5.7452"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950291",
+              "SequenceNumber": "0",
+              "Name": "Downpatrick",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "InternalATM",
+                "ExternalATM",
+                "LodgementDevice",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROS",
+                  "Name": "SaturdayService",
+                  "Description": "No counter service on Saturdays, but pre-ordered foreign currency can be collected. "
+                },
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "49-51",
+                "StreetName": "Market Street",
+                "TownName": "Downpatrick",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT30 6LX",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.32742",
+                    "Longitude": "-5.71746"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950614",
+              "SequenceNumber": "0",
+              "Name": "North Business Centre",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Business"
+              ],
+              "ServiceAndFacility": [
+                "InternalATM",
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "1-2",
+                "StreetName": "Broadway",
+                "TownName": "Ballymena",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT43 7PE",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.866536",
+                    "Longitude": "-6.273824"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950231",
+              "SequenceNumber": "0",
+              "Name": "Ballymena",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "InternalATM",
+                "ExternalATM",
+                "LodgementDevice",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROS",
+                  "Name": "SaturdayService",
+                  "Description": "No counter service on Saturdays, but pre-ordered foreign currency can be collected. "
+                },
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "1-2",
+                "StreetName": "Broadway",
+                "TownName": "Ballymena",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT43 7PE",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.866536",
+                    "Longitude": "-6.273824"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950261",
+              "SequenceNumber": "0",
+              "Name": "Carrickfergus",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "21-23",
+                "StreetName": "High Street",
+                "TownName": "Carrickfergus",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT38 7AL",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.714942",
+                    "Longitude": "-5.805945"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950277",
+              "SequenceNumber": "0",
+              "Name": "Coleraine",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "InternalATM",
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROS",
+                  "Name": "SaturdayService",
+                  "Description": "No counter service on Saturdays, but pre-ordered foreign currency can be collected.  "
+                },
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are  available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "22",
+                "StreetName": "The Diamond",
+                "TownName": "Coleraine",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT52 1DE",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "55.131829",
+                    "Longitude": "-6.671842"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950366",
+              "SequenceNumber": "0",
+              "Name": "Shipquay Place",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "InternalATM",
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are  available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "6",
+                "StreetName": "Shipquay Place",
+                "TownName": "Londonderry",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT48 6DF",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.997561",
+                    "Longitude": "-7.320269"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950346",
+              "SequenceNumber": "0",
+              "Name": "Kilrea",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "Notes": "Closed for lunch 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "Notes": "Unavailable time 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "Notes": "Unavailable time 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "Notes": "Unavailable time 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "Notes": "Closed for lunch 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "Danske Bank",
+                "StreetName": "Main Street",
+                "TownName": "Coleraine",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT51 5QS",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.9591049",
+                    "Longitude": "-6.559138"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950381",
+              "SequenceNumber": "0",
+              "Name": "Magherafelt",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are  available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "14",
+                "StreetName": "Broad Street",
+                "TownName": "Magherafelt",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT45 6EA",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.75587",
+                    "Longitude": "-6.607777"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950202",
+              "SequenceNumber": "0",
+              "Name": "Antrim",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "InternalATM",
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "42",
+                "StreetName": "High Street",
+                "TownName": "Antrim",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT41 4AP",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.714783",
+                    "Longitude": "-6.219431"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950227",
+              "SequenceNumber": "0",
+              "Name": "Ballyclare",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "18",
+                "StreetName": "The Square",
+                "TownName": "Ballyclare",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT39 9BB",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.752827",
+                    "Longitude": "-6.001156"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950351",
+              "SequenceNumber": "0",
+              "Name": "Larne",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "InternalATM",
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "19",
+                "StreetName": "Main Street",
+                "TownName": "Larne",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT40 1JX",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.851284",
+                    "Longitude": "-5.820281"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950221",
+              "SequenceNumber": "0",
+              "Name": "Ballycastle",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "Notes": "Closed for lunch 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "Notes": "Unavailable time 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "Notes": "Unavailable time 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "Notes": "Unavailable time 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "Notes": "Closed for lunch 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "24-26",
+                "StreetName": "Ann Street",
+                "TownName": "Ballycastle",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT54 6AD",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "55.201676",
+                    "Longitude": "-6.249676"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950356",
+              "SequenceNumber": "0",
+              "Name": "Limavady",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "46",
+                "StreetName": "Catherine Street",
+                "TownName": "Limavady",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT49 9DB",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "55.049716",
+                    "Longitude": "-6.952187"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950383",
+              "SequenceNumber": "0",
+              "Name": "Altnagelvin",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "27",
+                "StreetName": "Glenshane Road",
+                "TownName": "Londonderry",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT47 2LN",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.984634",
+                    "Longitude": "-7.294978"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950613",
+              "SequenceNumber": "0",
+              "Name": "South Business Centre",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Business"
+              ],
+              "ServiceAndFacility": [
+                "InternalATM",
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "45-48",
+                "StreetName": "High Street",
+                "TownName": "Craigavon",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT62 1LB",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.423047",
+                    "Longitude": "-6.443219"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950302",
+              "SequenceNumber": "0",
+              "Name": "Dungannon",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROS",
+                  "Name": "SaturdayService",
+                  "Description": "No counter service on Saturdays, but pre-ordered foreign currency can be collected.  "
+                },
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "5-6",
+                "StreetName": "Market Square",
+                "TownName": "Dungannon",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT70 1AB",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.50424",
+                    "Longitude": "-6.769155"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950309",
+              "SequenceNumber": "0",
+              "Name": "Enniskillen",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "InternalATM",
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                },
+                {
+                  "Code": "BROP",
+                  "Name": "MortgageAdvisorPT",
+                  "Description": "Mortgage advisor in branch part-time. "
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "24",
+                "StreetName": "Townhall Street",
+                "TownName": "Enniskillen",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT74 7BB",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.344322",
+                    "Longitude": "-7.637451"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950407",
+              "SequenceNumber": "0",
+              "Name": "Omagh",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "InternalATM",
+                "ExternalATM",
+                "LodgementDevice",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROS",
+                  "Name": "SaturdayService",
+                  "Description": "No counter service on Saturdays, but pre-ordered foreign currency can be collected. "
+                },
+                {
+                  "Code": "BROP",
+                  "Name": "MortgageAdvisorPT",
+                  "Description": "Mortgage advisor in branch part-time. "
+                },
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "5-7",
+                "StreetName": "Market Street",
+                "TownName": "Omagh",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT78 1BN",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.600002",
+                    "Longitude": "-7.300506"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950411",
+              "SequenceNumber": "0",
+              "Name": "Portadown",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "InternalATM",
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROS",
+                  "Name": "SaturdayService",
+                  "Description": "No counter service on Saturdays, but pre-ordered foreign currency can be collected.  "
+                },
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "45-48",
+                "StreetName": "High Street",
+                "TownName": "Craigavon",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT62 1LB",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.423047",
+                    "Longitude": "-6.443219"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950224",
+              "SequenceNumber": "0",
+              "Name": "Ballygawley",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "Notes": "Closed for lunch 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "Notes": "Unavailable time 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "Notes": "Unavailable time 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "Notes": "Unavailable time 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "Notes": "Closed for lunch 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "35",
+                "StreetName": "Main Street",
+                "TownName": "Dungannon",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT70 2HD",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.461341",
+                    "Longitude": "-7.027907"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950282",
+              "SequenceNumber": "0",
+              "Name": "Cookstown",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "38",
+                "StreetName": "James Street",
+                "TownName": "Cookstown",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT80 8LX",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.645526",
+                    "Longitude": "-6.744506"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950321",
+              "SequenceNumber": "0",
+              "Name": "Fivemiletown",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "Notes": "Closed for lunch 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "Notes": "Unavailable time 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "Notes": "Unavailable time 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "Notes": "Unavailable time 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "Notes": "Closed for lunch 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "99-101",
+                "StreetName": "Main Street",
+                "TownName": "Fivemiletown",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT75 0PH",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.377689",
+                    "Longitude": "-7.316192"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950336",
+              "SequenceNumber": "0",
+              "Name": "Irvinestown",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "Notes": "Closed for lunch 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "Notes": "Unavailable time 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "Notes": "Unavailable time 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "Notes": "Unavailable time 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "Notes": "Closed for lunch 12:30 - 13:30",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "Danske Bank",
+                "StreetName": "Main Street",
+                "TownName": "Enniskillen",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT94 1GJ",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.471896",
+                    "Longitude": "-7.633212"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950437",
+              "SequenceNumber": "0",
+              "Name": "Strabane",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "66",
+                "StreetName": "Main Street",
+                "TownName": "Strabane",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT82 8AX",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.825877",
+                    "Longitude": "-7.464805"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950206",
+              "SequenceNumber": "0",
+              "Name": "Armagh",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "78",
+                "StreetName": "Scotch Street",
+                "TownName": "Armagh",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT61 7DJ",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.347521",
+                    "Longitude": "-6.654011"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950371",
+              "SequenceNumber": "0",
+              "Name": "Lurgan",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "InternalATM",
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "39",
+                "StreetName": "Market Street",
+                "TownName": "Craigavon",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT66 6AB",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.461811",
+                    "Longitude": "-6.331926"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950237",
+              "SequenceNumber": "0",
+              "Name": "Ballymoney",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "6",
+                "StreetName": "High Street",
+                "TownName": "Ballymoney",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT53 6AD",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "55.070585",
+                    "Longitude": "-6.517583"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950529",
+              "SequenceNumber": "0",
+              "Name": "London",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:00:00.000",
+                          "ClosingTime": "17:00:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:00:00.000",
+                          "ClosingTime": "17:00:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:00:00.000",
+                          "ClosingTime": "17:00:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:00:00.000",
+                          "ClosingTime": "17:00:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:00:00.000",
+                          "ClosingTime": "17:00:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "75",
+                "StreetName": "King William Street",
+                "TownName": "London",
+                "CountrySubDivision": [
+                  "ENG"
+                ],
+                "Country": "GB",
+                "PostCode": "EC4N 7DT",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "51.512111",
+                    "Longitude": "-0.087167"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "950252",
+              "SequenceNumber": "0",
+              "Name": "Main Street, Bangor",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Business",
+                "Wealth",
+                "Corporate",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "InternalATM",
+                "ExternalATM",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "AutomaticDoors"
+              ],
+              "OtherServiceAndFacility": [
+                {
+                  "Code": "BROM",
+                  "Name": "MortgageAdvisorPhone",
+                  "Description": "Mortgage advisors are available for telephone meetings."
+                }
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30:00.000",
+                          "ClosingTime": "16:30:00.000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "PostalAddress": {
+                "BuildingNumber": "77",
+                "StreetName": "Main Street",
+                "TownName": "Bangor",
+                "CountrySubDivision": [
+                  "NIR"
+                ],
+                "Country": "GB",
+                "PostCode": "BT20 5AP",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.660868",
+                    "Longitude": "-5.667749"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

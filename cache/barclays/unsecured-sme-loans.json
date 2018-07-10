@@ -1,0 +1,973 @@
+{
+  "meta": {
+    "LastUpdated": "2018-06-29T14:09:14.265+01:00",
+    "TotalResults": 1,
+    "Agreement": "Use of the APIs and any related data will be subject to the terms of the Open Licence and subject to terms and conditions",
+    "License": "https://www.openbanking.org.uk/open-licence",
+    "TermsOfUse": "https://www.openbanking.org.uk/terms"
+  },
+  "data": [
+    {
+      "Brand": [
+        {
+          "BrandName": "Barclays",
+          "SMELoan": [
+            {
+              "Name": "BarclayLoan",
+              "Identification": "BBLT",
+              "Segment": [
+                "Business"
+              ],
+              "SMELoanMarketingState": [
+                {
+                  "Identification": "No Promotion",
+                  "MarketingState": "Regular",
+                  "LoanInterest": {
+                    "Notes": [
+                      "APR means annual percentage rate of charge. It is an illustrative rate that lets you to make comparisons against other products. It reflects the annual cost of credit, taking into account the rate of interest and any fees charged for taking out the loan.Representative Annual Percentage Rate (representative APR) means the highest rate we expect that at least 51% of customers to get, when entering into a loan agreement in response to an advert. It is based on our reasonable expectations of what customers are likely to receive, taking into account the APRs of past agreements. "
+                    ],
+                    "LoanInterestTierBandSet": [
+                      {
+                        "TierBandMethod": "Banded",
+                        "CalculationMethod": "SimpleInterest",
+                        "LoanInterestTierBand": [
+                          {
+                            "Identification": "1k-5k >=1yr<2yrs ",
+                            "TierValueMinimum": "1000.0",
+                            "TierValueMaximum": "5000.0",
+                            "TierValueMinTerm": 365,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 729,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "14.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £5,000 Term: 12mths Monthly Repayment: £448.87 Total Repayable: £5,386.44"
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "1k-5k  >=2yr<3yrs ",
+                            "TierValueMinimum": "1000.0",
+                            "TierValueMaximum": "5000.0",
+                            "TierValueMinTerm": 730,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 1094,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "14.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £5,000 Term: 24mths Monthly Repayment: £239.99 Total Repayable: £5,759.76"
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "1k-5k  >=3yr<4yrs",
+                            "TierValueMinimum": "1000.0",
+                            "TierValueMaximum": "5000.0",
+                            "TierValueMinTerm": 1095,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 1459,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "14.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £5,000 Term: 36mths Monthly Repayment: £170.82 Total Repayable: £6,149.52"
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "1k-5k  >=4yr<5yrs",
+                            "TierValueMinimum": "1000.0",
+                            "TierValueMaximum": "5000.0",
+                            "TierValueMinTerm": 1460,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 1824,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "14.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £5,000 Term: 48mths Monthly Repayment: £136.56 Total Repayable: £6,554.88"
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "1k-5k >=5yr<6yrs",
+                            "TierValueMinimum": "1000.0",
+                            "TierValueMaximum": "5000.0",
+                            "TierValueMinTerm": 1825,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 2189,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "14.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £5,000 Term: 60mths Monthly Repayment: £116.26 Total Repayable: £6,975.60 "
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "1k-5k >=6yr<=10yrs",
+                            "TierValueMinimum": "1000.0",
+                            "TierValueMaximum": "5000.0",
+                            "TierValueMinTerm": 2190,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 3650,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "14.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £5,000 Term: 120mths Monthly Repayment: £77.54 Total Repayable: £9,304.80 "
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "5k-10k >=1yr<2yrs ",
+                            "TierValueMinimum": "5000.0",
+                            "TierValueMaximum": "10000.0",
+                            "TierValueMinTerm": 365,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 729,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £6,000 Term: 12mths Monthly Repayment: £533.63 Total Repayable: £6,403.56"
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "5k-10k >=2yr<3yrs",
+                            "TierValueMinimum": "5000.0",
+                            "TierValueMaximum": "10000.0",
+                            "TierValueMinTerm": 730,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 1094,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £6,000 Term: 24mths Monthly Repayment: £275.43 Total Repayable: £6,610.32"
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "5k-10k >=3yr<4yrs",
+                            "TierValueMinimum": "5000.0",
+                            "TierValueMaximum": "10000.0",
+                            "TierValueMinTerm": 1095,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 1459,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £6,000 Term: 36mths Monthly Repayment: £192.14 Total Repayable: £6,917.04"
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "5k-10k >=4yr<5yrs",
+                            "TierValueMinimum": "5000.0",
+                            "TierValueMaximum": "10000.0",
+                            "TierValueMinTerm": 1460,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 1824,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £6,000 Term: 48mths Monthly Repayment: £150.68 Total Repayable: £7,232.64"
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "5k-10k >=5yr<6yrs ",
+                            "TierValueMinimum": "5000.0",
+                            "TierValueMaximum": "10000.0",
+                            "TierValueMinTerm": 1825,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 2189,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £6,000 Term: 60mths Monthly Repayment: £125.95 Total Repayable: £7,557.00"
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "5k-10k >=6yr<=10yrs",
+                            "TierValueMinimum": "5000.0",
+                            "TierValueMaximum": "10000.0",
+                            "TierValueMinTerm": 2190,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 3650,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "12.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £6,000 Term: 120mths Monthly Repayment: £86.74 Total Repayable: £10,408.80"
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "10k-15k >=1yr<2yrs",
+                            "TierValueMinimum": "10001.0",
+                            "TierValueMaximum": "15000.0",
+                            "TierValueMinTerm": 365,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 729,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £12,000 Term: 12mths Monthly Repayment: £1,052.09 Total Repayable: £12,625.08"
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "10k-15k >=2yr<3yrs",
+                            "TierValueMinimum": "10001.0",
+                            "TierValueMaximum": "15000.0",
+                            "TierValueMinTerm": 730,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 1094,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £12,000 Term: 24mths Monthly Repayment: £550.86 Total Repayable: £13,220.64"
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "10k-15k >=3yr<4yrs",
+                            "TierValueMinimum": "10001.0",
+                            "TierValueMaximum": "15000.0",
+                            "TierValueMinTerm": 1095,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 1459,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £12,000 Term: 36mths Monthly Repayment: £384.28 Total Repayable: £13,834.08"
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "10k-15k >=4yr<5yrs",
+                            "TierValueMinimum": "10001.0",
+                            "TierValueMaximum": "15000.0",
+                            "TierValueMinTerm": 1460,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 1824,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £12,000 Term: 48mths Monthly Repayment: £301.36 Total Repayable: £14,465.28"
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "10k-15k >=5yr<6yrs ",
+                            "TierValueMinimum": "10001.0",
+                            "TierValueMaximum": "15000.0",
+                            "TierValueMinTerm": 1825,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 2189,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "9.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £12,000 Term: 60mths Monthly Repayment: £251.91 Total Repayable: £15,114.60"
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "10k-15k >=6yr<=10yrs",
+                            "TierValueMinimum": "10001.0",
+                            "TierValueMaximum": "15000.0",
+                            "TierValueMinTerm": 2190,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 3650,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "12.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £12,000 Term: 120mths Monthly Repayment: £173.49 Total Repayable: £20,818.80"
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "15k-20k >=1yr<2yrs",
+                            "TierValueMinimum": "15001.0",
+                            "TierValueMaximum": "20000.0",
+                            "TierValueMinTerm": 365,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 729,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "8.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £18,000 Term: 12mths Monthly Repayment: £1,570.46 Total Repayable: £18,845.52"
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "15k-20k >=2yr<3yrs",
+                            "TierValueMinimum": "15001.0",
+                            "TierValueMaximum": "20000.0",
+                            "TierValueMinTerm": 730,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 1094,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "8.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £18,000 Term: 24mths Monthly Repayment: £818.70 Total Repayable: £19,648.80"
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "15k-20k >=3yr<4yrs",
+                            "TierValueMinimum": "15001.0",
+                            "TierValueMaximum": "20000.0",
+                            "TierValueMinTerm": 1095,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 1459,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "8.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £18,000 Term: 36mths Monthly Repayment: £568.72 Total Repayable: £20,473.92"
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "15k-20k >=4yr<5yrs",
+                            "TierValueMinimum": "15001.0",
+                            "TierValueMaximum": "20000.0",
+                            "TierValueMinTerm": 1460,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 1824,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "8.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £18,000 Term: 48mths Monthly Repayment: £444.18 Total Repayable: £21,320.64"
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "15k-20k >=5yr<6yrs ",
+                            "TierValueMinimum": "15001.0",
+                            "TierValueMaximum": "20000.0",
+                            "TierValueMinTerm": 1825,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 2189,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "8.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £18,000 Term: 60mths Monthly Repayment: £369.82 Total Repayable: £22,189.92"
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "15k-20k >=6yr<=10yrs",
+                            "TierValueMinimum": "15001.0",
+                            "TierValueMaximum": "20000.0",
+                            "TierValueMinTerm": 2190,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 3650,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "8.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £18,000 Term: 120mths Monthly Repayment: £223.75 Total Repayable: £26,850.00"
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "20k-25k >=1yr<2yrs",
+                            "TierValueMinimum": "20001.0",
+                            "TierValueMaximum": "25000.0",
+                            "TierValueMinTerm": 365,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 729,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "8.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £25,000 Term: 12mths Monthly Repayment: £2,181.19 Total Repayable: £26,174.28"
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "20k-25k >=2yr<3yrs",
+                            "TierValueMinimum": "20001.0",
+                            "TierValueMaximum": "25000.0",
+                            "TierValueMinTerm": 730,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 1094,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "8.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £25,000 Term: 24mths Monthly Repayment: £1,137.08 Total Repayable: £27,289.92"
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "20k-25k >=3yr<4yrs",
+                            "TierValueMinimum": "20001.0",
+                            "TierValueMaximum": "25000.0",
+                            "TierValueMinTerm": 1095,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 1459,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "8.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £25,000 Term: 36mths Monthly Repayment: £789.88 Total Repayable: £28,435.68"
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "20k-25k >=4yr<5yrs",
+                            "TierValueMinimum": "20001.0",
+                            "TierValueMaximum": "25000.0",
+                            "TierValueMinTerm": 1460,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 1824,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "8.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £25,000 Term: 48mths Monthly Repayment: £616.92 Total Repayable: £29,612.16"
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "20k-25k >=5yr<6yrs ",
+                            "TierValueMinimum": "20001.0",
+                            "TierValueMaximum": "25000.0",
+                            "TierValueMinTerm": 1825,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 2189,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "8.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £25,000 Term: 60mths Monthly Repayment: £513.64 Total Repayable: £30,818.40"
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "20k-25k >=6yr<=10yrs",
+                            "TierValueMinimum": "20001.0",
+                            "TierValueMaximum": "25000.0",
+                            "TierValueMinTerm": 2190,
+                            "MinTermPeriod": "Day",
+                            "TierValueMaxTerm": 3650,
+                            "MaxTermPeriod": "Day",
+                            "FixedVariableInterestRateType": "Fixed",
+                            "RepAPR": "8.9",
+                            "Notes": [
+                              "Nominal Rate. Example: Typical Loan: £25,000 Term: 120mths Monthly Repayment: £310.77 Total Repayable: £37,292.40"
+                            ],
+                            "LoanInterestFeesCharges": [
+                              {
+                                "LoanInterestFeeChargeDetail": [
+                                  {
+                                    "FeeType": "EarlyRepayment",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence",
+                                    "Notes": [
+                                      "If you repay early in full or in part, we may charge a fee equal to 30 days' interest based on the amount you repay."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "Repayment": [
+                    {
+                      "RepaymentType": "CapitalAndInterest",
+                      "RepaymentFrequency": "Monthly",
+                      "AmountType": "CapitalAndInterest",
+                      "RepaymentHoliday": [
+                        {
+                          "MaxHolidayLength": 6,
+                          "MaxHolidayPeriod": "Month",
+                          "Notes": [
+                            "Interest will continue to accrue on the loan and is calculated within future repayments"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "Eligibility": {
+                    "AgeEligibility": {
+                      "MinimumAge": 18
+                    },
+                    "LegalStructureEligibility": [
+                      {
+                        "LegalStructure": "CIO"
+                      },
+                      {
+                        "LegalStructure": "Charity"
+                      },
+                      {
+                        "LegalStructure": "ClubSociety"
+                      },
+                      {
+                        "LegalStructure": "LBG"
+                      },
+                      {
+                        "LegalStructure": "LLP"
+                      },
+                      {
+                        "LegalStructure": "Ltd"
+                      },
+                      {
+                        "LegalStructure": "Partnership"
+                      },
+                      {
+                        "LegalStructure": "SoleTrader"
+                      },
+                      {
+                        "LegalStructure": "Trust"
+                      }
+                    ],
+                    "CreditCheckEligibility": {
+                      "ScoringType": "Hard",
+                      "Notes": [
+                        "Eligibility for this account depends on you meeting our credit and affordability criteria, including checks we may carry out with credit and fraud prevention agencies."
+                      ]
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitGroup": [
+                      {
+                        "Type": "RepaymentHoliday"
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductDescription": "Fixed term, Fixed Rate Loan",
+                    "ProductURL": "http://www.barclays.co.uk/business-banking/borrow/loans",
+                    "TcsAndCsURL": "http://www.barclays.co.uk/ImportantInformation/Termsandconditions/P1242575350746",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "CallCentre",
+                      "Online",
+                      "RelationshipManager"
+                    ],
+                    "ServicingAccessChannels": [
+                      "Branch",
+                      "CallCentre",
+                      "MobileBankingApp",
+                      "Online",
+                      "RelationshipManager",
+                      "Text",
+                      "Post",
+                      "PostOffice"
+                    ],
+                    "EarlyPaymentFeeApplicable": true,
+                    "OverPaymentFeeApplicable": false,
+                    "LoanApplicationFeeChargeType": "NoLoanApplicatioFee"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

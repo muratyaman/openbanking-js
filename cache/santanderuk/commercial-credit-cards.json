@@ -1,0 +1,476 @@
+{
+  "meta": {
+    "LastUpdated": "2018-06-25T12:00:23Z",
+    "TotalResults": 1,
+    "Agreement": "Use of the APIs and any related data will be subject to the terms of the Open Licence and subject to terms and conditions",
+    "License": "https://www.openbanking.org.uk/open-licence",
+    "TermsOfUse": "https://www.openbanking.org.uk/terms"
+  },
+  "data": [
+    {
+      "Brand": [
+        {
+          "BrandName": "Santander UK PLC",
+          "CCC": [
+            {
+              "Name": "Business Credit Card",
+              "Identification": "5007120000001",
+              "Segment": [
+                "General"
+              ],
+              "CCCMarketingState": [
+                {
+                  "Identification": "CR1",
+                  "PredecessorID": "no predecessor",
+                  "MarketingState": "Regular",
+                  "FirstMarketedDate": "2016-08-04",
+                  "StateTenureLength": 56,
+                  "StateTenurePeriod": "Day",
+                  "Notes": [
+                    "no promotional period"
+                  ],
+                  "Repayment": {
+                    "MinBalanceRepaymentRate": "1",
+                    "MinBalanceRepaymentAmount": "5",
+                    "NonRepaymentFeeCharges": [
+                      {
+                        "NonRepaymentFeeChargeDetail": [
+                          {
+                            "FeeType": "LatePayment",
+                            "NegotiableIndicator": false,
+                            "FeeAmount": "12",
+                            "ApplicationFrequency": "Other",
+                            "CalculationFrequency": "Other",
+                            "Notes": [
+                              "Charged on the statement date"
+                            ],
+                            "OtherFeeType": {
+                              "FeeCategory": "Penalty",
+                              "Name": "LatePayment",
+                              "Description": "LatePayment fee"
+                            }
+                          }
+                        ],
+                        "NonRepaymentFeeChargeCap": [
+                          {
+                            "FeeType": [
+                              "LatePayment"
+                            ],
+                            "MinMaxType": "Maximum",
+                            "FeeCapAmount": "12",
+                            "CappingPeriod": "Month",
+                            "Notes": [
+                              "Charged on the statement date"
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "NonRepaymentFeeChargeDetail": [
+                          {
+                            "FeeType": "OverCreditLimit",
+                            "NegotiableIndicator": false,
+                            "FeeAmount": "12",
+                            "ApplicationFrequency": "Other",
+                            "CalculationFrequency": "Other",
+                            "Notes": [
+                              "Charged on the statement date"
+                            ],
+                            "OtherFeeType": {
+                              "FeeCategory": "Penalty",
+                              "Name": "OverCreditLimit",
+                              "Description": "OverCreditLimit fee"
+                            }
+                          }
+                        ],
+                        "NonRepaymentFeeChargeCap": [
+                          {
+                            "FeeType": [
+                              "OverCreditLimit"
+                            ],
+                            "MinMaxType": "Maximum",
+                            "FeeCapAmount": "12",
+                            "CappingPeriod": "Month",
+                            "Notes": [
+                              "Charged on the statement date"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "RepaymentAllocation": {
+                      "Notes": [
+                        "The payments you make pay off items that are already on your statement, before paying off any more recent transactions. These recent transactions are the ones made since the last statement was issued. Payments are allocated to the transactions on your statement that have a higher interest charge, before those incurring lower interest. If interest is charged at the same rate on different amounts, we will apply the payment to the different amounts in the following order: Cash Transactions, Purchases, Balance Transfers, other Special Transactions, other Transactions, followed by other fees. If there is more than one Special Transaction at the same rate, the payment will be applied first to the Special Transaction that has the earliest Promotional Period end date The payments you make pay off items that are already on your statement, before paying off any more recent transactions. These recent transactions are the ones made since the last statement was issued. Payments are allocated to the transactions on your statement that have a higher interest charge, before those incurring lower interest. If interest is charged at the same rate on different amounts, we will apply the payment to the different amounts in the following order: Cash Transactions, Purchases, Balance Transfers, other Special Transactions, other Transactions, followed by other fees. If there is more than one Special Transaction at the same rate, the payment will be applied first to the Special Transaction that has the earliest Promotional Period end date"
+                      ]
+                    }
+                  },
+                  "Eligibility": {
+                    "OtherEligibility": [
+                      {
+                        "Name": "N/A",
+                        "Description": "",
+                        "Type": "AnyBusinessCustomer",
+                        "Indicator": false,
+                        "Notes": [
+                          "You can apply for a credit card if you're a UK resident aged 18 years or over, have a good credit record and have not been declared bankrupt, had a CCJ or an IVA within the last 6 years. You must agree to a credit check as part of the application and this will determine whether or not you're accepted and the credit limit that we can offer. We reserve the right to refuse any application."
+                        ],
+                        "OtherType": {
+                          "Code": "BCAA",
+                          "Name": "Business Cashback Credit Card",
+                          "Description": "Business Cashback Credit Card"
+                        }
+                      },
+                      {
+                        "Name": "N/A",
+                        "Description": "",
+                        "Type": "CreditScoring",
+                        "Indicator": false,
+                        "Notes": [
+                          "You can apply for a credit card if you're a UK resident aged 18 years or over, have a good credit record and have not been declared bankrupt, had a CCJ or an IVA within the last 6 years. You must agree to a credit check as part of the application and this will determine whether or not you're accepted and the credit limit that we can offer. We reserve the right to refuse any application."
+                        ],
+                        "OtherType": {
+                          "Code": "BCAA",
+                          "Name": "Business Cashback Credit Card",
+                          "Description": "Business Cashback Credit Card"
+                        }
+                      },
+                      {
+                        "Name": "N/A",
+                        "Description": "",
+                        "Type": "Other",
+                        "Indicator": false,
+                        "Notes": [
+                          "You can apply for a credit card if you're a UK resident aged 18 years or over, have a good credit record and have not been declared bankrupt, had a CCJ or an IVA within the last 6 years. You must agree to a credit check as part of the application and this will determine whether or not you're accepted and the credit limit that we can offer. We reserve the right to refuse any application."
+                        ],
+                        "OtherType": {
+                          "Code": "BCAA",
+                          "Name": "Business Cashback Credit Card",
+                          "Description": "Business Cashback Credit Card"
+                        }
+                      }
+                    ],
+                    "AgeEligibility": {
+                      "MinimumAge": 18
+                    },
+                    "ResidencyEligibility": [
+                      {
+                        "ResidencyIncluded": [
+                          "GRBR"
+                        ],
+                        "Notes": [
+                          "UK resident"
+                        ],
+                        "OtherResidencyType": {
+                          "Name": "No other residency type",
+                          "Description": "No other residency type"
+                        }
+                      }
+                    ],
+                    "TradingHistoryEligibility": [
+                      {
+                        "TradingType": "GoodTradingHistory",
+                        "Indicator": false
+                      },
+                      {
+                        "TradingType": "Other",
+                        "Indicator": false
+                      }
+                    ],
+                    "LegalStructureEligibility": [
+                      {
+                        "LegalStructure": "Ltd"
+                      },
+                      {
+                        "LegalStructure": "LLP"
+                      },
+                      {
+                        "LegalStructure": "Partnership"
+                      },
+                      {
+                        "LegalStructure": "SoleTrader"
+                      }
+                    ],
+                    "OfficerEligibility": [
+                      {
+                        "OfficerType": "Director",
+                        "MaxAmount": 4,
+                        "MinAmount": 1
+                      },
+                      {
+                        "OfficerType": "Owner",
+                        "MaxAmount": 4,
+                        "MinAmount": 1
+                      },
+                      {
+                        "OfficerType": "Partner",
+                        "MaxAmount": 4,
+                        "MinAmount": 1
+                      }
+                    ],
+                    "IDEligibility": {
+                      "URL": "http://www.santander.co.uk/uk/business/borrowing-finance/credit-cards"
+                    },
+                    "CreditCheckEligibility": {
+                      "ScoringType": "Hard"
+                    },
+                    "IndustryEligibility": {}
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitGroup": [
+                      {
+                        "Name": "Cashback",
+                        "Type": "CashBack",
+                        "ApplicationFrequency": "PerStatementDate",
+                        "CalculationFrequency": "PerStatementDate",
+                        "FeatureBenefitItem": [
+                          {
+                            "Type": "CashBack",
+                            "Indicator": false,
+                            "FeatureBenefitEligibility": [
+                              {
+                                "Name": "CashBack",
+                                "Type": "AnyBusinessCustomer",
+                                "Indicator": false
+                              },
+                              {
+                                "Name": "CashBack",
+                                "Type": "CreditScoring",
+                                "Indicator": false
+                              },
+                              {
+                                "Name": "CashBack",
+                                "Type": "Other",
+                                "Indicator": false
+                              }
+                            ]
+                          }
+                        ],
+                        "FeatureBenefitEligibility": [
+                          {
+                            "Name": "CashBack",
+                            "Type": "AnyBusinessCustomer",
+                            "Indicator": false
+                          },
+                          {
+                            "Name": "CashBack",
+                            "Type": "CreditScoring",
+                            "Indicator": false
+                          },
+                          {
+                            "Name": "CashBack",
+                            "Type": "Other",
+                            "Indicator": false
+                          }
+                        ]
+                      }
+                    ],
+                    "FeatureBenefitItem": [
+                      {
+                        "Identification": "CashBack",
+                        "Type": "CashBack",
+                        "Indicator": false,
+                        "Textual": "1% Cashback on all business spend. Additional cards added at no additional cost. No non-sterling transaction fees",
+                        "FeatureBenefitEligibility": [
+                          {
+                            "Name": "CashBack",
+                            "Type": "AnyBusinessCustomer",
+                            "Indicator": false
+                          },
+                          {
+                            "Name": "CashBack",
+                            "Type": "CreditScoring",
+                            "Indicator": false
+                          },
+                          {
+                            "Name": "CashBack",
+                            "Type": "Other",
+                            "Indicator": false
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "BalanceTransfer",
+                        "FeeType": "BalanceTransfer",
+                        "NegotiableIndicator": false,
+                        "IncludedInPeriodicFeeIndicator": false,
+                        "FeeRate": "3.00",
+                        "ApplicationFrequency": "Other",
+                        "CalculationFrequency": "Other",
+                        "Notes": [
+                          "Charged per transaction"
+                        ],
+                        "OtherFeeType": {
+                          "FeeCategory": "BalanceTransfer",
+                          "Name": "BalanceTransfer",
+                          "Description": "BalanceTransfer"
+                        },
+                        "FeeApplicableRange": {}
+                      },
+                      {
+                        "FeeCategory": "CashAdvance",
+                        "FeeType": "CashAdvance",
+                        "NegotiableIndicator": false,
+                        "IncludedInPeriodicFeeIndicator": false,
+                        "FeeRate": "3.00",
+                        "ApplicationFrequency": "Other",
+                        "CalculationFrequency": "Other",
+                        "Notes": [
+                          "Charged per transaction"
+                        ],
+                        "OtherFeeType": {
+                          "FeeCategory": "CashAdvance",
+                          "Name": "CashAdvance",
+                          "Description": "CashAdvance"
+                        },
+                        "FeeApplicableRange": {}
+                      },
+                      {
+                        "FeeCategory": "Purchase",
+                        "FeeType": "Purchase",
+                        "NegotiableIndicator": false,
+                        "IncludedInPeriodicFeeIndicator": false,
+                        "FeeAmount": "0.00",
+                        "ApplicationFrequency": "Other",
+                        "CalculationFrequency": "Other",
+                        "Notes": [
+                          "Charged per transaction"
+                        ],
+                        "OtherFeeType": {
+                          "FeeCategory": "Purchase",
+                          "Name": "Purchase",
+                          "Description": "Purchase"
+                        },
+                        "FeeApplicableRange": {}
+                      },
+                      {
+                        "FeeCategory": "FX",
+                        "FeeType": "ForeignCash",
+                        "NegotiableIndicator": false,
+                        "IncludedInPeriodicFeeIndicator": false,
+                        "FeeAmount": "0.00",
+                        "FeeRate": "0.00",
+                        "ApplicationFrequency": "Other",
+                        "CalculationFrequency": "Other",
+                        "Notes": [
+                          "Charged per transaction"
+                        ],
+                        "OtherFeeType": {
+                          "FeeCategory": "FX",
+                          "Name": "ForeignCash",
+                          "Description": "ForeignCash"
+                        },
+                        "FeeApplicableRange": {}
+                      },
+                      {
+                        "FeeCategory": "Penalty",
+                        "FeeType": "Other",
+                        "NegotiableIndicator": false,
+                        "IncludedInPeriodicFeeIndicator": false,
+                        "FeeRate": "12.00",
+                        "ApplicationFrequency": "Other",
+                        "CalculationFrequency": "Other",
+                        "Notes": [
+                          "Charged per transaction"
+                        ],
+                        "OtherFeeType": {
+                          "FeeCategory": "Other",
+                          "Name": "Other",
+                          "Description": "Other"
+                        },
+                        "FeeApplicableRange": {}
+                      }
+                    ],
+                    "FeeChargeCap": [
+                      {
+                        "FeeType": [
+                          "BalanceTransfer"
+                        ],
+                        "MinMaxType": "Minimum",
+                        "FeeCapAmount": "5.00",
+                        "Notes": [
+                          "Per transaction"
+                        ]
+                      },
+                      {
+                        "FeeType": [
+                          "CashAdvance"
+                        ],
+                        "MinMaxType": "Minimum",
+                        "FeeCapAmount": "3.00",
+                        "Notes": [
+                          "Per transaction"
+                        ]
+                      },
+                      {
+                        "FeeType": [
+                          "Purchase"
+                        ],
+                        "MinMaxType": "Minimum",
+                        "FeeCapAmount": "0.00",
+                        "Notes": [
+                          "Per transaction"
+                        ]
+                      },
+                      {
+                        "FeeType": [
+                          "ForeignCash"
+                        ],
+                        "MinMaxType": "Maximum",
+                        "FeeCapAmount": "0.00",
+                        "Notes": [
+                          "Per transaction"
+                        ]
+                      },
+                      {
+                        "FeeType": [
+                          "Other"
+                        ],
+                        "MinMaxType": "Maximum",
+                        "FeeCapOccurrence": 1,
+                        "FeeCapAmount": "12.00",
+                        "CappingPeriod": "Month",
+                        "Notes": [
+                          "Charged on statement date"
+                        ]
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductURL": "http://www.santander.co.uk/uk/business/borrowing-finance/credit-cards",
+                    "ProductDescription": "A credit card for small to medium sized business with up to two directors, owners (shareholders) or partners.",
+                    "TcsAndCsURL": "http://www.santander.co.uk/csdlvlr/ContentServer?c=SANDocument_C&pagename=WCSUKPublicaLte%2FSANDocument_C%2FSANDocumentPreview&cid=1324582531524",
+                    "MaxDailyCardWithdrawalLimit": "300",
+                    "MinCreditLimit": "500",
+                    "MaxCreditLimit": "25000",
+                    "MaxPurchaseInterestFreeLengthDays": 56,
+                    "SalesAccessChannels": [
+                      "Branch"
+                    ],
+                    "ServicingAccessChannels": [
+                      "ATM",
+                      "CallCentre",
+                      "Post",
+                      "MobileBankingApp",
+                      "Online"
+                    ],
+                    "CardScheme": [
+                      "Mastercard"
+                    ],
+                    "ContactlessIndicator": true,
+                    "PeriodicFee": "30",
+                    "PeriodicFeePeriod": "Year",
+                    "APR": "23.7"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

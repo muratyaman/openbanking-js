@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "LastUpdated": "2017-10-13T09:10:34.667Z",
+    "TotalResults": 1,
+    "Agreement": "Use of the APIs and any related data will be subject to the terms of the Open Licence and subject to terms and conditions",
+    "License": "https://www.openbanking.org.uk/open-licence",
+    "TermsOfUse": "https://www.openbanking.org.uk/terms"
+  },
+  "data": [
+    {
+      "Brand": [
+        {
+          "BrandName": "Business Credit Card - Commercial Card",
+          "CCC": [
+            {
+              "Name": "Business Credit Card - Commercial Card",
+              "Identification": "Business CC Commercial Card",
+              "Segment": [
+                "General"
+              ],
+              "CCCMarketingState": [
+                {
+                  "Identification": "Business CC Commercial Card",
+                  "MarketingState": "Regular",
+                  "Repayment": {
+                    "MinBalanceRepaymentRate": "1.5",
+                    "MinBalanceRepaymentAmount": "5.00",
+                    "Notes": [
+                      "Lower of 1.5% of the outstanding amount or £5"
+                    ],
+                    "NonRepaymentFeeCharges": [
+                      {
+                        "NonRepaymentFeeChargeDetail": [
+                          {
+                            "FeeType": "LatePayment",
+                            "NegotiableIndicator": false,
+                            "FeeAmount": "12.00",
+                            "ApplicationFrequency": "Monthly",
+                            "CalculationFrequency": "Monthly"
+                          }
+                        ]
+                      }
+                    ],
+                    "RepaymentAllocation": {
+                      "Notes": [
+                        "N/A"
+                      ]
+                    }
+                  },
+                  "Eligibility": {
+                    "AgeEligibility": {
+                      "MinimumAge": 18
+                    },
+                    "LegalStructureEligibility": [
+                      {
+                        "LegalStructure": "SoleTrader"
+                      },
+                      {
+                        "LegalStructure": "Partnership"
+                      },
+                      {
+                        "LegalStructure": "Ltd"
+                      },
+                      {
+                        "LegalStructure": "LLP"
+                      }
+                    ],
+                    "CreditCheckEligibility": {
+                      "ScoringType": "Soft",
+                      "Notes": [
+                        "Sole Trader/ Partnership/ Incorporated Businesses: A credit assessment will be made to credit reference agencies although this will not be recorded on your credit profile."
+                      ]
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitItem": [
+                      {
+                        "Type": "Other",
+                        "Name": "Free First year",
+                        "Textual": "Pay no fee for the first year - after the initial 12 month period, the annual charge is £32",
+                        "OtherType": {
+                          "Name": "Card Fee",
+                          "Description": "Card Fee related Benefit/Feature"
+                        }
+                      },
+                      {
+                        "Type": "Other",
+                        "Name": "Interest Free Credit",
+                        "Textual": "Improve your cash flow with up to 56 days' interest-free credit",
+                        "OtherType": {
+                          "Name": "Interest Free Credit",
+                          "Description": "Benefit related to Interest Free Credit"
+                        }
+                      },
+                      {
+                        "Type": "AccountManagement",
+                        "Name": "Personal vs Business spending",
+                        "Textual": "Save time on reconciliation by keeping personal and your business spending separate"
+                      },
+                      {
+                        "Type": "Other",
+                        "Name": "Repayment Options",
+                        "Textual": "Choose how you want to pay - either the full balance or the minimum repayment by Direct Debit each month",
+                        "OtherType": {
+                          "Name": "Repayment",
+                          "Description": "Benefit related to Repayment"
+                        }
+                      },
+                      {
+                        "Type": "AccountManagement",
+                        "Name": "Itemised Statements",
+                        "Textual": "Stay in control of your spending with itemised statements"
+                      },
+                      {
+                        "Type": "Other",
+                        "Name": "Employee  Credit Cards",
+                        "Textual": "Issue cards to employees to help you manage their business spending and expenses",
+                        "OtherType": {
+                          "Name": "Additional Cards",
+                          "Description": "Benefit related to Additional Cards"
+                        }
+                      },
+                      {
+                        "Type": "AccountManagement",
+                        "Name": "Zero Liability for Fraudulent Transactions",
+                        "Textual": "Have zero liability for any fraudulent transactions undertaken without your authority"
+                      },
+                      {
+                        "Type": "AccountManagement",
+                        "Name": "Separate Statements per card",
+                        "Textual": "Receive separate statements for each card and a summary for the business"
+                      },
+                      {
+                        "Type": "Other",
+                        "Name": "Contactless Facility",
+                        "Textual": "Contactless for quick and easy purchases under £30 ",
+                        "OtherType": {
+                          "Name": "Ease of Use",
+                          "Description": "Ease of Use"
+                        }
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "Purchase",
+                        "FeeType": "Purchase",
+                        "NegotiableIndicator": false,
+                        "IncludedInPeriodicFeeIndicator": false,
+                        "FeeRate": "15.90",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "Yearly",
+                        "CalculationFrequency": "Yearly"
+                      },
+                      {
+                        "FeeCategory": "BalanceTransfer",
+                        "FeeType": "BalanceTransfer",
+                        "NegotiableIndicator": false,
+                        "IncludedInPeriodicFeeIndicator": false,
+                        "FeeRate": "15.90",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "Yearly",
+                        "CalculationFrequency": "Yearly"
+                      },
+                      {
+                        "FeeCategory": "CashAdvance",
+                        "FeeType": "CashAdvance",
+                        "NegotiableIndicator": false,
+                        "IncludedInPeriodicFeeIndicator": false,
+                        "FeeRate": "15.90",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "Yearly",
+                        "CalculationFrequency": "Yearly"
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductURL": "http://www.business.hsbc.uk/en-gb/finance-and-borrowing/business-card/business-credit-card?DCSext.nav=foot-mat",
+                    "ProductDescription": "\"A flexible way to manage your day-to-day expenses, boost your cash flow, and keep business and personal spending separate.",
+                    "TcsAndCsURL": "\"http://www.business.hsbc.uk/~/media/library/business-uk/pdfs/commercial-card-agreement-terms.pdf?la=en-GB",
+                    "MinCreditLimit": "500",
+                    "MaxPurchaseInterestFreeLengthDays": 56,
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "RelationshipManager",
+                      "Online",
+                      "CallCentre"
+                    ],
+                    "ServicingAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "MobileBankingApp",
+                      "RelationshipManager",
+                      "ATM",
+                      "CallCentre"
+                    ],
+                    "CardScheme": [
+                      "Visa"
+                    ],
+                    "ContactlessIndicator": true,
+                    "PeriodicFee": "32.00",
+                    "PeriodicFeePeriod": "Year",
+                    "APR": "22.00",
+                    "Notes": [
+                      "Fee Free for the first year, £32 per card per year thereafter"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1730 @@
+{
+  "meta": {
+    "LastUpdated": "2018-06-21T13:18:49.000Z",
+    "TotalResults": 4,
+    "Agreement": "Use of the APIs and any related data will be subject to the terms of the Open Licence and subject to terms and conditions",
+    "License": "https://www.openbanking.org.uk/open-licence",
+    "TermsOfUse": "https://www.openbanking.org.uk/terms"
+  },
+  "data": [
+    {
+      "Brand": [
+        {
+          "BrandName": "First Trust Bank",
+          "PCA": [
+            {
+              "Name": "Classic Account",
+              "Identification": "FTB40070",
+              "Segment": [
+                "General"
+              ],
+              "PCAMarketingState": [
+                {
+                  "Identification": "FTB40070",
+                  "MarketingState": "Regular",
+                  "Overdraft": {
+                    "OverdraftTierBandSet": [
+                      {
+                        "TierBandMethod": "Whole",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "FTBDI006",
+                        "AuthorisedIndicator": true,
+                        "BufferAmount": "200.00",
+                        "OverdraftTierBand": [
+                          {
+                            "Identification": "DB200+",
+                            "TierValueMin": "201.00",
+                            "Notes": [
+                              "Interest Free for the first £200 overdrawn balance."
+                            ]
+                          }
+                        ],
+                        "OverdraftFeesCharges": [
+                          {
+                            "OverdraftFeeChargeCap": [
+                              {
+                                "FeeType": [
+                                  "UnauthorisedUnpaidTrans",
+                                  "UnauthorisedBorrowing"
+                                ],
+                                "FeeMinMaxType": "Maximum",
+                                "FeeCapAmount": "90.00",
+                                "CappingPeriod": "Month"
+                              }
+                            ],
+                            "OverdraftFeeChargeDetail": [
+                              {
+                                "FeeType": "UnauthorisedUnpaidTrans",
+                                "FeeAmount": "20.00",
+                                "ApplicationFrequency": "PerOccurrence",
+                                "CalculationFrequency": "PerOccurrence",
+                                "Notes": [
+                                  "£20 per item, max 1 item per day. This fee forms part of the calculation of the £90 monthly cap on unarranged overdraft charges in a charging period."
+                                ],
+                                "OverdraftFeeApplicableRange": {
+                                  "MinimumAmount": "20.00"
+                                }
+                              },
+                              {
+                                "FeeType": "ArrangedOverdraft",
+                                "FeeAmount": "7.00",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "Monthly",
+                                "Notes": [
+                                  "This fee is for the use of an Arranged Overdraft and will be charged once per charging period if an account goes more than £15 into an arranged overdraft at least once during the charging period."
+                                ]
+                              },
+                              {
+                                "FeeType": "UnauthorisedBorrowing",
+                                "FeeAmount": "7.00",
+                                "ApplicationFrequency": "PerOccurrence",
+                                "CalculationFrequency": "PerOccurrence",
+                                "Notes": [
+                                  "£7 per day that an account balance is in an unarranged overdarft position by more than £15. This fee forms part of the calculation of the £90 monthly cap on unarranged overdraft charges in a charging period."
+                                ],
+                                "OverdraftFeeApplicableRange": {
+                                  "MinimumAmount": "7.00"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqCopy",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "£10 per request, up to a maximum of five cheques"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportCertInterest",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerItem"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "TransSWIFTOutUKForeign",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "ForeignChqDraft",
+                        "FeeRate": "0.50",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "3.00",
+                          "MaximumAmount": "30.00",
+                          "MinimumRate": "0.50"
+                        }
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMNonSterlingWithdrawal",
+                        "FeeRate": "1.50",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "1.50% of amount withdrawn"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMConGroupATM",
+                        "FeeRate": "2.75",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "2.75% of amount withdrawn"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Transaction",
+                        "FeeType": "TransCreditTransfer",
+                        "FeeAmount": "7.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "£7 if carried out at branch counter, £25 via CHAPS and no charge if via Online / Phoneline Banking"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "0.00",
+                          "MaximumAmount": "25.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Safekeeping",
+                        "FeeType": "SafeKeepingEnvelope",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "Yearly",
+                        "CalculationFrequency": "Yearly",
+                        "Notes": [
+                          "£25+VAT per annum"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayForeignCharge",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "£25.00 International or Stg payments, £15.00 for Stg payments to  AIB RoI beneficiaries, £10.00 for Euro payments to AIB RoI beneficiaries"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "10.00",
+                          "MaximumAmount": "25.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Investigation",
+                        "FeeType": "InvPayForeignBCNR",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqForeign",
+                        "FeeRate": "0.50",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "3.00",
+                          "MaximumAmount": "30.00",
+                          "MinimumRate": "0.50"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatusEnquiry",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "£10 + VAT"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Card",
+                        "FeeType": "CardCardReplacement",
+                        "FeeAmount": "8.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqBookTheftLossAllStopped",
+                        "FeeAmount": "12.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Transaction",
+                        "FeeType": "TransPOSSaleForeign",
+                        "FeeRate": "2.75",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "2.75% currency conversion on Stg amount- no automated transaction fee"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "TransSWIFTOutNonEEASterling",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqChequeRetrieval",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "£10.00 per request up to a max of 5 cheques"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportCertInterestDuplicate",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerItem"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqUnpaidTransOut",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerItem",
+                        "Notes": [
+                          "£20 per item, max 1 item per day. This fee forms part of the calculation of the £90 monthly cap on unarranged overdraft charges in the charging period."
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Safekeeping",
+                        "FeeType": "SafeKeepingLargeItem",
+                        "FeeAmount": "50.00",
+                        "ApplicationFrequency": "Yearly",
+                        "CalculationFrequency": "Yearly",
+                        "Notes": [
+                          "£50 + VAT per annum"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Online",
+                        "FeeType": "OnlineReplacementCardReader",
+                        "FeeAmount": "8.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "SEPAIn",
+                        "FeeAmount": "5.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "No charge if within AIB Group"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "0.00",
+                          "MaximumAmount": "5.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqDraftFX",
+                        "FeeRate": "0.50",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "3.00",
+                          "MaximumAmount": "30.00",
+                          "MinimumRate": "0.50"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "ForeignFXInwardsCust",
+                        "FeeAmount": "2.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "£6.00 each > £100, £2.00 each < or = £100, £5.00 each-SEPA, From AIB Group-No charge"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "2.00",
+                          "MaximumAmount": "6.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsIntlPayableAbroad",
+                        "FeeAmount": "14.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "£14 Euro Draft / £16 FX Draft"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "14.00",
+                          "MaximumAmount": "16.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMAbroadVisaDebit",
+                        "FeeRate": "2.75",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "2.75% of amount withdrawn"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSIn",
+                        "FeeAmount": "2.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "£2 if less £100 or less, otherwise £6"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "2.00",
+                          "MaximumAmount": "6.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayPaymentTracing",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "SEPAEuro",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerItem"
+                      },
+                      {
+                        "FeeCategory": "Safekeeping",
+                        "FeeType": "SafeKeepingParcel",
+                        "FeeAmount": "50.00",
+                        "ApplicationFrequency": "Yearly",
+                        "CalculationFrequency": "Yearly",
+                        "Notes": [
+                          "£50 + VAT per annum"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportCertBalance",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Investigation",
+                        "FeeType": "InvPayStandingOrdUnpaid",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerItem",
+                        "Notes": [
+                          "£20 per item, max 1 item per day. This fee forms part of the calculation of the £90 monthly cap on unarranged overdraft charges in a charging period."
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "ForeignChqSent",
+                        "FeeRate": "0.20",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "10.00",
+                          "MaximumAmount": "40.00",
+                          "MinimumRate": "0.20"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Transaction",
+                        "FeeType": "TransCreditTransferUKDifferent",
+                        "FeeAmount": "7.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "£7 if carried out at branch counter, £25 via CHAPS and no charge if via Online / Phoneline Banking"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "0.00",
+                          "MaximumAmount": "25.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialPresentationCount",
+                        "FeeAmount": "12.50",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "SEPAOut",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialChqPresentation",
+                        "FeeAmount": "12.50",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOut",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMAbroadConVisaDebit",
+                        "FeeRate": "2.75",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "2.75% of amount withdrawn"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "CounterServices",
+                        "FeeType": "CounterForeignNoteHandling",
+                        "FeeRate": "0.50",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "0.5% of value, min_rate £3.00, Max £30.00"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "3.00",
+                          "MaximumAmount": "30.00",
+                          "MinimumRate": "0.50"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "ForeignFXOutwards",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "£25.00 International or Stg payments, £15.00 for Stg payments to  AIB RoI beneficiaries, £10.00 for Euro payments to AIB RoI beneficiaries"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "10.00",
+                          "MaximumAmount": "25.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqUnpaidTransIn",
+                        "FeeAmount": "6.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerItem"
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsBankers",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerItem"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "ForeignPurchase",
+                        "FeeRate": "0.50",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "3.00",
+                          "MaximumAmount": "30.00",
+                          "MinimumRate": "0.50"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopy1",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqForeignCourier",
+                        "FeeRate": "0.20",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "10.00",
+                          "MaximumAmount": "40.00",
+                          "MinimumRate": "0.20"
+                        }
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMAbroad",
+                        "FeeRate": "2.75",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "2.75% of amount withdrawn"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialPresentationPTT",
+                        "FeeAmount": "12.50",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMForeignCashDebCard",
+                        "FeeRate": "1.50",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "1.50% of amount withdrawn"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Safekeeping",
+                        "FeeType": "SafeKeepingInspection",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "£20 + VAT per transaction"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsIntlStoppedCancelled",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqStopped",
+                        "FeeAmount": "8.50",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Transaction",
+                        "FeeType": "TransBuyForeignWithGBP",
+                        "FeeRate": "0.50",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "3.00",
+                          "MaximumAmount": "30.00",
+                          "MinimumRate": "0.50"
+                        }
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductURL": "https://firsttrustbank.co.uk/our-products/current-accounts/classic-account",
+                    "ProductDescription": "This account is for people aged 18 and over who need the full services offered by a current account. ",
+                    "TcsAndCsURL": "https://firsttrustbank.co.uk/personal-docs/our-products/current-accounts/personal-banking-terms-and-conditions.pdf",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "Online"
+                    ],
+                    "ServicingAccessChannels": [
+                      "MobileBankingApp",
+                      "Post",
+                      "Branch",
+                      "PostOffice",
+                      "Online",
+                      "ATM"
+                    ],
+                    "MonthlyMaximumCharge": "90.00"
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "Student 12-18",
+              "Identification": "FTB40040",
+              "Segment": [
+                "Youth"
+              ],
+              "PCAMarketingState": [
+                {
+                  "Identification": "FTB40040",
+                  "MarketingState": "Regular",
+                  "CreditInterest": {
+                    "TierBandSet": [
+                      {
+                        "TierBandMethod": "Whole",
+                        "TierBand": [
+                          {
+                            "Identification": "CB+",
+                            "TierValueMinimum": "0.00",
+                            "CalculationFrequency": "Daily",
+                            "ApplicationFrequency": "Quarterly",
+                            "FixedVariableInterestRateType": "Variable",
+                            "AER": "1.00",
+                            "BankInterestRateType": "Gross"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMAbroadConVisaDebit",
+                        "FeeRate": "2.75",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "2.75% of amount withdrawn"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsIntlPayableAbroad",
+                        "FeeAmount": "14.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "£14 Euro Draft / £16 FX Draft"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "14.00",
+                          "MaximumAmount": "16.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "SEPAEuro",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerItem"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "ForeignChqDraft",
+                        "FeeRate": "0.50",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "3.00",
+                          "MaximumAmount": "30.00",
+                          "MinimumRate": "0.50"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopy1",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "ForeignFXOutwards",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "£25.00 International or Stg payments, £15.00 for Stg payments to  AIB RoI beneficiaries, £10.00 for Euro payments to AIB RoI beneficiaries"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "10.00",
+                          "MaximumAmount": "25.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqForeign",
+                        "FeeRate": "0.50",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "3.00",
+                          "MaximumAmount": "30.00",
+                          "MinimumRate": "0.50"
+                        }
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMAbroad",
+                        "FeeRate": "2.75",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "2.75% of amount withdrawn"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMNonSterlingWithdrawal",
+                        "FeeRate": "1.50",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "1.50% of amount withdrawn"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOut",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMForeignCashDebCard",
+                        "FeeRate": "1.50",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "1.50% of amount withdrawn"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqForeignCourier",
+                        "FeeRate": "0.20",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "10.00",
+                          "MaximumAmount": "40.00",
+                          "MinimumRate": "0.20"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialPresentationCount",
+                        "FeeAmount": "12.50",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqDraftFX",
+                        "FeeRate": "0.50",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "3.00",
+                          "MaximumAmount": "30.00",
+                          "MinimumRate": "0.50"
+                        }
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsIntlStoppedCancelled",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMAbroadVisaDebit",
+                        "FeeRate": "2.75",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "2.75% of amount withdrawn"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "ForeignFXInwardsCust",
+                        "FeeAmount": "2.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "£6.00 each > £100, £2.00 each < or = £100, £5.00 each-SEPA, From AIB Group-No charge"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "2.00",
+                          "MaximumAmount": "6.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSIn",
+                        "FeeAmount": "2.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "£2 if less £100 or less, otherwise £6"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "2.00",
+                          "MaximumAmount": "6.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayForeignCharge",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "£25.00 International or Stg payments, £15.00 for Stg payments to  AIB RoI beneficiaries, £10.00 for Euro payments to AIB RoI beneficiaries"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "10.00",
+                          "MaximumAmount": "25.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Online",
+                        "FeeType": "OnlineReplacementCardReader",
+                        "FeeAmount": "8.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialPresentationPTT",
+                        "FeeAmount": "12.50",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMConGroupATM",
+                        "FeeRate": "2.75",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "2.75% of amount withdrawn"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "SEPAIn",
+                        "FeeAmount": "5.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "No charge if within AIB Group"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "0.00",
+                          "MaximumAmount": "5.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "TransSWIFTOutUKForeign",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "ForeignChqSent",
+                        "FeeRate": "0.20",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "10.00",
+                          "MaximumAmount": "40.00",
+                          "MinimumRate": "0.20"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Transaction",
+                        "FeeType": "TransPOSSaleForeign",
+                        "FeeRate": "2.75",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "2.75% currency conversion on Stg amount- no automated transaction fee"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialChqPresentation",
+                        "FeeAmount": "12.50",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "SEPAOut",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerItem"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "TransSWIFTOutNonEEASterling",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductURL": "https://firsttrustbank.co.uk/our-products/student-and-graduates/student-12-to-18",
+                    "ProductDescription": "This current account is for students between the ages of 12 and 18 who are in part time or full time second level education. ",
+                    "TcsAndCsURL": "https://firsttrustbank.co.uk/personal-docs/our-products/current-accounts/personal-banking-terms-and-conditions.pdf",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "Online"
+                    ],
+                    "ServicingAccessChannels": [
+                      "Branch",
+                      "ATM",
+                      "MobileBankingApp",
+                      "Online",
+                      "PostOffice",
+                      "Post"
+                    ],
+                    "MonthlyMaximumCharge": "0.00"
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "Student+",
+              "Identification": "FTB40034",
+              "Segment": [
+                "Student"
+              ],
+              "PCAMarketingState": [
+                {
+                  "Identification": "FTB40034",
+                  "MarketingState": "Regular",
+                  "Overdraft": {
+                    "OverdraftTierBandSet": [
+                      {
+                        "TierBandMethod": "Whole",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "FTBDI008",
+                        "AuthorisedIndicator": true,
+                        "BufferAmount": "1850.00",
+                        "OverdraftTierBand": [
+                          {
+                            "Identification": "DB1850+",
+                            "TierValueMin": "1851.00",
+                            "Notes": [
+                              "Interest Free Arranged Overdraft up to 1850"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMAbroad",
+                        "FeeRate": "2.75",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "2.75% of amount withdrawn"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsIntlPayableAbroad",
+                        "FeeAmount": "14.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "£14 Euro Draft / £16 FX Draft"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "14.00",
+                          "MaximumAmount": "16.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMAbroadVisaDebit",
+                        "FeeRate": "2.75",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "2.75% of amount withdrawn"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOut",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMConGroupATM",
+                        "FeeRate": "2.75",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "2.75% of amount withdrawn"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "SEPAEuro",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerItem"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "ForeignChqSent",
+                        "FeeRate": "0.20",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "10.00",
+                          "MaximumAmount": "40.00",
+                          "MinimumRate": "0.20"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopy1",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMNonSterlingWithdrawal",
+                        "FeeRate": "1.50",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "1.50% of amount withdrawn"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialChqPresentation",
+                        "FeeAmount": "12.50",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqForeignCourier",
+                        "FeeRate": "0.20",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "10.00",
+                          "MaximumAmount": "40.00",
+                          "MinimumRate": "0.20"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Online",
+                        "FeeType": "OnlineReplacementCardReader",
+                        "FeeAmount": "8.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Transaction",
+                        "FeeType": "TransPOSSaleForeign",
+                        "FeeRate": "2.75",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "2.75% currency conversion on Stg amount- no automated transaction fee"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "SEPAOut",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerItem"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialPresentationPTT",
+                        "FeeAmount": "12.50",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqDraftFX",
+                        "FeeRate": "0.50",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "3.00",
+                          "MaximumAmount": "30.00",
+                          "MinimumRate": "0.50"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "ForeignFXInwardsCust",
+                        "FeeAmount": "2.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "£6.00 each > £100, £2.00 each < or = £100, £5.00 each-SEPA, From AIB Group-No charge"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "2.00",
+                          "MaximumAmount": "6.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "TransSWIFTOutNonEEASterling",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayForeignCharge",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "£25.00 International or Stg payments, £15.00 for Stg payments to  AIB RoI beneficiaries, £10.00 for Euro payments to AIB RoI beneficiaries"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "10.00",
+                          "MaximumAmount": "25.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialPresentationCount",
+                        "FeeAmount": "12.50",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqForeign",
+                        "FeeRate": "0.50",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "3.00",
+                          "MaximumAmount": "30.00",
+                          "MinimumRate": "0.50"
+                        }
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSIn",
+                        "FeeAmount": "2.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "£2 if less £100 or less, otherwise £6"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "2.00",
+                          "MaximumAmount": "6.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMAbroadConVisaDebit",
+                        "FeeRate": "2.75",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "2.75% of amount withdrawn"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "SEPAIn",
+                        "FeeAmount": "5.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "No charge if within AIB Group"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "0.00",
+                          "MaximumAmount": "5.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "ForeignFXOutwards",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "£25.00 International or Stg payments, £15.00 for Stg payments to  AIB RoI beneficiaries, £10.00 for Euro payments to AIB RoI beneficiaries"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "10.00",
+                          "MaximumAmount": "25.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "ForeignChqDraft",
+                        "FeeRate": "0.50",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "3.00",
+                          "MaximumAmount": "30.00",
+                          "MinimumRate": "0.50"
+                        }
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMForeignCashDebCard",
+                        "FeeRate": "1.50",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "1.50% of amount withdrawn"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "TransSWIFTOutUKForeign",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsIntlStoppedCancelled",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductURL": "https://firsttrustbank.co.uk/our-products/student-and-graduates/student-plus-account",
+                    "ProductDescription": "This account is available as a sole account to new and existing customers aged 18 years and over who are a full time third-level university or college student or a student nurse. Students on full time vocational courses at regional colleges may also apply. ",
+                    "TcsAndCsURL": "https://firsttrustbank.co.uk/personal-docs/our-products/current-accounts/personal-banking-terms-and-conditions.pdf",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "Online"
+                    ],
+                    "ServicingAccessChannels": [
+                      "ATM",
+                      "PostOffice",
+                      "Post",
+                      "MobileBankingApp",
+                      "Online",
+                      "Branch"
+                    ],
+                    "MonthlyMaximumCharge": "0.00"
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "Graduate Account",
+              "Identification": "FTB40037",
+              "Segment": [
+                "Graduate"
+              ],
+              "PCAMarketingState": [
+                {
+                  "Identification": "FTB40037",
+                  "MarketingState": "Regular",
+                  "Overdraft": {
+                    "OverdraftTierBandSet": [
+                      {
+                        "TierBandMethod": "Whole",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "FTBDI007",
+                        "AuthorisedIndicator": true,
+                        "BufferAmount": "1000.00",
+                        "OverdraftTierBand": [
+                          {
+                            "Identification": "DB1000+",
+                            "TierValueMin": "1001.00",
+                            "Notes": [
+                              "Interest Free Arranged Overdraft up to 1000"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "ForeignChqSent",
+                        "FeeRate": "0.20",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "10.00",
+                          "MaximumAmount": "40.00",
+                          "MinimumRate": "0.20"
+                        }
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOut",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "SEPAEuro",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerItem"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "SEPAIn",
+                        "FeeAmount": "5.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "No charge if within AIB Group"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "0.00",
+                          "MaximumAmount": "5.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "ForeignChqDraft",
+                        "FeeRate": "0.50",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "3.00",
+                          "MaximumAmount": "30.00",
+                          "MinimumRate": "0.50"
+                        }
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsIntlStoppedCancelled",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqDraftFX",
+                        "FeeRate": "0.50",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "3.00",
+                          "MaximumAmount": "30.00",
+                          "MinimumRate": "0.50"
+                        }
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMAbroadConVisaDebit",
+                        "FeeRate": "2.75",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "2.75% of amount withdrawn"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMAbroadVisaDebit",
+                        "FeeRate": "2.75",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "2.75% of amount withdrawn"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Transaction",
+                        "FeeType": "TransPOSSaleForeign",
+                        "FeeRate": "2.75",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "2.75% currency conversion on Stg amount- no automated transaction fee"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqForeign",
+                        "FeeRate": "0.50",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "3.00",
+                          "MaximumAmount": "30.00",
+                          "MinimumRate": "0.50"
+                        }
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsIntlPayableAbroad",
+                        "FeeAmount": "14.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "£14 Euro Draft / £16 FX Draft"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "14.00",
+                          "MaximumAmount": "16.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMNonSterlingWithdrawal",
+                        "FeeRate": "1.50",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "1.50% of amount withdrawn"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "SEPAOut",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerItem"
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMConGroupATM",
+                        "FeeRate": "2.75",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "2.75% of amount withdrawn"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMForeignCashDebCard",
+                        "FeeRate": "1.50",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "1.50% of amount withdrawn"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialPresentationPTT",
+                        "FeeAmount": "12.50",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSIn",
+                        "FeeAmount": "2.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "£2 if less £100 or less, otherwise £6"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "2.00",
+                          "MaximumAmount": "6.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "TransSWIFTOutUKForeign",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "ForeignFXOutwards",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "£25.00 International or Stg payments, £15.00 for Stg payments to  AIB RoI beneficiaries, £10.00 for Euro payments to AIB RoI beneficiaries"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "10.00",
+                          "MaximumAmount": "25.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMAbroad",
+                        "FeeRate": "2.75",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "2.75% of amount withdrawn"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialPresentationCount",
+                        "FeeAmount": "12.50",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopy1",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqForeignCourier",
+                        "FeeRate": "0.20",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "10.00",
+                          "MaximumAmount": "40.00",
+                          "MinimumRate": "0.20"
+                        }
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "TransSWIFTOutNonEEASterling",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Online",
+                        "FeeType": "OnlineReplacementCardReader",
+                        "FeeAmount": "8.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "ForeignFXInwardsCust",
+                        "FeeAmount": "2.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "£6.00 each > £100, £2.00 each < or = £100, £5.00 each-SEPA, From AIB Group-No charge"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "2.00",
+                          "MaximumAmount": "6.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayForeignCharge",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "£25.00 International or Stg payments, £15.00 for Stg payments to  AIB RoI beneficiaries, £10.00 for Euro payments to AIB RoI beneficiaries"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "10.00",
+                          "MaximumAmount": "25.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialChqPresentation",
+                        "FeeAmount": "12.50",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductURL": "https://firsttrustbank.co.uk/our-products/student-and-graduates/graduate-account",
+                    "ProductDescription": "Customers who have graduated from a full time third level course within the last two years. A customer can only hold a graduate account for one period of three years. ",
+                    "TcsAndCsURL": "https://firsttrustbank.co.uk/personal-docs/our-products/current-accounts/personal-banking-terms-and-conditions.pdf",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "Online"
+                    ],
+                    "ServicingAccessChannels": [
+                      "Online",
+                      "Post",
+                      "PostOffice",
+                      "MobileBankingApp",
+                      "Branch",
+                      "ATM"
+                    ],
+                    "MonthlyMaximumCharge": "0.00"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

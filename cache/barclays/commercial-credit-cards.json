@@ -1,0 +1,809 @@
+{
+  "meta": {
+    "LastUpdated": "2018-06-29T14:07:19.728+01:00",
+    "TotalResults": 3,
+    "Agreement": "Use of the APIs and any related data will be subject to the terms of the Open Licence and subject to terms and conditions",
+    "License": "https://www.openbanking.org.uk/open-licence",
+    "TermsOfUse": "https://www.openbanking.org.uk/terms"
+  },
+  "data": [
+    {
+      "Brand": [
+        {
+          "BrandName": "Barclays",
+          "CCC": [
+            {
+              "Name": "Barclaycard Select Credit Card",
+              "Identification": "SCC",
+              "Segment": [
+                "General"
+              ],
+              "CCCMarketingState": [
+                {
+                  "Identification": "Regular",
+                  "MarketingState": "Regular",
+                  "Notes": [
+                    "With no annual fee for the first 12 months, the Barclaycard Select credit card can help manage cash flow and expenses. It comes with: you could pay no annual fee every year if you qualify for our Fee Waiver,19.9% Purchase Interest Rate, an initial 6-months interest free purchase period, up to 56 days interest free after the initial 6 month period. To keep your 0% rate, just make sure you stay within your credit limit and make at least your minimum payment on time each month. It's also important that you clear your balance in full after the interest-free period ends, or you'll be charged interest. Plus insurances and added protection for your business - Cardholder Misuse and Purchase Protection. Limitations and exclustions apply"
+                  ],
+                  "Repayment": {
+                    "MinBalanceRepaymentRate": "1.0",
+                    "MinBalanceRepaymentAmount": "5.0",
+                    "Notes": [
+                      "Unless we tell you otherwise, your minimum payment will be the highest of the following: • £5 (or the full statement balance if it’s less than £5) • An amount equal to any interest, default fees or account fees that have been added to your account since your last statement, plus 1% of the remaining statement balance"
+                    ],
+                    "NonRepaymentFeeCharges": [
+                      {
+                        "NonRepaymentFeeChargeDetail": [
+                          {
+                            "FeeType": "LatePayment",
+                            "FeeAmount": "12.0",
+                            "ApplicationFrequency": "Monthly",
+                            "CalculationFrequency": "Monthly"
+                          },
+                          {
+                            "FeeType": "OverCreditLimit",
+                            "FeeAmount": "12.0",
+                            "ApplicationFrequency": "Monthly",
+                            "CalculationFrequency": "Monthly"
+                          },
+                          {
+                            "FeeType": "ReturnPayment",
+                            "FeeAmount": "12.0",
+                            "ApplicationFrequency": "Other",
+                            "CalculationFrequency": "Other",
+                            "Notes": [
+                              "Returned payment, for example, a failed Direct Debit, cheque or other payment (for each returned payment)"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "RepaymentAllocation": {
+                      "Notes": [
+                        "If a payment you make is less than your total statement balance, we’ll use it to reduce the balance with the highest interest rate first. If any of the payment is left over, we’ll use it to reduce the lower-rate balances. If you have more than one promotional balance at the same interest rate, we’ll use your payment to reduce the balance with the promotional rate that ends first."
+                      ]
+                    }
+                  },
+                  "Eligibility": {
+                    "AgeEligibility": {
+                      "MinimumAge": 18
+                    },
+                    "ResidencyEligibility": [
+                      {
+                        "ResidencyType": "CompanyTax",
+                        "ResidencyIncluded": [
+                          "UKUK"
+                        ],
+                        "Notes": [
+                          "UK based businesses only."
+                        ]
+                      }
+                    ],
+                    "TradingHistoryEligibility": [
+                      {
+                        "TradingType": "Turnover",
+                        "MinMaxType": "Minimum",
+                        "Amount": "10000.0",
+                        "Textual": "Business turnover or new business plan must exceed £10,000 per year",
+                        "Period": "Year",
+                        "Notes": [
+                          "Business is not bankrupt or in bankruptcy proceedings. Existing financial commitments are not overdue and have been managed well over the last 12 months. UK based businesses only. Directors and employees must be at least 18 years of age."
+                        ]
+                      }
+                    ],
+                    "CreditCheckEligibility": {
+                      "ScoringType": "Hard",
+                      "Notes": [
+                        "Upon Application"
+                      ]
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitItem": [
+                      {
+                        "Identification": "Fee Waiver",
+                        "Type": "CashBack",
+                        "Name": "Fee Waiver",
+                        "Notes": [
+                          "If you spend £6000 or more on purchases or cash across the entire account during the previous year, on annual renewal all annual account fees will be waived for the following year."
+                        ]
+                      },
+                      {
+                        "Identification": "Interest Free at Account Inception",
+                        "Type": "Other",
+                        "Name": "6 Months Interest Free at Account Inception",
+                        "Notes": [
+                          "6 months interest free on purchases when the account is opened. Minimum monthly payments are still required."
+                        ]
+                      },
+                      {
+                        "Identification": "Transfer to Bank",
+                        "Type": "Other",
+                        "Name": "Transfer to Bank",
+                        "Notes": [
+                          "Ability to move money from card credit limit to Bank account. A fee is charged and the transferred balance then becomes interest free for 3 months. Available to customers on a promotional basis. Subject to status, qualification criteria and banking at Barclays."
+                        ]
+                      },
+                      {
+                        "Identification": "Promotional Cash Flow",
+                        "Type": "Other",
+                        "Name": "Promotional Cash Flow",
+                        "Notes": [
+                          "Ability to select a further interest free period for purchases. A fee is charged with new purchases interest free for 3 months. Available to customers on a promotional basis. Subject to status and qualification criteria."
+                        ]
+                      },
+                      {
+                        "Identification": "Business Rewards",
+                        "Type": "CashBack",
+                        "Name": "Business Rewards",
+                        "Notes": [
+                          "A series of discounts and offers available from participating merchants made available to card account."
+                        ]
+                      },
+                      {
+                        "Identification": "Standard Insurance",
+                        "Type": "Other",
+                        "Name": "Card Holder Misuse/Purchase Protection",
+                        "Notes": [
+                          "Standard card insurance."
+                        ]
+                      },
+                      {
+                        "Identification": "Online Account Management",
+                        "Type": "AccountManagement",
+                        "Name": "Online Account Management",
+                        "Notes": [
+                          "View statements, transactions, credit limits. Make payments and download management reports."
+                        ]
+                      },
+                      {
+                        "Identification": "My Controls",
+                        "Type": "AccountManagement",
+                        "Name": "My Controls",
+                        "Notes": [
+                          "Customise card acceptance for employees, instantly suspend cards, turn on and off international spending, cash and online spends and preselect merchant category spends for individuals."
+                        ]
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "CashAdvance",
+                        "FeeType": "CashAdvance",
+                        "FeeRate": "3.0",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "Other",
+                        "CalculationFrequency": "Other",
+                        "Notes": [
+                          "Per Transaction."
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "3.0"
+                        }
+                      },
+                      {
+                        "FeeCategory": "FX",
+                        "FeeType": "CashWithdrawal",
+                        "FeeRate": "2.99",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "Other",
+                        "CalculationFrequency": "Other",
+                        "Notes": [
+                          "Cash Withdrawal general fee of 3% (minimum £3) will also apply per transaction."
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "3.0"
+                        }
+                      },
+                      {
+                        "FeeCategory": "FX",
+                        "FeeType": "Purchase",
+                        "FeeRate": "2.99",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "Other",
+                        "CalculationFrequency": "Other",
+                        "Notes": [
+                          "Applied per transaction."
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Servicing",
+                        "FeeType": "Other",
+                        "FeeAmount": "5.0",
+                        "ApplicationFrequency": "Other",
+                        "CalculationFrequency": "Other",
+                        "Notes": [
+                          "Copy of transaction details £5 per item (we will not charge if the copy shows we made a mistake in charging the amount to your account)"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Servicing",
+                        "FeeType": "Other",
+                        "FeeAmount": "3.0",
+                        "ApplicationFrequency": "Other",
+                        "CalculationFrequency": "Other",
+                        "Notes": [
+                          "Copy of a statement £5"
+                        ]
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductDescription": "No annual fee for the first year, then annual fee waived thereafter based on spend criteria. Initial 6 month interest free period on purchases plus insurance and added protection services.",
+                    "ProductURL": "https://www.barclaycard.co.uk/business/making-payments/business-credit-cards/select-credit-card",
+                    "TcsAndCsURL": "https://www.barclaycard.co.uk/business/files/Select_Credit_Card_terms_conditions.pdf",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "CallCentre",
+                      "RelationshipManager",
+                      "Post"
+                    ],
+                    "ServicingAccessChannels": [
+                      "ATM",
+                      "Branch",
+                      "CallCentre",
+                      "MobileBankingApp",
+                      "Online",
+                      "Post",
+                      "RelationshipManager",
+                      "Text"
+                    ],
+                    "MinCreditLimit": "1000.0",
+                    "MaxPurchaseInterestFreeLengthDays": 56,
+                    "CardScheme": [
+                      "Mastercard"
+                    ],
+                    "ContactlessIndicator": true,
+                    "PeriodicFee": "32.0",
+                    "PeriodicFeePeriod": "Year",
+                    "APR": "26.4",
+                    "Notes": [
+                      "Purchase Rate 19.9 percent",
+                      "If you spend £6000 or more on purchases or cash across the entire account during the previous year, on annual renewal all annual account fees will be waived for the following year."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "BrandName": "Barclays",
+          "CCC": [
+            {
+              "Name": "Barclaycard Premium Plus Credit Card",
+              "Identification": "PPCC",
+              "Segment": [
+                "General"
+              ],
+              "CCCMarketingState": [
+                {
+                  "Identification": "Regular",
+                  "MarketingState": "Regular",
+                  "Notes": [
+                    "When you travel abroad on business, it's good to know you're covered for almost any eventuality. But travel insurance can be expensive. So why not save money with our enhanced travel insurance option, which is included in the annual fee of £100 per year for your first card, and then just £75 per card, per year for additional cards. It comes with: 14.9% Purchase Interest Rate, an initial 6-months interest free purchase period, up to 56 days interest free after the initial 6 month period. To keep your 0% rate, just make sure you stay within your credit limit and make at least your minimum payment on time each month. It's also important that you clear your balance in full after the interest-free period ends, or you'll be charged interest. 0.5% cashback on purchases, £400 max per year. Save 2% on foreign exchange fees. Membership of Priority Pass VIP Airport lounge with first two visits included per year. Additional visits £15 each. Plus insurances and added protection for your business - Enhanced Travel, Cardholder Misuse and Purchase Protection. Limitations and exclustions apply"
+                  ],
+                  "Repayment": {
+                    "MinBalanceRepaymentRate": "1.0",
+                    "MinBalanceRepaymentAmount": "5.0",
+                    "Notes": [
+                      "Unless we tell you otherwise, your minimum payment will be the highest of the following: • £5 (or the full statement balance if it’s less than £5) • An amount equal to any interest, default fees or account fees that have been added to your account since your last statement, plus 1% of the remaining statement balance"
+                    ],
+                    "NonRepaymentFeeCharges": [
+                      {
+                        "NonRepaymentFeeChargeDetail": [
+                          {
+                            "FeeType": "LatePayment",
+                            "FeeAmount": "12.0",
+                            "ApplicationFrequency": "Monthly",
+                            "CalculationFrequency": "Monthly"
+                          },
+                          {
+                            "FeeType": "OverCreditLimit",
+                            "FeeAmount": "12.0",
+                            "ApplicationFrequency": "Monthly",
+                            "CalculationFrequency": "Monthly"
+                          },
+                          {
+                            "FeeType": "ReturnPayment",
+                            "FeeAmount": "12.0",
+                            "ApplicationFrequency": "Other",
+                            "CalculationFrequency": "Other",
+                            "Notes": [
+                              "Returned payment, for example, a failed Direct Debit, cheque or other payment (for each returned payment)"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "RepaymentAllocation": {
+                      "Notes": [
+                        "If a payment you make is less than your total statement balance, we’ll use it to reduce the balance with the highest interest rate first. If any of the payment is left over, we’ll use it to reduce the lower-rate balances. If you have more than one promotional balance at the same interest rate, we’ll use your payment to reduce the balance with the promotional rate that ends first."
+                      ]
+                    }
+                  },
+                  "Eligibility": {
+                    "AgeEligibility": {
+                      "MinimumAge": 18
+                    },
+                    "ResidencyEligibility": [
+                      {
+                        "ResidencyType": "CompanyTax",
+                        "ResidencyIncluded": [
+                          "UKUK"
+                        ],
+                        "Notes": [
+                          "UK based businesses only."
+                        ]
+                      }
+                    ],
+                    "TradingHistoryEligibility": [
+                      {
+                        "TradingType": "Turnover",
+                        "MinMaxType": "Minimum",
+                        "Amount": "10000.0",
+                        "Textual": "Business turnover or new business plan must exceed £10,000 per year",
+                        "Period": "Year",
+                        "Notes": [
+                          "Business is not bankrupt or in bankruptcy proceedings. Existing financial commitments are not overdue and have been managed well over the last 12 months. UK based businesses only. Directors and employees must be at least 18 years of age."
+                        ]
+                      }
+                    ],
+                    "CreditCheckEligibility": {
+                      "ScoringType": "Hard",
+                      "Notes": [
+                        "Upon Application"
+                      ]
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitItem": [
+                      {
+                        "Identification": "Cashback",
+                        "Type": "CashBack",
+                        "Name": "Cashback",
+                        "Notes": [
+                          "Cashback on purchases up to the defined cap, 0.5% Cashback (£400 annual cap)"
+                        ]
+                      },
+                      {
+                        "Identification": "Interest Free at Account Inception",
+                        "Type": "Other",
+                        "Name": "6 Months Interest Free at Account Inception",
+                        "Notes": [
+                          "6 months interest free on purchases when the account is opened. Minimum monthly payments are still required."
+                        ]
+                      },
+                      {
+                        "Identification": "Transfer to Bank",
+                        "Type": "Other",
+                        "Name": "Transfer to Bank",
+                        "Notes": [
+                          "Ability to move money from card credit limit to Bank account. A fee is charged and the transferred balance then becomes interest free for 3 months. Available to customers on a promotional basis. Subject to status, qualification criteria and banking at Barclays."
+                        ]
+                      },
+                      {
+                        "Identification": "Promotional Cash Flow",
+                        "Type": "Other",
+                        "Name": "Promotional Cash Flow",
+                        "Notes": [
+                          "Ability to select a further interest free period for purchases. A fee is charged with new purchases interest free for 3 months. Available to customers on a promotional basis. Subject to status and qualification criteria."
+                        ]
+                      },
+                      {
+                        "Identification": "Business Rewards",
+                        "Type": "CashBack",
+                        "Name": "Business Rewards",
+                        "Notes": [
+                          "A series of discounts and offers available from participating merchants made available to card account."
+                        ]
+                      },
+                      {
+                        "Identification": "Standard Insurance",
+                        "Type": "Other",
+                        "Name": "Card Holder Misuse/Purchase Protection",
+                        "Notes": [
+                          "Standard card insurance."
+                        ]
+                      },
+                      {
+                        "Identification": "Business Travel insurance",
+                        "Type": "TravelInsurance",
+                        "Name": "Enhanced Business Travel insurance",
+                        "Notes": [
+                          "Enhanced Business Travel insurance"
+                        ]
+                      },
+                      {
+                        "Identification": "Airport Lounge Access",
+                        "Type": "Lifestyle",
+                        "Name": "Airport Lounge Access",
+                        "Notes": [
+                          "Free Priority Pass membership, plus first two visits free per year for the cardholder"
+                        ]
+                      },
+                      {
+                        "Identification": "Discounted FX Fee",
+                        "Type": "Other",
+                        "Name": "Discounted FX Fee",
+                        "Notes": [
+                          "Save 2% on Foreign Exchange fees 0.99% instead of 2.99%"
+                        ]
+                      },
+                      {
+                        "Identification": "Online Account Management",
+                        "Type": "AccountManagement",
+                        "Name": "Online Account Management",
+                        "Notes": [
+                          "View statements, transactions, credit limits. Make payments and download management reports."
+                        ]
+                      },
+                      {
+                        "Identification": "My Controls",
+                        "Type": "AccountManagement",
+                        "Name": "My Controls",
+                        "Notes": [
+                          "Customise card acceptance for employees, instantly suspend cards, turn on and off international spending, cash and online spends and preselect merchant category spends for individuals."
+                        ]
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "CashAdvance",
+                        "FeeType": "CashAdvance",
+                        "FeeRate": "3.0",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "Other",
+                        "CalculationFrequency": "Other",
+                        "Notes": [
+                          "Per Transaction."
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "3.0"
+                        }
+                      },
+                      {
+                        "FeeCategory": "FX",
+                        "FeeType": "CashWithdrawal",
+                        "FeeRate": "0.99",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "Other",
+                        "CalculationFrequency": "Other",
+                        "Notes": [
+                          "Cash Withdrawal general fee of 3% (minimum £3) will also apply per transaction."
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "3.0"
+                        }
+                      },
+                      {
+                        "FeeCategory": "FX",
+                        "FeeType": "Purchase",
+                        "FeeRate": "0.99",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "Other",
+                        "CalculationFrequency": "Other",
+                        "Notes": [
+                          "Applied per transaction."
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Servicing",
+                        "FeeType": "Other",
+                        "FeeAmount": "5.0",
+                        "ApplicationFrequency": "Other",
+                        "CalculationFrequency": "Other",
+                        "Notes": [
+                          "Copy of transaction details £5 per item (we will not charge if the copy shows we made a mistake in charging the amount to your account)"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Servicing",
+                        "FeeType": "Other",
+                        "FeeAmount": "3.0",
+                        "ApplicationFrequency": "Other",
+                        "CalculationFrequency": "Other",
+                        "Notes": [
+                          "Copy of a statement £5"
+                        ]
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductDescription": "Provides Cashback on business purchases, enhanced travel insurance, airport lounge access and savings on foreign exchange rates",
+                    "ProductURL": "https://www.barclaycard.co.uk/business/making-payments/business-credit-cards/premium-plus-credit-card",
+                    "TcsAndCsURL": "https://www.barclaycard.co.uk/business/files/Barclaycard-Business-Premium-Plus-Credit-Card-Terms-and-Conditions.pdf",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "CallCentre",
+                      "RelationshipManager",
+                      "Post"
+                    ],
+                    "ServicingAccessChannels": [
+                      "ATM",
+                      "Branch",
+                      "CallCentre",
+                      "MobileBankingApp",
+                      "Online",
+                      "Post",
+                      "RelationshipManager",
+                      "Text"
+                    ],
+                    "MinCreditLimit": "1000.0",
+                    "MaxPurchaseInterestFreeLengthDays": 56,
+                    "CardScheme": [
+                      "Mastercard"
+                    ],
+                    "ContactlessIndicator": true,
+                    "PeriodicFee": "100.0",
+                    "PeriodicFeePeriod": "Year",
+                    "APR": "36.2",
+                    "Notes": [
+                      "Purchase Rate 14.9 percent",
+                      "£75 for each additional card"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "BrandName": "Barclays",
+          "CCC": [
+            {
+              "Name": "Barclaycard Flex Credit Card",
+              "Identification": "FCC",
+              "Segment": [
+                "General"
+              ],
+              "CCCMarketingState": [
+                {
+                  "Identification": "Regular",
+                  "MarketingState": "Regular",
+                  "Notes": [
+                    "Managing a business means looking after the pounds and pence, that's why we've designed Barclaycard Flex credit card to help. It comes with: no annual card fee, 24.9% Purchase Interest Rate, an initial 3 months' interest-free purchase period and up to 56 days interest free after the initial 3 month period. To keep your 0% rate, just make sure you stay within your credit limit and make at least your minimum payment on time each month. It's also important that you clear your balance in full after the interest-free period ends, or you'll be charged interest."
+                  ],
+                  "Repayment": {
+                    "MinBalanceRepaymentRate": "1.0",
+                    "MinBalanceRepaymentAmount": "5.0",
+                    "Notes": [
+                      "Unless we tell you otherwise, your minimum payment will be the highest of the following: • £5 (or the full statement balance if it’s less than £5) • An amount equal to any interest, default fees or account fees that have been added to your account since your last statement, plus 1% of the remaining statement balance"
+                    ],
+                    "NonRepaymentFeeCharges": [
+                      {
+                        "NonRepaymentFeeChargeDetail": [
+                          {
+                            "FeeType": "LatePayment",
+                            "FeeAmount": "12.0",
+                            "ApplicationFrequency": "Monthly",
+                            "CalculationFrequency": "Monthly"
+                          },
+                          {
+                            "FeeType": "OverCreditLimit",
+                            "FeeAmount": "12.0",
+                            "ApplicationFrequency": "Monthly",
+                            "CalculationFrequency": "Monthly"
+                          },
+                          {
+                            "FeeType": "ReturnPayment",
+                            "FeeAmount": "12.0",
+                            "ApplicationFrequency": "Other",
+                            "CalculationFrequency": "Other",
+                            "Notes": [
+                              "Returned payment, for example, a failed Direct Debit, cheque or other payment (for each returned payment)"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "RepaymentAllocation": {
+                      "Notes": [
+                        "If a payment you make is less than your total statement balance, we’ll use it to reduce the balance with the highest interest rate first. If any of the payment is left over, we’ll use it to reduce the lower-rate balances. If you have more than one promotional balance at the same interest rate, we’ll use your payment to reduce the balance with the promotional rate that ends first."
+                      ]
+                    }
+                  },
+                  "Eligibility": {
+                    "AgeEligibility": {
+                      "MinimumAge": 18
+                    },
+                    "ResidencyEligibility": [
+                      {
+                        "ResidencyType": "CompanyTax",
+                        "ResidencyIncluded": [
+                          "UKUK"
+                        ],
+                        "Notes": [
+                          "UK based businesses only."
+                        ]
+                      }
+                    ],
+                    "TradingHistoryEligibility": [
+                      {
+                        "TradingType": "Turnover",
+                        "MinMaxType": "Minimum",
+                        "Amount": "10000.0",
+                        "Textual": "Business turnover or new business plan must exceed £10,000 per year",
+                        "Period": "Year",
+                        "Notes": [
+                          "Business is not bankrupt or in bankruptcy proceedings. Existing financial commitments are not overdue and have been managed well over the last 12 months. UK based businesses only. Directors and employees must be at least 18 years of age."
+                        ]
+                      }
+                    ],
+                    "CreditCheckEligibility": {
+                      "ScoringType": "Hard",
+                      "Notes": [
+                        "Upon Application"
+                      ]
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitItem": [
+                      {
+                        "Identification": "Fee Free",
+                        "Type": "Other",
+                        "Name": "Fee Free",
+                        "Notes": [
+                          "No annual fee charged on the account or at card level."
+                        ]
+                      },
+                      {
+                        "Identification": "Interest Free at Account Inception",
+                        "Type": "Other",
+                        "Name": "3 Months Interest Free at Account Inception",
+                        "Notes": [
+                          "3 months interest free on purchases when the account is opened. Minimum monthly payments are still required."
+                        ]
+                      },
+                      {
+                        "Identification": "Transfer to Bank",
+                        "Type": "Other",
+                        "Name": "Transfer to Bank",
+                        "Notes": [
+                          "Ability to move money from card credit limit to Bank account. A fee is charged and the transferred balance then becomes interest free for 3 months. Available to customers on a promotional basis. Subject to status, qualification criteria and banking at Barclays."
+                        ]
+                      },
+                      {
+                        "Identification": "Promotional Cash Flow",
+                        "Type": "Other",
+                        "Name": "Promotional Cash Flow",
+                        "Notes": [
+                          "Ability to select a further interest free period for purchases. A fee is charged with new purchases interest free for 3 months. Available to customers on a promotional basis. Subject to status and qualification criteria."
+                        ]
+                      },
+                      {
+                        "Identification": "Business Rewards",
+                        "Type": "CashBack",
+                        "Name": "Business Rewards",
+                        "Notes": [
+                          "A series of discounts and offers available from participating merchants made available to card account."
+                        ]
+                      },
+                      {
+                        "Identification": "Online Account Management",
+                        "Type": "AccountManagement",
+                        "Name": "Online Account Management",
+                        "Notes": [
+                          "View statements, transactions, credit limits. Make payments and download management reports."
+                        ]
+                      },
+                      {
+                        "Identification": "My Controls",
+                        "Type": "AccountManagement",
+                        "Name": "My Controls",
+                        "Notes": [
+                          "Customise card acceptance for employees, instantly suspend cards, turn on and off international spending, cash and online spends and preselect merchant category spends for individuals."
+                        ]
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "CashAdvance",
+                        "FeeType": "CashAdvance",
+                        "FeeRate": "3.0",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "Other",
+                        "CalculationFrequency": "Other",
+                        "Notes": [
+                          "Per Transaction."
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "3.0"
+                        }
+                      },
+                      {
+                        "FeeCategory": "FX",
+                        "FeeType": "CashWithdrawal",
+                        "FeeRate": "2.99",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "Other",
+                        "CalculationFrequency": "Other",
+                        "Notes": [
+                          "Cash Withdrawal general fee of 3% (minimum £3) will also apply per transaction."
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "3.0"
+                        }
+                      },
+                      {
+                        "FeeCategory": "FX",
+                        "FeeType": "Purchase",
+                        "FeeRate": "2.99",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "Other",
+                        "CalculationFrequency": "Other",
+                        "Notes": [
+                          "Applied per transaction."
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Servicing",
+                        "FeeType": "Other",
+                        "FeeAmount": "5.0",
+                        "ApplicationFrequency": "Other",
+                        "CalculationFrequency": "Other",
+                        "Notes": [
+                          "Copy of transaction details £5 per item (we will not charge if the copy shows we made a mistake in charging the amount to your account)"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Servicing",
+                        "FeeType": "Other",
+                        "FeeAmount": "3.0",
+                        "ApplicationFrequency": "Other",
+                        "CalculationFrequency": "Other",
+                        "Notes": [
+                          "Copy of a statement £5"
+                        ]
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductDescription": "No annual fee and an initial 3 month interest free on purchases. Ideal for businesses that have occasional cash flow needs such as start-ups or those new to credit cards",
+                    "ProductURL": "https://www.barclaycard.co.uk/business/making-payments/business-credit-cards/flex-credit-card",
+                    "TcsAndCsURL": "https://www.barclaycard.co.uk/business/files/Flex-card-terms-conditions.pdf",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "CallCentre",
+                      "RelationshipManager"
+                    ],
+                    "ServicingAccessChannels": [
+                      "ATM",
+                      "Branch",
+                      "CallCentre",
+                      "MobileBankingApp",
+                      "Online",
+                      "Post",
+                      "RelationshipManager",
+                      "Text"
+                    ],
+                    "MinCreditLimit": "500.0",
+                    "MaxPurchaseInterestFreeLengthDays": 56,
+                    "CardScheme": [
+                      "Mastercard"
+                    ],
+                    "ContactlessIndicator": true,
+                    "PeriodicFee": "0.0",
+                    "PeriodicFeePeriod": "Year",
+                    "APR": "24.9",
+                    "Notes": [
+                      "Purchase Rate 24.9 percent"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

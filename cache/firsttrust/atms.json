@@ -1,0 +1,3322 @@
+{
+  "meta": {
+    "LastUpdated": "2018-07-09T10:45:31.000Z",
+    "TotalResults": 81,
+    "Agreement": "Use of the APIs and any related data will be subject to the terms of the Open Licence and subject to terms and conditions",
+    "License": "https://www.openbanking.org.uk/open-licence",
+    "TermsOfUse": "https://www.openbanking.org.uk/terms"
+  },
+  "data": [
+    {
+      "Brand": [
+        {
+          "BrandName": "First Trust Bank",
+          "ATM": [
+            {
+              "Identification": "D745",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "Balance",
+                "PINActivation",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Branch": {
+                "Identification": "FTB1219657269659"
+              },
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "First Trust Bank, 4-8 Market Street, Lurgan, Craigavon"
+                  ],
+                  "BuildingNumber": "4-8",
+                  "StreetName": "Market Street, Lurgan",
+                  "TownName": "Craigavon",
+                  "Country": "UK",
+                  "PostCode": "BT66 6AQ",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.462599",
+                      "Longitude": "-6.332217"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D704",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "CashWithdrawal",
+                "PINChange",
+                "PINUnblock",
+                "PINActivation",
+                "MobilePhoneTopUp",
+                "Balance"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "Lakeside Service Station, 18E Queens Street, Enniskillen"
+                  ],
+                  "BuildingNumber": "18E",
+                  "StreetName": "Queens Street",
+                  "TownName": "Enniskillen",
+                  "Country": "UK",
+                  "PostCode": "BT74 7JR",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.347538",
+                      "Longitude": "-7.643937"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D703",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "Balance",
+                "PINActivation",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "2 Royal Avenue, Belfast"
+                  ],
+                  "BuildingNumber": "2",
+                  "StreetName": "Royal Avenue",
+                  "TownName": "Belfast",
+                  "Country": "UK",
+                  "PostCode": "BT1 1DA ",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.600002",
+                      "Longitude": "-5.931037"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D12F",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINChange",
+                "CashWithdrawal",
+                "PINUnblock",
+                "Balance",
+                "PINActivation",
+                "MobilePhoneTopUp"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "15-17 Shipquay Street, Londonderry"
+                  ],
+                  "BuildingNumber": "15-17",
+                  "StreetName": "Shipquay Street",
+                  "TownName": "Londonderry",
+                  "Country": "UK",
+                  "PostCode": "BT48 6DJ",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.996088",
+                      "Longitude": "-7.320917"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D608",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "Balance",
+                "PINActivation",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "50 Portadown Road, Craigavon"
+                  ],
+                  "BuildingNumber": "50",
+                  "StreetName": "Portadown Road",
+                  "TownName": "Craigavon",
+                  "Country": "UK",
+                  "PostCode": "BT62 2JU",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.363656",
+                      "Longitude": "-6.427514"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D883",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "Balance",
+                "PINActivation",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Branch": {
+                "Identification": "FTB1219657269673"
+              },
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "First Trust Bank, Meadowbank Shopping Centre, Strand Road, Londonderry"
+                  ],
+                  "StreetName": "Meadowbank Shopping Centre, Strand Road",
+                  "TownName": "Londonderry",
+                  "Country": "UK",
+                  "PostCode": "BT48 7BL",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.999757",
+                      "Longitude": "-7.322202"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D693",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "PINChange",
+                "Balance",
+                "PINActivation",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "92 Ann Street, Belfast"
+                  ],
+                  "BuildingNumber": "92",
+                  "StreetName": "Ann Street",
+                  "TownName": "Belfast",
+                  "Country": "UK",
+                  "PostCode": "BT1 3HH ",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.599692",
+                      "Longitude": "-5.922859"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D715",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "Balance",
+                "PINActivation",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "The Oaks Centre, Oaks Road, Dungannon"
+                  ],
+                  "StreetName": "Oaks Road",
+                  "TownName": "Dungannon",
+                  "Country": "UK",
+                  "PostCode": "BT71 4NA",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.511433",
+                      "Longitude": "-6.762951"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D689",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "Balance",
+                "PINActivation",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "200 Andersonstown Road, BELFAST"
+                  ],
+                  "BuildingNumber": "200",
+                  "StreetName": "Andersonstown Road",
+                  "TownName": "BELFAST",
+                  "Country": "UK",
+                  "PostCode": "BT11 9EB",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.572842",
+                      "Longitude": "-5.993794"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D667",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "Balance",
+                "CashWithdrawal",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "PINActivation",
+                "PINUnblock"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "MBC Service Station, Stewartstown Road, Belfast"
+                  ],
+                  "StreetName": "Stewartstown Road",
+                  "TownName": "Belfast",
+                  "Country": "UK",
+                  "PostCode": "BT17 0LB",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.556356",
+                      "Longitude": "-6.026318"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D13F",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "Balance",
+                "PINActivation",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Branch": {
+                "Identification": "FTB1221564396361"
+              },
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "First Trust Bank, 35 Market Square, Lisburn"
+                  ],
+                  "BuildingNumber": "35",
+                  "StreetName": "Market Square",
+                  "TownName": "Lisburn",
+                  "Country": "UK",
+                  "PostCode": "BT28 1AG",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.511316",
+                      "Longitude": "-6.044233"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D695",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINActivation",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "Balance",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess",
+                "ExternalRamp",
+                "AutomaticDoors"
+              ],
+              "Access24HoursIndicator": false,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Branch": {
+                "Identification": "FTB1219657269657"
+              },
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "First Trust Bank, 33-35 University Road, Belfast"
+                  ],
+                  "BuildingNumber": "33-35",
+                  "StreetName": "University Road",
+                  "TownName": "Belfast",
+                  "Country": "UK",
+                  "PostCode": "BT7 1NA ",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.587470",
+                      "Longitude": "-5.936673"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D701",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "PINChange",
+                "Balance",
+                "PINActivation",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "139 Stranmillis Road, Belfast"
+                  ],
+                  "BuildingNumber": "139",
+                  "StreetName": "Stranmillis Road",
+                  "TownName": "Belfast",
+                  "Country": "UK",
+                  "PostCode": "BT9 5AJ ",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.578758",
+                      "Longitude": "-5.934464"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D741",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINChange",
+                "PINUnblock",
+                "PINActivation",
+                "CashWithdrawal",
+                "MobilePhoneTopUp",
+                "Balance"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": false,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "Buttercrane Shopping Centre, Buttercrane Quay, Newry"
+                  ],
+                  "StreetName": "Buttercrane Quay",
+                  "TownName": "Newry",
+                  "Country": "UK",
+                  "PostCode": "BT35 8HJ",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.172172",
+                      "Longitude": "-6.341315"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D934",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "CashWithdrawal",
+                "PINChange",
+                "PINUnblock",
+                "PINActivation",
+                "MobilePhoneTopUp",
+                "Balance"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "Boucher Retail Park, 2A Boucher Crescent, Belfast"
+                  ],
+                  "BuildingNumber": "2A",
+                  "StreetName": "Boucher Crescent",
+                  "TownName": "Belfast",
+                  "Country": "UK",
+                  "PostCode": "BT12 6HU",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.579514",
+                      "Longitude": "-5.967104"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D656",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "Balance",
+                "PINActivation",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "Meadows Shopping Centre, The Meadows, Craigavon"
+                  ],
+                  "StreetName": "The Meadows",
+                  "TownName": "Craigavon",
+                  "Country": "UK",
+                  "PostCode": "BT62 1AJ",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.458389",
+                      "Longitude": "-6.604424"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D636",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "Balance",
+                "PINActivation",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "Old Creamery Shopping Centre, Monaghan Street, Newry"
+                  ],
+                  "StreetName": "Monaghan Street",
+                  "TownName": "Newry",
+                  "Country": "UK",
+                  "PostCode": "BT35 6AA",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.176973",
+                      "Longitude": "-6.342877"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D604",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "PINChange",
+                "Balance",
+                "PINActivation",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "16 Antrim Road, Belfast"
+                  ],
+                  "BuildingNumber": "16",
+                  "StreetName": "Antrim Road",
+                  "TownName": "Belfast",
+                  "Country": "UK",
+                  "PostCode": "BT15 2AA",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.608150",
+                      "Longitude": "-5.936859"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D11F",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "PINChange",
+                "Balance",
+                "PINActivation",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "15-17 Shipquay Street, Londonderry"
+                  ],
+                  "BuildingNumber": "15-17",
+                  "StreetName": "Shipquay Street",
+                  "TownName": "Londonderry",
+                  "Country": "UK",
+                  "PostCode": "BT48 6DJ",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.996088",
+                      "Longitude": "-7.320917"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D928",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "Balance",
+                "PINActivation",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "7 Racecourse Road, Pennyburn, Londonderry"
+                  ],
+                  "BuildingNumber": "7",
+                  "StreetName": "Racecourse Road, Pennyburn",
+                  "TownName": "Londonderry",
+                  "Country": "UK",
+                  "PostCode": "BT48 8NL",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "55.026408",
+                      "Longitude": "-7.315983"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D884",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "CashWithdrawal",
+                "PINUnblock",
+                "PINActivation",
+                "Balance",
+                "PINChange"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": false,
+              "SupportedCurrencies": [
+                "EUR"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "First Trust Bank, Meadowbank Shopping Centre, Strand Road, Londonderry"
+                  ],
+                  "StreetName": "Meadowbank Shopping Centre, Strand Road",
+                  "TownName": "Londonderry",
+                  "Country": "UK",
+                  "PostCode": "BT48 7BL",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.999757",
+                      "Longitude": "-7.322202"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D895",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINActivation",
+                "CashWithdrawal",
+                "PINUnblock",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "Balance"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": false,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "Unit 9 Parkcentre, Belfast"
+                  ],
+                  "BuildingNumber": "Unit 9",
+                  "StreetName": "Parkcentre",
+                  "TownName": "Belfast",
+                  "Country": "UK",
+                  "PostCode": "BT12 6HN",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.589225",
+                      "Longitude": "-5.962241"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D880",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "Balance",
+                "PINActivation",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "564 Falls Road, BELFAST"
+                  ],
+                  "BuildingNumber": "564",
+                  "StreetName": "Falls Road",
+                  "TownName": "BELFAST",
+                  "Country": "UK",
+                  "PostCode": "BT11 9AE",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.581274",
+                      "Longitude": "-5.978393"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D664",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINActivation",
+                "MobilePhoneTopUp",
+                "Balance",
+                "PINUnblock",
+                "CashWithdrawal",
+                "PINChange"
+              ],
+              "Accessibility": [
+                "ExternalRamp",
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Branch": {
+                "Identification": "FTB1219750569400"
+              },
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "First Trust Bank, 322 Antrim Road, Glengormley, Newtownabbey"
+                  ],
+                  "BuildingNumber": "322",
+                  "StreetName": "Antrim Road, Glengormley",
+                  "TownName": "Newtownabbey",
+                  "Country": "UK",
+                  "PostCode": "BT36 5EQ",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.672344",
+                      "Longitude": "-5.960689"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D674",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "Balance",
+                "PINActivation",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Branch": {
+                "Identification": "FTB1219657269662"
+              },
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "First Trust Bank, 85 Main Street, Bangor"
+                  ],
+                  "BuildingNumber": "85",
+                  "StreetName": "Main Street",
+                  "TownName": "Bangor",
+                  "Country": "UK",
+                  "PostCode": "BT20 4BA",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.660349",
+                      "Longitude": "-5.667949"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D644",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "Balance",
+                "PINUnblock",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "PINActivation",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "103 Groomsport Road, Bangor"
+                  ],
+                  "BuildingNumber": "103",
+                  "StreetName": "Groomsport Road",
+                  "TownName": "Bangor",
+                  "Country": "UK",
+                  "PostCode": "BT20 5NS",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.664474",
+                      "Longitude": "-5.641839"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D728",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "Balance",
+                "PINActivation",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "64 Crumlin Road, Belfast"
+                  ],
+                  "BuildingNumber": "64",
+                  "StreetName": "Crumlin Road",
+                  "TownName": "Belfast",
+                  "Country": "UK",
+                  "PostCode": "BT14 6AG",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.608038",
+                      "Longitude": "-5.939157"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D743",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "PINChange",
+                "Balance",
+                "PINActivation",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "42 Dobbin Road, Craigavon"
+                  ],
+                  "BuildingNumber": "42",
+                  "StreetName": "Dobbin Road",
+                  "TownName": "Craigavon",
+                  "Country": "UK",
+                  "PostCode": "BT62 4EY",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.400319",
+                      "Longitude": "-6.483107"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D662",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "CashWithdrawal",
+                "PINUnblock",
+                "Balance",
+                "PINActivation",
+                "PINChange",
+                "MobilePhoneTopUp"
+              ],
+              "Accessibility": [
+                "AutomaticDoors",
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": false,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Branch": {
+                "Identification": "FTB1219421708398"
+              },
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "First Trust Bank, 11-15 Donegall Square North, Belfast"
+                  ],
+                  "BuildingNumber": "11-15",
+                  "StreetName": "Donegall Square North",
+                  "TownName": "Belfast",
+                  "Country": "UK",
+                  "PostCode": "BT1 5GB ",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.597442",
+                      "Longitude": "-5.931224"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D930",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "Balance",
+                "PINActivation",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "Spires Centre, Moy Road, Armagh"
+                  ],
+                  "StreetName": "Moy Road",
+                  "TownName": "Armagh",
+                  "Country": "UK",
+                  "PostCode": "BT61 8DR",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.392294",
+                      "Longitude": "-6.669803"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D889",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "CashWithdrawal",
+                "PINUnblock",
+                "PINActivation",
+                "Balance",
+                "PINChange"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "EUR"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Branch": {
+                "Identification": "FTB1219421708398"
+              },
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "First Trust Bank, 11-15 Donegall Square North, Belfast"
+                  ],
+                  "BuildingNumber": "11-15",
+                  "StreetName": "Donegall Square North",
+                  "TownName": "Belfast",
+                  "Country": "UK",
+                  "PostCode": "BT1 5GB ",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.597442",
+                      "Longitude": "-5.931224"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D606",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINActivation",
+                "MobilePhoneTopUp",
+                "Balance",
+                "PINUnblock",
+                "CashWithdrawal",
+                "PINChange"
+              ],
+              "Accessibility": [
+                "AutomaticDoors",
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": false,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Branch": {
+                "Identification": "FTB1219657269666"
+              },
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "First Trust Bank, 42-44 Hill Street, Newry"
+                  ],
+                  "BuildingNumber": "42-44",
+                  "StreetName": "Hill Street",
+                  "TownName": "Newry",
+                  "Country": "UK",
+                  "PostCode": "BT34 1AR",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.174693",
+                      "Longitude": "-6.338512"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D746",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "Balance",
+                "PINActivation",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "Altnagelvin Hospital, Glenshane Rd, Londonderry"
+                  ],
+                  "StreetName": "Glenshane Rd",
+                  "TownName": "Londonderry",
+                  "Country": "UK",
+                  "PostCode": "BT47 6SB",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.985410",
+                      "Longitude": "-7.293133"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D724",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "MobilePhoneTopUp",
+                "PINChange",
+                "CashWithdrawal",
+                "Balance",
+                "PINActivation",
+                "PINUnblock"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "509-511 Lisburn Road, Belfast"
+                  ],
+                  "BuildingNumber": "509-511",
+                  "StreetName": "Lisburn Road",
+                  "TownName": "Belfast",
+                  "Country": "UK",
+                  "PostCode": "BT9 7EZ ",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.577342",
+                      "Longitude": "-5.953237"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D694",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINActivation",
+                "MobilePhoneTopUp",
+                "Balance",
+                "PINUnblock",
+                "CashWithdrawal",
+                "PINChange"
+              ],
+              "Accessibility": [
+                "ExternalRamp",
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Branch": {
+                "Identification": "FTB1219657269657"
+              },
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "First Trust Bank, 33-35 University Road, Belfast"
+                  ],
+                  "BuildingNumber": "33-35",
+                  "StreetName": "University Road",
+                  "TownName": "Belfast",
+                  "Country": "UK",
+                  "PostCode": "BT7 1NA ",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.587470",
+                      "Longitude": "-5.936673"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D673",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "Balance",
+                "PINActivation",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Branch": {
+                "Identification": "FTB1219657269676"
+              },
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "First Trust Bank, 8 High Street, Omagh"
+                  ],
+                  "BuildingNumber": "8",
+                  "StreetName": "High Street",
+                  "TownName": "Omagh",
+                  "Country": "UK",
+                  "PostCode": "BT78 1BH",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.600211",
+                      "Longitude": "-7.303685"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D709",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "Balance",
+                "PINActivation",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "Deansbridge Service Station, College Hill, Armagh"
+                  ],
+                  "StreetName": "College Hill",
+                  "TownName": "Armagh",
+                  "Country": "UK",
+                  "PostCode": "BT61 9DF",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.352220",
+                      "Longitude": "-6.647998"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D671",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "Balance",
+                "PINActivation",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "15 Grove Road, Ballymena"
+                  ],
+                  "BuildingNumber": "15",
+                  "StreetName": "Grove Road",
+                  "TownName": "Ballymena",
+                  "Country": "UK",
+                  "PostCode": "BT43 6UB",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.884284",
+                      "Longitude": "-6.271076"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D615",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "Balance",
+                "PINActivation",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "116 Old Mountfield Road, Omagh"
+                  ],
+                  "BuildingNumber": "116",
+                  "StreetName": "Old Mountfield Road",
+                  "TownName": "Omagh",
+                  "Country": "UK",
+                  "PostCode": "BT79 7LT",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.608876",
+                      "Longitude": "-7.269807"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D696",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINActivation",
+                "MobilePhoneTopUp",
+                "PINChange",
+                "Balance",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "149 Newcastle Road, Downpatrick"
+                  ],
+                  "BuildingNumber": "149",
+                  "StreetName": "Newcastle Road",
+                  "TownName": "Downpatrick",
+                  "Country": "UK",
+                  "PostCode": "BT30 8PL",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.332198",
+                      "Longitude": "-5.834713"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D929",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINActivation",
+                "PINChange",
+                "PINUnblock",
+                "MobilePhoneTopUp",
+                "Balance",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess",
+                "AutomaticDoors",
+                "ExternalRamp"
+              ],
+              "Access24HoursIndicator": false,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Branch": {
+                "Identification": "FTB1219750583130"
+              },
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "First Trust Bank, 78 Wellington Street, Ballymena"
+                  ],
+                  "BuildingNumber": "78",
+                  "StreetName": "Wellington Street",
+                  "TownName": "Ballymena",
+                  "Country": "UK",
+                  "PostCode": "BT43 6AF",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.866187",
+                      "Longitude": "-6.274899"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D630",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "CashWithdrawal",
+                "MobilePhoneTopUp",
+                "PINChange",
+                "Balance",
+                "PINActivation",
+                "PINUnblock"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "26-32 High Street, Antrim"
+                  ],
+                  "BuildingNumber": "26-32",
+                  "StreetName": "High Street",
+                  "TownName": "Antrim",
+                  "Country": "UK",
+                  "PostCode": "BT41 4AN",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.714626",
+                      "Longitude": "-6.218593"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D14F",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "MobilePhoneTopUp",
+                "PINChange",
+                "Balance",
+                "PINActivation",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess",
+                "AutomaticDoors"
+              ],
+              "Access24HoursIndicator": false,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Branch": {
+                "Identification": "FTB1221564396361"
+              },
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "First Trust Bank, 35 Market Square, Lisburn"
+                  ],
+                  "BuildingNumber": "35",
+                  "StreetName": "Market Square",
+                  "TownName": "Lisburn",
+                  "Country": "UK",
+                  "PostCode": "BT28 1AF",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.511316",
+                      "Longitude": "-6.044233"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D727",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINActivation",
+                "MobilePhoneTopUp",
+                "PINChange",
+                "Balance",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "Cineplex, 5 Owenbeg Avenue, Downpatrick"
+                  ],
+                  "BuildingNumber": "5",
+                  "StreetName": "Owenbeg Avenue",
+                  "TownName": "Downpatrick",
+                  "Country": "UK",
+                  "PostCode": "BT30 6FJ",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.323383",
+                      "Longitude": "-5.713869"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D609",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINActivation",
+                "MobilePhoneTopUp",
+                "PINChange",
+                "Balance",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "1A Glenavy Road, Lisburn"
+                  ],
+                  "BuildingNumber": "1A",
+                  "StreetName": "Glenavy Road",
+                  "TownName": "Lisburn",
+                  "Country": "UK",
+                  "PostCode": "BT28 2EU",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.543598",
+                      "Longitude": "-6.200977"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D719",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINActivation",
+                "MobilePhoneTopUp",
+                "PINChange",
+                "Balance",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "120 Blacks Road, Belfast"
+                  ],
+                  "BuildingNumber": "120",
+                  "StreetName": "Blacks Road",
+                  "TownName": "Belfast",
+                  "Country": "UK",
+                  "PostCode": "BT10 0NF",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.563536",
+                      "Longitude": "-6.001860"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D637",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINActivation",
+                "MobilePhoneTopUp",
+                "PINChange",
+                "Balance",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": false,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "Unit 25 Erneside Shopping Centre, Enniskillen"
+                  ],
+                  "BuildingNumber": "Unit 25",
+                  "StreetName": "Erneside Shopping Centre",
+                  "TownName": "Enniskillen",
+                  "Country": "UK",
+                  "PostCode": "BT74 6JQ",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.342535",
+                      "Longitude": "-7.635639"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D613",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINUnblock",
+                "Balance",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "PINActivation",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": false,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "Unit 25 Erneside Shopping Centre, Enniskillen"
+                  ],
+                  "BuildingNumber": "Unit 25",
+                  "StreetName": "Erneside Shopping Centre",
+                  "TownName": "Enniskillen",
+                  "Country": "UK",
+                  "PostCode": "BT74 6JQ",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.342535",
+                      "Longitude": "-7.635639"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D740",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINActivation",
+                "MobilePhoneTopUp",
+                "PINChange",
+                "Balance",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": false,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "Buttercrane Shopping Centre, Buttercrane Quay, Newry"
+                  ],
+                  "StreetName": "Buttercrane Quay",
+                  "TownName": "Newry",
+                  "Country": "UK",
+                  "PostCode": "BT35 8HJ",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.172172",
+                      "Longitude": "-6.341315"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D607",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "MobilePhoneTopUp",
+                "PINChange",
+                "Balance",
+                "PINActivation",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess",
+                "ExternalRamp"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Branch": {
+                "Identification": "FTB1219750583130"
+              },
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "First Trust Bank, 78 Wellington Street, Ballymena"
+                  ],
+                  "BuildingNumber": "78",
+                  "StreetName": "Wellington Street",
+                  "TownName": "Ballymena",
+                  "Country": "UK",
+                  "PostCode": "BT43 6AF",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.866187",
+                      "Longitude": "-6.274899"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D714",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINActivation",
+                "MobilePhoneTopUp",
+                "PINChange",
+                "Balance",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Branch": {
+                "Identification": "FTB1219657269675"
+              },
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "First Trust Bank, 18-20 Scotch Street, Dungannon"
+                  ],
+                  "BuildingNumber": "18-20",
+                  "StreetName": "Scotch Street",
+                  "TownName": "Dungannon",
+                  "Country": "UK",
+                  "PostCode": "BT70 1AR",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.503661",
+                      "Longitude": "-6.770208"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D614",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINUnblock",
+                "Balance",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "PINActivation",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Branch": {
+                "Identification": "FTB1219657269662"
+              },
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "First Trust Bank, 85 Main Street, Bangor"
+                  ],
+                  "BuildingNumber": "85",
+                  "StreetName": "Main Street",
+                  "TownName": "Bangor",
+                  "Country": "UK",
+                  "PostCode": "BT20 4BA",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.660349",
+                      "Longitude": "-5.667949"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D672",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINChange",
+                "Balance",
+                "CashWithdrawal",
+                "PINActivation",
+                "MobilePhoneTopUp",
+                "PINUnblock"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Branch": {
+                "Identification": "FTB1219657269666"
+              },
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "First Trust Bank, 42-44 Hill Street, Newry"
+                  ],
+                  "BuildingNumber": "42-44",
+                  "StreetName": "Hill Street",
+                  "TownName": "Newry",
+                  "Country": "UK",
+                  "PostCode": "BT34 1AR",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.174693",
+                      "Longitude": "-6.338512"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D645",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINUnblock",
+                "Balance",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "PINActivation",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "20-22 Belmont Road, Belfast"
+                  ],
+                  "BuildingNumber": "20-22",
+                  "StreetName": "Belmont Road",
+                  "TownName": "Belfast",
+                  "Country": "UK",
+                  "PostCode": "BT4 2AN ",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.600524",
+                      "Longitude": "-5.876714"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D708",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINActivation",
+                "MobilePhoneTopUp",
+                "PINChange",
+                "Balance",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "111 Old Dundonald Road, Belfast"
+                  ],
+                  "BuildingNumber": "111",
+                  "StreetName": "Old Dundonald Road",
+                  "TownName": "Belfast",
+                  "Country": "UK",
+                  "PostCode": "BT16 1XT",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.587114",
+                      "Longitude": "-5.818251"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D926",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINActivation",
+                "MobilePhoneTopUp",
+                "PINChange",
+                "Balance",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Branch": {
+                "Identification": "FTB1219657269665"
+              },
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "First Trust Bank, 31 Main Street, Newcastle"
+                  ],
+                  "BuildingNumber": "31",
+                  "StreetName": "Main Street",
+                  "TownName": "Newcastle",
+                  "Country": "UK",
+                  "PostCode": "BT33 0AD",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.213848",
+                      "Longitude": "-5.889065"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D632",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINActivation",
+                "MobilePhoneTopUp",
+                "PINChange",
+                "Balance",
+                "PINUnblock",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Branch": {
+                "Identification": "FTB1219657269669"
+              },
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "First Trust Bank, 2-4 East Bridge Street, Enniskillen"
+                  ],
+                  "BuildingNumber": "2-4",
+                  "StreetName": "East Bridge Street",
+                  "TownName": "Enniskillen",
+                  "Country": "UK",
+                  "PostCode": "BT74 7BT",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.344096",
+                      "Longitude": "-7.635945"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D692",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINUnblock",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "Balance",
+                "PINActivation",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "79 Belfast Road, Craigavon"
+                  ],
+                  "BuildingNumber": "79",
+                  "StreetName": "Belfast Road",
+                  "TownName": "Craigavon",
+                  "Country": "UK",
+                  "PostCode": "BT66 7JS",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.462422",
+                      "Longitude": "-6.291094"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D677",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "MobilePhoneTopUp",
+                "PINChange",
+                "PINActivation",
+                "CashWithdrawal",
+                "PINUnblock",
+                "Balance"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Branch": {
+                "Identification": "FTB1219657269664"
+              },
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "First Trust Bank, 30 Greencastle Street, Kilkeel"
+                  ],
+                  "BuildingNumber": "30",
+                  "StreetName": "Greencastle Street",
+                  "TownName": "Kilkeel",
+                  "Country": "UK",
+                  "PostCode": "BT34 4BH",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.061855",
+                      "Longitude": "-6.009194"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D669",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "CashWithdrawal",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "Balance",
+                "PINActivation"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Branch": {
+                "Identification": "FTB1219657269670"
+              },
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "First Trust Bank, 33 The Diamond, Coleraine"
+                  ],
+                  "BuildingNumber": "33",
+                  "StreetName": "The Diamond",
+                  "TownName": "Coleraine",
+                  "Country": "UK",
+                  "PostCode": "BT52 1DP",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "55.131861",
+                      "Longitude": "-6.671176"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D706",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "CashWithdrawal",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "Balance",
+                "PINActivation"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "The Flagship Centre, Main Street, Bangor"
+                  ],
+                  "StreetName": "Main Street",
+                  "TownName": "Bangor",
+                  "Country": "UK",
+                  "PostCode": "BT20 5AU",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.662586",
+                      "Longitude": "-5.667437"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D634",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINUnblock",
+                "PINActivation",
+                "PINChange",
+                "Balance",
+                "CashWithdrawal",
+                "MobilePhoneTopUp"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": false,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "Unit 14 Great Victoria Street, Belfast"
+                  ],
+                  "BuildingNumber": "Unit 14",
+                  "StreetName": "Great Victoria Street",
+                  "TownName": "Belfast",
+                  "Country": "UK",
+                  "PostCode": "BT2 7GN ",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.594298",
+                      "Longitude": "-5.934963"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D888",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "CashWithdrawal",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "Balance",
+                "PINActivation"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Branch": {
+                "Identification": "FTB1219421708398"
+              },
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "First Trust Bank, 11-15 Donegall Square North, Belfast"
+                  ],
+                  "BuildingNumber": "11-15",
+                  "StreetName": "Donegall Square North",
+                  "TownName": "Belfast",
+                  "Country": "UK",
+                  "PostCode": "BT1 5GB ",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.597442",
+                      "Longitude": "-5.931224"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D651",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "CashWithdrawal",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "Balance",
+                "PINActivation"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "3 Dungannon Road, Dungannon"
+                  ],
+                  "BuildingNumber": "3",
+                  "StreetName": "Dungannon Road",
+                  "TownName": "Dungannon",
+                  "Country": "UK",
+                  "PostCode": "BT71 7SN",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.448939",
+                      "Longitude": "-6.698724"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D650",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINUnblock",
+                "PINActivation",
+                "PINChange",
+                "CashWithdrawal",
+                "Balance",
+                "MobilePhoneTopUp"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "Rath Mor, Blighs Lane, LondonDerry"
+                  ],
+                  "StreetName": "Blighs Lane",
+                  "TownName": "LondonDerry",
+                  "Country": "UK",
+                  "PostCode": "BT48 0LZ",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.996309",
+                      "Longitude": "-7.336569"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D652",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "Balance",
+                "PINUnblock",
+                "CashWithdrawal",
+                "PINActivation",
+                "PINChange",
+                "MobilePhoneTopUp"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "Rushmere Shopping Centre, Marlborough House Central Way, Craigavon"
+                  ],
+                  "StreetName": "Marlborough House Central Way",
+                  "TownName": "Craigavon",
+                  "Country": "UK",
+                  "PostCode": "BT64 1AJ",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.448223",
+                      "Longitude": "-6.393923"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D698",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "CashWithdrawal",
+                "PINChange",
+                "MobilePhoneTopUp",
+                "Balance",
+                "PINUnblock",
+                "PINActivation"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "58 Spencer Road, Londonderry"
+                  ],
+                  "BuildingNumber": "58",
+                  "StreetName": "Spencer Road",
+                  "TownName": "Londonderry",
+                  "Country": "UK",
+                  "PostCode": "BT47 6AH",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.990228",
+                      "Longitude": "-7.313504"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D649",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "CashWithdrawal",
+                "MobilePhoneTopUp",
+                "PINChange",
+                "Balance",
+                "PINUnblock",
+                "PINActivation"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "47 Botanic Avenue, Belfast"
+                  ],
+                  "BuildingNumber": "47",
+                  "StreetName": "Botanic Avenue",
+                  "TownName": "Belfast",
+                  "Country": "UK",
+                  "PostCode": "BT7 1JG ",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.588764",
+                      "Longitude": "-5.933685"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D937",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINUnblock",
+                "PINChange",
+                "PINActivation",
+                "CashWithdrawal",
+                "Balance",
+                "MobilePhoneTopUp"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": false,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "Quays Shopping Centre, Newry"
+                  ],
+                  "StreetName": "Quays Shopping Centre",
+                  "TownName": "Newry",
+                  "Country": "UK",
+                  "PostCode": "BT35 8AD",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.172779",
+                      "Longitude": "-6.339753"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D729",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINUnblock",
+                "PINChange",
+                "PINActivation",
+                "CashWithdrawal",
+                "Balance",
+                "MobilePhoneTopUp"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "51 O'Neill Road, Newtownabbey"
+                  ],
+                  "BuildingNumber": "51",
+                  "StreetName": "O'Neill Road",
+                  "TownName": "Newtownabbey",
+                  "Country": "UK",
+                  "PostCode": "BT36 6UN",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.669038",
+                      "Longitude": "-5.934112"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D639",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "CashWithdrawal",
+                "MobilePhoneTopUp",
+                "PINChange",
+                "Balance",
+                "PINUnblock",
+                "PINActivation"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "227 Antrim Road, Belfast"
+                  ],
+                  "BuildingNumber": "227",
+                  "StreetName": "Antrim Road",
+                  "TownName": "Belfast",
+                  "Country": "UK",
+                  "PostCode": "BT15 2GY",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.615383",
+                      "Longitude": "-5.937078"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D641",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "CashWithdrawal",
+                "MobilePhoneTopUp",
+                "PINChange",
+                "Balance",
+                "PINUnblock",
+                "PINActivation"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "17-19 Main Street, Castlewellan"
+                  ],
+                  "BuildingNumber": "17-19",
+                  "StreetName": "Main Street",
+                  "TownName": "Castlewellan",
+                  "Country": "UK",
+                  "PostCode": "BT31 9DF",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.258365",
+                      "Longitude": "-5.941435"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D732",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINActivation",
+                "PINUnblock",
+                "PINChange",
+                "Balance",
+                "CashWithdrawal"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "EUR"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Branch": {
+                "Identification": "FTB1219657269666"
+              },
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "First Trust Bank, 42-44 Hill Street, Newry"
+                  ],
+                  "BuildingNumber": "42-44",
+                  "StreetName": "Hill Street",
+                  "TownName": "Newry",
+                  "Country": "UK",
+                  "PostCode": "BT34 1AR",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.174693",
+                      "Longitude": "-6.338512"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D713",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "CashWithdrawal",
+                "MobilePhoneTopUp",
+                "PINChange",
+                "Balance",
+                "PINUnblock",
+                "PINActivation"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "Junction One Retail Park, Ballymena Road, Antrim"
+                  ],
+                  "StreetName": "Ballymena Road",
+                  "TownName": "Antrim",
+                  "Country": "UK",
+                  "PostCode": "BT41 4NU",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.730134",
+                      "Longitude": "-6.226035"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D932",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "CashWithdrawal",
+                "MobilePhoneTopUp",
+                "PINActivation",
+                "PINChange",
+                "Balance",
+                "PINUnblock"
+              ],
+              "Accessibility": [
+                "WheelchairAccess",
+                "AutomaticDoors"
+              ],
+              "Access24HoursIndicator": false,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Branch": {
+                "Identification": "FTB1219657269659"
+              },
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "First Trust Bank, 4-8 Market Street, Lurgan, Craigavon"
+                  ],
+                  "BuildingNumber": "4-8",
+                  "StreetName": "Market Street, Lurgan",
+                  "TownName": "Craigavon",
+                  "Country": "UK",
+                  "PostCode": "BT66 6AQ",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.462599",
+                      "Longitude": "-6.332217"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D882",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "Balance",
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "PINActivation",
+                "CashWithdrawal",
+                "PINChange"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Branch": {
+                "Identification": "FTB1219657269673"
+              },
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "First Trust Bank, Meadowbank Shopping Centre, Strand Road, Londonderry"
+                  ],
+                  "StreetName": "Meadowbank Shopping Centre, Strand Road",
+                  "TownName": "Londonderry",
+                  "Country": "UK",
+                  "PostCode": "BT48 7BL",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.999757",
+                      "Longitude": "-7.322202"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D668",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINActivation",
+                "CashWithdrawal",
+                "MobilePhoneTopUp",
+                "PINChange",
+                "Balance",
+                "PINUnblock"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "24-25 Abbots Cross, Newtownabbey"
+                  ],
+                  "BuildingNumber": "24-25",
+                  "StreetName": "Abbots Cross",
+                  "TownName": "Newtownabbey",
+                  "Country": "UK",
+                  "PostCode": "BT37 9QU",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.668708",
+                      "Longitude": "-5.911859"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D702",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "Balance",
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "PINActivation",
+                "CashWithdrawal",
+                "PINChange"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "2 Royal Avenue, Belfast"
+                  ],
+                  "BuildingNumber": "2",
+                  "StreetName": "Royal Avenue",
+                  "TownName": "Belfast",
+                  "Country": "UK",
+                  "PostCode": "BT1 1DA ",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.600002",
+                      "Longitude": "-5.931037"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D927",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "PINUnblock",
+                "PINActivation",
+                "CashWithdrawal",
+                "PINChange",
+                "Balance",
+                "MobilePhoneTopUp"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "1 Cromac Place, BELFAST"
+                  ],
+                  "BuildingNumber": "1",
+                  "StreetName": "Cromac Place",
+                  "TownName": "BELFAST",
+                  "Country": "UK",
+                  "PostCode": "BT7 2JB ",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.590609",
+                      "Longitude": "-5.923131"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D721",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "CashWithdrawal",
+                "PINChange",
+                "Balance",
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "PINActivation"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "Junction One Outlet Centre, Ballymena Road, Antrim"
+                  ],
+                  "StreetName": "Ballymena Road",
+                  "TownName": "Antrim",
+                  "Country": "UK",
+                  "PostCode": "BT41 4NU",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.730134",
+                      "Longitude": "-6.226035"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "D925",
+              "SupportedLanguages": [
+                "en"
+              ],
+              "ATMServices": [
+                "Balance",
+                "MobilePhoneTopUp",
+                "PINUnblock",
+                "PINActivation",
+                "CashWithdrawal",
+                "PINChange"
+              ],
+              "Accessibility": [
+                "WheelchairAccess"
+              ],
+              "Access24HoursIndicator": true,
+              "SupportedCurrencies": [
+                "GBP"
+              ],
+              "MinimumPossibleAmount": "10.00",
+              "Branch": {
+                "Identification": "FTB1219657269665"
+              },
+              "Location": {
+                "PostalAddress": {
+                  "AddressLine": [
+                    "First Trust Bank, 31 Main Street, Newcastle"
+                  ],
+                  "BuildingNumber": "31",
+                  "StreetName": "Main Street",
+                  "TownName": "Newcastle",
+                  "Country": "UK",
+                  "PostCode": "BT33 0AD",
+                  "GeoLocation": {
+                    "GeographicCoordinates": {
+                      "Latitude": "54.213848",
+                      "Longitude": "-5.889065"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

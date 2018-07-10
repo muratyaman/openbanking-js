@@ -1,0 +1,861 @@
+{
+  "meta": {
+    "LastUpdated": "2018-01-05T04:39:02.725Z",
+    "TotalResults": 1,
+    "Agreement": "Use of the APIs and any related data will be subject to the terms of the Open Licence and subject to terms and conditions",
+    "License": "https://openbanking.org.uk/open-licence",
+    "TermsOfUse": "https://openbanking.org.uk/terms"
+  },
+  "data": {
+    "Brand": [
+      {
+        "BrandName": "Bank of Ireland UK (Plc)",
+        "SMELoan": [
+          {
+            "Name": "SME Unsecured Loan",
+            "Identification": "Business",
+            "Segment": [
+              "Business"
+            ],
+            "SMELoanMarketingState": [
+              {
+                "Identification": "Regular",
+                "MarketingState": "Regular",
+                "LoanInterest": {
+                  "LoanInterestTierBandSet": [
+                    {
+                      "TierBandMethod": "Whole",
+                      "CalculationMethod": "Compound",
+                      "LoanInterestTierBand": [
+                        {
+                          "TierValueMinimum": "5000.00",
+                          "TierValueMaximum": "5000.00",
+                          "TierValueMinTerm": 365,
+                          "MinTermPeriod": "Year",
+                          "TierValueMaxTerm": 365,
+                          "FixedVariableInterestRateType": "Variable",
+                          "RepAPR": "11.6",
+                          "LoanInterestFeesCharges": [
+                            {
+                              "LoanInterestFeeChargeCap": [
+                                {
+                                  "FeeType": [
+                                    "SetUp"
+                                  ],
+                                  "MinMaxType": "Minimum",
+                                  "CappingPeriod": "OnOpening",
+                                  "Notes": "Unsecured Business Lending (up to \ufffd25,000) Set Up Fee: 1% (Minimum \ufffd100)"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "TierBandMethod": "Whole",
+                      "CalculationMethod": "Compound",
+                      "LoanInterestTierBand": [
+                        {
+                          "TierValueMinimum": "5000.00",
+                          "TierValueMaximum": "5000.00",
+                          "TierValueMinTerm": 730,
+                          "MinTermPeriod": "Year",
+                          "TierValueMaxTerm": 730,
+                          "FixedVariableInterestRateType": "Variable",
+                          "RepAPR": "9.7",
+                          "LoanInterestFeesCharges": [
+                            {
+                              "LoanInterestFeeChargeCap": [
+                                {
+                                  "FeeType": [
+                                    "SetUp"
+                                  ],
+                                  "MinMaxType": "Minimum",
+                                  "CappingPeriod": "OnOpening",
+                                  "Notes": "Unsecured Business Lending (up to \ufffd25,000) Set Up Fee: 1% (Minimum \ufffd100)"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "TierBandMethod": "Whole",
+                      "CalculationMethod": "Compound",
+                      "LoanInterestTierBand": [
+                        {
+                          "TierValueMinimum": "5000.00",
+                          "TierValueMaximum": "5000.00",
+                          "TierValueMinTerm": 1095,
+                          "MinTermPeriod": "Year",
+                          "TierValueMaxTerm": 1095,
+                          "FixedVariableInterestRateType": "Variable",
+                          "RepAPR": "9",
+                          "LoanInterestFeesCharges": [
+                            {
+                              "LoanInterestFeeChargeCap": [
+                                {
+                                  "FeeType": [
+                                    "SetUp"
+                                  ],
+                                  "MinMaxType": "Minimum",
+                                  "CappingPeriod": "OnOpening",
+                                  "Notes": "Unsecured Business Lending (up to \ufffd25,000) Set Up Fee: 1% (Minimum \ufffd100)"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "TierBandMethod": "Whole",
+                      "CalculationMethod": "Compound",
+                      "LoanInterestTierBand": [
+                        {
+                          "TierValueMinimum": "5000.00",
+                          "TierValueMaximum": "5000.00",
+                          "TierValueMinTerm": 1460,
+                          "MinTermPeriod": "Year",
+                          "TierValueMaxTerm": 1460,
+                          "FixedVariableInterestRateType": "Variable",
+                          "RepAPR": "8.6",
+                          "LoanInterestFeesCharges": [
+                            {
+                              "LoanInterestFeeChargeCap": [
+                                {
+                                  "FeeType": [
+                                    "SetUp"
+                                  ],
+                                  "MinMaxType": "Minimum",
+                                  "CappingPeriod": "OnOpening",
+                                  "Notes": "Unsecured Business Lending (up to \ufffd25,000) Set Up Fee: 1% (Minimum \ufffd100)"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "TierBandMethod": "Whole",
+                      "CalculationMethod": "Compound",
+                      "LoanInterestTierBand": [
+                        {
+                          "TierValueMinimum": "5000.00",
+                          "TierValueMaximum": "5000.00",
+                          "TierValueMinTerm": 1825,
+                          "MinTermPeriod": "Year",
+                          "TierValueMaxTerm": 1825,
+                          "FixedVariableInterestRateType": "Variable",
+                          "RepAPR": "8.4",
+                          "LoanInterestFeesCharges": [
+                            {
+                              "LoanInterestFeeChargeCap": [
+                                {
+                                  "FeeType": [
+                                    "SetUp"
+                                  ],
+                                  "MinMaxType": "Minimum",
+                                  "CappingPeriod": "OnOpening",
+                                  "Notes": "Unsecured Business Lending (up to \ufffd25,000) Set Up Fee: 1% (Minimum \ufffd100)"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "TierBandMethod": "Whole",
+                      "CalculationMethod": "Compound",
+                      "LoanInterestTierBand": [
+                        {
+                          "TierValueMinimum": "10000.00",
+                          "TierValueMaximum": "10000.00",
+                          "TierValueMinTerm": 365,
+                          "MinTermPeriod": "Year",
+                          "TierValueMaxTerm": 365,
+                          "FixedVariableInterestRateType": "Variable",
+                          "RepAPR": "9.5",
+                          "LoanInterestFeesCharges": [
+                            {
+                              "LoanInterestFeeChargeCap": [
+                                {
+                                  "FeeType": [
+                                    "SetUp"
+                                  ],
+                                  "MinMaxType": "Minimum",
+                                  "CappingPeriod": "OnOpening",
+                                  "Notes": "Unsecured Business Lending (up to \ufffd25,000) Set Up Fee: 1% (Minimum \ufffd100)"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "TierBandMethod": "Whole",
+                      "CalculationMethod": "Compound",
+                      "LoanInterestTierBand": [
+                        {
+                          "TierValueMinimum": "10000.00",
+                          "TierValueMaximum": "10000.00",
+                          "TierValueMinTerm": 730,
+                          "MinTermPeriod": "Year",
+                          "TierValueMaxTerm": 730,
+                          "FixedVariableInterestRateType": "Variable",
+                          "RepAPR": "8.6",
+                          "LoanInterestFeesCharges": [
+                            {
+                              "LoanInterestFeeChargeCap": [
+                                {
+                                  "FeeType": [
+                                    "SetUp"
+                                  ],
+                                  "MinMaxType": "Minimum",
+                                  "CappingPeriod": "OnOpening",
+                                  "Notes": "Unsecured Business Lending (up to \ufffd25,000) Set Up Fee: 1% (Minimum \ufffd100)"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "TierBandMethod": "Whole",
+                      "CalculationMethod": "Compound",
+                      "LoanInterestTierBand": [
+                        {
+                          "TierValueMinimum": "10000.00",
+                          "TierValueMaximum": "10000.00",
+                          "TierValueMinTerm": 1095,
+                          "MinTermPeriod": "Year",
+                          "TierValueMaxTerm": 1095,
+                          "FixedVariableInterestRateType": "Variable",
+                          "RepAPR": "8.2",
+                          "LoanInterestFeesCharges": [
+                            {
+                              "LoanInterestFeeChargeCap": [
+                                {
+                                  "FeeType": [
+                                    "SetUp"
+                                  ],
+                                  "MinMaxType": "Minimum",
+                                  "CappingPeriod": "OnOpening",
+                                  "Notes": "Unsecured Business Lending (up to \ufffd25,000) Set Up Fee: 1% (Minimum \ufffd100)"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "TierBandMethod": "Whole",
+                      "CalculationMethod": "Compound",
+                      "LoanInterestTierBand": [
+                        {
+                          "TierValueMinimum": "10000.00",
+                          "TierValueMaximum": "10000.00",
+                          "TierValueMinTerm": 1460,
+                          "MinTermPeriod": "Year",
+                          "TierValueMaxTerm": 1460,
+                          "FixedVariableInterestRateType": "Variable",
+                          "RepAPR": "8.1",
+                          "LoanInterestFeesCharges": [
+                            {
+                              "LoanInterestFeeChargeCap": [
+                                {
+                                  "FeeType": [
+                                    "SetUp"
+                                  ],
+                                  "MinMaxType": "Minimum",
+                                  "CappingPeriod": "OnOpening",
+                                  "Notes": "Unsecured Business Lending (up to \ufffd25,000) Set Up Fee: 1% (Minimum \ufffd100)"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "TierBandMethod": "Whole",
+                      "CalculationMethod": "Compound",
+                      "LoanInterestTierBand": [
+                        {
+                          "TierValueMinimum": "10000.00",
+                          "TierValueMaximum": "10000.00",
+                          "TierValueMinTerm": 1825,
+                          "MinTermPeriod": "Year",
+                          "TierValueMaxTerm": 1825,
+                          "FixedVariableInterestRateType": "Variable",
+                          "RepAPR": "7.9",
+                          "LoanInterestFeesCharges": [
+                            {
+                              "LoanInterestFeeChargeCap": [
+                                {
+                                  "FeeType": [
+                                    "SetUp"
+                                  ],
+                                  "MinMaxType": "Minimum",
+                                  "CappingPeriod": "OnOpening",
+                                  "Notes": "Unsecured Business Lending (up to \ufffd25,000) Set Up Fee: 1% (Minimum \ufffd100)"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "TierBandMethod": "Whole",
+                      "CalculationMethod": "Compound",
+                      "LoanInterestTierBand": [
+                        {
+                          "TierValueMinimum": "15000.00",
+                          "TierValueMaximum": "15000.00",
+                          "TierValueMinTerm": 365,
+                          "MinTermPeriod": "Year",
+                          "TierValueMaxTerm": 365,
+                          "FixedVariableInterestRateType": "Variable",
+                          "RepAPR": "9.5",
+                          "LoanInterestFeesCharges": [
+                            {
+                              "LoanInterestFeeChargeCap": [
+                                {
+                                  "FeeType": [
+                                    "SetUp"
+                                  ],
+                                  "MinMaxType": "Minimum",
+                                  "CappingPeriod": "OnOpening",
+                                  "Notes": "Unsecured Business Lending (up to \ufffd25,000) Set Up Fee: 1% (Minimum \ufffd100)"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "TierBandMethod": "Whole",
+                      "CalculationMethod": "Compound",
+                      "LoanInterestTierBand": [
+                        {
+                          "TierValueMinimum": "15000.00",
+                          "TierValueMaximum": "15000.00",
+                          "TierValueMinTerm": 730,
+                          "MinTermPeriod": "Year",
+                          "TierValueMaxTerm": 730,
+                          "FixedVariableInterestRateType": "Variable",
+                          "RepAPR": "8.6",
+                          "LoanInterestFeesCharges": [
+                            {
+                              "LoanInterestFeeChargeCap": [
+                                {
+                                  "FeeType": [
+                                    "SetUp"
+                                  ],
+                                  "MinMaxType": "Minimum",
+                                  "CappingPeriod": "OnOpening",
+                                  "Notes": "Unsecured Business Lending (up to \ufffd25,000) Set Up Fee: 1% (Minimum \ufffd100)"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "TierBandMethod": "Whole",
+                      "CalculationMethod": "Compound",
+                      "LoanInterestTierBand": [
+                        {
+                          "TierValueMinimum": "15000.00",
+                          "TierValueMaximum": "15000.00",
+                          "TierValueMinTerm": 1095,
+                          "MinTermPeriod": "Year",
+                          "TierValueMaxTerm": 1095,
+                          "FixedVariableInterestRateType": "Variable",
+                          "RepAPR": "8.2",
+                          "LoanInterestFeesCharges": [
+                            {
+                              "LoanInterestFeeChargeCap": [
+                                {
+                                  "FeeType": [
+                                    "SetUp"
+                                  ],
+                                  "MinMaxType": "Minimum",
+                                  "CappingPeriod": "OnOpening",
+                                  "Notes": "Unsecured Business Lending (up to \ufffd25,000) Set Up Fee: 1% (Minimum \ufffd100)"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "TierBandMethod": "Whole",
+                      "CalculationMethod": "Compound",
+                      "LoanInterestTierBand": [
+                        {
+                          "TierValueMinimum": "15000.00",
+                          "TierValueMaximum": "15000.00",
+                          "TierValueMinTerm": 1460,
+                          "MinTermPeriod": "Year",
+                          "TierValueMaxTerm": 1460,
+                          "FixedVariableInterestRateType": "Variable",
+                          "RepAPR": "8.1",
+                          "LoanInterestFeesCharges": [
+                            {
+                              "LoanInterestFeeChargeCap": [
+                                {
+                                  "FeeType": [
+                                    "SetUp"
+                                  ],
+                                  "MinMaxType": "Minimum",
+                                  "CappingPeriod": "OnOpening",
+                                  "Notes": "Unsecured Business Lending (up to \ufffd25,000) Set Up Fee: 1% (Minimum \ufffd100)"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "TierBandMethod": "Whole",
+                      "CalculationMethod": "Compound",
+                      "LoanInterestTierBand": [
+                        {
+                          "TierValueMinimum": "15000.00",
+                          "TierValueMaximum": "15000.00",
+                          "TierValueMinTerm": 1825,
+                          "MinTermPeriod": "Year",
+                          "TierValueMaxTerm": 1825,
+                          "FixedVariableInterestRateType": "Variable",
+                          "RepAPR": "7.9",
+                          "LoanInterestFeesCharges": [
+                            {
+                              "LoanInterestFeeChargeCap": [
+                                {
+                                  "FeeType": [
+                                    "SetUp"
+                                  ],
+                                  "MinMaxType": "Minimum",
+                                  "CappingPeriod": "OnOpening",
+                                  "Notes": "Unsecured Business Lending (up to \ufffd25,000) Set Up Fee: 1% (Minimum \ufffd100)"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "TierBandMethod": "Whole",
+                      "CalculationMethod": "Compound",
+                      "LoanInterestTierBand": [
+                        {
+                          "TierValueMinimum": "20000.00",
+                          "TierValueMaximum": "20000.00",
+                          "TierValueMinTerm": 365,
+                          "MinTermPeriod": "Year",
+                          "TierValueMaxTerm": 365,
+                          "FixedVariableInterestRateType": "Variable",
+                          "RepAPR": "9.5",
+                          "LoanInterestFeesCharges": [
+                            {
+                              "LoanInterestFeeChargeCap": [
+                                {
+                                  "FeeType": [
+                                    "SetUp"
+                                  ],
+                                  "MinMaxType": "Minimum",
+                                  "CappingPeriod": "OnOpening",
+                                  "Notes": "Unsecured Business Lending (up to \ufffd25,000) Set Up Fee: 1% (Minimum \ufffd100)"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "TierBandMethod": "Whole",
+                      "CalculationMethod": "Compound",
+                      "LoanInterestTierBand": [
+                        {
+                          "TierValueMinimum": "20000.00",
+                          "TierValueMaximum": "20000.00",
+                          "TierValueMinTerm": 730,
+                          "MinTermPeriod": "Year",
+                          "TierValueMaxTerm": 730,
+                          "FixedVariableInterestRateType": "Variable",
+                          "RepAPR": "8.6",
+                          "LoanInterestFeesCharges": [
+                            {
+                              "LoanInterestFeeChargeCap": [
+                                {
+                                  "FeeType": [
+                                    "SetUp"
+                                  ],
+                                  "MinMaxType": "Minimum",
+                                  "CappingPeriod": "OnOpening",
+                                  "Notes": "Unsecured Business Lending (up to \ufffd25,000) Set Up Fee: 1% (Minimum \ufffd100)"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "TierBandMethod": "Whole",
+                      "CalculationMethod": "Compound",
+                      "LoanInterestTierBand": [
+                        {
+                          "TierValueMinimum": "20000.00",
+                          "TierValueMaximum": "20000.00",
+                          "TierValueMinTerm": 1095,
+                          "MinTermPeriod": "Year",
+                          "TierValueMaxTerm": 1095,
+                          "FixedVariableInterestRateType": "Variable",
+                          "RepAPR": "8.2",
+                          "LoanInterestFeesCharges": [
+                            {
+                              "LoanInterestFeeChargeCap": [
+                                {
+                                  "FeeType": [
+                                    "SetUp"
+                                  ],
+                                  "MinMaxType": "Minimum",
+                                  "CappingPeriod": "OnOpening",
+                                  "Notes": "Unsecured Business Lending (up to \ufffd25,000) Set Up Fee: 1% (Minimum \ufffd100)"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "TierBandMethod": "Whole",
+                      "CalculationMethod": "Compound",
+                      "LoanInterestTierBand": [
+                        {
+                          "TierValueMinimum": "20000.00",
+                          "TierValueMaximum": "20000.00",
+                          "TierValueMinTerm": 1460,
+                          "MinTermPeriod": "Year",
+                          "TierValueMaxTerm": 1460,
+                          "FixedVariableInterestRateType": "Variable",
+                          "RepAPR": "8.1",
+                          "LoanInterestFeesCharges": [
+                            {
+                              "LoanInterestFeeChargeCap": [
+                                {
+                                  "FeeType": [
+                                    "SetUp"
+                                  ],
+                                  "MinMaxType": "Minimum",
+                                  "CappingPeriod": "OnOpening",
+                                  "Notes": "Unsecured Business Lending (up to \ufffd25,000) Set Up Fee: 1% (Minimum \ufffd100)"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "TierBandMethod": "Whole",
+                      "CalculationMethod": "Compound",
+                      "LoanInterestTierBand": [
+                        {
+                          "TierValueMinimum": "20000.00",
+                          "TierValueMaximum": "20000.00",
+                          "TierValueMinTerm": 1825,
+                          "MinTermPeriod": "Year",
+                          "TierValueMaxTerm": 1825,
+                          "FixedVariableInterestRateType": "Variable",
+                          "RepAPR": "7.9",
+                          "LoanInterestFeesCharges": [
+                            {
+                              "LoanInterestFeeChargeCap": [
+                                {
+                                  "FeeType": [
+                                    "SetUp"
+                                  ],
+                                  "MinMaxType": "Minimum",
+                                  "CappingPeriod": "OnOpening",
+                                  "Notes": "Unsecured Business Lending (up to \ufffd25,000) Set Up Fee: 1% (Minimum \ufffd100)"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "TierBandMethod": "Whole",
+                      "CalculationMethod": "Compound",
+                      "LoanInterestTierBand": [
+                        {
+                          "TierValueMinimum": "25000.00",
+                          "TierValueMaximum": "25000.00",
+                          "TierValueMinTerm": 365,
+                          "MinTermPeriod": "Year",
+                          "TierValueMaxTerm": 365,
+                          "FixedVariableInterestRateType": "Variable",
+                          "RepAPR": "9.5",
+                          "LoanInterestFeesCharges": [
+                            {
+                              "LoanInterestFeeChargeCap": [
+                                {
+                                  "FeeType": [
+                                    "SetUp"
+                                  ],
+                                  "MinMaxType": "Minimum",
+                                  "CappingPeriod": "OnOpening",
+                                  "Notes": "Unsecured Business Lending (up to \ufffd25,000) Set Up Fee: 1% (Minimum \ufffd100)"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "TierBandMethod": "Whole",
+                      "CalculationMethod": "Compound",
+                      "LoanInterestTierBand": [
+                        {
+                          "TierValueMinimum": "25000.00",
+                          "TierValueMaximum": "25000.00",
+                          "TierValueMinTerm": 730,
+                          "MinTermPeriod": "Year",
+                          "TierValueMaxTerm": 730,
+                          "FixedVariableInterestRateType": "Variable",
+                          "RepAPR": "8.6",
+                          "LoanInterestFeesCharges": [
+                            {
+                              "LoanInterestFeeChargeCap": [
+                                {
+                                  "FeeType": [
+                                    "SetUp"
+                                  ],
+                                  "MinMaxType": "Minimum",
+                                  "CappingPeriod": "OnOpening",
+                                  "Notes": "Unsecured Business Lending (up to \ufffd25,000) Set Up Fee: 1% (Minimum \ufffd100)"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "TierBandMethod": "Whole",
+                      "CalculationMethod": "Compound",
+                      "LoanInterestTierBand": [
+                        {
+                          "TierValueMinimum": "25000.00",
+                          "TierValueMaximum": "25000.00",
+                          "TierValueMinTerm": 1095,
+                          "MinTermPeriod": "Year",
+                          "TierValueMaxTerm": 1095,
+                          "FixedVariableInterestRateType": "Variable",
+                          "RepAPR": "8.2",
+                          "LoanInterestFeesCharges": [
+                            {
+                              "LoanInterestFeeChargeCap": [
+                                {
+                                  "FeeType": [
+                                    "SetUp"
+                                  ],
+                                  "MinMaxType": "Minimum",
+                                  "CappingPeriod": "OnOpening",
+                                  "Notes": "Unsecured Business Lending (up to \ufffd25,000) Set Up Fee: 1% (Minimum \ufffd100)"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "TierBandMethod": "Whole",
+                      "CalculationMethod": "Compound",
+                      "LoanInterestTierBand": [
+                        {
+                          "TierValueMinimum": "25000.00",
+                          "TierValueMaximum": "25000.00",
+                          "TierValueMinTerm": 1460,
+                          "MinTermPeriod": "Year",
+                          "TierValueMaxTerm": 1460,
+                          "FixedVariableInterestRateType": "Variable",
+                          "RepAPR": "8.1",
+                          "LoanInterestFeesCharges": [
+                            {
+                              "LoanInterestFeeChargeCap": [
+                                {
+                                  "FeeType": [
+                                    "SetUp"
+                                  ],
+                                  "MinMaxType": "Minimum",
+                                  "CappingPeriod": "OnOpening",
+                                  "Notes": "Unsecured Business Lending (up to \ufffd25,000) Set Up Fee: 1% (Minimum \ufffd100)"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "TierBandMethod": "Whole",
+                      "CalculationMethod": "Compound",
+                      "LoanInterestTierBand": [
+                        {
+                          "TierValueMinimum": "25000.00",
+                          "TierValueMaximum": "25000.00",
+                          "TierValueMinTerm": 1825,
+                          "MinTermPeriod": "Year",
+                          "TierValueMaxTerm": 1825,
+                          "FixedVariableInterestRateType": "Variable",
+                          "RepAPR": "7.9",
+                          "LoanInterestFeesCharges": [
+                            {
+                              "LoanInterestFeeChargeCap": [
+                                {
+                                  "FeeType": [
+                                    "SetUp"
+                                  ],
+                                  "MinMaxType": "Minimum",
+                                  "CappingPeriod": "OnOpening",
+                                  "Notes": "Unsecured Business Lending (up to \ufffd25,000) Set Up Fee: 1% (Minimum \ufffd100)"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "Repayment": [
+                  {
+                    "AmountType": "CapitalAndInterest",
+                    "Notes": [
+                      "RepaymentFeeCharges are negotiable"
+                    ]
+                  }
+                ],
+                "Eligibility": {
+                  "OtherEligibility": [
+                    {
+                      "Name": "General",
+                      "Type": "Other",
+                      "OtherType": {
+                        "Name": "General",
+                        "Description": "Applications are assessed on a case by case basis"
+                      }
+                    }
+                  ],
+                  "AgeEligibility": {
+                    "MinimumAge": 18
+                  }
+                },
+                "OtherFeesCharges": {
+                  "FeeChargeDetail": [
+                    {
+                      "FeeType": "SetUp",
+                      "ApplicationFrequency": "OnOpening",
+                      "CalculationFrequency": "OnOpening"
+                    },
+                    {
+                      "FeeType": "SetUp",
+                      "FeeRate": "1",
+                      "ApplicationFrequency": "OnOpening",
+                      "CalculationFrequency": "OnOpening"
+                    },
+                    {
+                      "FeeCategory": "Legal",
+                      "FeeType": "Legal",
+                      "FeeAmount": "50",
+                      "ApplicationFrequency": "PerOccurrence",
+                      "CalculationFrequency": "PerOccurrence"
+                    },
+                    {
+                      "FeeCategory": "Legal",
+                      "FeeType": "Legal",
+                      "FeeAmount": "15",
+                      "ApplicationFrequency": "PerOccurrence",
+                      "CalculationFrequency": "PerOccurrence"
+                    }
+                  ],
+                  "FeeChargeCap": [
+                    {
+                      "FeeType": [
+                        "Other"
+                      ],
+                      "MinMaxType": "Minimum",
+                      "FeeCapAmount": "100",
+                      "OtherFeeType": [
+                        {
+                          "Name": "SetUp",
+                          "Description": "All Other Business Lending"
+                        }
+                      ]
+                    },
+                    {
+                      "FeeType": [
+                        "Other"
+                      ],
+                      "MinMaxType": "Minimum",
+                      "FeeCapAmount": "100",
+                      "OtherFeeType": [
+                        {
+                          "Name": "SetUp",
+                          "Description": "Unsecured Business Lending up to \ufffd25,000"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "CoreProduct": {
+                  "ProductDescription": "A Term Loan is a way to finance items of capital expenditure that your business may need. It can be used in conjunction with other lending products such as an overdraft or as a stand-alone source of finance for a diverse range of business purposes for example, acquisitions, working capital and business expansion. Please note that loans to Limited Companies are out-of-scope of CCA regulation.",
+                  "ProductURL": "https://boini.bankofireland.com/business/loans/",
+                  "TcsAndCsURL": "https://boini.bankofireland.com/business/current-account/",
+                  "SalesAccessChannels": [
+                    "Branch",
+                    "CallCentre"
+                  ],
+                  "ServicingAccessChannels": [
+                    "Branch",
+                    "Online",
+                    "CallCentre"
+                  ],
+                  "EarlyPaymentFeeApplicable": true,
+                  "OverPaymentFeeApplicable": false,
+                  "LoanApplicationFeeChargeType": "ChargedAfterLoanApproval",
+                  "FullEarlyRepaymentAllowedIndicator": false,
+                  "Notes": [
+                    "Breakage charges apply if a customer wishes to repay their loan early."
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

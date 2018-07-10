@@ -1,0 +1,399 @@
+{
+  "meta": {
+    "LastUpdated": "2018-07-10T04:33:45.823Z",
+    "TotalResults": 1,
+    "Agreement": "Use of the APIs and any related data will be subject to the terms of the Open Licence and subject to terms and conditions",
+    "License": "https://www.openbanking.org.uk/open-licence",
+    "TermsOfUse": "https://www.openbanking.org.uk/terms"
+  },
+  "data": [
+    {
+      "Brand": [
+        {
+          "BrandName": "RBS",
+          "CCC": [
+            {
+              "Name": "Business Credit Card",
+              "Identification": "497",
+              "CCCMarketingState": [
+                {
+                  "Identification": "1",
+                  "MarketingState": "Regular",
+                  "Repayment": {
+                    "NonRepaymentFeeCharges": [
+                      {
+                        "NonRepaymentFeeChargeDetail": [
+                          {
+                            "FeeType": "OverCreditLimit",
+                            "Notes": [
+                              "Fee - Overlimit"
+                            ],
+                            "FeeAmount": "12",
+                            "ApplicationFrequency": "Other",
+                            "OtherApplicationFrequency": {
+                              "Name": "One Off",
+                              "Description": "One Off"
+                            },
+                            "CalculationFrequency": "Other",
+                            "OtherCalculationFrequency": {
+                              "Name": "PerOccurrence",
+                              "Description": "PerOccurrence"
+                            }
+                          },
+                          {
+                            "FeeType": "LatePayment",
+                            "Notes": [
+                              "Charge - Late payment",
+                              "If minimum payment is not received by the due date"
+                            ],
+                            "FeeAmount": "12",
+                            "ApplicationFrequency": "Other",
+                            "OtherApplicationFrequency": {
+                              "Name": "One Off",
+                              "Description": "One Off"
+                            },
+                            "CalculationFrequency": "Other",
+                            "OtherCalculationFrequency": {
+                              "Name": "PerOccurrence",
+                              "Description": "PerOccurrence"
+                            }
+                          },
+                          {
+                            "FeeType": "ReturnPayment",
+                            "Notes": [
+                              "Charge - Returned payment"
+                            ],
+                            "FeeAmount": "12",
+                            "ApplicationFrequency": "Other",
+                            "OtherApplicationFrequency": {
+                              "Name": "Per Transaction",
+                              "Description": "Per Transaction"
+                            },
+                            "CalculationFrequency": "Other",
+                            "OtherCalculationFrequency": {
+                              "Name": "PerOccurrence",
+                              "Description": "PerOccurrence"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "RepaymentAllocation": {
+                      "Notes": [
+                        "Payments to the Card will not reduce the balance until the payment has cleared. The monthly statement includes information about how long it takes for payments to clear.\nWe use any payments we receive to pay off:\n• any overdue amounts from previous monthly\nstatements;\n• any minimum payment; and\n• any overlimit amount on the Card.\nCustomers can’t choose how a payment is applied to their Card. We apply any payments made in the following order:\n• to reduce sums shown on the most recent monthly statement, according to their interest rates, with the highest rate paid first; and\n• if any payment exceeds the most recent monthly statement balance, the excess will then be applied to reduce sums charged to the Card but not yet shown on any monthly statement. This is also done according to interest rates, with the highest interest rate paid first. If parts of either of the balances referred to above have the same interest rate, sums on which interest is charged on interest will reduce first.\nWe may give written notice allowing the customer not to make a minimum payment. If so, interest will still accrue."
+                      ]
+                    },
+                    "Notes": [
+                      "We’ll issue a monthly statement showing all amounts charged to the Card since the previous monthly statement and the Card balance. The whole balance or part of it can be paid , but at least the minimum amount on your monthly statement must be paid by the payment date. A monthly statement will explain how to make payments.\nWe may not issue a monthly statement if the balance is zero and there have been no entries since the previous monthly statement.\nThe minimum payment must be made each month from a business account in the customers' name.\nThe minimum payment will be either:\n(i) the greater of £5 or 5% of the full amount\noutstanding;\n(ii) the full amount, where the sum outstanding is\nless than £5; or\n(iii) subject to any notice required by law, the full outstanding balance if: we believe that the card is being used or might be used in breach of the agreement or in an unauthorised or fraudulent manner; or as a result of a change in the way you operate your account or in your financial circumstances (including missing payments), we reasonably believe that you may have difficulty in meeting your commitments\n\nAny overdue amounts, which will be included in the total amount required to pay, are payable immediately. When we ask, immediate payment is required on any amount you owe over the  Business Credit Limit.\nWe encourage customers to pay more than the minimum amount each month. As they will clear their balance more quickly and pay less interest. \nCustomers must not make payments to their Card that creates a positive balance on your account. We may return any credit balance or apply it to a current account.."
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "Servicing",
+                        "FeeType": "Card",
+                        "Notes": [
+                          "Fee - Account",
+                          "Fee free for first year for start ups"
+                        ],
+                        "FeeAmount": "32",
+                        "ApplicationFrequency": "Yearly",
+                        "CalculationFrequency": "Yearly"
+                      },
+                      {
+                        "FeeCategory": "Servicing",
+                        "FeeType": "CashWithdrawal",
+                        "Notes": [
+                          "Fee - Cash withdrawal",
+                          "min £3"
+                        ],
+                        "FeeRate": "3",
+                        "ApplicationFrequency": "Other",
+                        "OtherApplicationFrequency": {
+                          "Name": "Per Transaction",
+                          "Description": "Per Transaction"
+                        },
+                        "CalculationFrequency": "Other",
+                        "OtherCalculationFrequency": {
+                          "Name": "PerTransaction",
+                          "Description": "PerTransaction"
+                        }
+                      },
+                      {
+                        "FeeCategory": "FX",
+                        "FeeType": "ForeignCash",
+                        "Notes": [
+                          "Fee - Non-sterling transaction"
+                        ],
+                        "FeeRate": "2.95",
+                        "ApplicationFrequency": "Other",
+                        "OtherApplicationFrequency": {
+                          "Name": "Per Transaction",
+                          "Description": "Per Transaction"
+                        },
+                        "CalculationFrequency": "Other",
+                        "OtherCalculationFrequency": {
+                          "Name": "PerTransaction",
+                          "Description": "PerTransaction"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Servicing",
+                        "FeeType": "ChequeIssue",
+                        "Notes": [
+                          "Charge - Cheques & Other Debits"
+                        ],
+                        "FeeAmount": "25",
+                        "ApplicationFrequency": "Other",
+                        "OtherApplicationFrequency": {
+                          "Name": "Per Transaction",
+                          "Description": "Per Transaction"
+                        },
+                        "CalculationFrequency": "Other",
+                        "OtherCalculationFrequency": {
+                          "Name": "PerTransaction",
+                          "Description": "PerTransaction"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Penalty",
+                        "FeeType": "ChequeIssue",
+                        "Notes": [
+                          "Charge - Cheques & Other Debits"
+                        ],
+                        "FeeAmount": "25",
+                        "ApplicationFrequency": "Other",
+                        "OtherApplicationFrequency": {
+                          "Name": "Per Transaction",
+                          "Description": "Per Transaction"
+                        },
+                        "CalculationFrequency": "Other",
+                        "OtherCalculationFrequency": {
+                          "Name": "PerTransaction",
+                          "Description": "PerTransaction"
+                        }
+                      },
+                      {
+                        "FeeCategory": "CashAdvance",
+                        "FeeType": "CashWithdrawal",
+                        "Notes": [
+                          "Rate - APR",
+                          "Based on an example of £1,200. \n\n•Cash advances includes cash withdrawals, the purchase of foreign currency and travellers cheques and money transfers and cheques"
+                        ],
+                        "FeeRate": "24.9",
+                        "ApplicationFrequency": "Other",
+                        "OtherApplicationFrequency": {
+                          "Name": "Per Transaction",
+                          "Description": "Per Transaction"
+                        },
+                        "CalculationFrequency": "Yearly"
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductDescription": "Summary\n\n•A Business credit card for managing cash flow and paying retailers and suppliers.\n\n\nEligibility\n\n•Business Banking customers up to £2m turnover (Commercial Banking customers with turnover up to £2m click here) \n\n\n•For business use only. \n\n\n•Over 18's and subject to status. \n\n\n•Registered business address must be in the United Kingdom, Channel Islands, Isle of Man or Gibraltar or should be registered for tax purposes in one of those jurisdictions.",
+                    "APR": "24.9",
+                    "PeriodicFee": "32",
+                    "Notes": [
+                      "Fee free for first year for start ups"
+                    ],
+                    "PeriodicFeePeriod": "Year",
+                    "CardScheme": [
+                      "Mastercard"
+                    ],
+                    "ContactlessIndicator": true,
+                    "MaxPurchaseInterestFreeLengthDays": 45,
+                    "SalesAccessChannels": [
+                      "Post",
+                      "Online"
+                    ],
+                    "ServicingAccessChannels": [
+                      "ATM",
+                      "Branch",
+                      "CallCentre",
+                      "MobileBankingApp",
+                      "Online",
+                      "RelationshipManager"
+                    ],
+                    "ProductURL": "http://www.rbs.com",
+                    "TcsAndCsURL": "http://www.rbs.com"
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitItem": [
+                      {
+                        "Identification": "3450",
+                        "Type": "TravelInsurance",
+                        "Name": "Travel Accident Insurance",
+                        "Indicator": true,
+                        "FeatureBenefitEligibility": [
+                          {
+                            "Name": "Country",
+                            "Type": "Other",
+                            "Description": "Business must be located in the UK, Isle of Man, Channel Islands or Gibraltar"
+                          }
+                        ]
+                      },
+                      {
+                        "Identification": "3451",
+                        "Type": "Other",
+                        "Name": "Smart Data Online"
+                      },
+                      {
+                        "Identification": "3452",
+                        "Type": "AccountManagement",
+                        "Name": "Main Features"
+                      },
+                      {
+                        "Identification": "41056",
+                        "Name": "CardScheme",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "CardScheme",
+                          "Description": "The payment scheme whose logo appears on the card."
+                        },
+                        "Textual": "MasterCard"
+                      },
+                      {
+                        "Identification": "41062",
+                        "Name": "AbilityToUseCardOnline",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "AbilityToUseCardOnline",
+                          "Description": "This features allows integration into a customer's finance systems via an online management information system."
+                        },
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "41057",
+                        "Name": "AccessToDataReportingTool",
+                        "Type": "AccountManagement",
+                        "Textual": "Smart Data; Cards Online"
+                      },
+                      {
+                        "Identification": "41063",
+                        "Name": "CashWithdrawals",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "CashWithdrawals",
+                          "Description": "This allows the cardholder to withdraw cash from an ATM or over the counter from qualifying retailers."
+                        },
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "41064",
+                        "Name": "ChipAndPin",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "ChipAndPin",
+                          "Description": "This enables the card holder to pay for goods and services by entering their personal identification number in a point of sale terminal."
+                        },
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "41065",
+                        "Name": "Contactless",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "Contactless",
+                          "Description": "A small value Debit Transaction made using a Card or other device without the need for PIN or signature verification."
+                        },
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "41066",
+                        "Name": "ConvenienceCheque",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "ConvenienceCheque",
+                          "Description": "States if the customer is able to issue a cheque from his/hers credit card account."
+                        },
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "41059",
+                        "Name": "Currency",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "Currency",
+                          "Description": "A system of money, in any form, that can be used as a unit of account, medium of exchange and store of value."
+                        },
+                        "Textual": "GBP"
+                      },
+                      {
+                        "Identification": "41058",
+                        "Name": "MaximumNumberOfCardsPermitted",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "MaximumNumberOfCardsPermitted",
+                          "Description": "The maximum number of additional cards that the principal card holder can ask the bank to issue in addition to their own card."
+                        },
+                        "Textual": "Unlimited"
+                      },
+                      {
+                        "Identification": "41067",
+                        "Name": "OnlineSecurity",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "OnlineSecurity",
+                          "Description": "States if the product utilises online security such as 3D secure to increase protection for the customer."
+                        },
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "41068",
+                        "Name": "FlexiblePayments",
+                        "Type": "PaymentHolidays",
+                        "Textual": "Minimum payment 5%/£5 and full payment option"
+                      },
+                      {
+                        "Identification": "41069",
+                        "Name": "InterestFreePeriod",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "InterestFreePeriod",
+                          "Description": "States if the product allows for an interest free period (up to 56 days)."
+                        },
+                        "Textual": "Upto 45 day interest free"
+                      },
+                      {
+                        "Identification": "41070",
+                        "Name": "AbilityToSetSpecificIndividualLimits",
+                        "Type": "AccountManagement",
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "41071",
+                        "Name": "StatementsGeneratedAtAccountLevelAndCardholderLevel",
+                        "Type": "AccountManagement",
+                        "Textual": "Company level statements"
+                      }
+                    ]
+                  },
+                  "Eligibility": {
+                    "ResidencyEligibility": [
+                      {
+                        "ResidencyType": "Other",
+                        "ResidencyIncluded": [
+                          "GIXX",
+                          "GGXX",
+                          "IMXX",
+                          "JEXX",
+                          "GBXX"
+                        ]
+                      }
+                    ]
+                  },
+                  "FirstMarketedDate": "2017-11-21",
+                  "LastMarketedDate": "9999-12-31"
+                }
+              ],
+              "Segment": [
+                "General"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2626 @@
+{
+  "meta": {
+    "LastUpdated": "2018-03-02T09:05:12.000Z",
+    "TotalResults": 5,
+    "Agreement": "Use of the APIs and any related data will be subject to the terms of the Open Licence and subject to terms and conditions",
+    "License": "https://www.openbanking.org.uk/open-licence",
+    "TermsOfUse": "https://www.openbanking.org.uk/terms"
+  },
+  "data": [
+    {
+      "Brand": [
+        {
+          "BrandName": "DanskeBank",
+          "BCA": [
+            {
+              "Name": "Danske Charity Account",
+              "Identification": "41C",
+              "Segment": [
+                "Standard"
+              ],
+              "BCAMarketingState": [
+                {
+                  "Identification": "41C",
+                  "MarketingState": "Regular",
+                  "Overdraft": {
+                    "OverdraftTierBandSet": [
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "AuthorisedIndicator": true,
+                        "OverdraftTierBand": [
+                          {
+                            "TierValueMin": "1",
+                            "TierValueMax": "25000",
+                            "OverdraftInterestChargingCoverage": "Tiered",
+                            "Notes": [
+                              "Rate dependent on credit rating and amount"
+                            ],
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeCap": [
+                                  {
+                                    "FeeType": [
+                                      "OverdraftSetup"
+                                    ],
+                                    "MinMaxType": "Minimum",
+                                    "FeeCapAmount": "250"
+                                  },
+                                  {
+                                    "FeeType": [
+                                      "UnauthorisedPaidTrans"
+                                    ],
+                                    "MinMaxType": "Maximum",
+                                    "FeeCapOccurrence": 1,
+                                    "CappingPeriod": "Day"
+                                  },
+                                  {
+                                    "FeeType": [
+                                      "OverdraftRenewal"
+                                    ],
+                                    "MinMaxType": "Minimum",
+                                    "FeeCapAmount": "150"
+                                  }
+                                ],
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "OverdraftSetup",
+                                    "FeeRate": "1",
+                                    "ApplicationFrequency": "OnOpening",
+                                    "CalculationFrequency": "OnOpening"
+                                  },
+                                  {
+                                    "FeeType": "TempOverdraft",
+                                    "FeeAmount": "30",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedUnpaidTrans",
+                                    "FeeAmount": "28",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedPaidTrans",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  },
+                                  {
+                                    "FeeType": "OverdraftRenewal",
+                                    "FeeRate": "0.6",
+                                    "ApplicationFrequency": "OnAnniversary",
+                                    "CalculationFrequency": "OnAnniversary"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "OverdraftFeesCharges": [
+                          {
+                            "OverdraftFeeChargeCap": [
+                              {
+                                "FeeType": [
+                                  "OverdraftSetup"
+                                ],
+                                "MinMaxType": "Minimum",
+                                "FeeCapAmount": "250"
+                              },
+                              {
+                                "FeeType": [
+                                  "UnauthorisedPaidTrans"
+                                ],
+                                "MinMaxType": "Maximum",
+                                "FeeCapOccurrence": 1,
+                                "CappingPeriod": "Day"
+                              },
+                              {
+                                "FeeType": [
+                                  "OverdraftRenewal"
+                                ],
+                                "MinMaxType": "Minimum",
+                                "FeeCapAmount": "150"
+                              }
+                            ],
+                            "OverdraftFeeChargeDetail": [
+                              {
+                                "FeeType": "OverdraftSetup",
+                                "FeeRate": "1",
+                                "ApplicationFrequency": "OnOpening",
+                                "CalculationFrequency": "OnOpening"
+                              },
+                              {
+                                "FeeType": "TempOverdraft",
+                                "FeeAmount": "30",
+                                "ApplicationFrequency": "PerOccurrence",
+                                "CalculationFrequency": "PerOccurrence"
+                              },
+                              {
+                                "FeeType": "UnauthorisedUnpaidTrans",
+                                "FeeAmount": "28",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              },
+                              {
+                                "FeeType": "UnauthorisedPaidTrans",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              },
+                              {
+                                "FeeType": "OverdraftRenewal",
+                                "FeeRate": "0.6",
+                                "ApplicationFrequency": "OnAnniversary",
+                                "CalculationFrequency": "OnAnniversary"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "AuthorisedIndicator": false,
+                        "OverdraftTierBand": [
+                          {
+                            "TierValueMin": "1",
+                            "TierValueMax": "25000",
+                            "EAR": "22.13",
+                            "OverdraftInterestChargingCoverage": "Tiered",
+                            "OverdraftFeesCharges": [
+                              {}
+                            ]
+                          }
+                        ],
+                        "OverdraftFeesCharges": [
+                          {}
+                        ]
+                      }
+                    ]
+                  },
+                  "Eligibility": {
+                    "OtherEligibility": [
+                      {}
+                    ],
+                    "LegalStructureEligibility": [
+                      {
+                        "LegalStructure": "Charity"
+                      }
+                    ],
+                    "IDEligibility": {
+                      "Notes": [
+                        "New customers and additional signatories"
+                      ]
+                    },
+                    "CreditCheckEligibility": {
+                      "ScoringType": "Hard",
+                      "Notes": [
+                        "Experian Credit Check"
+                      ]
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitItem": [
+                      {
+                        "Type": "Rewards",
+                        "Textual": "Customer gets free access to online payments module to enable them to make payments from the accounts."
+                      }
+                    ],
+                    "Card": [
+                      {
+                        "Type": "DebitCard",
+                        "Scheme": [
+                          "MasterCard"
+                        ],
+                        "ContactlessIndicator": false,
+                        "MaxDailyCardWithdrawalLimit": "350"
+                      }
+                    ],
+                    "MobileWallet": [
+                      {
+                        "Type": "IssuerMobileApp"
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": [
+                    {
+                      "FeeChargeDetail": [
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "TransStandingOrd",
+                          "FeeAmount": "0.05",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCashX",
+                          "FeeRate": "0.66",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Foreign",
+                          "FeeType": "TransNonSterling",
+                          "FeeRate": "2.75",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Cheque",
+                          "FeeType": "ChqSpecialChqPresentation",
+                          "FeeAmount": "10",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "BACSBatch",
+                          "FeeAmount": "3",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "FPSOut",
+                          "FeeAmount": "0.05",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "FPSInBranch",
+                          "FeeAmount": "5",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Servicing",
+                          "FeeType": "NightSafeNightSafeBankOpen",
+                          "FeeAmount": "10",
+                          "ApplicationFrequency": "Quarterly",
+                          "CalculationFrequency": "Quarterly",
+                          "Notes": [
+                            "Fee is per wallet"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "Servicing",
+                          "FeeType": "ServiceCOther",
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly",
+                          "Notes": [
+                            "Lodgements at Counter"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "Foreign",
+                          "FeeType": "TransPOSSaleForeign",
+                          "FeeRate": "2.75",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "CounterCashDropLodgement",
+                          "FeeRate": "0.2",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "BACSItem",
+                          "FeeAmount": "0.1",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "FPSOutOwn",
+                          "FeeAmount": "0.05",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "BankersDrafts",
+                          "FeeType": "DraftsBankers",
+                          "FeeAmount": "10",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Report",
+                          "FeeType": "ReportStatementFrequent",
+                          "FeeAmount": "1.50",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Report",
+                          "FeeType": "ReportAuditLetter",
+                          "FeeAmount": "25",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Servicing",
+                          "FeeType": "ServiceCAccountFeeMonthly",
+                          "FeeAmount": "1.5",
+                          "ApplicationFrequency": "Monthly",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "TransUKDirDeb",
+                          "FeeAmount": "0.05",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Cheque",
+                          "FeeType": "ChqBookTheftLossAllStopped",
+                          "FeeAmount": "10.00",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "CHAPSOutOnline",
+                          "FeeAmount": "20.00",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Cheque",
+                          "FeeType": "ChqStopped",
+                          "FeeAmount": "10",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Card",
+                          "FeeType": "ATMCashNonGroupATMDebitcard",
+                          "FeeAmount": "0.05",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Servicing",
+                          "FeeType": "ServiceCOther",
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly",
+                          "Notes": [
+                            "Lodgements at Cash drop"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "POPostOfficeCounterCredit",
+                          "FeeAmount": "0.36",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "AutoAutoCredit",
+                          "FeeAmount": "0.05",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "ServiceCOther",
+                          "FeeAmount": "0.05",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly",
+                          "Notes": [
+                            "Electronic debits external"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "TransManualDeb",
+                          "FeeAmount": "0.41",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCashInOwn",
+                          "FeeRate": "0.66",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Cheque",
+                          "FeeType": "ChqOutIssued",
+                          "FeeAmount": "0.41",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "CounterCounterLodgement",
+                          "FeeRate": "0.2",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "CHAPSOutBranch",
+                          "FeeAmount": "30.00",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Report",
+                          "FeeType": "ReportStatementCopy1",
+                          "FeeAmount": "3",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Card",
+                          "FeeType": "ATMCashGroupATMDebitCard",
+                          "FeeAmount": "0.05",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "CHAPSIn",
+                          "FeeAmount": "6",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Servicing",
+                          "FeeType": "ServiceCOther",
+                          "FeeAmount": "6",
+                          "ApplicationFrequency": "PerSheet",
+                          "CalculationFrequency": "PerOccurrence",
+                          "Notes": [
+                            "Copy of previous statement"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "Report",
+                          "FeeType": "ReportStatementCopyRegular",
+                          "FeeAmount": "1.5",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        }
+                      ]
+                    }
+                  ],
+                  "CoreProduct": {
+                    "ProductURL": "http://danskebank.co.uk/en-gb/Business/Small-business/Accounts-and-cards/accounts/Danske-Community-Account/Pages/Clubs-and-Societies-Account.aspx",
+                    "ProductDescription": "A current account for registered charities.​",
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/sitecollectiondocuments/business/accounts/tcs-business-accounts.pdf",
+                    "SalesAccessChannels": [
+                      "Branch"
+                    ],
+                    "ServicingAccessChannels": [
+                      "Branch",
+                      "Post",
+                      "Online",
+                      "CallCentre"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "Danske Small Business",
+              "Identification": "55F",
+              "Segment": [
+                "Standard"
+              ],
+              "BCAMarketingState": [
+                {
+                  "Identification": "55F",
+                  "MarketingState": "Regular",
+                  "Overdraft": {
+                    "OverdraftTierBandSet": [
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "AuthorisedIndicator": true,
+                        "OverdraftTierBand": [
+                          {
+                            "TierValueMin": "1",
+                            "TierValueMax": "25000",
+                            "EAR": "7.71",
+                            "OverdraftInterestChargingCoverage": "Tiered",
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeCap": [
+                                  {
+                                    "FeeType": [
+                                      "UnauthorisedPaidTrans"
+                                    ],
+                                    "MinMaxType": "Maximum",
+                                    "FeeCapOccurrence": 1,
+                                    "CappingPeriod": "Day"
+                                  },
+                                  {
+                                    "FeeType": [
+                                      "OverdraftRenewal"
+                                    ],
+                                    "MinMaxType": "Minimum",
+                                    "FeeCapAmount": "50"
+                                  }
+                                ],
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "OverdraftSetup",
+                                    "FeeAmount": "125",
+                                    "ApplicationFrequency": "OnOpening",
+                                    "CalculationFrequency": "OnOpening"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedPaidTrans",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  },
+                                  {
+                                    "FeeType": "TempOverdraft",
+                                    "FeeAmount": "30",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedUnpaidTrans",
+                                    "FeeAmount": "28",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  },
+                                  {
+                                    "FeeType": "OverdraftRenewal",
+                                    "FeeRate": "0.6",
+                                    "ApplicationFrequency": "OnAnniversary",
+                                    "CalculationFrequency": "OnAnniversary"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "OverdraftFeesCharges": [
+                          {
+                            "OverdraftFeeChargeCap": [
+                              {
+                                "FeeType": [
+                                  "UnauthorisedPaidTrans"
+                                ],
+                                "MinMaxType": "Maximum",
+                                "FeeCapOccurrence": 1,
+                                "CappingPeriod": "Day"
+                              },
+                              {
+                                "FeeType": [
+                                  "OverdraftRenewal"
+                                ],
+                                "MinMaxType": "Minimum",
+                                "FeeCapAmount": "50"
+                              }
+                            ],
+                            "OverdraftFeeChargeDetail": [
+                              {
+                                "FeeType": "OverdraftSetup",
+                                "FeeAmount": "125",
+                                "ApplicationFrequency": "OnOpening",
+                                "CalculationFrequency": "OnOpening"
+                              },
+                              {
+                                "FeeType": "UnauthorisedPaidTrans",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              },
+                              {
+                                "FeeType": "TempOverdraft",
+                                "FeeAmount": "30",
+                                "ApplicationFrequency": "PerOccurrence",
+                                "CalculationFrequency": "PerOccurrence"
+                              },
+                              {
+                                "FeeType": "UnauthorisedUnpaidTrans",
+                                "FeeAmount": "28",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              },
+                              {
+                                "FeeType": "OverdraftRenewal",
+                                "FeeRate": "0.6",
+                                "ApplicationFrequency": "OnAnniversary",
+                                "CalculationFrequency": "OnAnniversary"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "AuthorisedIndicator": false,
+                        "OverdraftTierBand": [
+                          {
+                            "TierValueMin": "1",
+                            "TierValueMax": "25000",
+                            "EAR": "22.13",
+                            "OverdraftInterestChargingCoverage": "Tiered",
+                            "OverdraftFeesCharges": [
+                              {}
+                            ]
+                          }
+                        ],
+                        "OverdraftFeesCharges": [
+                          {}
+                        ]
+                      }
+                    ]
+                  },
+                  "Eligibility": {
+                    "OtherEligibility": [
+                      {}
+                    ],
+                    "IDEligibility": {
+                      "Notes": [
+                        "Sole traders/Partnerships - both individuals and business name are id checked.\nLtd co - business name & directors are id checked."
+                      ]
+                    },
+                    "CreditCheckEligibility": {
+                      "ScoringType": "Hard",
+                      "Notes": [
+                        "Experian Credit Check"
+                      ]
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitGroup": [
+                      {
+                        "Name": "Free on-line payments module",
+                        "Type": "AccountOpeningOrSwitchingIncentive",
+                        "BenefitGroupNominalValue": "10",
+                        "ApplicationFrequency": "Monthly",
+                        "CalculationFrequency": "Monthly",
+                        "FeatureBenefitItem": [
+                          {
+                            "Type": "Rewards",
+                            "Textual": "Customer gets free access to online payments module to enable them to make payments from the accounts."
+                          }
+                        ]
+                      },
+                      {
+                        "Name": "£250 Cash back",
+                        "Type": "AccountOpeningOrSwitchingIncentive",
+                        "BenefitGroupNominalValue": "250",
+                        "FeatureBenefitItem": [
+                          {
+                            "Type": "Cashback",
+                            "Name": "£250 Cash back",
+                            "Amount": "250",
+                            "FeatureBenefitEligibility": [
+                              {
+                                "Name": "Transacations1month",
+                                "Type": "MinimumTransactions",
+                                "Amount": "10",
+                                "Period": "Month"
+                              }
+                            ]
+                          }
+                        ],
+                        "FeatureBenefitEligibility": [
+                          {
+                            "Name": "Transacations1month",
+                            "Type": "MinimumTransactions",
+                            "Amount": "10",
+                            "Period": "Month"
+                          }
+                        ]
+                      },
+                      {
+                        "Name": "£250 Cash back",
+                        "Type": "AccountOpeningOrSwitchingIncentive",
+                        "BenefitGroupNominalValue": "250",
+                        "FeatureBenefitItem": [
+                          {
+                            "Type": "Cashback",
+                            "Name": "£250 Cash back",
+                            "Amount": "250",
+                            "FeatureBenefitEligibility": [
+                              {
+                                "Name": "Transacations1year",
+                                "Type": "MinimumTransactions",
+                                "Amount": "120",
+                                "Period": "Year"
+                              }
+                            ]
+                          }
+                        ],
+                        "FeatureBenefitEligibility": [
+                          {
+                            "Name": "Transacations1year",
+                            "Type": "MinimumTransactions",
+                            "Amount": "120",
+                            "Period": "Year"
+                          }
+                        ]
+                      }
+                    ],
+                    "FeatureBenefitItem": [
+                      {
+                        "Type": "Cashback",
+                        "Name": "£250 Cash back",
+                        "Amount": "250",
+                        "FeatureBenefitEligibility": [
+                          {
+                            "Name": "Transacations1month",
+                            "Type": "MinimumTransactions",
+                            "Amount": "10",
+                            "Period": "Month"
+                          }
+                        ]
+                      }
+                    ],
+                    "Card": [
+                      {
+                        "Type": "DebitCard",
+                        "Scheme": [
+                          "MasterCard"
+                        ],
+                        "ContactlessIndicator": false,
+                        "MaxDailyCardWithdrawalLimit": "350"
+                      }
+                    ],
+                    "MobileWallet": [
+                      {
+                        "Type": "IssuerMobileApp"
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": [
+                    {
+                      "FeeChargeDetail": [
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "BACSBatch",
+                          "FeeAmount": "3",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "FPSOut",
+                          "FeeAmount": "0.05",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCashX",
+                          "FeeRate": "1.32",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "POPostOfficeCashCredit",
+                          "FeeRate": "0.62",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Report",
+                          "FeeType": "ReportStatementCopyRegular",
+                          "FeeAmount": "1.5",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Report",
+                          "FeeType": "ReportStatementFrequent",
+                          "FeeAmount": "1.50",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCounterLodgement",
+                          "FeeRate": "0.82",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "BACSItem",
+                          "FeeAmount": "0.1",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Servicing",
+                          "FeeType": "ServiceCOther",
+                          "FeeAmount": "6",
+                          "ApplicationFrequency": "PerSheet",
+                          "CalculationFrequency": "PerOccurrence",
+                          "Notes": [
+                            "Copy of previous statement"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "CHAPSIn",
+                          "FeeAmount": "6",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Card",
+                          "FeeType": "ATMCashGroupATMDebitCard",
+                          "FeeAmount": "0.05",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "TransStandingOrd",
+                          "FeeAmount": "0.05",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "ChqCashDropLodgement",
+                          "FeeAmount": "0.51",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "CHAPSOutBranch",
+                          "FeeAmount": "30.00",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCashDropLodgement",
+                          "FeeRate": "0.62",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Cheque",
+                          "FeeType": "ChqBookTheftLossAllStopped",
+                          "FeeAmount": "10.00",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "TransUKDirDeb",
+                          "FeeAmount": "0.05",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "ChqCounterLodgement",
+                          "FeeAmount": "0.72",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCashInOwn",
+                          "FeeRate": "1.32",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCashOut",
+                          "NegotiableIndicator": true,
+                          "FeeAmount": "0.82",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "FPSOutOwn",
+                          "FeeAmount": "0.05",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Report",
+                          "FeeType": "ReportAuditLetter",
+                          "FeeAmount": "25",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Report",
+                          "FeeType": "ReportStatementCopy1",
+                          "FeeAmount": "3",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Servicing",
+                          "FeeType": "ServiceCOther",
+                          "FeeAmount": "0.72",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly",
+                          "Notes": [
+                            "Lodgements at Cash drop"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "Cheque",
+                          "FeeType": "ChqSpecialChqPresentation",
+                          "FeeAmount": "10",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "CHAPSOutOnline",
+                          "FeeAmount": "20.00",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "AutoAutoCredit",
+                          "FeeAmount": "0.05",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Foreign",
+                          "FeeType": "TransNonSterling",
+                          "FeeRate": "2.75",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Card",
+                          "FeeType": "ATMCashNonGroupATMDebitcard",
+                          "FeeAmount": "0.05",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Cheque",
+                          "FeeType": "ChqOutIssued",
+                          "FeeAmount": "0.82",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "POPostOfficeCounterCredit",
+                          "FeeAmount": "0.72",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "TransDebit",
+                          "FeeAmount": "0.4",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly",
+                          "Notes": [
+                            "Electronic debits"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "Foreign",
+                          "FeeType": "TransPOSSaleForeign",
+                          "FeeRate": "2.75",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "BankersDrafts",
+                          "FeeType": "DraftsBankers",
+                          "FeeAmount": "10",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "TransCredit",
+                          "FeeAmount": "0.1",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly",
+                          "Notes": [
+                            "Bacs Direct Credit items"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "Servicing",
+                          "FeeType": "NightSafeNightSafeBankOpen",
+                          "FeeAmount": "10",
+                          "ApplicationFrequency": "Quarterly",
+                          "CalculationFrequency": "Quarterly",
+                          "Notes": [
+                            "Fee is per wallet"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "Servicing",
+                          "FeeType": "ServiceCAccountFee",
+                          "FeeAmount": "12.5",
+                          "ApplicationFrequency": "Monthly",
+                          "CalculationFrequency": "Monthly",
+                          "Notes": [
+                            "£12.50 entitles customer to up to 5 accounts. Additional accounts allowed but will incur further charges."
+                          ]
+                        },
+                        {
+                          "FeeCategory": "Cheque",
+                          "FeeType": "ChqStopped",
+                          "FeeAmount": "10",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Servicing",
+                          "FeeType": "ServiceCOther",
+                          "FeeAmount": "0.72",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly",
+                          "Notes": [
+                            "Lodgements at Counter"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "FPSInBranch",
+                          "FeeAmount": "5",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "TransManualDeb",
+                          "FeeAmount": "0.82",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "ServiceCOther",
+                          "FeeAmount": "0.05",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly",
+                          "Notes": [
+                            "Electronic debits external"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "CoreProduct": {
+                    "ProductURL": "http://www.danskebank.co.uk/en-gb/Business/Small-business/Accounts-and-cards/accounts/Danske-Small-Business/Pages/danske-small-business.aspx",
+                    "ProductDescription": "The flexible all-round current account combining traditional branch-based banking with our innovative online banking",
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/sitecollectiondocuments/business/accounts/tcs-business-accounts.pdf",
+                    "SalesAccessChannels": [
+                      "Branch"
+                    ],
+                    "ServicingAccessChannels": [
+                      "Branch",
+                      "Post",
+                      "Online",
+                      "CallCentre"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "Danske Large Business",
+              "Identification": "41B",
+              "Segment": [
+                "Standard"
+              ],
+              "BCAMarketingState": [
+                {
+                  "Identification": "41B",
+                  "MarketingState": "Regular",
+                  "Overdraft": {
+                    "OverdraftTierBandSet": [
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "AuthorisedIndicator": true,
+                        "OverdraftTierBand": [
+                          {
+                            "TierValueMin": "1",
+                            "TierValueMax": "25000",
+                            "OverdraftInterestChargingCoverage": "Tiered",
+                            "Notes": [
+                              "Rate dependent on credit rating and amount"
+                            ],
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeCap": [
+                                  {
+                                    "FeeType": [
+                                      "OverdraftRenewal"
+                                    ],
+                                    "MinMaxType": "Minimum",
+                                    "FeeCapAmount": "50"
+                                  },
+                                  {
+                                    "FeeType": [
+                                      "UnauthorisedPaidTrans"
+                                    ],
+                                    "MinMaxType": "Maximum",
+                                    "FeeCapOccurrence": 1,
+                                    "CappingPeriod": "Day"
+                                  }
+                                ],
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "UnauthorisedPaidTrans",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  },
+                                  {
+                                    "FeeType": "OverdraftSetup",
+                                    "FeeAmount": "125",
+                                    "ApplicationFrequency": "OnOpening",
+                                    "CalculationFrequency": "OnOpening"
+                                  },
+                                  {
+                                    "FeeType": "TempOverdraft",
+                                    "FeeAmount": "30",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedUnpaidTrans",
+                                    "FeeAmount": "28",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  },
+                                  {
+                                    "FeeType": "OverdraftRenewal",
+                                    "FeeRate": "0.6",
+                                    "ApplicationFrequency": "OnAnniversary",
+                                    "CalculationFrequency": "OnAnniversary"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "OverdraftFeesCharges": [
+                          {
+                            "OverdraftFeeChargeCap": [
+                              {
+                                "FeeType": [
+                                  "OverdraftRenewal"
+                                ],
+                                "MinMaxType": "Minimum",
+                                "FeeCapAmount": "50"
+                              },
+                              {
+                                "FeeType": [
+                                  "UnauthorisedPaidTrans"
+                                ],
+                                "MinMaxType": "Maximum",
+                                "FeeCapOccurrence": 1,
+                                "CappingPeriod": "Day"
+                              }
+                            ],
+                            "OverdraftFeeChargeDetail": [
+                              {
+                                "FeeType": "UnauthorisedPaidTrans",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              },
+                              {
+                                "FeeType": "OverdraftSetup",
+                                "FeeAmount": "125",
+                                "ApplicationFrequency": "OnOpening",
+                                "CalculationFrequency": "OnOpening"
+                              },
+                              {
+                                "FeeType": "TempOverdraft",
+                                "FeeAmount": "30",
+                                "ApplicationFrequency": "PerOccurrence",
+                                "CalculationFrequency": "PerOccurrence"
+                              },
+                              {
+                                "FeeType": "UnauthorisedUnpaidTrans",
+                                "FeeAmount": "28",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              },
+                              {
+                                "FeeType": "OverdraftRenewal",
+                                "FeeRate": "0.6",
+                                "ApplicationFrequency": "OnAnniversary",
+                                "CalculationFrequency": "OnAnniversary"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "AuthorisedIndicator": false,
+                        "OverdraftTierBand": [
+                          {
+                            "TierValueMin": "1",
+                            "TierValueMax": "25000",
+                            "EAR": "22.13",
+                            "OverdraftInterestChargingCoverage": "Tiered",
+                            "OverdraftFeesCharges": [
+                              {}
+                            ]
+                          }
+                        ],
+                        "OverdraftFeesCharges": [
+                          {}
+                        ]
+                      }
+                    ]
+                  },
+                  "Eligibility": {
+                    "OtherEligibility": [
+                      {}
+                    ],
+                    "IDEligibility": {
+                      "Notes": [
+                        "Sole traders/Partnerships - both individuals and business name are id checked.\nLtd co - business name & directors are id checked."
+                      ]
+                    },
+                    "CreditCheckEligibility": {
+                      "ScoringType": "Hard",
+                      "Notes": [
+                        "Experian Credit Check"
+                      ]
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "Card": [
+                      {
+                        "Type": "DebitCard",
+                        "Scheme": [
+                          "MasterCard"
+                        ],
+                        "ContactlessIndicator": false,
+                        "MaxDailyCardWithdrawalLimit": "350"
+                      }
+                    ],
+                    "MobileWallet": [
+                      {
+                        "Type": "IssuerMobileApp"
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": [
+                    {
+                      "FeeChargeDetail": [
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "FPSOutOwn",
+                          "FeeAmount": "0.4",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Report",
+                          "FeeType": "ReportAuditLetter",
+                          "FeeAmount": "25",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Cheque",
+                          "FeeType": "ChqSpecialChqPresentation",
+                          "FeeAmount": "10",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "ChqCashDropLodgement",
+                          "FeeAmount": "0.72",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCashOut",
+                          "NegotiableIndicator": true,
+                          "FeeAmount": "0.82",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "CHAPSOutBranch",
+                          "FeeAmount": "30",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "FPSOut",
+                          "FeeAmount": "0.72",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Card",
+                          "FeeType": "ATMCashNonGroupATMDebitcard",
+                          "FeeAmount": "0.05",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "POPostOfficeCounterCredit",
+                          "FeeAmount": "0.72",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Foreign",
+                          "FeeType": "TransPOSSaleForeign",
+                          "FeeRate": "2.75",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCashDropLodgement",
+                          "FeeRate": "0.82",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "TransCredit",
+                          "FeeAmount": "0.1",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly",
+                          "Notes": [
+                            "Bacs Direct Credit items"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "POPostOfficeCashCredit",
+                          "FeeRate": "0.82",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Cheque",
+                          "FeeType": "ChqStopped",
+                          "FeeAmount": "10",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "TransUKDirDeb",
+                          "FeeAmount": "0.4",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCounterLodgement",
+                          "FeeRate": "0.82",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Cheque",
+                          "FeeType": "ChqBookTheftLossAllStopped",
+                          "FeeAmount": "10.00",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Servicing",
+                          "FeeType": "ServiceCOther",
+                          "FeeAmount": "6",
+                          "ApplicationFrequency": "PerSheet",
+                          "CalculationFrequency": "PerOccurrence",
+                          "Notes": [
+                            "Copy of previous statement"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "ChqCounterLodgement",
+                          "FeeAmount": "0.72",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCashX",
+                          "FeeRate": "1.32",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Servicing",
+                          "FeeType": "ServiceCOther",
+                          "FeeAmount": "0.72",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly",
+                          "Notes": [
+                            "Lodgements at Cash drop"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "CHAPSIn",
+                          "FeeAmount": "6",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Servicing",
+                          "FeeType": "NightSafeNightSafeBankOpen",
+                          "FeeAmount": "10",
+                          "ApplicationFrequency": "Quarterly",
+                          "CalculationFrequency": "Quarterly",
+                          "Notes": [
+                            "Fee is per wallet"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "AutoAutoCredit",
+                          "FeeAmount": "0.4",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Foreign",
+                          "FeeType": "TransNonSterling",
+                          "FeeRate": "2.75",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Servicing",
+                          "FeeType": "ServiceCOther",
+                          "FeeAmount": "0.72",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly",
+                          "Notes": [
+                            "Lodgements at Counter"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "Cheque",
+                          "FeeType": "ChqOutIssued",
+                          "FeeAmount": "0.82",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Report",
+                          "FeeType": "ReportStatementCopyRegular",
+                          "FeeAmount": "1.5",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCashInOwn",
+                          "FeeRate": "1.32",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Report",
+                          "FeeType": "ReportStatementFrequent",
+                          "FeeAmount": "1.50",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "ServiceCOther",
+                          "FeeAmount": "0.4",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly",
+                          "Notes": [
+                            "Electronic debits external"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "BankersDrafts",
+                          "FeeType": "DraftsBankers",
+                          "FeeAmount": "10",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Report",
+                          "FeeType": "ReportStatementCopy1",
+                          "FeeAmount": "3",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Card",
+                          "FeeType": "ATMCashGroupATMDebitCard",
+                          "FeeAmount": "0.05",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "BACSItem",
+                          "FeeAmount": "0.1",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "TransDebit",
+                          "FeeAmount": "0.4",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly",
+                          "Notes": [
+                            "Electronic debits"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "BACSBatch",
+                          "FeeAmount": "3",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "CHAPSOutOnline",
+                          "FeeAmount": "20",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "TransManualDeb",
+                          "FeeAmount": "0.82",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "FPSInBranch",
+                          "FeeAmount": "5",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "TransStandingOrd",
+                          "FeeAmount": "0.4",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        }
+                      ]
+                    }
+                  ],
+                  "CoreProduct": {
+                    "ProductURL": "http://danskebank.co.uk/en-gb/Business/large-business/Accounts-and-cards/Accounts/Danske-Large-Business/Pages/danske-current-account-business.aspx",
+                    "ProductDescription": "A current account designed for large business customers requiring layered liquidity solutions and who are relationship managed in our Finance Centres or Corporate Banking​.",
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/sitecollectiondocuments/business/accounts/tcs-business-accounts.pdf",
+                    "SalesAccessChannels": [
+                      "Branch"
+                    ],
+                    "ServicingAccessChannels": [
+                      "Branch",
+                      "Post",
+                      "Online",
+                      "CallCentre"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "Danske Community Account",
+              "Identification": "41A",
+              "Segment": [
+                "Standard"
+              ],
+              "BCAMarketingState": [
+                {
+                  "Identification": "41A",
+                  "MarketingState": "Regular",
+                  "Overdraft": {
+                    "OverdraftTierBandSet": [
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "AuthorisedIndicator": true,
+                        "OverdraftTierBand": [
+                          {
+                            "TierValueMin": "1",
+                            "TierValueMax": "25000",
+                            "OverdraftInterestChargingCoverage": "Tiered",
+                            "Notes": [
+                              "Rate dependent on credit rating and amount"
+                            ],
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeCap": [
+                                  {
+                                    "FeeType": [
+                                      "UnauthorisedPaidTrans"
+                                    ],
+                                    "MinMaxType": "Maximum",
+                                    "FeeCapOccurrence": 1,
+                                    "CappingPeriod": "Day"
+                                  },
+                                  {
+                                    "FeeType": [
+                                      "OverdraftRenewal"
+                                    ],
+                                    "MinMaxType": "Minimum",
+                                    "FeeCapAmount": "150"
+                                  },
+                                  {
+                                    "FeeType": [
+                                      "OverdraftSetup"
+                                    ],
+                                    "MinMaxType": "Minimum",
+                                    "FeeCapAmount": "250"
+                                  }
+                                ],
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "TempOverdraft",
+                                    "FeeAmount": "30",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedUnpaidTrans",
+                                    "FeeAmount": "28",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedPaidTrans",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  },
+                                  {
+                                    "FeeType": "OverdraftSetup",
+                                    "FeeRate": "1",
+                                    "ApplicationFrequency": "OnOpening",
+                                    "CalculationFrequency": "OnOpening"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "OverdraftFeesCharges": [
+                          {
+                            "OverdraftFeeChargeCap": [
+                              {
+                                "FeeType": [
+                                  "UnauthorisedPaidTrans"
+                                ],
+                                "MinMaxType": "Maximum",
+                                "FeeCapOccurrence": 1,
+                                "CappingPeriod": "Day"
+                              },
+                              {
+                                "FeeType": [
+                                  "OverdraftRenewal"
+                                ],
+                                "MinMaxType": "Minimum",
+                                "FeeCapAmount": "150"
+                              },
+                              {
+                                "FeeType": [
+                                  "OverdraftSetup"
+                                ],
+                                "MinMaxType": "Minimum",
+                                "FeeCapAmount": "250"
+                              }
+                            ],
+                            "OverdraftFeeChargeDetail": [
+                              {
+                                "FeeType": "TempOverdraft",
+                                "FeeAmount": "30",
+                                "ApplicationFrequency": "PerOccurrence",
+                                "CalculationFrequency": "PerOccurrence"
+                              },
+                              {
+                                "FeeType": "UnauthorisedUnpaidTrans",
+                                "FeeAmount": "28",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              },
+                              {
+                                "FeeType": "UnauthorisedPaidTrans",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              },
+                              {
+                                "FeeType": "OverdraftSetup",
+                                "FeeRate": "1",
+                                "ApplicationFrequency": "OnOpening",
+                                "CalculationFrequency": "OnOpening"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "AuthorisedIndicator": false,
+                        "OverdraftTierBand": [
+                          {
+                            "TierValueMin": "1",
+                            "TierValueMax": "25000",
+                            "EAR": "22.13",
+                            "OverdraftInterestChargingCoverage": "Tiered",
+                            "OverdraftFeesCharges": [
+                              {}
+                            ]
+                          }
+                        ],
+                        "OverdraftFeesCharges": [
+                          {}
+                        ]
+                      }
+                    ]
+                  },
+                  "Eligibility": {
+                    "OtherEligibility": [
+                      {}
+                    ],
+                    "LegalStructureEligibility": [
+                      {
+                        "LegalStructure": "ClubSociety"
+                      }
+                    ],
+                    "IDEligibility": {
+                      "Notes": [
+                        "New customers and additional signatories"
+                      ]
+                    },
+                    "CreditCheckEligibility": {
+                      "ScoringType": "Hard",
+                      "Notes": [
+                        "Experian Credit Check"
+                      ]
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitItem": [
+                      {
+                        "Type": "Cashback",
+                        "Name": "£250 Cash back",
+                        "Amount": "250",
+                        "FeatureBenefitEligibility": [
+                          {
+                            "Name": "Transacations1year",
+                            "Type": "MinimumTransactions",
+                            "Amount": "120",
+                            "Period": "Year"
+                          }
+                        ]
+                      }
+                    ],
+                    "Card": [
+                      {
+                        "Type": "DebitCard",
+                        "Scheme": [
+                          "MasterCard"
+                        ],
+                        "ContactlessIndicator": false,
+                        "MaxDailyCardWithdrawalLimit": "350"
+                      }
+                    ],
+                    "MobileWallet": [
+                      {
+                        "Type": "IssuerMobileApp"
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": [
+                    {
+                      "FeeChargeDetail": [
+                        {
+                          "FeeCategory": "Cheque",
+                          "FeeType": "ChqStopped",
+                          "FeeAmount": "10",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "ServiceCOther",
+                          "FeeAmount": "0.05",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly",
+                          "Notes": [
+                            "Electronic debits external"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "Report",
+                          "FeeType": "ReportAuditLetter",
+                          "FeeAmount": "25",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "FPSOut",
+                          "FeeAmount": "0.05",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "CHAPSOutBranch",
+                          "FeeAmount": "30.00",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Report",
+                          "FeeType": "ReportStatementFrequent",
+                          "FeeAmount": "1.50",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCashInOwn",
+                          "FeeRate": "1.32",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Card",
+                          "FeeType": "ATMCashNonGroupATMDebitcard",
+                          "FeeAmount": "0.05",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "BankersDrafts",
+                          "FeeType": "DraftsBankers",
+                          "FeeAmount": "10",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "CHAPSIn",
+                          "FeeAmount": "6",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "TransManualDeb",
+                          "FeeAmount": "0.82",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCashX",
+                          "FeeRate": "1.32",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Card",
+                          "FeeType": "ATMCashGroupATMDebitCard",
+                          "FeeAmount": "0.05",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Cheque",
+                          "FeeType": "ChqOutIssued",
+                          "FeeAmount": "0.82",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Cheque",
+                          "FeeType": "ChqSpecialChqPresentation",
+                          "FeeAmount": "10",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Cheque",
+                          "FeeType": "ChqBookTheftLossAllStopped",
+                          "FeeAmount": "10.00",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "CounterCashDropLodgement",
+                          "FeeRate": "0.2",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "FPSOutOwn",
+                          "FeeAmount": "0.05",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "TransStandingOrd",
+                          "FeeAmount": "0.05",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Servicing",
+                          "FeeType": "ServiceCOther",
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly",
+                          "Notes": [
+                            "Lodgements at Cash drop"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "Servicing",
+                          "FeeType": "ServiceCAccountFeeMonthly",
+                          "FeeAmount": "4",
+                          "ApplicationFrequency": "Monthly",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "FPSInBranch",
+                          "FeeAmount": "5",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Servicing",
+                          "FeeType": "ServiceCOther",
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly",
+                          "Notes": [
+                            "Lodgements at Counter"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "BACSItem",
+                          "FeeAmount": "0.1",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Foreign",
+                          "FeeType": "TransPOSSaleForeign",
+                          "FeeRate": "2.75",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Report",
+                          "FeeType": "ReportStatementCopyRegular",
+                          "FeeAmount": "1.5",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "AutoAutoCredit",
+                          "FeeAmount": "0.05",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Foreign",
+                          "FeeType": "TransNonSterling",
+                          "FeeRate": "2.75",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "TransCredit",
+                          "FeeAmount": "0.1",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly",
+                          "Notes": [
+                            "Bacs Direct Credit items"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "Servicing",
+                          "FeeType": "NightSafeNightSafeBankOpen",
+                          "FeeAmount": "10",
+                          "ApplicationFrequency": "Quarterly",
+                          "CalculationFrequency": "Quarterly",
+                          "Notes": [
+                            "Fee is per wallet"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "Report",
+                          "FeeType": "ReportStatementCopy1",
+                          "FeeAmount": "3",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "POPostOfficeCounterCredit",
+                          "FeeAmount": "0.72",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "CounterCounterLodgement",
+                          "FeeRate": "0.2",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "TransUKDirDeb",
+                          "FeeAmount": "0.05",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "CHAPSOutOnline",
+                          "FeeAmount": "20.00",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Servicing",
+                          "FeeType": "ServiceCOther",
+                          "FeeAmount": "6",
+                          "ApplicationFrequency": "PerSheet",
+                          "CalculationFrequency": "PerOccurrence",
+                          "Notes": [
+                            "Copy of previous statement"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "BACSBatch",
+                          "FeeAmount": "3",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCashOut",
+                          "NegotiableIndicator": true,
+                          "FeeAmount": "0.82",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "Monthly"
+                        }
+                      ]
+                    }
+                  ],
+                  "CoreProduct": {
+                    "ProductURL": "http://danskebank.co.uk/en-gb/Business/Small-business/Accounts-and-cards/accounts/Danske-Community-Account/Pages/Clubs-and-Societies-Account.aspx",
+                    "ProductDescription": "A flexible current account providing you with the convenience of using your local Danske Bank Branch, local Post Office ®, and Business eBanking to manage your finances.​",
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/sitecollectiondocuments/business/accounts/tcs-business-accounts.pdf",
+                    "SalesAccessChannels": [
+                      "Branch"
+                    ],
+                    "ServicingAccessChannels": [
+                      "Branch",
+                      "Post",
+                      "Online",
+                      "CallCentre"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "Danske Small Business Digital",
+              "Identification": "41P",
+              "Segment": [
+                "Standard"
+              ],
+              "BCAMarketingState": [
+                {
+                  "Identification": "41P",
+                  "MarketingState": "Regular",
+                  "Overdraft": {
+                    "OverdraftTierBandSet": [
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "AuthorisedIndicator": true,
+                        "OverdraftTierBand": [
+                          {
+                            "TierValueMin": "1",
+                            "TierValueMax": "25000",
+                            "EAR": "7.71",
+                            "OverdraftInterestChargingCoverage": "Tiered",
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeCap": [
+                                  {
+                                    "FeeType": [
+                                      "UnauthorisedPaidTrans"
+                                    ],
+                                    "MinMaxType": "Maximum",
+                                    "FeeCapOccurrence": 1,
+                                    "CappingPeriod": "Day"
+                                  },
+                                  {
+                                    "FeeType": [
+                                      "OverdraftRenewal"
+                                    ],
+                                    "MinMaxType": "Minimum",
+                                    "FeeCapAmount": "50"
+                                  }
+                                ],
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "OverdraftRenewal",
+                                    "FeeRate": "0.6",
+                                    "ApplicationFrequency": "OnAnniversary",
+                                    "CalculationFrequency": "OnAnniversary"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedUnpaidTrans",
+                                    "FeeAmount": "28",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  },
+                                  {
+                                    "FeeType": "TempOverdraft",
+                                    "FeeAmount": "30",
+                                    "ApplicationFrequency": "PerOccurrence",
+                                    "CalculationFrequency": "PerOccurrence"
+                                  },
+                                  {
+                                    "FeeType": "OverdraftSetup",
+                                    "FeeAmount": "125",
+                                    "ApplicationFrequency": "OnOpening",
+                                    "CalculationFrequency": "OnOpening"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedPaidTrans",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "OverdraftFeesCharges": [
+                          {
+                            "OverdraftFeeChargeCap": [
+                              {
+                                "FeeType": [
+                                  "UnauthorisedPaidTrans"
+                                ],
+                                "MinMaxType": "Maximum",
+                                "FeeCapOccurrence": 1,
+                                "CappingPeriod": "Day"
+                              },
+                              {
+                                "FeeType": [
+                                  "OverdraftRenewal"
+                                ],
+                                "MinMaxType": "Minimum",
+                                "FeeCapAmount": "50"
+                              }
+                            ],
+                            "OverdraftFeeChargeDetail": [
+                              {
+                                "FeeType": "OverdraftRenewal",
+                                "FeeRate": "0.6",
+                                "ApplicationFrequency": "OnAnniversary",
+                                "CalculationFrequency": "OnAnniversary"
+                              },
+                              {
+                                "FeeType": "UnauthorisedUnpaidTrans",
+                                "FeeAmount": "28",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              },
+                              {
+                                "FeeType": "TempOverdraft",
+                                "FeeAmount": "30",
+                                "ApplicationFrequency": "PerOccurrence",
+                                "CalculationFrequency": "PerOccurrence"
+                              },
+                              {
+                                "FeeType": "OverdraftSetup",
+                                "FeeAmount": "125",
+                                "ApplicationFrequency": "OnOpening",
+                                "CalculationFrequency": "OnOpening"
+                              },
+                              {
+                                "FeeType": "UnauthorisedPaidTrans",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "AuthorisedIndicator": false,
+                        "OverdraftTierBand": [
+                          {
+                            "TierValueMin": "1",
+                            "TierValueMax": "25000",
+                            "EAR": "22.13",
+                            "OverdraftInterestChargingCoverage": "Tiered",
+                            "OverdraftFeesCharges": [
+                              {}
+                            ]
+                          }
+                        ],
+                        "OverdraftFeesCharges": [
+                          {}
+                        ]
+                      }
+                    ]
+                  },
+                  "Eligibility": {
+                    "OtherEligibility": [
+                      {}
+                    ],
+                    "IDEligibility": {
+                      "Notes": [
+                        "Sole traders/Partnerships - both individuals and business name are id checked.\nLtd co - business name & directors are id checked."
+                      ]
+                    },
+                    "CreditCheckEligibility": {
+                      "ScoringType": "Hard",
+                      "Notes": [
+                        "Experian Credit Check"
+                      ]
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "Card": [
+                      {
+                        "Type": "DebitCard",
+                        "Scheme": [
+                          "MasterCard"
+                        ],
+                        "ContactlessIndicator": false,
+                        "MaxDailyCardWithdrawalLimit": "350"
+                      }
+                    ],
+                    "MobileWallet": [
+                      {
+                        "Type": "IssuerMobileApp"
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": [
+                    {
+                      "FeeChargeDetail": [
+                        {
+                          "FeeCategory": "Servicing",
+                          "FeeType": "ServiceCOther",
+                          "FeeAmount": "6",
+                          "ApplicationFrequency": "PerSheet",
+                          "CalculationFrequency": "PerOccurrence",
+                          "Notes": [
+                            "Copy of previous statement"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "Cheque",
+                          "FeeType": "ChqStopped",
+                          "FeeAmount": "10",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "CHAPSIn",
+                          "FeeAmount": "6",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Report",
+                          "FeeType": "ReportAuditLetter",
+                          "FeeAmount": "25",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Foreign",
+                          "FeeType": "TransPOSSaleForeign",
+                          "FeeRate": "2.75",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "CHAPSOutBranch",
+                          "FeeAmount": "30.00",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Cheque",
+                          "FeeType": "ChqSpecialChqPresentation",
+                          "FeeAmount": "10",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Report",
+                          "FeeType": "ReportStatementFrequent",
+                          "FeeAmount": "1.50",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Servicing",
+                          "FeeType": "ServiceCAccountFee",
+                          "FeeAmount": "7.5",
+                          "ApplicationFrequency": "Monthly",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCashInOwn",
+                          "FeeRate": "1.5",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Servicing",
+                          "FeeType": "ServiceCOther",
+                          "FeeAmount": "0.72",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly",
+                          "Notes": [
+                            "Lodgements at Counter"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "Cheque",
+                          "FeeType": "ChqOutIssued",
+                          "FeeAmount": "1.5",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "ChqCounterLodgement",
+                          "FeeAmount": "1.5",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "TransCredit",
+                          "FeeAmount": "0.1",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly",
+                          "Notes": [
+                            "Bacs Direct Credit items"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCounterLodgement",
+                          "FeeRate": "1.5",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "BACSItem",
+                          "FeeAmount": "0.1",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "CHAPSOutOnline",
+                          "FeeAmount": "20.00",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Cheque",
+                          "FeeType": "ChqBookTheftLossAllStopped",
+                          "FeeAmount": "10.00",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Foreign",
+                          "FeeType": "TransNonSterling",
+                          "FeeRate": "2.75",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "BACSBatch",
+                          "FeeAmount": "3",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCashX",
+                          "FeeRate": "1.5",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Report",
+                          "FeeType": "ReportStatementCopyRegular",
+                          "FeeAmount": "1.5",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Servicing",
+                          "FeeType": "NightSafeNightSafeBankOpen",
+                          "FeeAmount": "10",
+                          "ApplicationFrequency": "Quarterly",
+                          "CalculationFrequency": "Quarterly",
+                          "Notes": [
+                            "Fee is per wallet"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCashOut",
+                          "NegotiableIndicator": true,
+                          "FeeAmount": "1",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Servicing",
+                          "FeeType": "ServiceCOther",
+                          "FeeAmount": "0.72",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly",
+                          "Notes": [
+                            "Lodgements at Cash drop"
+                          ]
+                        },
+                        {
+                          "FeeCategory": "Report",
+                          "FeeType": "ReportStatementCopy1",
+                          "FeeAmount": "3",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "POPostOfficeCounterCredit",
+                          "FeeAmount": "1",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCashDropLodgement",
+                          "FeeRate": "0.4",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "POPostOfficeCashCredit",
+                          "FeeRate": "0.4",
+                          "ApplicationFrequency": "PerTransactionPercentage",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "TransManualDeb",
+                          "FeeAmount": "0.5",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "BankersDrafts",
+                          "FeeType": "DraftsBankers",
+                          "FeeAmount": "10",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "PerOccurrence"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "FPSInBranch",
+                          "FeeAmount": "5",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "ChqCashDropLodgement",
+                          "FeeAmount": "0.4",
+                          "ApplicationFrequency": "PerTransactionAmount",
+                          "CalculationFrequency": "Monthly"
+                        }
+                      ]
+                    }
+                  ],
+                  "CoreProduct": {
+                    "ProductURL": "http://danskebank.co.uk/en-gb/Business/Small-business/Accounts-and-cards/accounts/Danske-Small-Business/Pages/danske-small-business.aspx",
+                    "ProductDescription": "The flexible all-round current account combining traditional branch-based banking with our innovative online banking",
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/sitecollectiondocuments/business/accounts/tcs-business-accounts.pdf",
+                    "SalesAccessChannels": [
+                      "Branch"
+                    ],
+                    "ServicingAccessChannels": [
+                      "Branch",
+                      "Post",
+                      "Online",
+                      "CallCentre"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

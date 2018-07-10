@@ -1,0 +1,478 @@
+{
+  "meta": {
+    "LastUpdated": "2018-07-10T04:33:48.662Z",
+    "TotalResults": 1,
+    "Agreement": "Use of the APIs and any related data will be subject to the terms of the Open Licence and subject to terms and conditions",
+    "License": "https://www.openbanking.org.uk/open-licence",
+    "TermsOfUse": "https://www.openbanking.org.uk/terms"
+  },
+  "data": [
+    {
+      "Brand": [
+        {
+          "BrandName": "RBS",
+          "SMELoan": [
+            {
+              "Name": "Small Business Loan",
+              "Identification": "521",
+              "SMELoanMarketingState": [
+                {
+                  "Identification": "1",
+                  "MarketingState": "Regular",
+                  "CoreProduct": {
+                    "ProductDescription": "The SBL is a fixed rate  loan available to all Business Banking customers requesting unsecured lending between £1-£50k.  \n\nThis product is CCA regulated for lending to Sole Traders and Simple partnerships borrowing up to £25k. \n\nIt carries no ERCs and rates are non negotiable derived from a fixed pricing matrix.",
+                    "EarlyPaymentFeeApplicable": false,
+                    "OverPaymentFeeApplicable": false,
+                    "LoanApplicationFeeChargeType": "NoLoanApplicatioFee",
+                    "FullEarlyRepaymentAllowedIndicator": true,
+                    "OverpaymentAllowedIndicator": true,
+                    "SalesAccessChannels": [
+                      "Post",
+                      "Branch",
+                      "RelationshipManager",
+                      "Online",
+                      "CallCentre"
+                    ],
+                    "ServicingAccessChannels": [
+                      "Post",
+                      "ATM",
+                      "Branch",
+                      "CallCentre",
+                      "MobileBankingApp",
+                      "Online",
+                      "RelationshipManager"
+                    ],
+                    "ProductURL": "https://www.business.rbs.co.uk/business/business-lending-at-royal-bank/small-business-loan.html",
+                    "TcsAndCsURL": "https://www.business.rbs.co.uk/business/business-lending-at-royal-bank/small-business-loan.html"
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitItem": [
+                      {
+                        "Identification": "3356",
+                        "Type": "Other",
+                        "Name": "No early repayment charges",
+                        "Indicator": false
+                      },
+                      {
+                        "Identification": "3357",
+                        "Type": "Other",
+                        "Name": "Fixed repayments"
+                      },
+                      {
+                        "Identification": "3358",
+                        "Type": "Other",
+                        "Name": "Certainty"
+                      },
+                      {
+                        "Identification": "3359",
+                        "Type": "Other",
+                        "Name": "No arrangement fees"
+                      },
+                      {
+                        "Identification": "40067",
+                        "Name": "CapitalRepaymentHolidays",
+                        "Type": "PaymentHolidays",
+                        "Indicator": false
+                      },
+                      {
+                        "Identification": "40068",
+                        "Name": "EarlyRepaymentCharge",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "EarlyRepaymentCharge",
+                          "Description": "States if the product charges for any early redemptions."
+                        },
+                        "Indicator": false
+                      },
+                      {
+                        "Identification": "40069",
+                        "Name": "TrancheDrawdown",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "TrancheDrawdown",
+                          "Description": "Highlights if tranches from the loan can be drawn down (this defines if the loan will be drawn in one lump sum or if the borrower can drawdown the facility amount, in instalments)."
+                        },
+                        "Indicator": false
+                      },
+                      {
+                        "Identification": "40070",
+                        "Name": "InterestRateType",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "InterestRateType",
+                          "Description": "A categorisation of the basis on which interest on an agreement is calculated. Examples are variable, fixed, capped, etc."
+                        },
+                        "Textual": "Fixed"
+                      },
+                      {
+                        "Identification": "40071",
+                        "Name": "ReferenceRate",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "ReferenceRate",
+                          "Description": "States the reference rate of the product."
+                        },
+                        "Textual": "Base"
+                      },
+                      {
+                        "Identification": "40062",
+                        "Name": "Currency",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "Currency",
+                          "Description": "A system of money, in any form, that can be used as a unit of account, medium of exchange and store of value."
+                        },
+                        "Textual": "GBP"
+                      },
+                      {
+                        "Identification": "40063",
+                        "Name": "RepaymentType",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "RepaymentType",
+                          "Description": "A categorisation of a loan's repayment method."
+                        },
+                        "Textual": "Capital Only; Interest Only; Capital & Interest"
+                      },
+                      {
+                        "Identification": "40072",
+                        "Name": "Term",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "Term",
+                          "Description": "This is the advised tenor of the product."
+                        },
+                        "Textual": "1 to 10 years"
+                      },
+                      {
+                        "Identification": "40073",
+                        "Name": "InterestCalculationFrequency",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "InterestCalculationFrequency",
+                          "Description": "The occurrence at which interest is calculated on a balance."
+                        },
+                        "Textual": "Monthly"
+                      }
+                    ]
+                  },
+                  "LoanInterest": {
+                    "LoanInterestTierBandSet": [
+                      {
+                        "TierBandMethod": "Tiered",
+                        "CalculationMethod": "Compound",
+                        "LoanInterestTierBand": [
+                          {
+                            "FixedVariableInterestRateType": "Fixed",
+                            "MaxTermPeriod": "Month",
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 12,
+                            "TierValueMinTerm": 12,
+                            "TierValueMinimum": "5000",
+                            "TierValueMaximum": "5000",
+                            "RepAPR": "9.49"
+                          },
+                          {
+                            "FixedVariableInterestRateType": "Fixed",
+                            "MaxTermPeriod": "Month",
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 24,
+                            "TierValueMinTerm": 24,
+                            "TierValueMinimum": "5000",
+                            "TierValueMaximum": "5000",
+                            "RepAPR": "9.49"
+                          },
+                          {
+                            "FixedVariableInterestRateType": "Fixed",
+                            "MaxTermPeriod": "Month",
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 36,
+                            "TierValueMinTerm": 36,
+                            "TierValueMinimum": "5000",
+                            "TierValueMaximum": "5000",
+                            "RepAPR": "9.49"
+                          },
+                          {
+                            "FixedVariableInterestRateType": "Fixed",
+                            "MaxTermPeriod": "Month",
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 48,
+                            "TierValueMinTerm": 48,
+                            "TierValueMinimum": "5000",
+                            "TierValueMaximum": "5000",
+                            "RepAPR": "9.49"
+                          },
+                          {
+                            "FixedVariableInterestRateType": "Fixed",
+                            "MaxTermPeriod": "Month",
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 60,
+                            "TierValueMinTerm": 60,
+                            "TierValueMinimum": "5000",
+                            "TierValueMaximum": "5000",
+                            "RepAPR": "9.99"
+                          },
+                          {
+                            "FixedVariableInterestRateType": "Fixed",
+                            "MaxTermPeriod": "Month",
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 12,
+                            "TierValueMinTerm": 12,
+                            "TierValueMinimum": "10000",
+                            "TierValueMaximum": "10000",
+                            "RepAPR": "9.49"
+                          },
+                          {
+                            "FixedVariableInterestRateType": "Fixed",
+                            "MaxTermPeriod": "Month",
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 24,
+                            "TierValueMinTerm": 24,
+                            "TierValueMinimum": "10000",
+                            "TierValueMaximum": "10000",
+                            "RepAPR": "9.49"
+                          },
+                          {
+                            "FixedVariableInterestRateType": "Fixed",
+                            "MaxTermPeriod": "Month",
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 36,
+                            "TierValueMinTerm": 36,
+                            "TierValueMinimum": "10000",
+                            "TierValueMaximum": "10000",
+                            "RepAPR": "9.49"
+                          },
+                          {
+                            "FixedVariableInterestRateType": "Fixed",
+                            "MaxTermPeriod": "Month",
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 48,
+                            "TierValueMinTerm": 48,
+                            "TierValueMinimum": "10000",
+                            "TierValueMaximum": "10000",
+                            "RepAPR": "9.49"
+                          },
+                          {
+                            "FixedVariableInterestRateType": "Fixed",
+                            "MaxTermPeriod": "Month",
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 60,
+                            "TierValueMinTerm": 60,
+                            "TierValueMinimum": "10000",
+                            "TierValueMaximum": "10000",
+                            "RepAPR": "9.99"
+                          },
+                          {
+                            "FixedVariableInterestRateType": "Fixed",
+                            "MaxTermPeriod": "Month",
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 12,
+                            "TierValueMinTerm": 12,
+                            "TierValueMinimum": "15000",
+                            "TierValueMaximum": "15000",
+                            "RepAPR": "8.99"
+                          },
+                          {
+                            "FixedVariableInterestRateType": "Fixed",
+                            "MaxTermPeriod": "Month",
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 24,
+                            "TierValueMinTerm": 24,
+                            "TierValueMinimum": "15000",
+                            "TierValueMaximum": "15000",
+                            "RepAPR": "8.99"
+                          },
+                          {
+                            "FixedVariableInterestRateType": "Fixed",
+                            "MaxTermPeriod": "Month",
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 36,
+                            "TierValueMinTerm": 36,
+                            "TierValueMinimum": "15000",
+                            "TierValueMaximum": "15000",
+                            "RepAPR": "8.99"
+                          },
+                          {
+                            "FixedVariableInterestRateType": "Fixed",
+                            "MaxTermPeriod": "Month",
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 48,
+                            "TierValueMinTerm": 48,
+                            "TierValueMinimum": "15000",
+                            "TierValueMaximum": "15000",
+                            "RepAPR": "8.99"
+                          },
+                          {
+                            "FixedVariableInterestRateType": "Fixed",
+                            "MaxTermPeriod": "Month",
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 60,
+                            "TierValueMinTerm": 60,
+                            "TierValueMinimum": "15000",
+                            "TierValueMaximum": "15000",
+                            "RepAPR": "9.49"
+                          },
+                          {
+                            "FixedVariableInterestRateType": "Fixed",
+                            "MaxTermPeriod": "Month",
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 12,
+                            "TierValueMinTerm": 12,
+                            "TierValueMinimum": "20000",
+                            "TierValueMaximum": "20000",
+                            "RepAPR": "8.99"
+                          },
+                          {
+                            "FixedVariableInterestRateType": "Fixed",
+                            "MaxTermPeriod": "Month",
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 24,
+                            "TierValueMinTerm": 24,
+                            "TierValueMinimum": "20000",
+                            "TierValueMaximum": "20000",
+                            "RepAPR": "8.99"
+                          },
+                          {
+                            "FixedVariableInterestRateType": "Fixed",
+                            "MaxTermPeriod": "Month",
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 36,
+                            "TierValueMinTerm": 36,
+                            "TierValueMinimum": "20000",
+                            "TierValueMaximum": "20000",
+                            "RepAPR": "8.99"
+                          },
+                          {
+                            "FixedVariableInterestRateType": "Fixed",
+                            "MaxTermPeriod": "Month",
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 48,
+                            "TierValueMinTerm": 48,
+                            "TierValueMinimum": "20000",
+                            "TierValueMaximum": "20000",
+                            "RepAPR": "8.99"
+                          },
+                          {
+                            "FixedVariableInterestRateType": "Fixed",
+                            "MaxTermPeriod": "Month",
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 60,
+                            "TierValueMinTerm": 60,
+                            "TierValueMinimum": "20000",
+                            "TierValueMaximum": "20000",
+                            "RepAPR": "9.49"
+                          },
+                          {
+                            "FixedVariableInterestRateType": "Fixed",
+                            "MaxTermPeriod": "Month",
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 12,
+                            "TierValueMinTerm": 12,
+                            "TierValueMinimum": "25000",
+                            "TierValueMaximum": "25000",
+                            "RepAPR": "7.99"
+                          },
+                          {
+                            "FixedVariableInterestRateType": "Fixed",
+                            "MaxTermPeriod": "Month",
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 24,
+                            "TierValueMinTerm": 24,
+                            "TierValueMinimum": "25000",
+                            "TierValueMaximum": "25000",
+                            "RepAPR": "7.99"
+                          },
+                          {
+                            "FixedVariableInterestRateType": "Fixed",
+                            "MaxTermPeriod": "Month",
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 36,
+                            "TierValueMinTerm": 36,
+                            "TierValueMinimum": "25000",
+                            "TierValueMaximum": "25000",
+                            "RepAPR": "8.49"
+                          },
+                          {
+                            "FixedVariableInterestRateType": "Fixed",
+                            "MaxTermPeriod": "Month",
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 48,
+                            "TierValueMinTerm": 48,
+                            "TierValueMinimum": "25000",
+                            "TierValueMaximum": "25000",
+                            "RepAPR": "8.49"
+                          },
+                          {
+                            "FixedVariableInterestRateType": "Fixed",
+                            "MaxTermPeriod": "Month",
+                            "MinTermPeriod": "Month",
+                            "TierValueMaxTerm": 60,
+                            "TierValueMinTerm": 60,
+                            "TierValueMinimum": "25000",
+                            "TierValueMaximum": "25000",
+                            "RepAPR": "8.99"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "Eligibility": {
+                    "AgeEligibility": {
+                      "MinimumAge": 18
+                    },
+                    "LegalStructureEligibility": [
+                      {
+                        "LegalStructure": "SoleTrader"
+                      },
+                      {
+                        "LegalStructure": "Ltd"
+                      },
+                      {
+                        "LegalStructure": "Partnership"
+                      },
+                      {
+                        "LegalStructure": "LLP"
+                      }
+                    ],
+                    "ResidencyEligibility": [
+                      {
+                        "ResidencyType": "Owner",
+                        "ResidencyIncluded": [
+                          "GBXX"
+                        ]
+                      }
+                    ],
+                    "IDEligibility": {},
+                    "CreditCheckEligibility": {
+                      "ScoringType": "Hard"
+                    }
+                  },
+                  "FirstMarketedDate": "2000-01-03",
+                  "LastMarketedDate": "9999-12-31",
+                  "Repayment": [
+                    {
+                      "OtherRepaymentType": {
+                        "Name": "Capital Only",
+                        "Description": "Capital Only"
+                      },
+                      "RepaymentFrequency": "Monthly",
+                      "AmountType": "CapitalAndInterest",
+                      "RepaymentHoliday": [
+                        {
+                          "MaxHolidayLength": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "Segment": [
+                "Business"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

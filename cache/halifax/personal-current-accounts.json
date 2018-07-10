@@ -1,0 +1,3271 @@
+{
+  "meta": {
+    "LastUpdated": "2018-06-29T11:45:36.941Z",
+    "TotalResults": 5,
+    "Agreement": "Use of the APIs and any related data will be subject to the terms of the Open Licence and subject to terms and conditions",
+    "License": "https://www.openbanking.org.uk/open-licence",
+    "TermsOfUse": "https://www.openbanking.org.uk/terms"
+  },
+  "data": [
+    {
+      "Brand": [
+        {
+          "BrandName": "Halifax",
+          "PCA": [
+            {
+              "Name": "Ultimate Reward Current Account ",
+              "Identification": "3002",
+              "Segment": [
+                "Packaged"
+              ],
+              "PCAMarketingState": [
+                {
+                  "Identification": "HUA-R001",
+                  "PredecessorID": "HUA-R002",
+                  "MarketingState": "Regular",
+                  "FirstMarketedDate": "2017-11-02",
+                  "Overdraft": {
+                    "OverdraftTierBandSet": [
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "HUA-ODAR002",
+                        "AuthorisedIndicator": true,
+                        "BufferAmount": "0.00",
+                        "OverdraftTierBand": [
+                          {
+                            "Identification": "HUA-AT-002",
+                            "TierValueMin": "0.00",
+                            "TierValueMax": "299.99"
+                          },
+                          {
+                            "Identification": "HUA-AT-003",
+                            "TierValueMin": "300.00",
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "ArrangedOverdraft",
+                                    "IncrementalBorrowingAmount": "7.00",
+                                    "FeeAmount": "0.01",
+                                    "ApplicationFrequency": "Daily",
+                                    "CalculationFrequency": "Daily",
+                                    "Notes": [
+                                      "One Daily Overdraft Fee\nYou’ll pay a daily overdraft fee of 1p for every £7 you borrow, over your £300 fee-free amount. When calculating the daily overdraft fee, we will only use every full £7 you have borrowed, so if you borrow less than £7 you won’t be charged. \n\nDaily Charging\nInstead of paying all fees in one go each month, any fees will be charged at the end of each day you use your overdraft – so you’ll pay for what you borrow on the day you borrow it. This will help you keep track of how much your overdraft costs you.\n\nIf you go over your limit\nSo all your payments are made, it’s important you manage your account within your planned overdraft limit. If you don’t have enough money in your account or you reach your limit, you may not be able to make any more payments. If a payment takes you over your limit or we stop it, you won’t be charged."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "Eligibility": {
+                    "OtherEligibility": [
+                      {
+                        "Name": "Previous Bankruptcy",
+                        "Type": "PreviousBankruptcyAllowed",
+                        "Indicator": false
+                      }
+                    ],
+                    "AgeEligibility": {
+                      "MinimumAge": 18,
+                      "Notes": [
+                        "To apply for a Halifax Ultimate Reward Current Account you must be 18 or over and a UK resident."
+                      ]
+                    },
+                    "ResidencyEligibility": {
+                      "ResidencyIncluded": [
+                        "UK"
+                      ]
+                    },
+                    "CreditCheck": {
+                      "ScoringType": "Hard"
+                    },
+                    "IDVerificationCheck": {
+                      "URL": "http://www.halifax.co.uk/securityandprivacy/privacy/proving-your-identity/?srnum=2"
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitGroup": [
+                      {
+                        "Name": "Halifax Ultimate Reward Current Account Benefits",
+                        "Type": "Other",
+                        "Notes": [
+                          "Halifax Ultimate Reward Current Account Benefits"
+                        ],
+                        "OtherType": {
+                          "Name": "Ultimate Reward Current Account Benefits",
+                          "Description": "Packaged account benefits"
+                        },
+                        "FeatureBenefitItem": [
+                          {
+                            "Identification": "HPA-BG-001",
+                            "Type": "TravelInsurance",
+                            "Name": "Worldwide travel insurance",
+                            "Textual": "•Covers winter sports and golf trips\n•Covers UK trips where accommodation is pre-booked for 2 nights or more \n•Includes cover for: \n   -Personal belongings up to £2,500\n   -Single article, pair or set of articles up to £500\n   -Valuables up to £500 in total\n   -Personal Money up to £750 (cash £300).",
+                            "Notes": [
+                              "•Cover ceases fully on your 71st birthday\n•Cover includes your spouse, civil partner or partner (who you live with) and children under 18 or under 24 and in full time education. Children are covered when travelling with the holder(s) of the Ultimate Reward Current Account or a Responsible Adult\n•Pre-existing medical conditions are not covered unless agreed by the insurer\n•The maximum trip duration is 45 consecutive days, for Winter sports a maximum 31 days cover in any calendar year\n•You will pay a maximum excess of £50 per claim."
+                            ]
+                          },
+                          {
+                            "Identification": "HPA-BG-002",
+                            "Type": "MotorBreakdown",
+                            "Name": "AA Breakdown Cover",
+                            "Textual": "•Provides cover within the UK, Channel Islands and Isle of Man\n•Roadside Assistance\n•Home Start\n•Customer covered, not the vehicle.",
+                            "Notes": [
+                              "Does not include AA Relay, which would recover you to any single UK destination of your choice. Under this cover if it is not possible to fix the vehicle at the road side, you will be recovered to a local repairer of the AA's choice or a destination of your choice provided it is no further"
+                            ]
+                          },
+                          {
+                            "Identification": "HPA-BG-003",
+                            "Type": "TechnologyInsurance",
+                            "Name": "Mobile phone insurance",
+                            "Textual": "One phone per account holder, maximum of two for Joint accounts. Repair or replacement phone up to a maximum value of £2000 (including VAT) per claim. It covers for loss, theft, damage or breakdown (including faults).",
+                            "Notes": [
+                              "An Excess of £100 is payable on all successful claims .\nNo more than 2 successful claims per account holder in any 12 month period.\n"
+                            ]
+                          },
+                          {
+                            "Identification": "HPA-BG-004",
+                            "Type": "HomeProtection",
+                            "Name": "Home Emergency Cover ",
+                            "Textual": "Covers a sudden unexpected incident to your home which needs immediate action to: make it safe or secure and avoid damage or more damage. Make it fit to live in. Restore electricty, gas or water services if they have totally failed. Provides a qualified person chosen by us to deal with the emergency up to £250",
+                            "Notes": [
+                              "the policy deals with home emergencies needing immediate attention only and will cover costs up to a maximum of £250, it does not cover broken freezers for example"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "FeatureBenefitItem": [
+                      {
+                        "Identification": "HUA-BI-001",
+                        "Type": "PreferentialRates",
+                        "Name": "Lower account fee",
+                        "Textual": "A lower monthly fee of £14 applies if in the previous calendar month you pay in £750 or more and pay out at least 2 different direct debits and remain in credit. You'll also need to keep your account open/not change it to a different current account until the fee is due to be debited (by the 2nd working day of the following calendar month).",
+                        "FeatureBenefitEligibility": [
+                          {
+                            "Name": "Remain in credit",
+                            "Type": "MinimumOperatingBalance",
+                            "Amount": "0.00",
+                            "OtherType": {
+                              "Name": "Cashback Extras",
+                              "Description": "Cashback Extras"
+                            }
+                          },
+                          {
+                            "Name": "Pay in £750 or more",
+                            "Type": "MinimumDeposit",
+                            "Amount": "750.00",
+                            "Period": "Month"
+                          },
+                          {
+                            "Name": "Pay out at least 2 different direct debits",
+                            "Type": "DirectDebits",
+                            "Amount": "2",
+                            "Period": "Month"
+                          }
+                        ]
+                      },
+                      {
+                        "Identification": "HUA-BI-002",
+                        "Type": "AccountManagement",
+                        "Name": "Mobile Alerts",
+                        "Textual": "Our mobile alerts are a simple and convenient way to help you stay on top of your money - if we have your mobile number, we’ll send alerts to keep you up to date on your account balance."
+                      },
+                      {
+                        "Identification": "HUA-BI-003",
+                        "Type": "Cashback",
+                        "Name": "Cashback Extras",
+                        "Textual": "Get up to 15% cashback using Cashback Extras at the type of places you regularly shop. It’s available to UK personal current account customers over 18, who bank online. Retailer offers and cashback amounts may vary.  Register online and activate each offer you want to use.\nTo qualify for Cashback Extras you need to be over 18, have a Halifax Bank Account, a Halifax debit and/or credit card and be registered for Online Banking.",
+                        "FeatureBenefitEligibility": [
+                          {
+                            "Name": "Cashback Extras",
+                            "Description": "Cashback Extras",
+                            "Type": "Other",
+                            "Textual": "To qualify for Cashback Extras you need to be over 18, have a Halifax Bank Account, a Halifax debit and/or credit card and be registered for Online Banking."
+                          }
+                        ]
+                      },
+                      {
+                        "Identification": "HUA-BI-004",
+                        "Type": "AccountManagement",
+                        "Name": "ATM Withdrawals",
+                        "Textual": "Withdraw up to £500 a day.  Withdraw money from any cash machine that shows the LINK or VISA sign."
+                      },
+                      {
+                        "Identification": "HUA-BI-005",
+                        "Type": "AccountManagement",
+                        "Name": "Joint Accounts",
+                        "Textual": "1) Two people using one account - A simple way to share spends and see them on one monthly statement\n2) Both account holders get a Visa debit card\n3) Both account holders can also separately set up and manage Online Banking"
+                      },
+                      {
+                        "Identification": "HUA-BI-006",
+                        "Type": "AccountManagement",
+                        "Name": "Online Banking",
+                        "Textual": "Online Banking\nEarn cashback - get cashback offers based on the places you usually shop or may like to try.\nPay friends and family - pay someone using just their phone number.\nGet text alerts - receive mobile text alerts to keep track of your finances.\nManage your accounts - easily view your statements, manage your payments and more.\nManage your details - review or amend your telephone numbers and e-mail address."
+                      },
+                      {
+                        "Identification": "HUA-BI-007",
+                        "Type": "Other",
+                        "Name": "Card Cancellation",
+                        "Textual": "For all financial cards – call us if they’re lost or stolen and we’ll request for them to be cancelled on your behalf."
+                      }
+                    ],
+                    "Card": [
+                      {
+                        "Type": "DebitCard",
+                        "Scheme": "Visa",
+                        "ContactlessIndicator": true
+                      }
+                    ],
+                    "MobileWallet": [
+                      {
+                        "Type": "Other",
+                        "Notes": [
+                          "ApplePay and GooglePay: Card and account type restrictions include: Electron cards, Visa credit cards and additional credit card holders, non-personal accounts, Basic Bank Accounts and customers under 13 years."
+                        ],
+                        "OtherType": {
+                          "Name": " GooglePay",
+                          "Description": "AndroidPay rebranded as GooglePay"
+                        }
+                      },
+                      {
+                        "Type": "ApplePay",
+                        "Notes": [
+                          "ApplePay and GooglePay: Card and account type restrictions include: Electron cards, Visa credit cards and additional credit card holders, non-personal accounts, Basic Bank Accounts and customers under 13 years."
+                        ]
+                      },
+                      {
+                        "Type": "PayM",
+                        "Notes": [
+                          "Pay a Contact is the simple way to send or receive money with just a mobile number, instead of a sort code and account number.\nSo whether you’re splitting a restaurant bill, or want to be paid back for something you’re owed, Pay a Contact can make your life much easier.\nPay a Contact is part of Paym, a wider service which enables payments using a mobile number to be sent to other participating banks and building societies. Payments can be made through Online Banking and our Mobile Banking App.\n• Pay friends or family easily\n• Paying someone back for your lunch, dinner or a sandwich if you don’t have cash\n• Pay for a cinema or concert ticket without having to wait to receive account details"
+                        ]
+                      },
+                      {
+                        "Type": "MobileBankingApp",
+                        "Notes": [
+                          "Our Mobile Banking app for iOS and Android are quick and easy to install, fast, convenient and more secure than ever - the easy way to stay on top of your money. Bank where you want with the latest built-in security technology that keeps your details safe and private. More and more customers are choosing the flexibility, convenience and security of banking on their mobile."
+                        ]
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqStopped",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialChqPresentation",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsBankers",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOut",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayForeignCharge",
+                        "FeeAmount": "2.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Electronic payments received from outside the UK other than by SEPA credit transfer, up to a value of £100 (including £100)"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "0.00",
+                          "MaximumAmount": "100.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayForeignCharge",
+                        "FeeAmount": "7.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Electronic payments received from outside the UK other than by SEPA credit transfer, with a value of over £100"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "100.01"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayTransRateNonSterling",
+                        "FeeRate": "2.9900",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Non-sterling transaction fee: fee charged for the conversion of currency. This is a percentage value of your transaction. \nThe amount is converted to sterling on the day it is processed by Visa using the Visa Payment Scheme Exchange Rate"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMForeignCashDebCard",
+                        "FeeAmount": "1.50",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Non-sterling cash fee:  fee charged to withdraw cash in a currency other than sterling, or to withdraw cash in sterling outside the UK.  The amount is converted to sterling on the day it is processed by Visa using the Visa Payment Scheme exchange rate. "
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqForeign",
+                        "FeeAmount": "5.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Charge for Foreign Cheques paid in to the account with a sterling value of £100 or less, whether negotiating or collecting"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "0",
+                          "MaximumAmount": "100.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqForeign",
+                        "FeeRate": "0.2500",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Foreign Cheques paid in to the account with a sterling value of more than £100: our minimum charge will be £8 when we negotiate the cheque",
+                          "Foreign Cheques paid in to the account with a sterling value of more than £100: our maximum charge will be £80 when we negotiate the cheque"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "100.01"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeAmount": "0.50",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Non-sterling purchase fee: fee charged per transaction when you make a purchase (not a cash withdrawal or purchase of foreign currency or travellers cheques). Fee is applicable only to debit card transactions. The amount is converted to sterling on the day it is processed by Visa using the Visa Payment Scheme Exchange Rate"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopy1",
+                        "FeeAmount": "5.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOutBranch",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOutInterBank",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSInterBank",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayFXPaymentOut",
+                        "FeeAmount": "9.50",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ForeignChqSent",
+                        "FeeRate": "0.2500",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Foreign Cheques paid in to the account with a sterling value of more than £100: our minimum charge will be £15 when we collect the cheque",
+                          "Foreign Cheques paid in to the account with a sterling value of more than £100: our maximum charge will be £80 when we collect the cheque"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "100.01"
+                        }
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMAbroadConVisaDebit",
+                        "FeeAmount": "1.50",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Foreign cash fee : fee charged where you elect to allow the cash machine operator/financial service provider to make the conversion to sterling.  The provider of the foreign currency may make a separate charge for conversion."
+                        ]
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsIntlPayableAbroad",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Servicing",
+                        "FeeType": "ServiceCAccountFeeMonthly",
+                        "FeeAmount": "17.00",
+                        "ApplicationFrequency": "Monthly",
+                        "CalculationFrequency": "Monthly",
+                        "Notes": [
+                          "A lower monthly fee of £14 applies if in the previous calendar month you pay in £750 or more and pay out at least 2 different direct debits and remain in credit. You'll also need to keep your account open/not change it to a different current account until the fee is due to be debited (by the 2nd working day of the following calendar month)."
+                        ]
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "ServiceCOther",
+                        "FeeAmount": "12.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "The Correspondent Bank Fee will be payable for international payments when you select to pay all agent bank charges.  Zone 1 – USA, Canada, and Europe (non EEA).  Zone 2 – Rest of the world, excluding EEA."
+                        ],
+                        "OtherFeeType": {
+                          "FeeCategory": "International",
+                          "Name": "Correspondent Bank Fee Zone 1",
+                          "Description": "Zone 1 – USA, Canada, and Europe (non EEA)"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "ServiceCOther",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "The Correspondent Bank Fee will be payable for international payments when you select to pay all agent bank charges.  Zone 1 – USA, Canada, and Europe (non EEA).  Zone 2 – Rest of the world, excluding EEA."
+                        ],
+                        "OtherFeeType": {
+                          "FeeCategory": "International",
+                          "Name": "Correspondent Bank Fee Zone 2",
+                          "Description": "Zone 2 – Rest of the world, excluding EEA."
+                        }
+                      }
+                    ],
+                    "FeeChargeCap": [
+                      {
+                        "FeeType": [
+                          "ChqForeign"
+                        ],
+                        "FeeCapAmount": "8.00",
+                        "Notes": [
+                          "For Foreign Cheque values over £100: our minimum charge for each cheque paid in will be  £8 when we negotiate the cheque."
+                        ],
+                        "FeeMinMaxType": "Minimum"
+                      },
+                      {
+                        "FeeType": [
+                          "ChqForeign"
+                        ],
+                        "FeeCapAmount": "80.00",
+                        "Notes": [
+                          "For Foreign Cheque values over £100: our maximum charge for each cheque paid in will be  £80 when we negotiate the cheque."
+                        ],
+                        "FeeMinMaxType": "Maximum"
+                      },
+                      {
+                        "FeeType": [
+                          "ForeignChqSent"
+                        ],
+                        "FeeCapAmount": "15.00",
+                        "Notes": [
+                          "For Foreign Cheque values over £100: our minimum charge for each cheque paid in will be  £15 when we collect the cheque."
+                        ],
+                        "FeeMinMaxType": "Minimum"
+                      },
+                      {
+                        "FeeType": [
+                          "ForeignChqSent"
+                        ],
+                        "FeeCapAmount": "80.00",
+                        "Notes": [
+                          "For Foreign Cheque values over £100: our maximum charge for each cheque paid in will be  £80 when we collect the cheque."
+                        ],
+                        "FeeMinMaxType": "Maximum"
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductURL": "http://www.halifax.co.uk/bankaccounts/current-accounts/ultimate-reward-current-account/",
+                    "TcsAndCsURL": "http://static.halifax.co.uk/assets/pdf/bankaccounts/pdf/ultimate-reward-current-account-guide.pdf",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "CallCentre",
+                      "Online"
+                    ],
+                    "ServicingAccessChannels": [
+                      "ATM",
+                      "Branch",
+                      "CallCentre",
+                      "Post",
+                      "MobileBankingApp",
+                      "Online",
+                      "PostOffice",
+                      "Text"
+                    ],
+                    "MonthlyMaximumCharge": "0.00",
+                    "ProductDescription": "An account with a range of benefits for a £17 monthly fee.   Includes   worldwide family travel insurance, AA Breakdown, mobile phone insurance and home emergency cover. A lower monthly fee of £14 applies if in the previous calendar month you pay in £750 or more, pay out at least 2 different direct debits and remain in credit. "
+                  }
+                },
+                {
+                  "Identification": "HUA-R002",
+                  "MarketingState": "Promotional",
+                  "FirstMarketedDate": "2017-11-02",
+                  "StateTenureLength": 6,
+                  "StateTenurePeriod": "Month",
+                  "Notes": [
+                    "Switching to Halifax"
+                  ],
+                  "Overdraft": {
+                    "OverdraftTierBandSet": [
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "HUA-ODAR001",
+                        "AuthorisedIndicator": true,
+                        "BufferAmount": "0.00",
+                        "OverdraftTierBand": [
+                          {
+                            "Identification": "HUA-AT-002",
+                            "TierValueMin": "0.00",
+                            "TierValueMax": "299.99"
+                          },
+                          {
+                            "Identification": "HUA-AT-003",
+                            "TierValueMin": "300.00",
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "ArrangedOverdraft",
+                                    "FeeAmount": "0.00",
+                                    "ApplicationFrequency": "Daily",
+                                    "CalculationFrequency": "Daily",
+                                    "Notes": [
+                                      "If you’re opening an account and you switch your main current account to Halifax, we’ll give you an overdraft with no daily overdraft fees, subject to status, for the first six months. After this time, daily overdraft fees will apply based on the account you’ve chosen."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "Eligibility": {
+                    "OtherEligibility": [
+                      {
+                        "Name": "Previous Bankruptcy",
+                        "Type": "PreviousBankruptcyAllowed",
+                        "Indicator": false
+                      }
+                    ],
+                    "AgeEligibility": {
+                      "MinimumAge": 18,
+                      "Notes": [
+                        "To apply for a Halifax Ultimate Reward Current Account you must be 18 or over and a UK resident."
+                      ]
+                    },
+                    "ResidencyEligibility": {
+                      "ResidencyIncluded": [
+                        "UK"
+                      ]
+                    },
+                    "CreditCheck": {
+                      "ScoringType": "Hard"
+                    },
+                    "IDVerificationCheck": {
+                      "URL": "http://www.halifax.co.uk/securityandprivacy/privacy/proving-your-identity/?srnum=2"
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitGroup": [
+                      {
+                        "Name": "Halifax Ultimate Reward Current Account Benefits",
+                        "Type": "Other",
+                        "Notes": [
+                          "Halifax Ultimate Reward Current Account Benefits"
+                        ],
+                        "OtherType": {
+                          "Name": "Ultimate Reward Current Account Benefits",
+                          "Description": "Packaged account benefits"
+                        },
+                        "FeatureBenefitItem": [
+                          {
+                            "Identification": "HPA-BG-001",
+                            "Type": "TravelInsurance",
+                            "Name": "Worldwide travel insurance",
+                            "Textual": "•Covers winter sports and golf trips\n•Covers UK trips where accommodation is pre-booked for 2 nights or more \n•Includes cover for: \n   -Personal belongings up to £2,500\n   -Single article, pair or set of articles up to £500\n   -Valuables up to £500 in total\n   -Personal Money up to £750 (cash £300).",
+                            "Notes": [
+                              "•Cover ceases fully on your 71st birthday\n•Cover includes your spouse, civil partner or partner (who you live with) and children under 18 or under 24 and in full time education. Children are covered when travelling with the holder(s) of the Ultimate Reward Current Account or a Responsible Adult\n•Pre-existing medical conditions are not covered unless agreed by the insurer\n•The maximum trip duration is 45 consecutive days, for Winter sports a maximum 31 days cover in any calendar year\n•You will pay a maximum excess of £50 per claim."
+                            ]
+                          },
+                          {
+                            "Identification": "HPA-BG-002",
+                            "Type": "MotorBreakdown",
+                            "Name": "AA Breakdown Cover",
+                            "Textual": "•Provides cover within the UK, Channel Islands and Isle of Man\n•Roadside Assistance\n•Home Start\n•Customer covered, not the vehicle.",
+                            "Notes": [
+                              "Does not include AA Relay, which would recover you to any single UK destination of your choice. Under this cover if it is not possible to fix the vehicle at the road side, you will be recovered to a local repairer of the AA's choice or a destination of your choice provided it is no further"
+                            ]
+                          },
+                          {
+                            "Identification": "HPA-BG-003",
+                            "Type": "TechnologyInsurance",
+                            "Name": "Mobile phone insurance",
+                            "Textual": "One phone per account holder, maximum of two for Joint accounts. Repair or replacement phone up to a maximum value of £2000 (including VAT) per claim. It covers for loss, theft, damage or breakdown (including faults).",
+                            "Notes": [
+                              "An Excess of £100 is payable on all  successful claims .\nNo more than 2 successful claims per account holder in any 12 month period.\n"
+                            ]
+                          },
+                          {
+                            "Identification": "HPA-BG-004",
+                            "Type": "HomeProtection",
+                            "Name": "Home Emergency Cover ",
+                            "Textual": "Covers a sudden unexpected incident to your home which needs immediate action to: make it safe or secure and avoid damage or more damage. Make it fit to live in. Restore electricty, gas or water services if they have totally failed. Provides a qualified person chosen by us to deal with the emergency up to £250",
+                            "Notes": [
+                              "the policy deals with home emergencies needing immediate attention only and will cover costs up to a maximum of £250, it does not cover broken freezers for example"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "FeatureBenefitItem": [
+                      {
+                        "Identification": "HUA-BI-001",
+                        "Type": "PreferentialRates",
+                        "Name": "Lower account fee",
+                        "Textual": "A lower monthly fee of £14 applies if in the previous calendar month you pay in £750 or more and pay out at least 2 different direct debits and remain in credit. You'll also need to keep your account open/not change it to a different current account until the fee is due to be debited (by the 2nd working day of the following calendar month).",
+                        "FeatureBenefitEligibility": [
+                          {
+                            "Name": "Remain in credit",
+                            "Type": "MinimumOperatingBalance",
+                            "Amount": "0.00",
+                            "OtherType": {
+                              "Name": "Cashback Extras",
+                              "Description": "Cashback Extras"
+                            }
+                          },
+                          {
+                            "Name": "Pay in £750 or more",
+                            "Type": "MinimumDeposit",
+                            "Amount": "750.00",
+                            "Period": "Month"
+                          },
+                          {
+                            "Name": "Pay out at least 2 different direct debits",
+                            "Type": "DirectDebits",
+                            "Amount": "2",
+                            "Period": "Month"
+                          }
+                        ]
+                      },
+                      {
+                        "Identification": "HUA-BI-006",
+                        "Type": "AccountOpeningOrSwitching Incentive",
+                        "Name": "Switching Incentive",
+                        "Textual": "£75, paid before your switch completes. Just use the Current Account Switch Service to transfer and close your old account held elsewhere. If you’ve received cashback for switching to us since January 2012 we’re sorry but you won’t get it again. This offer starts on 20th March 2018.\n\n"
+                      },
+                      {
+                        "Identification": "HUA-BI-007",
+                        "Type": "AccountManagement",
+                        "Name": "Mobile Alerts",
+                        "Textual": "Our mobile alerts are a simple and convenient way to help you stay on top of your money - if we have your mobile number, we’ll send alerts to keep you up to date on your account balance."
+                      },
+                      {
+                        "Identification": "HUA-BI-008",
+                        "Type": "Cashback",
+                        "Name": "Cashback Extras",
+                        "Textual": "Get up to 15% cashback using Cashback Extras at the type of places you regularly shop. It’s available to UK personal current account customers over 18, who bank online. Retailer offers and cashback amounts may vary.  Register online and activate each offer you want to use.\nTo qualify for Cashback Extras you need to be over 18, have a Halifax Bank Account, a Halifax debit and/or credit card and be registered for Online Banking.",
+                        "FeatureBenefitEligibility": [
+                          {
+                            "Name": "Cashback Extras",
+                            "Description": "Cashback Extras",
+                            "Type": "Other",
+                            "Textual": "To qualify for Cashback Extras you need to be over 18, have a Halifax Bank Account, a Halifax debit and/or credit card and be registered for Online Banking."
+                          }
+                        ]
+                      },
+                      {
+                        "Identification": "HUA-BI-009",
+                        "Type": "AccountManagement",
+                        "Name": "ATM Withdrawals",
+                        "Textual": "Withdraw up to £500 a day.  Withdraw money from any cash machine that shows the LINK or VISA sign."
+                      },
+                      {
+                        "Identification": "HUA-BI-010",
+                        "Type": "AccountManagement",
+                        "Name": "Joint Accounts",
+                        "Textual": "1) Two people using one account - A simple way to share spends and see them on one monthly statement\n2) Both account holders get a Visa debit card\n3) Both account holders can also separately set up and manage Online Banking"
+                      },
+                      {
+                        "Identification": "HUA-BI-011",
+                        "Type": "AccountManagement",
+                        "Name": "Online Banking",
+                        "Textual": "Online Banking\nEarn cashback - get cashback offers based on the places you usually shop or may like to try.\nPay friends and family - pay someone using just their phone number.\nGet text alerts - receive mobile text alerts to keep track of your finances.\nManage your accounts - easily view your statements, manage your payments and more.\nManage your details - review or amend your telephone numbers and e-mail address."
+                      },
+                      {
+                        "Identification": "HUA-BI-012",
+                        "Type": "AccountOpeningOrSwitching Incentive",
+                        "Name": "Six month fee free overdraft ",
+                        "Textual": "If you’re opening an account and you switch your main current account to Halifax, we’ll give you an overdraft with no daily overdraft fees, subject to status, for the first six months. After this time, daily overdraft fees will apply based on the account you’ve chosen."
+                      },
+                      {
+                        "Identification": "HUA-BI-013",
+                        "Type": "Other",
+                        "Name": "Card Cancellation",
+                        "Textual": "For all financial cards – call us if they’re lost or stolen and we’ll request for them to be cancelled on your behalf."
+                      }
+                    ],
+                    "Card": [
+                      {
+                        "Type": "DebitCard",
+                        "Scheme": "Visa",
+                        "ContactlessIndicator": true
+                      }
+                    ],
+                    "MobileWallet": [
+                      {
+                        "Type": "Other",
+                        "Notes": [
+                          "ApplePay and GooglePay: Card and account type restrictions include: Electron cards, Visa credit cards and additional credit card holders, non-personal accounts, Basic Bank Accounts and customers under 13 years."
+                        ],
+                        "OtherType": {
+                          "Name": " GooglePay",
+                          "Description": "AndroidPay rebranded as GooglePay"
+                        }
+                      },
+                      {
+                        "Type": "ApplePay",
+                        "Notes": [
+                          "ApplePay and GooglePay: Card and account type restrictions include: Electron cards, Visa credit cards and additional credit card holders, non-personal accounts, Basic Bank Accounts and customers under 13 years."
+                        ]
+                      },
+                      {
+                        "Type": "PayM",
+                        "Notes": [
+                          "Pay a Contact is the simple way to send or receive money with just a mobile number, instead of a sort code and account number.\nSo whether you’re splitting a restaurant bill, or want to be paid back for something you’re owed, Pay a Contact can make your life much easier.\nPay a Contact is part of Paym, a wider service which enables payments using a mobile number to be sent to other participating banks and building societies. Payments can be made through Online Banking and our Mobile Banking App.\n• Pay friends or family easily\n• Paying someone back for your lunch, dinner or a sandwich if you don’t have cash\n• Pay for a cinema or concert ticket without having to wait to receive account details"
+                        ]
+                      },
+                      {
+                        "Type": "MobileBankingApp",
+                        "Notes": [
+                          "Our Mobile Banking app for iOS and Android are quick and easy to install, fast, convenient and more secure than ever - the easy way to stay on top of your money. Bank where you want with the latest built-in security technology that keeps your details safe and private. More and more customers are choosing the flexibility, convenience and security of banking on their mobile."
+                        ]
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqStopped",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialChqPresentation",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsBankers",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOut",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayForeignCharge",
+                        "FeeAmount": "2.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Electronic payments received from outside the UK other than by SEPA credit transfer, up to a value of £100 (including £100)"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "0.00",
+                          "MaximumAmount": "100.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayForeignCharge",
+                        "FeeAmount": "7.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Electronic payments received from outside the UK other than by SEPA credit transfer, with a value of over £100"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "100.01"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayTransRateNonSterling",
+                        "FeeRate": "2.9900",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Non-sterling transaction fee: fee charged for the conversion of currency. This is a percentage value of your transaction. \nThe amount is converted to sterling on the day it is processed by Visa using the Visa Payment Scheme Exchange Rate"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMForeignCashDebCard",
+                        "FeeAmount": "1.50",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Non-sterling cash fee:  fee charged to withdraw cash in a currency other than sterling, or to withdraw cash in sterling outside the UK.  The amount is converted to sterling on the day it is processed by Visa using the Visa Payment Scheme exchange rate. "
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqForeign",
+                        "FeeAmount": "5.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Charge for Foreign Cheques paid in to the account with a sterling value of £100 or less, whether negotiating or collecting"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "0",
+                          "MaximumAmount": "100.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqForeign",
+                        "FeeRate": "0.2500",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Foreign Cheques paid in to the account with a sterling value of more than £100: our minimum charge will be £8 when we negotiate the cheque",
+                          "Foreign Cheques paid in to the account with a sterling value of more than £100: our maximum charge will be £80 when we negotiate the cheque"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "100.01"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeAmount": "0.50",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Non-sterling purchase fee: fee charged per transaction when you make a purchase (not a cash withdrawal or purchase of foreign currency or travellers cheques). Fee is applicable only to debit card transactions. The amount is converted to sterling on the day it is processed by Visa using the Visa Payment Scheme Exchange Rate"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopy1",
+                        "FeeAmount": "5.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOutBranch",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOutInterBank",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSInterBank",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayFXPaymentOut",
+                        "FeeAmount": "9.50",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ForeignChqSent",
+                        "FeeRate": "0.2500",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Foreign Cheques paid in to the account with a sterling value of more than £100: our minimum charge will be £15 when we collect the cheque",
+                          "Foreign Cheques paid in to the account with a sterling value of more than £100: our maximum charge will be £80 when we collect the cheque"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "100.01"
+                        }
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMAbroadConVisaDebit",
+                        "FeeAmount": "1.50",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Foreign cash fee : fee charged where you elect to allow the cash machine operator/financial service provider to make the conversion to sterling.  The provider of the foreign currency may make a separate charge for conversion."
+                        ]
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsIntlPayableAbroad",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Servicing",
+                        "FeeType": "ServiceCAccountFeeMonthly",
+                        "FeeAmount": "17.00",
+                        "ApplicationFrequency": "Monthly",
+                        "CalculationFrequency": "Monthly",
+                        "Notes": [
+                          "A lower monthly fee of £14 applies if in the previous calendar month you pay in £750 or more and pay out at least 2 different direct debits and remain in credit. You'll also need to keep your account open/not change it to a different current account until the fee is due to be debited (by the 2nd working day of the following calendar month)."
+                        ]
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "ServiceCOther",
+                        "FeeAmount": "12.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "The Correspondent Bank Fee will be payable for international payments when you select to pay all agent bank charges.  Zone 1 – USA, Canada, and Europe (non EEA).  Zone 2 – Rest of the world, excluding EEA."
+                        ],
+                        "OtherFeeType": {
+                          "FeeCategory": "International",
+                          "Name": "Correspondent Bank Fee Zone 1",
+                          "Description": "Zone 1 – USA, Canada, and Europe (non EEA)"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "ServiceCOther",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "The Correspondent Bank Fee will be payable for international payments when you select to pay all agent bank charges.  Zone 1 – USA, Canada, and Europe (non EEA).  Zone 2 – Rest of the world, excluding EEA."
+                        ],
+                        "OtherFeeType": {
+                          "FeeCategory": "International",
+                          "Name": "Correspondent Bank Fee Zone 2",
+                          "Description": "Zone 2 – Rest of the world, excluding EEA."
+                        }
+                      }
+                    ],
+                    "FeeChargeCap": [
+                      {
+                        "FeeType": [
+                          "ChqForeign"
+                        ],
+                        "FeeCapAmount": "8.00",
+                        "Notes": [
+                          "For Foreign Cheque values over £100: our minimum charge for each cheque paid in will be  £8 when we negotiate the cheque."
+                        ],
+                        "FeeMinMaxType": "Minimum"
+                      },
+                      {
+                        "FeeType": [
+                          "ChqForeign"
+                        ],
+                        "FeeCapAmount": "80.00",
+                        "Notes": [
+                          "For Foreign Cheque values over £100: our maximum charge for each cheque paid in will be  £80 when we negotiate the cheque."
+                        ],
+                        "FeeMinMaxType": "Maximum"
+                      },
+                      {
+                        "FeeType": [
+                          "ForeignChqSent"
+                        ],
+                        "FeeCapAmount": "15.00",
+                        "Notes": [
+                          "For Foreign Cheque values over £100: our minimum charge for each cheque paid in will be  £15 when we collect the cheque."
+                        ],
+                        "FeeMinMaxType": "Minimum"
+                      },
+                      {
+                        "FeeType": [
+                          "ForeignChqSent"
+                        ],
+                        "FeeCapAmount": "80.00",
+                        "Notes": [
+                          "For Foreign Cheque values over £100: our maximum charge for each cheque paid in will be  £80 when we collect the cheque."
+                        ],
+                        "FeeMinMaxType": "Maximum"
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductURL": "http://www.halifax.co.uk/bankaccounts/current-accounts/ultimate-reward-current-account/",
+                    "TcsAndCsURL": "http://static.halifax.co.uk/assets/pdf/bankaccounts/pdf/ultimate-reward-current-account-guide.pdf",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "CallCentre",
+                      "Online"
+                    ],
+                    "ServicingAccessChannels": [
+                      "ATM",
+                      "Branch",
+                      "CallCentre",
+                      "Post",
+                      "MobileBankingApp",
+                      "Online",
+                      "PostOffice",
+                      "Text"
+                    ],
+                    "MonthlyMaximumCharge": "0.00",
+                    "ProductDescription": "An account with a range of benefits for a £17 monthly fee.   Includes   worldwide family travel insurance, AA Breakdown, mobile phone insurance and home emergency cover. A lower monthly fee of £14 applies if in the previous calendar month you pay in £750 or more, pay out at least 2 different direct debits and remain in credit. "
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "Expresscash",
+              "Identification": "3006",
+              "Segment": [
+                "Youth"
+              ],
+              "PCAMarketingState": [
+                {
+                  "Identification": "HYA-R001",
+                  "MarketingState": "Regular",
+                  "FirstMarketedDate": "2017-11-02",
+                  "Notes": [
+                    "Overdraft information for Under 19s, Islamic* and Basic Accounts.\nPlanned Overdrafts are not available on these accounts. If you do go overdrawn, you will not be charged a daily overdraft fee.\n\n*We cannot accept new account applications for these products"
+                  ],
+                  "CreditInterest": {
+                    "TierBandSet": [
+                      {
+                        "TierBandMethod": "Tiered",
+                        "CalculationMethod": "Compound",
+                        "Destination": "SelfCredit",
+                        "TierBand": [
+                          {
+                            "Identification": "HYA-CITB001",
+                            "TierValueMinimum": "0.00",
+                            "CalculationFrequency": "Monthly",
+                            "ApplicationFrequency": "Monthly",
+                            "FixedVariableInterestRateType": "Variable",
+                            "AER": "1.5100",
+                            "BankInterestRateType": "Gross"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "Eligibility": {
+                    "OtherEligibility": [
+                      {
+                        "Name": "Previous Bankruptcy",
+                        "Type": "PreviousBankruptcyAllowed",
+                        "Indicator": false
+                      }
+                    ],
+                    "AgeEligibility": {
+                      "MinimumAge": 11,
+                      "MaximumAge": 17,
+                      "Notes": [
+                        "11-12 year olds\nA parent or guardian must be with you when you open your account or if you apply for more services. You cannot apply online and can only apply for an Expresscash account in branch. You’ll need to bring:-\nProof of ID (such as passport or birth certificate)\nProof of your parent/guardian’s identity and address (such as a utility bill dated in the last 6 months)\n\n13-15 year olds\nA parent or guardian must be with you when you open your account or if you apply for more services. Apply online today, then go into a Halifax branch with a parent or guardian. You’ll need to bring:-\nProof of ID (such as passport or birth certificate)\nProof of your parent/guardian’s identity and address (such as a utility bill dated in the last 6 months)\n\n16-17 year olds\nApply online today then go into a Halifax branch. You don’t need to be accompanied by a parent or guardian, but you’ll need to bring:\nProof of ID (such as passport or birth certificate)\nProof of your parent/guardian’s identity and address (such as a utility bill dated in the last 6 months)"
+                      ]
+                    },
+                    "ResidencyEligibility": {
+                      "ResidencyIncluded": [
+                        "UK"
+                      ]
+                    },
+                    "CreditCheck": {
+                      "ScoringType": "Hard"
+                    },
+                    "IDVerificationCheck": {
+                      "URL": "http://www.halifax.co.uk/securityandprivacy/privacy/proving-your-identity/?srnum=2"
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitItem": [
+                      {
+                        "Identification": "HYA-BI-001",
+                        "Type": "AccountManagement",
+                        "Name": "Mobile Alerts",
+                        "Textual": "Our mobile alerts are a simple and convenient way to help you stay on top of your money - if we have your mobile number, we’ll send alerts to keep you up to date on your account balance."
+                      },
+                      {
+                        "Identification": "HYA-BI-002",
+                        "Type": "AccountManagement",
+                        "Name": "ATM Withdrawals",
+                        "Textual": "Withdraw up to £500 a day.  Withdraw money from any cash machine that shows the LINK or VISA sign."
+                      },
+                      {
+                        "Identification": "HYA-BI-003",
+                        "Type": "PreferentialRates",
+                        "Name": "Credit Interest",
+                        "Textual": "Earn 1.50% gross/1.51% AER credit interest on your account on any credit balances"
+                      },
+                      {
+                        "Identification": "HYA-BI-004",
+                        "Type": "AccountManagement",
+                        "Name": "Online Banking",
+                        "Textual": "Online Banking\nEarn cashback - get cashback offers based on the places you usually shop or may like to try.\nPay friends and family - pay someone using just their phone number.\nGet text alerts - receive mobile text alerts to keep track of your finances.\nManage your accounts - easily view your statements, manage your payments and more.\nManage your details - review or amend your telephone numbers and e-mail address."
+                      }
+                    ],
+                    "Card": [
+                      {
+                        "Type": "DebitCard",
+                        "Scheme": "Visa",
+                        "ContactlessIndicator": true
+                      }
+                    ],
+                    "MobileWallet": [
+                      {
+                        "Type": "PayM",
+                        "Notes": [
+                          "Pay a Contact is the simple way to send or receive money with just a mobile number, instead of a sort code and account number.\nSo whether you’re splitting a restaurant bill, or want to be paid back for something you’re owed, Pay a Contact can make your life much easier.\nPay a Contact is part of Paym, a wider service which enables payments using a mobile number to be sent to other participating banks and building societies. Payments can be made through Online Banking and our Mobile Banking App.\n• Pay friends or family easily\n• Paying someone back for your lunch, dinner or a sandwich if you don’t have cash\n• Pay for a cinema or concert ticket without having to wait to receive account details"
+                        ]
+                      },
+                      {
+                        "Type": "MobileBankingApp",
+                        "Notes": [
+                          "Access to bespoke youth Online Banking and the Mobile Banking app"
+                        ]
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqStopped",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialChqPresentation",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsBankers",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOut",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayForeignCharge",
+                        "FeeAmount": "2.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Electronic payments received from outside the UK other than by SEPA credit transfer, up to a value of £100 (including £100)"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "0.00",
+                          "MaximumAmount": "100.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayForeignCharge",
+                        "FeeAmount": "7.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Electronic payments received from outside the UK other than by SEPA credit transfer, with a value of over £100"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "100.01"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayTransRateNonSterling",
+                        "FeeRate": "2.9900",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Non-sterling transaction fee: fee charged for the conversion of currency. This is a percentage value of your transaction. \nThe amount is converted to sterling on the day it is processed by Visa using the Visa Payment Scheme Exchange Rate"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMForeignCashDebCard",
+                        "FeeAmount": "1.50",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Non-sterling cash fee: fee charged to withdraw cash in a currency other than sterling, or to withdraw cash in sterling outside the UK.  The amount is converted to sterling on the day it is processed by Visa using the Visa Payment Scheme exchange rate. "
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqForeign",
+                        "FeeAmount": "5.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Charge for Foreign Cheques paid in to the account with a sterling value of £100 or less, whether negotiating or collecting"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "0",
+                          "MaximumAmount": "100.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqForeign",
+                        "FeeRate": "0.2500",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Foreign Cheques paid in to the account with a sterling value of more than £100: our minimum charge will be £8 when we negotiate the cheque",
+                          "Foreign Cheques paid in to the account with a sterling value of more than £100: our maximum charge will be £80 when we negotiate the cheque"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "100.01"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeAmount": "0.50",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Non-sterling purchase fee: fee charged per transaction when you make a purchase (not a cash withdrawal or purchase of foreign currency or travellers cheques). Fee is applicable only to debit card transactions. The amount is converted to sterling on the day it is processed by Visa using the Visa Payment Scheme Exchange Rate"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopy1",
+                        "FeeAmount": "5.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOutBranch",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOutInterBank",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSInterBank",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayFXPaymentOut",
+                        "FeeAmount": "9.50",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ForeignChqSent",
+                        "FeeRate": "0.2500",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Foreign Cheques paid in to the account with a sterling value of more than £100: our minimum charge will be £15 when we collect the cheque",
+                          "Foreign Cheques paid in to the account with a sterling value of more than £100: our maximum charge will be £80 when we collect the cheque"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "100.01"
+                        }
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMAbroadConVisaDebit",
+                        "FeeAmount": "1.50",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Foreign cash fee : fee charged where you elect to allow the cash machine operator/financial service provider to make the conversion to sterling.  The provider of the foreign currency may make a separate charge for conversion."
+                        ]
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsIntlPayableAbroad",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "ServiceCOther",
+                        "FeeAmount": "12.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "The Correspondent Bank Fee will be payable for international payments when you select to pay all agent bank charges.  Zone 1 – USA, Canada, and Europe (non EEA).  Zone 2 – Rest of the world, excluding EEA."
+                        ],
+                        "OtherFeeType": {
+                          "FeeCategory": "International",
+                          "Name": "Correspondent Bank Fee Zone 1",
+                          "Description": "Zone 1 – USA, Canada, and Europe (non EEA)"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "ServiceCOther",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "The Correspondent Bank Fee will be payable for international payments when you select to pay all agent bank charges.  Zone 1 – USA, Canada, and Europe (non EEA).  Zone 2 – Rest of the world, excluding EEA."
+                        ],
+                        "OtherFeeType": {
+                          "FeeCategory": "International",
+                          "Name": "Correspondent Bank Fee Zone 2",
+                          "Description": "Zone 2 – Rest of the world, excluding EEA."
+                        }
+                      }
+                    ],
+                    "FeeChargeCap": [
+                      {
+                        "FeeType": [
+                          "ChqForeign"
+                        ],
+                        "FeeCapAmount": "8.00",
+                        "Notes": [
+                          "For Foreign Cheque values over £100: our minimum charge for each cheque paid in will be  £8 when we negotiate the cheque."
+                        ],
+                        "FeeMinMaxType": "Minimum"
+                      },
+                      {
+                        "FeeType": [
+                          "ChqForeign"
+                        ],
+                        "FeeCapAmount": "80.00",
+                        "Notes": [
+                          "For Foreign Cheque values over £100: our maximum charge for each cheque paid in will be  £80 when we negotiate the cheque."
+                        ],
+                        "FeeMinMaxType": "Maximum"
+                      },
+                      {
+                        "FeeType": [
+                          "ForeignChqSent"
+                        ],
+                        "FeeCapAmount": "15.00",
+                        "Notes": [
+                          "For Foreign Cheque values over £100: our minimum charge for each cheque paid in will be  £15 when we collect the cheque."
+                        ],
+                        "FeeMinMaxType": "Minimum"
+                      },
+                      {
+                        "FeeType": [
+                          "ForeignChqSent"
+                        ],
+                        "FeeCapAmount": "80.00",
+                        "Notes": [
+                          "For Foreign Cheque values over £100: our maximum charge for each cheque paid in will be  £80 when we collect the cheque."
+                        ],
+                        "FeeMinMaxType": "Maximum"
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductURL": "https://www.halifax.co.uk/bankaccounts/current-accounts/youth-account/",
+                    "TcsAndCsURL": "https://static.halifax.co.uk/assets/pdf/bankaccounts/pdf/bank-account-guide.pdf",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "Online"
+                    ],
+                    "ServicingAccessChannels": [
+                      "ATM",
+                      "Branch",
+                      "CallCentre",
+                      "Post",
+                      "MobileBankingApp",
+                      "Online",
+                      "PostOffice",
+                      "Text"
+                    ],
+                    "MonthlyMaximumCharge": "0.00",
+                    "ProductDescription": "Tailored for teens aged 11 to 17 years, the Expresscash account can help you make the most of your pocket money."
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "Basic Account",
+              "Identification": "3009",
+              "Segment": [
+                "Basic"
+              ],
+              "PCAMarketingState": [
+                {
+                  "Identification": "HBA-R001",
+                  "MarketingState": "Regular",
+                  "FirstMarketedDate": "2017-11-02",
+                  "Notes": [
+                    "Overdraft information for Under 19s, Islamic* and Basic Accounts.\nPlanned Overdrafts are not available on these accounts. If you do go overdrawn, you will not be charged a daily overdraft fee.\n\n*We cannot accept new account applications for these products"
+                  ],
+                  "Eligibility": {
+                    "OtherEligibility": [
+                      {
+                        "Name": "Previous Bankruptcy",
+                        "Type": "PreviousBankruptcyAllowed",
+                        "Indicator": true
+                      }
+                    ],
+                    "AgeEligibility": {
+                      "MinimumAge": 18,
+                      "Notes": [
+                        "Aged 18 or over"
+                      ]
+                    },
+                    "ResidencyEligibility": {
+                      "ResidencyIncluded": [
+                        "EU",
+                        "UK"
+                      ],
+                      "Notes": [
+                        "Eligibility of EU residents and UK customers - You may be able to get a Basic Account if you don’t meet the conditions for one of our other current accounts such as a Reward Account. This might be because you’re bankrupt, in financial difficulty, or if we’re not able to obtain information about your credit history (for example, because you live outside the UK). \nIf you live in the UK - You cannot apply for a Basic account directly. If you apply for one of our other current accounts, we will try to obtain information about your credit history to decide the most appropriate account for you. "
+                      ]
+                    },
+                    "CreditCheck": {
+                      "ScoringType": "Hard"
+                    },
+                    "IDVerificationCheck": {
+                      "URL": "http://www.halifax.co.uk/securityandprivacy/privacy/proving-your-identity/?srnum=2"
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitItem": [
+                      {
+                        "Identification": "HBA-BI-001",
+                        "Type": "AccountManagement",
+                        "Name": "Mobile Alerts",
+                        "Textual": "Our mobile alerts are a simple and convenient way to help you stay on top of your money - if we have your mobile number, we’ll send alerts to keep you up to date on your account balance."
+                      },
+                      {
+                        "Identification": "HBA-BI-002",
+                        "Type": "AccountManagement",
+                        "Name": "Joint Accounts",
+                        "Textual": "1) Two people using one account - A simple way to share spends and see them on one monthly statement\n2) Both account holders get a Visa debit card\n3) Both account holders can also separately set up and manage Online Banking\nBoth account holders must be aged 18 or over"
+                      },
+                      {
+                        "Identification": "HBA-BI-003",
+                        "Type": "AccountManagement",
+                        "Name": "ATM Withdrawals",
+                        "Textual": "Withdraw up to £500 a day.  Withdraw money from any cash machine that shows the LINK or VISA sign."
+                      },
+                      {
+                        "Identification": "HBA-BI-004",
+                        "Type": "AccountManagement",
+                        "Name": "Online Banking",
+                        "Textual": "Online Banking\nEarn cashback - get cashback offers based on the places you usually shop or may like to try.\nPay friends and family - pay someone using just their phone number.\nGet text alerts - receive mobile text alerts to keep track of your finances.\nManage your accounts - easily view your statements, manage your payments and more.\nManage your details - review or amend your telephone numbers and e-mail address."
+                      },
+                      {
+                        "Identification": "HBA-BI-005",
+                        "Type": "Cashback",
+                        "Name": "Cashback Extras",
+                        "Textual": "Get up to 15% cashback using Cashback Extras at the type of places you regularly shop. Retailer offers and cashback amounts may vary. Register online and activate each offer you want to use. To qualify for Cashback Extras you need to be over 18, have a Halifax Bank Account, a Halifax debit and/or credit card and be registered for Online Banking.",
+                        "FeatureBenefitEligibility": [
+                          {
+                            "Name": "Cashback Extras",
+                            "Type": "Other",
+                            "Textual": "To qualify for Cashback Extras you need to be over 18, have a Halifax Bank Account, a Halifax debit and/or credit card and be registered for Online Banking.",
+                            "OtherType": {
+                              "Name": "Cashback Extras",
+                              "Description": "Cashback Extras"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "Card": [
+                      {
+                        "Type": "DebitCard",
+                        "Scheme": "Visa",
+                        "ContactlessIndicator": false
+                      }
+                    ],
+                    "MobileWallet": [
+                      {
+                        "Type": "PayM",
+                        "Notes": [
+                          "Pay a Contact is the simple way to send or receive money with just a mobile number, instead of a sort code and account number.\nSo whether you’re splitting a restaurant bill, or want to be paid back for something you’re owed, Pay a Contact can make your life much easier.\nPay a Contact is part of Paym, a wider service which enables payments using a mobile number to be sent to other participating banks and building societies. Payments can be made through Online Banking and our Mobile Banking App.\n• Pay friends or family easily\n• Paying someone back for your lunch, dinner or a sandwich if you don’t have cash\n• Pay for a cinema or concert ticket without having to wait to receive account details"
+                        ]
+                      },
+                      {
+                        "Type": "MobileBankingApp",
+                        "Notes": [
+                          "Access to our Online Banking and the Mobile Banking app."
+                        ]
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqStopped",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialChqPresentation",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsBankers",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOut",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayForeignCharge",
+                        "FeeAmount": "2.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Electronic payments received from outside the UK other than by SEPA credit transfer, up to a value of £100 (including £100); excluding payments received from a bank account within the EU to our Basic Account, for which we waive the fee."
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "0.00",
+                          "MaximumAmount": "100.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayForeignCharge",
+                        "FeeAmount": "7.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Electronic payments received from outside the UK other than by SEPA credit transfer, with a value of over £100; excluding payments received from a bank account within the EU to our Basic Account, for which we waive the fee."
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "100.01"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayTransRateNonSterling",
+                        "FeeRate": "2.9900",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Non-sterling transaction fee: fee charged for the conversion of currency. This is a percentage value of your transaction. \nThe amount is converted to sterling on the day it is processed by Visa using the Visa Payment Scheme Exchange Rate"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMForeignCashDebCard",
+                        "FeeAmount": "1.50",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Non-sterling cash fee: fee charged to withdraw cash in a currency other than sterling, or to withdraw cash in sterling outside the UK.  The amount is converted to sterling on the day it is processed by Visa using the Visa Payment Scheme exchange rate. "
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqForeign",
+                        "FeeAmount": "5.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Charge for Foreign Cheques paid in to the account with a sterling value of £100 or less, whether negotiating or collecting"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "0",
+                          "MaximumAmount": "100.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqForeign",
+                        "FeeRate": "0.2500",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Foreign Cheques paid in to the account with a sterling value of more than £100: our minimum charge will be £8 when we negotiate the cheque",
+                          "Foreign Cheques paid in to the account with a sterling value of more than £100: our maximum charge will be £80 when we negotiate the cheque"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "100.01"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeAmount": "0.50",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Non-sterling purchase fee: fee charged per transaction when you make a purchase (not a cash withdrawal or purchase of foreign currency or travellers cheques). Fee is applicable only to debit card transactions. The amount is converted to sterling on the day it is processed by Visa using the Visa Payment Scheme Exchange Rate"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopy1",
+                        "FeeAmount": "5.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOutBranch",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOutInterBank",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSInterBank",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayFXPaymentOut",
+                        "FeeAmount": "9.50",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Excluding payments made in Sterling sent to a bank account within the EU from our Basic Account, for which we waive the fee."
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ForeignChqSent",
+                        "FeeRate": "0.2500",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Foreign Cheques paid in to the account with a sterling value of more than £100: our minimum charge will be £15 when we collect the cheque",
+                          "Foreign Cheques paid in to the account with a sterling value of more than £100: our maximum charge will be £80 when we collect the cheque"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "100.01"
+                        }
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMAbroadConVisaDebit",
+                        "FeeAmount": "1.50",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Foreign cash fee : fee charged where you elect to allow the cash machine operator/financial service provider to make the conversion to sterling.  The provider of the foreign currency may make a separate charge for conversion."
+                        ]
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsIntlPayableAbroad",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "ServiceCOther",
+                        "FeeAmount": "12.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "The Correspondent Bank Fee will be payable for international payments when you select to pay all agent bank charges.  Zone 1 – USA, Canada, and Europe (non EEA).  Zone 2 – Rest of the world, excluding EEA."
+                        ],
+                        "OtherFeeType": {
+                          "FeeCategory": "International",
+                          "Name": "Correspondent Bank Fee Zone 1",
+                          "Description": "Zone 1 – USA, Canada, and Europe (non EEA)"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "ServiceCOther",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "The Correspondent Bank Fee will be payable for international payments when you select to pay all agent bank charges.  Zone 1 – USA, Canada, and Europe (non EEA).  Zone 2 – Rest of the world, excluding EEA."
+                        ],
+                        "OtherFeeType": {
+                          "FeeCategory": "International",
+                          "Name": "Correspondent Bank Fee Zone 2",
+                          "Description": "Zone 2 – Rest of the world, excluding EEA."
+                        }
+                      }
+                    ],
+                    "FeeChargeCap": [
+                      {
+                        "FeeType": [
+                          "ChqForeign"
+                        ],
+                        "FeeCapAmount": "8.00",
+                        "Notes": [
+                          "For Foreign Cheque values over £100: our minimum charge for each cheque paid in will be  £8 when we negotiate the cheque."
+                        ],
+                        "FeeMinMaxType": "Minimum"
+                      },
+                      {
+                        "FeeType": [
+                          "ChqForeign"
+                        ],
+                        "FeeCapAmount": "80.00",
+                        "Notes": [
+                          "For Foreign Cheque values over £100: our maximum charge for each cheque paid in will be  £80 when we negotiate the cheque."
+                        ],
+                        "FeeMinMaxType": "Maximum"
+                      },
+                      {
+                        "FeeType": [
+                          "ForeignChqSent"
+                        ],
+                        "FeeCapAmount": "15.00",
+                        "Notes": [
+                          "For Foreign Cheque values over £100: our minimum charge for each cheque paid in will be  £15 when we collect the cheque."
+                        ],
+                        "FeeMinMaxType": "Minimum"
+                      },
+                      {
+                        "FeeType": [
+                          "ForeignChqSent"
+                        ],
+                        "FeeCapAmount": "80.00",
+                        "Notes": [
+                          "For Foreign Cheque values over £100: our maximum charge for each cheque paid in will be  £80 when we collect the cheque."
+                        ],
+                        "FeeMinMaxType": "Maximum"
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductURL": "http://www.halifax.co.uk/bankaccounts/current-accounts/basic-account/",
+                    "TcsAndCsURL": "http://static.halifax.co.uk/assets/pdf/bankaccounts/pdf/bank-account-guide.pdf",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "CallCentre",
+                      "Online"
+                    ],
+                    "ServicingAccessChannels": [
+                      "ATM",
+                      "Branch",
+                      "CallCentre",
+                      "Post",
+                      "MobileBankingApp",
+                      "Online",
+                      "PostOffice",
+                      "Text"
+                    ],
+                    "MonthlyMaximumCharge": "0.00",
+                    "ProductDescription": "Our Basic Account is available to anyone applying for one of our accounts from an EU country outside the UK, and to UK citizens who are not eligible for one of our other current accounts"
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "Student Current Account",
+              "Identification": "3008",
+              "Segment": [
+                "Student"
+              ],
+              "PCAMarketingState": [
+                {
+                  "Identification": "HSA-R001",
+                  "MarketingState": "Regular",
+                  "FirstMarketedDate": "2017-11-02",
+                  "CreditInterest": {
+                    "TierBandSet": [
+                      {
+                        "TierBandMethod": "Whole",
+                        "CalculationMethod": "Compound",
+                        "Destination": "SelfCredit",
+                        "TierBand": [
+                          {
+                            "Identification": "HSA-CITB001",
+                            "TierValueMinimum": "0.00",
+                            "CalculationFrequency": "Monthly",
+                            "ApplicationFrequency": "Monthly",
+                            "FixedVariableInterestRateType": "Variable",
+                            "AER": "0.1000",
+                            "BankInterestRateType": "Gross"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "Overdraft": {
+                    "OverdraftTierBandSet": [
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "HSA-ODAR001",
+                        "AuthorisedIndicator": true,
+                        "BufferAmount": "0.00",
+                        "OverdraftTierBand": [
+                          {
+                            "Identification": "HSA-AT-001",
+                            "TierValueMin": "0.00",
+                            "TierValueMax": "1499.99"
+                          },
+                          {
+                            "Identification": "HSA-AT-002",
+                            "TierValueMin": "1500.00",
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "ArrangedOverdraft",
+                                    "IncrementalBorrowingAmount": "7.00",
+                                    "FeeAmount": "0.01",
+                                    "ApplicationFrequency": "Daily",
+                                    "CalculationFrequency": "Daily",
+                                    "Notes": [
+                                      "One Daily Overdraft Fee\nYou’ll pay a daily overdraft fee of 1p for every £7 you borrow, over your £1500 fee-free amount. When calculating the daily overdraft fee, we will only use every full £7 you have borrowed, so if you borrow less than £7 you won’t be charged. \n\nDaily Charging\nInstead of paying all fees in one go each month, any fees will be charged at the end of each day you use your overdraft – so you’ll pay for what you borrow on the day you borrow it. This will help you keep track of how much your overdraft costs you.\n\nIf you go over your limit\nSo all your payments are made, it’s important you manage your account within your planned overdraft limit. If you don’t have enough money in your account or you reach your limit, you may not be able to make any more payments. If a payment takes you over your limit or we stop it, you won’t be charged."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "Eligibility": {
+                    "OtherEligibility": [
+                      {
+                        "Name": "Student",
+                        "Description": "You must be studying full time on a degree course or equivalent course of further education. The longest you can hold an account is 6 years, including the year after you finish being in full-time education. Once you stop qualifying, these conditions no longer apply. We will write to tell you about the changes to your account at least 2 months before.",
+                        "Type": "StudentsOnly"
+                      },
+                      {
+                        "Name": "Sole Account",
+                        "Description": "There are limits on the number of accounts you can have and what you can then do.",
+                        "Type": "SoleStudentAccount",
+                        "Amount": "1"
+                      }
+                    ],
+                    "AgeEligibility": {
+                      "MinimumAge": 18,
+                      "Notes": [
+                        "Aged 18 or over"
+                      ]
+                    },
+                    "ResidencyEligibility": {
+                      "ResidencyIncluded": [
+                        "UK"
+                      ]
+                    },
+                    "CreditCheck": {
+                      "ScoringType": "Hard"
+                    },
+                    "IDVerificationCheck": {
+                      "URL": "http://www.halifax.co.uk/securityandprivacy/privacy/proving-your-identity/?srnum=2"
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitItem": [
+                      {
+                        "Identification": "HSA-BI-001",
+                        "Type": "AccountOpeningOrSwitching Incentive",
+                        "Name": "Overdaft facilities",
+                        "Textual": "A fee-free planned overdraft for the length of your course plus an extra year after you graduate, up to a maximum of 6 years. (Overdrafts are repayable on demand and subject to status)"
+                      },
+                      {
+                        "Identification": "HSA-BI-002",
+                        "Type": "PreferentialRates",
+                        "Name": "Credit interest",
+                        "Textual": "Credit interest on any credit balance 0.10% AER (0.10% gross) variable. Interest is paid monthly"
+                      },
+                      {
+                        "Identification": "HSA-BI-003",
+                        "Type": "AccountManagement",
+                        "Name": "Mobile Alerts",
+                        "Textual": "Our mobile alerts are a simple and convenient way to help you stay on top of your money - if we have your mobile number, we’ll send alerts to keep you up to date on your account balance."
+                      },
+                      {
+                        "Identification": "HSA-BI-004",
+                        "Type": "Cashback",
+                        "Name": "Cashback Extras",
+                        "Textual": "Get up to 15% cashback using Cashback Extras at the type of places you regularly shop. Retailer offers and cashback amounts may vary. Register online and activate each offer you want to use. To qualify for Cashback Extras you need to be over 18, have a Halifax Bank Account, a Halifax debit and/or credit card and be registered for Online Banking.",
+                        "FeatureBenefitEligibility": [
+                          {
+                            "Name": "Cashback Extras",
+                            "Description": "Cashback Extras",
+                            "Type": "Other",
+                            "Textual": "To qualify for Cashback Extras you need to be over 18, have a Halifax Bank Account, a Halifax debit and/or credit card and be registered for Online Banking.",
+                            "OtherType": {
+                              "Name": "Cashback Extras",
+                              "Description": "Cashback Extras"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Identification": "HSA-BI-005",
+                        "Type": "AccountManagement",
+                        "Name": "ATM Withdrawals",
+                        "Textual": "Withdraw up to £500 a day.  Withdraw money from any cash machine that shows the LINK or VISA sign."
+                      },
+                      {
+                        "Identification": "HSA-BI-006",
+                        "Type": "AccountManagement",
+                        "Name": "Online Banking",
+                        "Textual": "Online Banking\nEarn cashback - get cashback offers based on the places you usually shop or may like to try.\nPay friends and family - pay someone using just their phone number.\nGet text alerts - receive mobile text alerts to keep track of your finances.\nManage your accounts - easily view your statements, manage your payments and more.\nManage your details - review or amend your telephone numbers and e-mail address."
+                      }
+                    ],
+                    "Card": [
+                      {
+                        "Type": "DebitCard",
+                        "Scheme": "Visa",
+                        "ContactlessIndicator": true
+                      }
+                    ],
+                    "MobileWallet": [
+                      {
+                        "Type": "Other",
+                        "Notes": [
+                          "ApplePay and GooglePay: Card and account type restrictions include: Electron cards, Visa credit cards and additional credit card holders, non-personal accounts, Basic Bank Accounts and customers under 13 years."
+                        ],
+                        "OtherType": {
+                          "Name": "GooglePay",
+                          "Description": "AndroidPay rebranded as GooglePay"
+                        }
+                      },
+                      {
+                        "Type": "ApplePay",
+                        "Notes": [
+                          "ApplePay and GooglePay: Card and account type restrictions include: Electron cards, Visa credit cards and additional credit card holders, non-personal accounts, Basic Bank Accounts and customers under 13 years."
+                        ]
+                      },
+                      {
+                        "Type": "PayM",
+                        "Notes": [
+                          "Pay a Contact is the simple way to send or receive money with just a mobile number, instead of a sort code and account number.\nSo whether you’re splitting a restaurant bill, or want to be paid back for something you’re owed, Pay a Contact can make your life much easier.\nPay a Contact is part of Paym, a wider service which enables payments using a mobile number to be sent to other participating banks and building societies. Payments can be made through Online Banking and our Mobile Banking App.\n• Pay friends or family easily\n• Paying someone back for your lunch, dinner or a sandwich if you don’t have cash\n• Pay for a cinema or concert ticket without having to wait to receive account details"
+                        ]
+                      },
+                      {
+                        "Type": "MobileBankingApp",
+                        "Notes": [
+                          "Our Mobile Banking app for iOS and Android are quick and easy to install, fast, convenient and more secure than ever - the easy way to stay on top of your money. Bank where you want with the latest built-in security technology that keeps your details safe and private. More and more customers are choosing the flexibility, convenience and security of banking on their mobile."
+                        ]
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqStopped",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialChqPresentation",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsBankers",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOut",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayForeignCharge",
+                        "FeeAmount": "2.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Electronic payments received from outside the UK other than by SEPA credit transfer, up to a value of £100 (including £100)"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "0.00",
+                          "MaximumAmount": "100.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayForeignCharge",
+                        "FeeAmount": "7.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Electronic payments received from outside the UK other than by SEPA credit transfer, with a value of over £100"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "100.01"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayTransRateNonSterling",
+                        "FeeRate": "2.9900",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Non-sterling transaction fee: fee charged for the conversion of currency. This is a percentage value of your transaction. \nThe amount is converted to sterling on the day it is processed by Visa using the Visa Payment Scheme Exchange Rate"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMForeignCashDebCard",
+                        "FeeAmount": "1.50",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Non-sterling cash fee:  fee charged to withdraw cash in a currency other than sterling, or to withdraw cash in sterling outside the UK.  The amount is converted to sterling on the day it is processed by Visa using the Visa Payment Scheme exchange rate. "
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqForeign",
+                        "FeeAmount": "5.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Charge for Foreign Cheques paid in to the account with a sterling value of £100 or less, whether negotiating or collecting"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "0",
+                          "MaximumAmount": "100.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqForeign",
+                        "FeeRate": "0.2500",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Foreign Cheques paid in to the account with a sterling value of more than £100: our minimum charge will be £8 when we negotiate the cheque",
+                          "Foreign Cheques paid in to the account with a sterling value of more than £100: our maximum charge will be £80 when we negotiate the cheque"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "100.01"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeAmount": "0.50",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Non-sterling purchase fee: fee charged per transaction when you make a purchase (not a cash withdrawal or purchase of foreign currency or travellers cheques). Fee is applicable only to debit card transactions. The amount is converted to sterling on the day it is processed by Visa using the Visa Payment Scheme Exchange Rate"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopy1",
+                        "FeeAmount": "5.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOutBranch",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOutInterBank",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSInterBank",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayFXPaymentOut",
+                        "FeeAmount": "9.50",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ForeignChqSent",
+                        "FeeRate": "0.2500",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Foreign Cheques paid in to the account with a sterling value of more than £100: our minimum charge will be £15 when we collect the cheque",
+                          "Foreign Cheques paid in to the account with a sterling value of more than £100: our maximum charge will be £80 when we collect the cheque"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "100.01"
+                        }
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMAbroadConVisaDebit",
+                        "FeeAmount": "1.50",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Foreign cash fee : fee charged where you elect to allow the cash machine operator/financial service provider to make the conversion to sterling.  The provider of the foreign currency may make a separate charge for conversion."
+                        ]
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsIntlPayableAbroad",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "ServiceCOther",
+                        "FeeAmount": "12.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "The Correspondent Bank Fee will be payable for international payments when you select to pay all agent bank charges.  Zone 1 – USA, Canada, and Europe (non EEA).  Zone 2 – Rest of the world, excluding EEA."
+                        ],
+                        "OtherFeeType": {
+                          "FeeCategory": "International",
+                          "Name": "Correspondent Bank Fee Zone 1",
+                          "Description": "Zone 1 – USA, Canada, and Europe (non EEA)"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "ServiceCOther",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "The Correspondent Bank Fee will be payable for international payments when you select to pay all agent bank charges.  Zone 1 – USA, Canada, and Europe (non EEA).  Zone 2 – Rest of the world, excluding EEA."
+                        ],
+                        "OtherFeeType": {
+                          "FeeCategory": "International",
+                          "Name": "Correspondent Bank Fee Zone 2",
+                          "Description": "Zone 2 – Rest of the world, excluding EEA."
+                        }
+                      }
+                    ],
+                    "FeeChargeCap": [
+                      {
+                        "FeeType": [
+                          "ChqForeign"
+                        ],
+                        "FeeCapAmount": "8.00",
+                        "Notes": [
+                          "For Foreign Cheque values over £100: our minimum charge for each cheque paid in will be  £8 when we negotiate the cheque."
+                        ],
+                        "FeeMinMaxType": "Minimum"
+                      },
+                      {
+                        "FeeType": [
+                          "ChqForeign"
+                        ],
+                        "FeeCapAmount": "80.00",
+                        "Notes": [
+                          "For Foreign Cheque values over £100: our maximum charge for each cheque paid in will be  £80 when we negotiate the cheque."
+                        ],
+                        "FeeMinMaxType": "Maximum"
+                      },
+                      {
+                        "FeeType": [
+                          "ForeignChqSent"
+                        ],
+                        "FeeCapAmount": "15.00",
+                        "Notes": [
+                          "For Foreign Cheque values over £100: our minimum charge for each cheque paid in will be  £15 when we collect the cheque."
+                        ],
+                        "FeeMinMaxType": "Minimum"
+                      },
+                      {
+                        "FeeType": [
+                          "ForeignChqSent"
+                        ],
+                        "FeeCapAmount": "80.00",
+                        "Notes": [
+                          "For Foreign Cheque values over £100: our maximum charge for each cheque paid in will be  £80 when we collect the cheque."
+                        ],
+                        "FeeMinMaxType": "Maximum"
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductURL": "https;//www.halifax.co.uk/bankaccounts/current-accounts/student-account/default.asp",
+                    "TcsAndCsURL": "https://static.halifax.co.uk/assets/pdf/bankaccounts/pdf/bank-account-guide.pdf",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "Online"
+                    ],
+                    "ServicingAccessChannels": [
+                      "ATM",
+                      "Branch",
+                      "CallCentre",
+                      "Post",
+                      "MobileBankingApp",
+                      "Online",
+                      "PostOffice",
+                      "Text"
+                    ],
+                    "MonthlyMaximumCharge": "0.00",
+                    "ProductDescription": "Student Current Account. Awesome if you’re going places."
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "Reward Current Account ",
+              "Identification": "3001",
+              "Segment": [
+                "Reward"
+              ],
+              "PCAMarketingState": [
+                {
+                  "Identification": "HRA-R001",
+                  "PredecessorID": "HRA-R002",
+                  "MarketingState": "Regular",
+                  "FirstMarketedDate": "2017-11-02",
+                  "Overdraft": {
+                    "OverdraftTierBandSet": [
+                      {
+                        "TierBandMethod": "Whole",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "HRA-ODAR001",
+                        "AuthorisedIndicator": true,
+                        "BufferAmount": "0.00",
+                        "OverdraftTierBand": [
+                          {
+                            "Identification": "HRA-AT-001",
+                            "TierValueMin": "0.00",
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "ArrangedOverdraft",
+                                    "IncrementalBorrowingAmount": "7.00",
+                                    "FeeAmount": "0.01",
+                                    "ApplicationFrequency": "Daily",
+                                    "CalculationFrequency": "Daily",
+                                    "Notes": [
+                                      "One Daily Overdraft Fee\nYou’ll pay a daily overdraft fee of 1p for every £7 you borrow. When calculating the daily overdraft fee, we will only use every full £7 you have borrowed, so if you borrow less than £7 you won’t be charged. \n\nDaily Charging\nInstead of paying all fees in one go each month, any fees will be charged at the end of each day you use your overdraft – so you’ll pay for what you borrow on the day you borrow it. This will help you keep track of how much your overdraft costs you.\n\nIf you go over your limit\nSo all your payments are made, it’s important you manage your account within your planned overdraft limit. If you don’t have enough money in your account or you reach your limit, you may not be able to make any more payments. If a payment takes you over your limit or we stop it, you won’t be charged."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "Eligibility": {
+                    "OtherEligibility": [
+                      {
+                        "Name": "Previous Bankruptcy",
+                        "Type": "PreviousBankruptcyAllowed",
+                        "Indicator": false
+                      }
+                    ],
+                    "AgeEligibility": {
+                      "MinimumAge": 18,
+                      "Notes": [
+                        "To apply for a Halifax Reward Current Account you must be 18 or over and a UK resident."
+                      ]
+                    },
+                    "ResidencyEligibility": {
+                      "ResidencyIncluded": [
+                        "UK"
+                      ]
+                    },
+                    "CreditCheck": {
+                      "ScoringType": "Hard"
+                    },
+                    "IDVerificationCheck": {
+                      "URL": "http://www.halifax.co.uk/securityandprivacy/privacy/proving-your-identity/?srnum=2"
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitItem": [
+                      {
+                        "Identification": "HRA-BI-001",
+                        "Type": "Rewards",
+                        "Name": "Reward",
+                        "Textual": "£3 reward each month you pay in £750 or more, pay out at least 2 different direct debits and stay in credit. If in any month you miss out on the £3 reward, you can still get it in future months too (when you meet the qualifying requirements.",
+                        "FeatureBenefitEligibility": [
+                          {
+                            "Name": "Remain in credit",
+                            "Type": "MinimumOperatingBalance",
+                            "Amount": "0.00",
+                            "OtherType": {
+                              "Name": "Cashback Extras",
+                              "Description": "Cashback Extras"
+                            }
+                          },
+                          {
+                            "Name": "Pay in £750 or more",
+                            "Type": "MinimumDeposit",
+                            "Amount": "750.00"
+                          },
+                          {
+                            "Name": "Pay out at least 2 different direct debits",
+                            "Type": "DirectDebits",
+                            "Amount": "2"
+                          }
+                        ]
+                      },
+                      {
+                        "Identification": "HRA-BI-002",
+                        "Type": "AccountManagement",
+                        "Name": "Mobile Alerts",
+                        "Textual": "Our mobile alerts are a simple and convenient way to help you stay on top of your money - if we have your mobile number, we’ll send alerts to keep you up to date on your account balance."
+                      },
+                      {
+                        "Identification": "HRA-BI-003",
+                        "Type": "Cashback",
+                        "Name": "Cashback Extras",
+                        "Textual": "Get up to 15% cashback using Cashback Extras at the type of places you regularly shop. It’s available to UK personal current account customers over 18, who bank online. Retailer offers and cashback amounts may vary.  Register online and activate each offer you want to use.\nTo qualify for Cashback Extras you need to be over 18, have a Halifax Bank Account, a Halifax debit and/or credit card and be registered for Online Banking.",
+                        "FeatureBenefitEligibility": [
+                          {
+                            "Name": "Cashback Extras",
+                            "Type": "Other",
+                            "Textual": "To qualify for Cashback Extras you need to be over 18, have a Halifax Bank Account, a Halifax debit and/or credit card and be registered for Online Banking."
+                          }
+                        ]
+                      },
+                      {
+                        "Identification": "HRA-BI-004",
+                        "Type": "AccountManagement",
+                        "Name": "ATM Withdrawals",
+                        "Textual": "Withdraw up to £500 a day.  Withdraw money from any cash machine that shows the LINK or VISA sign."
+                      },
+                      {
+                        "Identification": "HRA-BI-005",
+                        "Type": "AccountManagement",
+                        "Name": "Joint Accounts",
+                        "Textual": "1) Two people using one account - A simple way to share spends and see them on one monthly statement\n2) Both account holders get a Visa debit card\n3) Both account holders can also separately set up and manage Online Banking"
+                      },
+                      {
+                        "Identification": "HRA-BI-006",
+                        "Type": "AccountManagement",
+                        "Name": "Online Banking",
+                        "Textual": "Online Banking\nEarn cashback - get cashback offers based on the places you usually shop or may like to try.\nPay friends and family - pay someone using just their phone number.\nGet text alerts - receive mobile text alerts to keep track of your finances.\nManage your accounts - easily view your statements, manage your payments and more.\nManage your details - review or amend your telephone numbers and e-mail address."
+                      }
+                    ],
+                    "Card": [
+                      {
+                        "Type": "DebitCard",
+                        "Scheme": "Visa",
+                        "ContactlessIndicator": true
+                      }
+                    ],
+                    "MobileWallet": [
+                      {
+                        "Type": "Other",
+                        "Notes": [
+                          "ApplePay and GooglePay: Card and account type restrictions include: Electron cards, Visa credit cards and additional credit card holders, non-personal accounts, Basic Bank Accounts and customers under 13 years."
+                        ],
+                        "OtherType": {
+                          "Name": "GooglePay",
+                          "Description": "AndroidPay rebranded as GooglePay"
+                        }
+                      },
+                      {
+                        "Type": "ApplePay",
+                        "Notes": [
+                          "ApplePay and GooglePay: Card and account type restrictions include: Electron cards, Visa credit cards and additional credit card holders, non-personal accounts, Basic Bank Accounts and customers under 13 years."
+                        ]
+                      },
+                      {
+                        "Type": "PayM",
+                        "Notes": [
+                          "Pay a Contact is the simple way to send or receive money with just a mobile number, instead of a sort code and account number.\nSo whether you’re splitting a restaurant bill, or want to be paid back for something you’re owed, Pay a Contact can make your life much easier.\nPay a Contact is part of Paym, a wider service which enables payments using a mobile number to be sent to other participating banks and building societies. Payments can be made through Online Banking and our Mobile Banking App.\n• Pay friends or family easily\n• Paying someone back for your lunch, dinner or a sandwich if you don’t have cash\n• Pay for a cinema or concert ticket without having to wait to receive account details"
+                        ]
+                      },
+                      {
+                        "Type": "MobileBankingApp",
+                        "Notes": [
+                          "Our Mobile Banking app for iOS and Android are quick and easy to install, fast, convenient and more secure than ever - the easy way to stay on top of your money. Bank where you want with the latest built-in security technology that keeps your details safe and private. More and more customers are choosing the flexibility, convenience and security of banking on their mobile."
+                        ]
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqStopped",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialChqPresentation",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsBankers",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOut",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayForeignCharge",
+                        "FeeAmount": "2.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Electronic payments received from outside the UK other than by SEPA credit transfer, up to a value of £100 (including £100)"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "0.00",
+                          "MaximumAmount": "100.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayForeignCharge",
+                        "FeeAmount": "7.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Electronic payments received from outside the UK other than by SEPA credit transfer, with a value of over £100"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "100.01"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayTransRateNonSterling",
+                        "FeeRate": "2.9900",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Non-sterling transaction fee: fee charged for the conversion of currency. This is a percentage value of your transaction. \nThe amount is converted to sterling on the day it is processed by Visa using the Visa Payment Scheme Exchange Rate"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMForeignCashDebCard",
+                        "FeeAmount": "1.50",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Non-sterling cash fee:  fee charged to withdraw cash in a currency other than sterling, or to withdraw cash in sterling outside the UK.  The amount is converted to sterling on the day it is processed by Visa using the Visa Payment Scheme exchange rate. "
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqForeign",
+                        "FeeAmount": "5.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Charge for Foreign Cheques paid in to the account with a sterling value of £100 or less, whether negotiating or collecting"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "0",
+                          "MaximumAmount": "100.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqForeign",
+                        "FeeRate": "0.2500",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Foreign Cheques paid in to the account with a sterling value of more than £100: our minimum charge will be £8 when we negotiate the cheque",
+                          "Foreign Cheques paid in to the account with a sterling value of more than £100: our maximum charge will be £80 when we negotiate the cheque"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "100.01"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeAmount": "0.50",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Non-sterling purchase fee: fee charged per transaction when you make a purchase (not a cash withdrawal or purchase of foreign currency or travellers cheques). Fee is applicable only to debit card transactions. The amount is converted to sterling on the day it is processed by Visa using the Visa Payment Scheme Exchange Rate"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopy1",
+                        "FeeAmount": "5.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOutBranch",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOutInterBank",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSInterBank",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayFXPaymentOut",
+                        "FeeAmount": "9.50",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ForeignChqSent",
+                        "FeeRate": "0.2500",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Foreign Cheques paid in to the account with a sterling value of more than £100: our minimum charge will be £15 when we collect the cheque",
+                          "Foreign Cheques paid in to the account with a sterling value of more than £100: our maximum charge will be £80 when we collect the cheque"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "100.01"
+                        }
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMAbroadConVisaDebit",
+                        "FeeAmount": "1.50",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Foreign cash fee : fee charged where you elect to allow the cash machine operator/financial service provider to make the conversion to sterling.  The provider of the foreign currency may make a separate charge for conversion."
+                        ]
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsIntlPayableAbroad",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "ServiceCOther",
+                        "FeeAmount": "12.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "The Correspondent Bank Fee will be payable for international payments when you select to pay all agent bank charges.  Zone 1 – USA, Canada, and Europe (non EEA).  Zone 2 – Rest of the world, excluding EEA."
+                        ],
+                        "OtherFeeType": {
+                          "FeeCategory": "International",
+                          "Name": "Correspondent Bank Fee Zone 1",
+                          "Description": "Zone 1 – USA, Canada, and Europe (non EEA)"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "ServiceCOther",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "The Correspondent Bank Fee will be payable for international payments when you select to pay all agent bank charges.  Zone 1 – USA, Canada, and Europe (non EEA).  Zone 2 – Rest of the world, excluding EEA."
+                        ],
+                        "OtherFeeType": {
+                          "FeeCategory": "International",
+                          "Name": "Correspondent Bank Fee Zone 2",
+                          "Description": "Zone 2 – Rest of the world, excluding EEA."
+                        }
+                      }
+                    ],
+                    "FeeChargeCap": [
+                      {
+                        "FeeType": [
+                          "ChqForeign"
+                        ],
+                        "FeeCapAmount": "8.00",
+                        "Notes": [
+                          "For Foreign Cheque values over £100: our minimum charge for each cheque paid in will be  £8 when we negotiate the cheque."
+                        ],
+                        "FeeMinMaxType": "Minimum"
+                      },
+                      {
+                        "FeeType": [
+                          "ChqForeign"
+                        ],
+                        "FeeCapAmount": "80.00",
+                        "Notes": [
+                          "For Foreign Cheque values over £100: our maximum charge for each cheque paid in will be  £80 when we negotiate the cheque."
+                        ],
+                        "FeeMinMaxType": "Maximum"
+                      },
+                      {
+                        "FeeType": [
+                          "ForeignChqSent"
+                        ],
+                        "FeeCapAmount": "15.00",
+                        "Notes": [
+                          "For Foreign Cheque values over £100: our minimum charge for each cheque paid in will be  £15 when we collect the cheque."
+                        ],
+                        "FeeMinMaxType": "Minimum"
+                      },
+                      {
+                        "FeeType": [
+                          "ForeignChqSent"
+                        ],
+                        "FeeCapAmount": "80.00",
+                        "Notes": [
+                          "For Foreign Cheque values over £100: our maximum charge for each cheque paid in will be  £80 when we collect the cheque."
+                        ],
+                        "FeeMinMaxType": "Maximum"
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductURL": "https://www.halifax.co.uk/bankaccounts/current-accounts/reward-current-account/",
+                    "TcsAndCsURL": "https://static.halifax.co.uk/assets/pdf/bankaccounts/pdf/bank-account-guide.pdf",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "CallCentre",
+                      "Online"
+                    ],
+                    "ServicingAccessChannels": [
+                      "ATM",
+                      "Branch",
+                      "CallCentre",
+                      "Post",
+                      "MobileBankingApp",
+                      "Online",
+                      "PostOffice",
+                      "Text"
+                    ],
+                    "MonthlyMaximumCharge": "0.00",
+                    "ProductDescription": "A simple current account that rewards you each month."
+                  }
+                },
+                {
+                  "Identification": "HRA-R002",
+                  "MarketingState": "Promotional",
+                  "FirstMarketedDate": "2017-11-02",
+                  "StateTenureLength": 6,
+                  "StateTenurePeriod": "Month",
+                  "Notes": [
+                    "Cashback and Fee free Planned Overdraft for 6 months"
+                  ],
+                  "Overdraft": {
+                    "OverdraftTierBandSet": [
+                      {
+                        "TierBandMethod": "Whole",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "HRA-ODAR001",
+                        "AuthorisedIndicator": true,
+                        "BufferAmount": "0.00",
+                        "OverdraftTierBand": [
+                          {
+                            "Identification": "HRA-AT-001",
+                            "TierValueMin": "0.00",
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "ArrangedOverdraft",
+                                    "FeeAmount": "0.00",
+                                    "ApplicationFrequency": "Daily",
+                                    "CalculationFrequency": "Daily",
+                                    "Notes": [
+                                      "If you’re opening an account and you switch your main current account to Halifax, we’ll give you an overdraft with no daily overdraft fees, subject to status, for the first six months. After this time, daily overdraft fees will apply based on the account you’ve chosen."
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "Eligibility": {
+                    "OtherEligibility": [
+                      {
+                        "Name": "Previous Bankruptcy",
+                        "Type": "PreviousBankruptcyAllowed",
+                        "Indicator": false
+                      }
+                    ],
+                    "AgeEligibility": {
+                      "MinimumAge": 18,
+                      "Notes": [
+                        "To apply for a Halifax Reward Current Account you must be 18 or over and a UK resident."
+                      ]
+                    },
+                    "ResidencyEligibility": {
+                      "ResidencyIncluded": [
+                        "UK"
+                      ]
+                    },
+                    "CreditCheck": {
+                      "ScoringType": "Hard"
+                    },
+                    "IDVerificationCheck": {
+                      "URL": "http://www.halifax.co.uk/securityandprivacy/privacy/proving-your-identity/?srnum=2"
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitItem": [
+                      {
+                        "Identification": "HRA-BI-001",
+                        "Type": "Rewards",
+                        "Name": "Reward",
+                        "Textual": "£3 reward each month you pay in £750 or more, pay out at least 2 different direct debits and stay in credit. If in any month you miss out on the £3 reward, you can still get it in future months too (when you meet the qualifying requirements.",
+                        "FeatureBenefitEligibility": [
+                          {
+                            "Name": "Remain in credit",
+                            "Type": "MinimumOperatingBalance",
+                            "Amount": "0.00",
+                            "OtherType": {
+                              "Name": "Cashback Extras",
+                              "Description": "Cashback Extras"
+                            }
+                          },
+                          {
+                            "Name": "Pay in £750 or more",
+                            "Type": "MinimumDeposit",
+                            "Amount": "750.00"
+                          },
+                          {
+                            "Name": "Pay out at least 2 different direct debits",
+                            "Type": "DirectDebits",
+                            "Amount": "2"
+                          }
+                        ]
+                      },
+                      {
+                        "Identification": "HRA-BI-002",
+                        "Type": "AccountOpeningOrSwitching Incentive",
+                        "Name": "Switching Incentive",
+                        "Textual": "£75, paid before your switch completes. Just use the Current Account Switch Service to transfer and close your old account held elsewhere. If you’ve received cashback for switching to us since January 2012 we’re sorry but you won’t get it again. This offer starts on 20th March 2018.\n"
+                      },
+                      {
+                        "Identification": "HRA-BI-003",
+                        "Type": "AccountManagement",
+                        "Name": "Mobile Alerts",
+                        "Textual": "Our mobile alerts are a simple and convenient way to help you stay on top of your money - if we have your mobile number, we’ll send alerts to keep you up to date on your account balance."
+                      },
+                      {
+                        "Identification": "HRA-BI-004",
+                        "Type": "Cashback",
+                        "Name": "Cashback Extras",
+                        "Textual": "Get up to 15% cashback using Cashback Extras at the type of places you regularly shop. It’s available to UK personal current account customers over 18, who bank online. Retailer offers and cashback amounts may vary.  Register online and activate each offer you want to use.\nTo qualify for Cashback Extras you need to be over 18, have a Halifax Bank Account, a Halifax debit and/or credit card and be registered for Online Banking.",
+                        "FeatureBenefitEligibility": [
+                          {
+                            "Name": "Cashback Extras",
+                            "Type": "Other",
+                            "Textual": "To qualify for Cashback Extras you need to be over 18, have a Halifax Bank Account, a Halifax debit and/or credit card and be registered for Online Banking."
+                          }
+                        ]
+                      },
+                      {
+                        "Identification": "HRA-BI-005",
+                        "Type": "AccountManagement",
+                        "Name": "ATM Withdrawals",
+                        "Textual": "Withdraw up to £500 a day.  Withdraw money from any cash machine that shows the LINK or VISA sign."
+                      },
+                      {
+                        "Identification": "HRA-BI-006",
+                        "Type": "AccountManagement",
+                        "Name": "Joint Accounts",
+                        "Textual": "1) Two people using one account - A simple way to share spends and see them on one monthly statement\n2) Both account holders get a Visa debit card\n3) Both account holders can also separately set up and manage Online Banking"
+                      },
+                      {
+                        "Identification": "HRA-BI-007",
+                        "Type": "AccountManagement",
+                        "Name": "Online Banking",
+                        "Textual": "Online Banking\nEarn cashback - get cashback offers based on the places you usually shop or may like to try.\nPay friends and family - pay someone using just their phone number.\nGet text alerts - receive mobile text alerts to keep track of your finances.\nManage your accounts - easily view your statements, manage your payments and more.\nManage your details - review or amend your telephone numbers and e-mail address."
+                      },
+                      {
+                        "Identification": "HRA-BI-008",
+                        "Type": "AccountOpeningOrSwitching Incentive",
+                        "Name": "Six month fee free overdraft",
+                        "Textual": "If you’re opening an account and you switch your main current account to Halifax, we’ll give you an overdraft with no daily overdraft fees, subject to status, for the first six months. After this time, daily overdraft fees will apply based on the account you’ve chosen."
+                      }
+                    ],
+                    "Card": [
+                      {
+                        "Type": "DebitCard",
+                        "Scheme": "Visa",
+                        "ContactlessIndicator": true
+                      }
+                    ],
+                    "MobileWallet": [
+                      {
+                        "Type": "Other",
+                        "Notes": [
+                          "ApplePay and GooglePay: Card and account type restrictions include: Electron cards, Visa credit cards and additional credit card holders, non-personal accounts, Basic Bank Accounts and customers under 13 years."
+                        ],
+                        "OtherType": {
+                          "Name": "GooglePay",
+                          "Description": "AndroidPay rebranded as GooglePay"
+                        }
+                      },
+                      {
+                        "Type": "ApplePay",
+                        "Notes": [
+                          "ApplePay and GooglePay: Card and account type restrictions include: Electron cards, Visa credit cards and additional credit card holders, non-personal accounts, Basic Bank Accounts and customers under 13 years."
+                        ]
+                      },
+                      {
+                        "Type": "PayM",
+                        "Notes": [
+                          "Pay a Contact is the simple way to send or receive money with just a mobile number, instead of a sort code and account number.\nSo whether you’re splitting a restaurant bill, or want to be paid back for something you’re owed, Pay a Contact can make your life much easier.\nPay a Contact is part of Paym, a wider service which enables payments using a mobile number to be sent to other participating banks and building societies. Payments can be made through Online Banking and our Mobile Banking App.\n• Pay friends or family easily\n• Paying someone back for your lunch, dinner or a sandwich if you don’t have cash\n• Pay for a cinema or concert ticket without having to wait to receive account details"
+                        ]
+                      },
+                      {
+                        "Type": "MobileBankingApp",
+                        "Notes": [
+                          "Our Mobile Banking app for iOS and Android are quick and easy to install, fast, convenient and more secure than ever - the easy way to stay on top of your money. Bank where you want with the latest built-in security technology that keeps your details safe and private. More and more customers are choosing the flexibility, convenience and security of banking on their mobile."
+                        ]
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqStopped",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialChqPresentation",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsBankers",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOut",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayForeignCharge",
+                        "FeeAmount": "2.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Electronic payments received from outside the UK other than by SEPA credit transfer, up to a value of £100 (including £100)"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "0.00",
+                          "MaximumAmount": "100.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayForeignCharge",
+                        "FeeAmount": "7.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Electronic payments received from outside the UK other than by SEPA credit transfer, with a value of over £100"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "100.01"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayTransRateNonSterling",
+                        "FeeRate": "2.9900",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Non-sterling transaction fee: fee charged for the conversion of currency. This is a percentage value of your transaction. \nThe amount is converted to sterling on the day it is processed by Visa using the Visa Payment Scheme Exchange Rate"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMForeignCashDebCard",
+                        "FeeAmount": "1.50",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Non-sterling cash fee:  fee charged to withdraw cash in a currency other than sterling, or to withdraw cash in sterling outside the UK.  The amount is converted to sterling on the day it is processed by Visa using the Visa Payment Scheme exchange rate. "
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqForeign",
+                        "FeeAmount": "5.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Charge for Foreign Cheques paid in to the account with a sterling value of £100 or less, whether negotiating or collecting"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "0",
+                          "MaximumAmount": "100.00"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqForeign",
+                        "FeeRate": "0.2500",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Foreign Cheques paid in to the account with a sterling value of more than £100: our minimum charge will be £8 when we negotiate the cheque",
+                          "Foreign Cheques paid in to the account with a sterling value of more than £100: our maximum charge will be £80 when we negotiate the cheque"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "100.01"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeAmount": "0.50",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Non-sterling purchase fee: fee charged per transaction when you make a purchase (not a cash withdrawal or purchase of foreign currency or travellers cheques). Fee is applicable only to debit card transactions. The amount is converted to sterling on the day it is processed by Visa using the Visa Payment Scheme Exchange Rate"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopy1",
+                        "FeeAmount": "5.00",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOutBranch",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOutInterBank",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSInterBank",
+                        "FeeAmount": "25.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "IntlPayFXPaymentOut",
+                        "FeeAmount": "9.50",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ForeignChqSent",
+                        "FeeRate": "0.2500",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Foreign Cheques paid in to the account with a sterling value of more than £100: our minimum charge will be £15 when we collect the cheque",
+                          "Foreign Cheques paid in to the account with a sterling value of more than £100: our maximum charge will be £80 when we collect the cheque"
+                        ],
+                        "FeeApplicableRange": {
+                          "MinimumAmount": "100.01"
+                        }
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMAbroadConVisaDebit",
+                        "FeeAmount": "1.50",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "Foreign cash fee : fee charged where you elect to allow the cash machine operator/financial service provider to make the conversion to sterling.  The provider of the foreign currency may make a separate charge for conversion."
+                        ]
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsIntlPayableAbroad",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "ServiceCOther",
+                        "FeeAmount": "12.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "The Correspondent Bank Fee will be payable for international payments when you select to pay all agent bank charges.  Zone 1 – USA, Canada, and Europe (non EEA).  Zone 2 – Rest of the world, excluding EEA."
+                        ],
+                        "OtherFeeType": {
+                          "FeeCategory": "International",
+                          "Name": "Correspondent Bank Fee Zone 1",
+                          "Description": "Zone 1 – USA, Canada, and Europe (non EEA)"
+                        }
+                      },
+                      {
+                        "FeeCategory": "International",
+                        "FeeType": "ServiceCOther",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "The Correspondent Bank Fee will be payable for international payments when you select to pay all agent bank charges.  Zone 1 – USA, Canada, and Europe (non EEA).  Zone 2 – Rest of the world, excluding EEA."
+                        ],
+                        "OtherFeeType": {
+                          "FeeCategory": "International",
+                          "Name": "Correspondent Bank Fee Zone 2",
+                          "Description": "Zone 2 – Rest of the world, excluding EEA."
+                        }
+                      }
+                    ],
+                    "FeeChargeCap": [
+                      {
+                        "FeeType": [
+                          "ChqForeign"
+                        ],
+                        "FeeCapAmount": "8.00",
+                        "Notes": [
+                          "For Foreign Cheque values over £100: our minimum charge for each cheque paid in will be  £8 when we negotiate the cheque."
+                        ],
+                        "FeeMinMaxType": "Minimum"
+                      },
+                      {
+                        "FeeType": [
+                          "ChqForeign"
+                        ],
+                        "FeeCapAmount": "80.00",
+                        "Notes": [
+                          "For Foreign Cheque values over £100: our maximum charge for each cheque paid in will be  £80 when we negotiate the cheque."
+                        ],
+                        "FeeMinMaxType": "Maximum"
+                      },
+                      {
+                        "FeeType": [
+                          "ForeignChqSent"
+                        ],
+                        "FeeCapAmount": "15.00",
+                        "Notes": [
+                          "For Foreign Cheque values over £100: our minimum charge for each cheque paid in will be  £15 when we collect the cheque."
+                        ],
+                        "FeeMinMaxType": "Minimum"
+                      },
+                      {
+                        "FeeType": [
+                          "ForeignChqSent"
+                        ],
+                        "FeeCapAmount": "80.00",
+                        "Notes": [
+                          "For Foreign Cheque values over £100: our maximum charge for each cheque paid in will be  £80 when we collect the cheque."
+                        ],
+                        "FeeMinMaxType": "Maximum"
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductURL": "https://www.halifax.co.uk/bankaccounts/current-accounts/reward-current-account/",
+                    "TcsAndCsURL": "https://static.halifax.co.uk/assets/pdf/bankaccounts/pdf/bank-account-guide.pdf",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "CallCentre",
+                      "Online"
+                    ],
+                    "ServicingAccessChannels": [
+                      "ATM",
+                      "Branch",
+                      "CallCentre",
+                      "Post",
+                      "MobileBankingApp",
+                      "Online",
+                      "PostOffice",
+                      "Text"
+                    ],
+                    "MonthlyMaximumCharge": "0.00",
+                    "ProductDescription": "A simple current account that rewards you each month."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

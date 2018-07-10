@@ -1,0 +1,691 @@
+{
+  "meta": {
+    "LastUpdated": "2018-06-14T16:32:56.566Z",
+    "TotalResults": 2,
+    "Agreement": "Use of the APIs and any related data will be subject to the terms of the Open Licence and subject to terms and conditions",
+    "License": "https://www.openbanking.org.uk/open-licence",
+    "TermsOfUse": "https://www.openbanking.org.uk/terms"
+  },
+  "data": [
+    {
+      "Brand": [
+        {
+          "BrandName": "Lloyds Bank",
+          "CCC": [
+            {
+              "Name": "Business Credit Card",
+              "Identification": "LSMECD-0001",
+              "Segment": [
+                "General"
+              ],
+              "CCCMarketingState": [
+                {
+                  "Identification": "LSMECD-0001",
+                  "MarketingState": "Regular",
+                  "Repayment": {
+                    "MinBalanceRepaymentRate": "1.0000",
+                    "MinBalanceRepaymentAmount": "5.00",
+                    "Notes": [
+                      "You must make at least the minimum payment by the payment due date if there is a balance payable to us on your statement. You can always pay more than the minimum payment at any time, including repaying everything you owe.\n\nWe use your payments to clear any overdue amounts before we apply them to your latest minimum payment.\n\nWe will reduce the amount you owe in the following order:\n\nAny overdue amounts from previous statements then:\nThe remaining balance on your statement then:\nAny recent transactions not yet shown on your statement\n\nWe use your payments to pay off balances charged at the\nhighest interest rate first and so on down to balances with the\nlowest interest rates. This means the more expensive balances\nare always paid off first.\n\n"
+                    ],
+                    "NonRepaymentFeeCharges": [
+                      {
+                        "NonRepaymentFeeChargeDetail": [
+                          {
+                            "FeeType": "LatePayment",
+                            "NegotiableIndicator": false,
+                            "FeeAmount": "12.00",
+                            "FeeRateType": "Gross",
+                            "ApplicationFrequency": "Monthly",
+                            "CalculationFrequency": "Other",
+                            "Notes": [
+                              "Late Payment Fee"
+                            ],
+                            "OtherCalculationFrequency": {
+                              "Name": "Per occurrence",
+                              "Description": "Per occurrence"
+                            }
+                          },
+                          {
+                            "FeeType": "ReturnPayment",
+                            "NegotiableIndicator": false,
+                            "FeeAmount": "12.00",
+                            "FeeRateType": "Gross",
+                            "ApplicationFrequency": "Monthly",
+                            "CalculationFrequency": "Other",
+                            "Notes": [
+                              "Returned Payment Fee"
+                            ],
+                            "OtherCalculationFrequency": {
+                              "Name": "Per occurrence",
+                              "Description": "Per occurrence"
+                            }
+                          },
+                          {
+                            "FeeType": "OverCreditLimit",
+                            "NegotiableIndicator": false,
+                            "FeeAmount": "12.00",
+                            "FeeRateType": "Gross",
+                            "ApplicationFrequency": "Monthly",
+                            "CalculationFrequency": "Other",
+                            "Notes": [
+                              "Business Limit Exceeded Fee"
+                            ],
+                            "OtherCalculationFrequency": {
+                              "Name": "Per occurrence",
+                              "Description": "Per occurrence"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "RepaymentAllocation": {
+                      "Notes": [
+                        "You will not pay interest on new purchases if you pay your balance in full and on time. Otherwise, the period over which interest is charged is as follows:\n\nPurchases: from date transaction is added to the cardholder account until paid in full.\nCash withdrawals: from date transaction is added to the cardholder account until paid in full.\n\nIf you repay your balance in full, you will pay interest on cash withdrawals on consecutive statements. The first statement will cover the period from the date the cash withdrawal is added to the cardholder account to the statement date and the following will show interest payable between the previous statement date and the date of your repayment."
+                      ]
+                    }
+                  },
+                  "Eligibility": {
+                    "OtherEligibility": [
+                      {
+                        "Name": "Business current account",
+                        "Description": "To apply for a Business Credit Card, you should hold a business current account with Lloyds bank",
+                        "Type": "Other"
+                      }
+                    ],
+                    "AgeEligibility": {
+                      "MinimumAge": 18
+                    },
+                    "ResidencyEligibility": [
+                      {
+                        "ResidencyType": "Trading",
+                        "ResidencyIncluded": [
+                          "Uk"
+                        ],
+                        "Notes": [
+                          "You must be a UK resident"
+                        ]
+                      }
+                    ],
+                    "TradingHistoryEligibility": [
+                      {
+                        "TradingType": "Turnover",
+                        "MinMaxType": "Minimum",
+                        "Amount": "3000000.00",
+                        "Indicator": true,
+                        "Textual": "The minimum annual turnover required to be eligible for this product"
+                      },
+                      {
+                        "TradingType": "Turnover",
+                        "MinMaxType": "Maximum",
+                        "Amount": "25000000.00",
+                        "Indicator": true,
+                        "Textual": "The minimum annual turnover required to be eligible for this product"
+                      }
+                    ],
+                    "OfficerEligibility": [
+                      {
+                        "OfficerType": "Other",
+                        "MaxAmount": 1,
+                        "MinAmount": 1,
+                        "Notes": [
+                          "Sole trader"
+                        ]
+                      },
+                      {
+                        "OfficerType": "Director",
+                        "MinAmount": 1
+                      },
+                      {
+                        "OfficerType": "Partner",
+                        "MinAmount": 2
+                      }
+                    ],
+                    "IDEligibility": {
+                      "URL": "https://www.lloydsbank.com/legal/proof-of-identity.asp"
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitItem": [
+                      {
+                        "Identification": "1",
+                        "Type": "Other",
+                        "Name": "Interest Free Period",
+                        "Indicator": true,
+                        "Textual": "Get up to 45 days interest free credit if balances are paid in full and on time on previous and latest statements",
+                        "OtherType": {
+                          "Name": "Interest Free Period",
+                          "Description": "Interest free period"
+                        }
+                      },
+                      {
+                        "Identification": "2",
+                        "Type": "Other",
+                        "Name": "Worldwide Acceptability",
+                        "Indicator": true,
+                        "Textual": "Use the card in millions of outlets worldwide wherever the Mastercard sign is displayed.",
+                        "OtherType": {
+                          "Name": "Worldwide Acceptability",
+                          "Description": "Use the card in millions of outlets worldwide wherever the Mastercard sign is displayed."
+                        }
+                      },
+                      {
+                        "Identification": "3",
+                        "Type": "Other",
+                        "Name": "Flexibility",
+                        "Indicator": true,
+                        "Textual": "Flexible repayment options and detailed monthly statements",
+                        "OtherType": {
+                          "Name": "Flexibility",
+                          "Description": "Flexible repayment options and detailed monthly statements"
+                        }
+                      },
+                      {
+                        "Identification": "4",
+                        "Type": "Other",
+                        "Name": "Cash Withdrawal",
+                        "Indicator": true,
+                        "Textual": "Withdraw up to £500 per cardholder per day within the limit",
+                        "OtherType": {
+                          "Name": "Cash Withdrawal",
+                          "Description": "Withdraw up to £500 per cardholder per day within the limit"
+                        }
+                      },
+                      {
+                        "Identification": "5",
+                        "Type": "Other",
+                        "Name": "Staff Member Benefits",
+                        "Indicator": true,
+                        "Textual": "Provide staff members aged over 18 with an easy way to manage daily business expenses, within certain limits",
+                        "OtherType": {
+                          "Name": "Staff Member Benefits",
+                          "Description": "Provide staff members aged over 18 with an easy way to manage daily business expenses, within certain limits"
+                        }
+                      },
+                      {
+                        "Identification": "6",
+                        "Type": "Other",
+                        "Name": "Multiple credit cards",
+                        "Indicator": true,
+                        "Textual": "You decide how many cards are issued (up to 20) and set individual spending limits for each cardholder. Annual charge of £32 per card issued",
+                        "OtherType": {
+                          "Name": "Multiple credit cards",
+                          "Description": "You decide how many cards are issued (up to 20) and set individual spending limits for each cardholder. Annual charge of £32 per card issued"
+                        }
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "Servicing",
+                        "FeeType": "CashWithdrawal",
+                        "NegotiableIndicator": false,
+                        "IncludedInPeriodicFeeIndicator": false,
+                        "FeeRate": "2.5",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "Monthly",
+                        "CalculationFrequency": "Other",
+                        "Notes": [
+                          "Handling fee. Minimum of £2.50"
+                        ],
+                        "OtherCalculationFrequency": {
+                          "Name": "Per transaction",
+                          "Description": "Per transaction"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Other",
+                        "FeeType": "Other",
+                        "NegotiableIndicator": false,
+                        "IncludedInPeriodicFeeIndicator": false,
+                        "FeeAmount": "6.00",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "Monthly",
+                        "CalculationFrequency": "Other",
+                        "OtherFeeType": {
+                          "FeeCategory": "Servicing",
+                          "Name": "Copy of Statements",
+                          "Description": "For a copy of a non-current statement"
+                        },
+                        "OtherCalculationFrequency": {
+                          "Name": "Per copy",
+                          "Description": "Per copy"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Other",
+                        "FeeType": "Other",
+                        "NegotiableIndicator": false,
+                        "IncludedInPeriodicFeeIndicator": false,
+                        "FeeAmount": "5.00",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "Monthly",
+                        "CalculationFrequency": "Other",
+                        "OtherFeeType": {
+                          "FeeCategory": "Servicing",
+                          "Name": "Copy of Transaction Receipts",
+                          "Description": "There will be no charge if your query reveals an error has been made by us"
+                        },
+                        "OtherCalculationFrequency": {
+                          "Name": "Per item",
+                          "Description": "Per item"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Other",
+                        "FeeType": "Other",
+                        "NegotiableIndicator": false,
+                        "IncludedInPeriodicFeeIndicator": false,
+                        "FeeRate": "2.95",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "Monthly",
+                        "CalculationFrequency": "Other",
+                        "OtherFeeType": {
+                          "FeeCategory": "Servicing",
+                          "Name": "Non-Sterling Transaction Fee",
+                          "Description": "2.95% of the amount of the Sterling transaction value"
+                        },
+                        "OtherCalculationFrequency": {
+                          "Name": "Per transaction",
+                          "Description": "Per transaction"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Servicing",
+                        "FeeType": "Purchase",
+                        "NegotiableIndicator": false,
+                        "IncludedInPeriodicFeeIndicator": false,
+                        "FeeRate": "1.358",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "Monthly",
+                        "CalculationFrequency": "Monthly",
+                        "Notes": [
+                          "Interest rate on purchases. 16.3% annual rate"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Servicing",
+                        "FeeType": "CashWithdrawal",
+                        "NegotiableIndicator": false,
+                        "IncludedInPeriodicFeeIndicator": false,
+                        "FeeRate": "1.358",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "Monthly",
+                        "CalculationFrequency": "Monthly",
+                        "Notes": [
+                          "Interest rate on cash withdrawals. 16.3% annual rate"
+                        ]
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductURL": "https://www.lloydsbank.com/business/commercial-banking/cards/business-credit-card.asp",
+                    "ProductDescription": "Our Business Credit Card allows you to manage your business’s cashflow simply, by providing staff members aged over 18 with an easy way to manage daily business expenses, within certain limits. You could benefit from reduced bank charges too.",
+                    "TcsAndCsURL": "http://www.lloydsbank.com/business/commercial-banking/cards/business-credit-card.asp#collapse2-1484817696419",
+                    "MaxDailyCardWithdrawalLimit": "500",
+                    "MinCreditLimit": "1000",
+                    "MaxCreditLimit": "10000",
+                    "MaxPurchaseInterestFreeLengthDays": 45,
+                    "SalesAccessChannels": [
+                      "Online",
+                      "Branch",
+                      "RelationshipManager"
+                    ],
+                    "ServicingAccessChannels": [
+                      "Branch",
+                      "MobileBankingApp",
+                      "Online",
+                      "RelationshipManager",
+                      "ATM",
+                      "CallCentre"
+                    ],
+                    "CardScheme": [
+                      "Mastercard"
+                    ],
+                    "ContactlessIndicator": true,
+                    "PeriodicFee": "32.00",
+                    "PeriodicFeePeriod": "Year",
+                    "APR": "22.4"
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "Business Credit Card",
+              "Identification": "LRBBCD-0001",
+              "Segment": [
+                "General"
+              ],
+              "CCCMarketingState": [
+                {
+                  "Identification": "LSMECD-0001",
+                  "MarketingState": "Regular",
+                  "Repayment": {
+                    "MinBalanceRepaymentRate": "1.0000",
+                    "MinBalanceRepaymentAmount": "5.00",
+                    "Notes": [
+                      "You must make at least the minimum payment by the payment due date if there is a balance payable to us on your statement. You can always pay more than the minimum payment at any time, including repaying everything you owe.\n\nWe use your payments to clear any overdue amounts before we apply them to your latest minimum payment.\n\nWe will reduce the amount you owe in the following order:\n\nAny overdue amounts from previous statements then:\nThe remaining balance on your statement then:\nAny recent transactions not yet shown on your statement\n\nWe use your payments to pay off balances charged at the\nhighest interest rate first and so on down to balances with the\nlowest interest rates. This means the more expensive balances\nare always paid off first.\n\n"
+                    ],
+                    "NonRepaymentFeeCharges": [
+                      {
+                        "NonRepaymentFeeChargeDetail": [
+                          {
+                            "FeeType": "LatePayment",
+                            "NegotiableIndicator": false,
+                            "FeeAmount": "12.00",
+                            "FeeRateType": "Gross",
+                            "ApplicationFrequency": "Monthly",
+                            "CalculationFrequency": "Other",
+                            "Notes": [
+                              "Late Payment Fee"
+                            ],
+                            "OtherCalculationFrequency": {
+                              "Name": "Per occurrence",
+                              "Description": "Per occurrence"
+                            }
+                          },
+                          {
+                            "FeeType": "ReturnPayment",
+                            "NegotiableIndicator": false,
+                            "FeeAmount": "12.00",
+                            "FeeRateType": "Gross",
+                            "ApplicationFrequency": "Monthly",
+                            "CalculationFrequency": "Other",
+                            "Notes": [
+                              "Returned Payment Fee"
+                            ],
+                            "OtherCalculationFrequency": {
+                              "Name": "Per occurrence",
+                              "Description": "Per occurrence"
+                            }
+                          },
+                          {
+                            "FeeType": "OverCreditLimit",
+                            "NegotiableIndicator": false,
+                            "FeeAmount": "12.00",
+                            "FeeRateType": "Gross",
+                            "ApplicationFrequency": "Monthly",
+                            "CalculationFrequency": "Other",
+                            "Notes": [
+                              "Business Limit Exceeded Fee"
+                            ],
+                            "OtherCalculationFrequency": {
+                              "Name": "Per occurrence",
+                              "Description": "Per occurrence"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "RepaymentAllocation": {
+                      "Notes": [
+                        "You will not pay interest on new purchases if you pay your balance in full and on time. Otherwise, the period over which interest is charged is as follows:\n\nPurchases: from date transaction is added to the cardholder account until paid in full.\nCash withdrawals: from date transaction is added to the cardholder account until paid in full.\n\nIf you repay your balance in full, you will pay interest on cash withdrawals on consecutive statements. The first statement will cover the period from the date the cash withdrawal is added to the cardholder account to the statement date and the following will show interest payable between the previous statement date and the date of your repayment."
+                      ]
+                    }
+                  },
+                  "Eligibility": {
+                    "OtherEligibility": [
+                      {
+                        "Name": "Business current account",
+                        "Description": "To apply for a Business Credit Card, you should hold a business current account with Lloyds bank",
+                        "Type": "Other"
+                      }
+                    ],
+                    "AgeEligibility": {
+                      "MinimumAge": 18
+                    },
+                    "ResidencyEligibility": [
+                      {
+                        "ResidencyType": "Trading",
+                        "ResidencyIncluded": [
+                          "Uk"
+                        ],
+                        "Notes": [
+                          "You must be a UK resident"
+                        ]
+                      }
+                    ],
+                    "TradingHistoryEligibility": [
+                      {
+                        "TradingType": "Turnover",
+                        "MinMaxType": "Maximum",
+                        "Amount": "3000000.00",
+                        "Indicator": true,
+                        "Textual": "The maximum annual turnover required to be eligible for this product"
+                      }
+                    ],
+                    "OfficerEligibility": [
+                      {
+                        "OfficerType": "Other",
+                        "MaxAmount": 1,
+                        "MinAmount": 1,
+                        "Notes": [
+                          "Sole trader"
+                        ]
+                      },
+                      {
+                        "OfficerType": "Director",
+                        "MinAmount": 1
+                      },
+                      {
+                        "OfficerType": "Partner",
+                        "MinAmount": 2
+                      }
+                    ],
+                    "IDEligibility": {
+                      "URL": "https://www.lloydsbank.com/legal/proof-of-identity.asp"
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitItem": [
+                      {
+                        "Identification": "1",
+                        "Type": "Other",
+                        "Name": "Interest Free Period",
+                        "Indicator": true,
+                        "Textual": "Get up to 45 days interest free credit if balances are paid in full and on time on previous and latest statements",
+                        "OtherType": {
+                          "Name": "Interest Free Period",
+                          "Description": "Interest free period"
+                        }
+                      },
+                      {
+                        "Identification": "2",
+                        "Type": "Other",
+                        "Name": "Worldwide Acceptability",
+                        "Indicator": true,
+                        "Textual": "Use the card in millions of outlets worldwide wherever the Mastercard sign is displayed.",
+                        "OtherType": {
+                          "Name": "Worldwide Acceptability",
+                          "Description": "Use the card in millions of outlets worldwide wherever the Mastercard sign is displayed."
+                        }
+                      },
+                      {
+                        "Identification": "3",
+                        "Type": "Other",
+                        "Name": "Flexibility",
+                        "Indicator": true,
+                        "Textual": "Flexible repayment options and detailed monthly statements",
+                        "OtherType": {
+                          "Name": "Flexibility",
+                          "Description": "Flexible repayment options and detailed monthly statements"
+                        }
+                      },
+                      {
+                        "Identification": "4",
+                        "Type": "Other",
+                        "Name": "Cash Withdrawal",
+                        "Indicator": true,
+                        "Textual": "Withdraw up to £500 per cardholder per day within the limit",
+                        "OtherType": {
+                          "Name": "Cash Withdrawal",
+                          "Description": "Withdraw up to £500 per cardholder per day within the limit"
+                        }
+                      },
+                      {
+                        "Identification": "5",
+                        "Type": "Other",
+                        "Name": "Staff Member Benefits",
+                        "Indicator": true,
+                        "Textual": "Provide staff members aged over 18 with an easy way to manage daily business expenses, within certain limits",
+                        "OtherType": {
+                          "Name": "Staff Member Benefits",
+                          "Description": "Provide staff members aged over 18 with an easy way to manage daily business expenses, within certain limits"
+                        }
+                      },
+                      {
+                        "Identification": "6",
+                        "Type": "Other",
+                        "Name": "Multiple credit cards",
+                        "Indicator": true,
+                        "Textual": "You decide how many cards are issued (up to 20) and set individual spending limits for each cardholder. Annual charge of £32 per card issued",
+                        "OtherType": {
+                          "Name": "Multiple credit cards",
+                          "Description": "You decide how many cards are issued (up to 20) and set individual spending limits for each cardholder. Annual charge of £32 per card issued"
+                        }
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "Servicing",
+                        "FeeType": "CashWithdrawal",
+                        "NegotiableIndicator": false,
+                        "IncludedInPeriodicFeeIndicator": false,
+                        "FeeRate": "2.5",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "Monthly",
+                        "CalculationFrequency": "Other",
+                        "Notes": [
+                          "Handling fee. Minimum of £2.50"
+                        ],
+                        "OtherCalculationFrequency": {
+                          "Name": "Per transaction",
+                          "Description": "Per transaction"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Other",
+                        "FeeType": "Other",
+                        "NegotiableIndicator": false,
+                        "IncludedInPeriodicFeeIndicator": false,
+                        "FeeAmount": "6.00",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "Monthly",
+                        "CalculationFrequency": "Other",
+                        "OtherFeeType": {
+                          "FeeCategory": "Servicing",
+                          "Name": "Copy of Statements",
+                          "Description": "For a copy of a non-current statement"
+                        },
+                        "OtherCalculationFrequency": {
+                          "Name": "Per copy",
+                          "Description": "Per copy"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Other",
+                        "FeeType": "Other",
+                        "NegotiableIndicator": false,
+                        "IncludedInPeriodicFeeIndicator": false,
+                        "FeeAmount": "5.00",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "Monthly",
+                        "CalculationFrequency": "Other",
+                        "OtherFeeType": {
+                          "FeeCategory": "Servicing",
+                          "Name": "Copy of Transaction Receipts",
+                          "Description": "There will be no charge if your query reveals an error has been made by us"
+                        },
+                        "OtherCalculationFrequency": {
+                          "Name": "Per item",
+                          "Description": "Per item"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Other",
+                        "FeeType": "Other",
+                        "NegotiableIndicator": false,
+                        "IncludedInPeriodicFeeIndicator": false,
+                        "FeeRate": "2.95",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "Monthly",
+                        "CalculationFrequency": "Other",
+                        "OtherFeeType": {
+                          "FeeCategory": "Servicing",
+                          "Name": "Non-Sterling Transaction Fee",
+                          "Description": "2.95% of the amount of the Sterling transaction value"
+                        },
+                        "OtherCalculationFrequency": {
+                          "Name": "Per transaction",
+                          "Description": "Per transaction"
+                        }
+                      },
+                      {
+                        "FeeCategory": "Servicing",
+                        "FeeType": "Purchase",
+                        "NegotiableIndicator": false,
+                        "IncludedInPeriodicFeeIndicator": false,
+                        "FeeRate": "1.358",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "Monthly",
+                        "CalculationFrequency": "Monthly",
+                        "Notes": [
+                          "Interest rate on purchases. 16.3% annual rate"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Servicing",
+                        "FeeType": "CashWithdrawal",
+                        "NegotiableIndicator": false,
+                        "IncludedInPeriodicFeeIndicator": false,
+                        "FeeRate": "1.358",
+                        "FeeRateType": "Gross",
+                        "ApplicationFrequency": "Monthly",
+                        "CalculationFrequency": "Monthly",
+                        "Notes": [
+                          "Interest rate on cash withdrawals. 16.3% annual rate"
+                        ]
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductURL": "http://www.lloydsbank.com/business/retail-business/cards/business-credit-card.asp",
+                    "ProductDescription": "Our Business Credit Card allows you to manage your business’s cashflow simply, by providing staff members aged over 18 with an easy way to manage daily business expenses, within certain limits. You could benefit from reduced bank charges too.",
+                    "TcsAndCsURL": "http://www.lloydsbank.com/business/retail-business/cards/business-credit-card.asp",
+                    "MaxDailyCardWithdrawalLimit": "500",
+                    "MinCreditLimit": "1000",
+                    "MaxCreditLimit": "10000",
+                    "MaxPurchaseInterestFreeLengthDays": 45,
+                    "SalesAccessChannels": [
+                      "Online",
+                      "Branch",
+                      "RelationshipManager"
+                    ],
+                    "ServicingAccessChannels": [
+                      "Branch",
+                      "MobileBankingApp",
+                      "Online",
+                      "RelationshipManager",
+                      "ATM",
+                      "CallCentre"
+                    ],
+                    "CardScheme": [
+                      "Mastercard"
+                    ],
+                    "ContactlessIndicator": true,
+                    "PeriodicFee": "32.00",
+                    "PeriodicFeePeriod": "Year",
+                    "APR": "22.4"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

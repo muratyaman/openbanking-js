@@ -1,0 +1,29 @@
+{
+  "name": "openbanking",
+  "version": "1.0.0",
+  "description": "API/backend services as proxy/middle layer between APIs of banks and your app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mybanks/openbanking-js.git"
+  },
+  "keywords": [
+    "open",
+    "banking",
+    "public",
+    "api"
+  ],
+  "author": "Haci Murat Yaman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mybanks/openbanking-js/issues"
+  },
+  "homepage": "https://github.com/mybanks/openbanking-js#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.3"
+  }
+}

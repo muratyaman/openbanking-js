@@ -1,0 +1,4247 @@
+{
+  "meta": {
+    "LastUpdated": "2018-03-13T10:33:46.000Z",
+    "TotalResults": 13,
+    "Agreement": "Use of the APIs and any related data will be subject to the terms of the Open Licence and subject to terms and conditions",
+    "License": "https://www.openbanking.org.uk/open-licence",
+    "TermsOfUse": "https://www.openbanking.org.uk/terms"
+  },
+  "data": [
+    {
+      "Brand": [
+        {
+          "BrandName": "DanskeBank",
+          "PCA": [
+            {
+              "Name": "Danske Cash Reward",
+              "Identification": "58S",
+              "Segment": [
+                "General"
+              ],
+              "PCAMarketingState": [
+                {
+                  "Identification": "58S",
+                  "MarketingState": "Regular",
+                  "FirstMarketedDate": "1900-01-01",
+                  "LastMarketedDate": "9999-12-31",
+                  "Overdraft": {
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/SiteCollectionDocuments/tcs-personal-banking.pdf",
+                    "OverdraftTierBandSet": [
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "58S",
+                        "AuthorisedIndicator": true,
+                        "BufferAmount": "5"
+                      },
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "58S",
+                        "AuthorisedIndicator": true,
+                        "BufferAmount": "5",
+                        "OverdraftTierBand": [
+                          {
+                            "Identification": "58S",
+                            "TierValueMin": "7501",
+                            "OverdraftInterestChargingCoverage": "Tiered",
+                            "EAR": "18.38"
+                          },
+                          {
+                            "Identification": "58S",
+                            "TierValueMin": "0",
+                            "TierValueMax": "100",
+                            "OverdraftInterestChargingCoverage": "Tiered",
+                            "EAR": "0",
+                            "Notes": [
+                              "Free Overdraft up to £100"
+                            ],
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeCap": [
+                                  {
+                                    "FeeType": [
+                                      "UnauthorisedPaidTrans"
+                                    ],
+                                    "FeeMinMaxType": "Maximum",
+                                    "FeeCapOccurrence": 1,
+                                    "CappingPeriod": "Day"
+                                  }
+                                ],
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "UnauthorisedBorrowing",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "Monthly"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedUnpaidTrans",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  },
+                                  {
+                                    "FeeType": "ArrangedOverdraft",
+                                    "FeeAmount": "12",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "Monthly"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedPaidTrans",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "58S",
+                            "TierValueMin": "101",
+                            "TierValueMax": "7500",
+                            "OverdraftInterestChargingCoverage": "Tiered",
+                            "EAR": "18.38"
+                          }
+                        ],
+                        "OverdraftFeesCharges": [
+                          {
+                            "OverdraftFeeChargeCap": [
+                              {
+                                "FeeType": [
+                                  "UnauthorisedPaidTrans"
+                                ],
+                                "FeeMinMaxType": "Maximum",
+                                "FeeCapOccurrence": 1,
+                                "CappingPeriod": "Day"
+                              }
+                            ],
+                            "OverdraftFeeChargeDetail": [
+                              {
+                                "FeeType": "ArrangedOverdraft",
+                                "FeeAmount": "12",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "Monthly"
+                              },
+                              {
+                                "FeeType": "UnauthorisedPaidTrans",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              },
+                              {
+                                "FeeType": "UnauthorisedUnpaidTrans",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              },
+                              {
+                                "FeeType": "UnauthorisedBorrowing",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "Monthly"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "58S",
+                        "AuthorisedIndicator": true,
+                        "BufferAmount": "5",
+                        "OverdraftFeesCharges": [
+                          {
+                            "OverdraftFeeChargeCap": [
+                              {
+                                "FeeType": [
+                                  "UnauthorisedPaidTrans"
+                                ],
+                                "FeeMinMaxType": "Maximum",
+                                "FeeCapOccurrence": 1,
+                                "CappingPeriod": "Day"
+                              }
+                            ],
+                            "OverdraftFeeChargeDetail": [
+                              {
+                                "FeeType": "UnauthorisedBorrowing",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "Monthly"
+                              },
+                              {
+                                "FeeType": "UnauthorisedUnpaidTrans",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              },
+                              {
+                                "FeeType": "UnauthorisedPaidTrans",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              },
+                              {
+                                "FeeType": "ArrangedOverdraft",
+                                "FeeAmount": "12",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "Monthly"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "58S",
+                        "AuthorisedIndicator": false,
+                        "BufferAmount": "5",
+                        "OverdraftFeesCharges": [
+                          {
+                            "OverdraftFeeChargeCap": [
+                              {
+                                "FeeType": [
+                                  "UnauthorisedPaidTrans"
+                                ],
+                                "FeeMinMaxType": "Maximum",
+                                "FeeCapOccurrence": 1,
+                                "CappingPeriod": "Day"
+                              }
+                            ],
+                            "OverdraftFeeChargeDetail": [
+                              {
+                                "FeeType": "UnauthorisedPaidTrans",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              },
+                              {
+                                "FeeType": "ArrangedOverdraft",
+                                "FeeAmount": "12",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "Monthly"
+                              },
+                              {
+                                "FeeType": "UnauthorisedUnpaidTrans",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              },
+                              {
+                                "FeeType": "UnauthorisedBorrowing",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "Monthly"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "Eligibility": {
+                    "AgeEligibility": {
+                      "MinimumAge": 18
+                    },
+                    "ResidencyEligibility": {
+                      "ResidencyIncluded": [
+                        "EUEU"
+                      ]
+                    },
+                    "CreditCheck": {
+                      "ScoringType": "Hard"
+                    },
+                    "IDVerificationCheck": {
+                      "URL": "https://www.danskebank.co.uk/en-gb/Personal/customer-service/Pages/Become-a-customer.aspx",
+                      "Notes": [
+                        "Identity Authenticate by Experian used for identity verification."
+                      ]
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitGroup": [
+                      {
+                        "Name": "Cash Reward",
+                        "Type": "Cashback",
+                        "BenefitGroupNominalValue": "7",
+                        "ApplicationFrequency": "Monthly",
+                        "CalculationFrequency": "Monthly",
+                        "FeatureBenefitItem": [
+                          {
+                            "FeatureBenefitEligibility": [
+                              {
+                                "Name": "Cash Reward",
+                                "Type": "MinimumDeposit",
+                                "Amount": "1200",
+                                "Period": "Month"
+                              },
+                              {
+                                "Name": "Cash Reward",
+                                "Type": "DirectDebits",
+                                "Amount": "3",
+                                "Period": "Month"
+                              },
+                              {
+                                "Name": "Cash Reward",
+                                "Type": "Other",
+                                "Amount": "1",
+                                "Period": "Month",
+                                "Notes": [
+                                  "Customer must make one mobile or internet logon per month"
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "FeatureBenefitEligibility": [
+                          {
+                            "Name": "Cash Reward",
+                            "Type": "MinimumDeposit",
+                            "Amount": "1200",
+                            "Period": "Month"
+                          },
+                          {
+                            "Name": "Cash Reward",
+                            "Type": "DirectDebits",
+                            "Amount": "3",
+                            "Period": "Month"
+                          },
+                          {
+                            "Name": "Cash Reward",
+                            "Type": "Other",
+                            "Amount": "1",
+                            "Period": "Month",
+                            "Notes": [
+                              "Customer must make one mobile or internet logon per month"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "FeatureBenefitItem": [
+                      {
+                        "FeatureBenefitEligibility": [
+                          {
+                            "Name": "Cash Reward",
+                            "Type": "MinimumDeposit",
+                            "Amount": "1200",
+                            "Period": "Month"
+                          },
+                          {
+                            "Name": "Cash Reward",
+                            "Type": "DirectDebits",
+                            "Amount": "3",
+                            "Period": "Month"
+                          },
+                          {
+                            "Name": "Cash Reward",
+                            "Type": "Other",
+                            "Amount": "1",
+                            "Period": "Month",
+                            "Notes": [
+                              "Customer must make one mobile or internet logon per month"
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "Card": [
+                      {
+                        "Type": "DebitCard",
+                        "Scheme": "MasterCard",
+                        "ContactlessIndicator": true
+                      }
+                    ],
+                    "MobileWallet": [
+                      {
+                        "Type": "PayM"
+                      },
+                      {
+                        "Type": "IssuerMobileApp"
+                      },
+                      {
+                        "Type": "ApplePay"
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "FPSInBranch",
+                        "FeeRate": "5",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopyRegular",
+                        "FeeRate": "3",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "CounterServices",
+                        "FeeType": "CounterCashOut",
+                        "FeeRate": "0.7",
+                        "ApplicationFrequency": "Monthly",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "4 free per month"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsBankers",
+                        "FeeRate": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayTransNonSterling",
+                        "FeeAmount": "1.25",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Transaction",
+                        "FeeType": "TransCreditTransferUKDifferent",
+                        "FeeRate": "3",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOutOnline",
+                        "FeeRate": "20",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqOutIssued",
+                        "FeeRate": "0.7",
+                        "ApplicationFrequency": "Monthly",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "4 free per month"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeRate": "2.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransactionPercentage"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayTransRateNonSterling",
+                        "FeeRate": "2.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransactionPercentage"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialChqPresentation",
+                        "FeeRate": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeAmount": "0.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "Other",
+                        "FeeRate": "2.5",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "Collect Cheque Book at Branch"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Servicing",
+                        "FeeType": "ServiceCAccountFeeMonthly",
+                        "FeeRate": "2",
+                        "ApplicationFrequency": "Monthly",
+                        "CalculationFrequency": "Monthly"
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopy1",
+                        "FeeRate": "6",
+                        "ApplicationFrequency": "PerSheet",
+                        "CalculationFrequency": "PerSheet",
+                        "Notes": [
+                          "Copy of previous statement"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqStopped",
+                        "FeeRate": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMForeignCashDebCard",
+                        "FeeAmount": "1.25",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductURL": "http://www.danskebank.co.uk/en-gb/Personal/Day-to-day/CurrentAccounts/products/Cash-Reward/Pages/cash-reward.aspx",
+                    "ProductDescription": "Danske Cash Reward is an everyday current account that gives you a reward every month for banking with Danske Bank",
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/SiteCollectionDocuments/tcs-personal-banking.pdf",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "CallCentre"
+                    ],
+                    "ServicingAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "MobileBankingApp",
+                      "CallCentre",
+                      "Post"
+                    ],
+                    "MonthlyMaximumCharge": "75"
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "Principal",
+              "Identification": "40J",
+              "PCAMarketingState": [
+                {
+                  "Identification": "40J",
+                  "MarketingState": "Regular",
+                  "FirstMarketedDate": "1900-01-01",
+                  "LastMarketedDate": "2006-04-13",
+                  "Overdraft": {
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/SiteCollectionDocuments/tcs-personal-banking.pdf",
+                    "OverdraftTierBandSet": [
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "40J",
+                        "AuthorisedIndicator": false,
+                        "BufferAmount": "5"
+                      },
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "40J",
+                        "AuthorisedIndicator": true,
+                        "BufferAmount": "5",
+                        "OverdraftTierBand": [
+                          {
+                            "Identification": "40J",
+                            "TierValueMin": "0",
+                            "TierValueMax": "0",
+                            "OverdraftInterestChargingCoverage": "Whole",
+                            "EAR": "16.06",
+                            "Notes": [
+                              "Rate is Negotiable up to max 16.06%"
+                            ],
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeCap": [
+                                  {
+                                    "FeeType": [
+                                      "UnauthorisedPaidTrans"
+                                    ],
+                                    "FeeMinMaxType": "Maximum",
+                                    "FeeCapOccurrence": 1,
+                                    "CappingPeriod": "Day"
+                                  }
+                                ],
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "ArrangedOverdraft",
+                                    "FeeAmount": "12",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "Monthly"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedPaidTrans",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedBorrowing",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "Monthly"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedUnpaidTrans",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "Eligibility": {
+                    "AgeEligibility": {
+                      "MinimumAge": 18
+                    },
+                    "ResidencyEligibility": {
+                      "ResidencyType": "Other",
+                      "ResidencyIncluded": [
+                        "EUEU"
+                      ]
+                    },
+                    "CreditCheck": {
+                      "ScoringType": "Hard"
+                    },
+                    "IDVerificationCheck": {
+                      "URL": "https://www.danskebank.co.uk/en-gb/Personal/customer-service/Pages/Become-a-customer.aspx",
+                      "Notes": [
+                        "Identity Authenticate by Experian used for identity verification."
+                      ]
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitGroup": [
+                      {
+                        "FeatureBenefitItem": [
+                          {
+                            "Type": "AccountManagement",
+                            "Textual": "Lodge money, withdraw cash and check your balance at over 400 Post Office branches across Northern Ireland"
+                          },
+                          {
+                            "Type": "AccountManagement",
+                            "Name": "Text Alerts",
+                            "Textual": "Free text and email alerts to help you manage your money"
+                          },
+                          {
+                            "Type": "AccountManagement",
+                            "Textual": "Lodge and withdraw money at any of our 44 branches across Northern Ireland"
+                          }
+                        ]
+                      }
+                    ],
+                    "FeatureBenefitItem": [
+                      {
+                        "Type": "AccountManagement",
+                        "Textual": "Lodge money, withdraw cash and check your balance at over 400 Post Office branches across Northern Ireland"
+                      },
+                      {
+                        "Type": "AccountManagement",
+                        "Name": "Text Alerts",
+                        "Textual": "Free text and email alerts to help you manage your money"
+                      },
+                      {
+                        "Type": "AccountManagement",
+                        "Textual": "Lodge and withdraw money at any of our 44 branches across Northern Ireland"
+                      }
+                    ],
+                    "Card": [
+                      {
+                        "Type": "DebitCard",
+                        "Scheme": "MasterCard",
+                        "ContactlessIndicator": true
+                      }
+                    ],
+                    "MobileWallet": [
+                      {
+                        "Type": "ApplePay"
+                      },
+                      {
+                        "Type": "PayM"
+                      },
+                      {
+                        "Type": "Other",
+                        "Notes": [
+                          "Garminpay"
+                        ]
+                      },
+                      {
+                        "Type": "SamsungPay"
+                      },
+                      {
+                        "Type": "IssuerMobileApp"
+                      },
+                      {
+                        "Type": "Other",
+                        "Notes": [
+                          "FitBitPay"
+                        ]
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMForeignCashDebCard",
+                        "FeeAmount": "1.25",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialChqPresentation",
+                        "FeeAmount": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Transaction",
+                        "FeeType": "TransCreditTransferUKDifferent",
+                        "FeeAmount": "3",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "FPSInBranch",
+                        "FeeAmount": "5",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "Other",
+                        "FeeAmount": "2.5",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "Collect Cheque Book at Branch"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayTransRateNonSterling",
+                        "FeeRate": "2.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransactionPercentage"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOutOnline",
+                        "FeeAmount": "20",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopy1",
+                        "FeeAmount": "6",
+                        "ApplicationFrequency": "PerSheet",
+                        "CalculationFrequency": "PerSheet",
+                        "Notes": [
+                          "Copy of previous statement"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayTransNonSterling",
+                        "FeeAmount": "1.25",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSIn",
+                        "FeeAmount": "6",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqStopped",
+                        "FeeAmount": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeRate": "2.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransactionPercentage"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeAmount": "0.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsBankers",
+                        "FeeAmount": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopyRegular",
+                        "FeeAmount": "3",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductURL": "https://danskebank.co.uk/en-gb/Personal/customer-service/customer-information/Pages/personal-customers-info.aspx",
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/SiteCollectionDocuments/tcs-personal-banking.pdf",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "CallCentre"
+                    ],
+                    "ServicingAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "MobileBankingApp",
+                      "CallCentre",
+                      "Post"
+                    ],
+                    "MonthlyMaximumCharge": "75"
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "Danske 24/7",
+              "Identification": "54K",
+              "PCAMarketingState": [
+                {
+                  "Identification": "54K",
+                  "MarketingState": "Regular",
+                  "FirstMarketedDate": "2006-04-14",
+                  "LastMarketedDate": "2013-03-26",
+                  "Overdraft": {
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/SiteCollectionDocuments/tcs-personal-banking.pdf",
+                    "OverdraftTierBandSet": [
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "54K",
+                        "AuthorisedIndicator": false,
+                        "BufferAmount": "5"
+                      },
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "54K",
+                        "AuthorisedIndicator": true,
+                        "BufferAmount": "5",
+                        "OverdraftTierBand": [
+                          {
+                            "Identification": "54K",
+                            "TierValueMin": "0",
+                            "TierValueMax": "0",
+                            "OverdraftInterestChargingCoverage": "Whole",
+                            "EAR": "11.01",
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeCap": [
+                                  {
+                                    "FeeType": [
+                                      "UnauthorisedPaidTrans"
+                                    ],
+                                    "FeeMinMaxType": "Maximum",
+                                    "FeeCapOccurrence": 1,
+                                    "CappingPeriod": "Day"
+                                  }
+                                ],
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "UnauthorisedUnpaidTrans",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedBorrowing",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "Monthly"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedPaidTrans",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "Eligibility": {
+                    "AgeEligibility": {
+                      "MinimumAge": 18
+                    },
+                    "ResidencyEligibility": {
+                      "ResidencyType": "Other",
+                      "ResidencyIncluded": [
+                        "EUEU"
+                      ]
+                    },
+                    "CreditCheck": {
+                      "ScoringType": "Hard"
+                    },
+                    "IDVerificationCheck": {
+                      "URL": "https://www.danskebank.co.uk/en-gb/Personal/customer-service/Pages/Become-a-customer.aspx",
+                      "Notes": [
+                        "Identity Authenticate by Experian used for identity verification."
+                      ]
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitGroup": [
+                      {
+                        "FeatureBenefitItem": [
+                          {
+                            "Type": "AccountManagement",
+                            "Name": "Text Alerts",
+                            "Textual": "Free text and email alerts to help you manage your money"
+                          },
+                          {
+                            "Type": "AccountManagement",
+                            "Textual": "Lodge money, withdraw cash and check your balance at over 400 Post Office branches across Northern Ireland"
+                          },
+                          {
+                            "Type": "AccountManagement",
+                            "Textual": "Lodge and withdraw money at any of our 44 branches across Northern Ireland"
+                          }
+                        ]
+                      }
+                    ],
+                    "FeatureBenefitItem": [
+                      {
+                        "Type": "AccountManagement",
+                        "Name": "Text Alerts",
+                        "Textual": "Free text and email alerts to help you manage your money"
+                      },
+                      {
+                        "Type": "AccountManagement",
+                        "Textual": "Lodge money, withdraw cash and check your balance at over 400 Post Office branches across Northern Ireland"
+                      },
+                      {
+                        "Type": "AccountManagement",
+                        "Textual": "Lodge and withdraw money at any of our 44 branches across Northern Ireland"
+                      }
+                    ],
+                    "Card": [
+                      {
+                        "Type": "DebitCard",
+                        "Scheme": "MasterCard",
+                        "ContactlessIndicator": true
+                      }
+                    ],
+                    "MobileWallet": [
+                      {
+                        "Type": "PayM"
+                      },
+                      {
+                        "Type": "Other",
+                        "Notes": [
+                          "FitBitPay"
+                        ]
+                      },
+                      {
+                        "Type": "ApplePay"
+                      },
+                      {
+                        "Type": "Other",
+                        "Notes": [
+                          "Garminpay"
+                        ]
+                      },
+                      {
+                        "Type": "IssuerMobileApp"
+                      },
+                      {
+                        "Type": "SamsungPay"
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopyRegular",
+                        "FeeAmount": "3",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeRate": "2.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransactionPercentage"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "Other",
+                        "FeeAmount": "2.5",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "Collect Cheque Book at Branch"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSIn",
+                        "FeeAmount": "6",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqStopped",
+                        "FeeAmount": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "CounterServices",
+                        "FeeType": "CounterCashOut",
+                        "FeeAmount": "1",
+                        "ApplicationFrequency": "Monthly",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeAmount": "0.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialChqPresentation",
+                        "FeeAmount": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqOutIssued",
+                        "FeeAmount": "1",
+                        "ApplicationFrequency": "Monthly",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsBankers",
+                        "FeeAmount": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "FPSInBranch",
+                        "FeeAmount": "5",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMForeignCashDebCard",
+                        "FeeAmount": "1.25",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayTransRateNonSterling",
+                        "FeeRate": "2.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransactionPercentage"
+                      },
+                      {
+                        "FeeCategory": "Transaction",
+                        "FeeType": "TransCreditTransferUKDifferent",
+                        "FeeAmount": "3",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopy1",
+                        "FeeAmount": "6",
+                        "ApplicationFrequency": "PerSheet",
+                        "CalculationFrequency": "PerSheet",
+                        "Notes": [
+                          "Copy of previous statement"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayTransNonSterling",
+                        "FeeAmount": "1.25",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOutOnline",
+                        "FeeAmount": "20",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductURL": "https://danskebank.co.uk/en-gb/Personal/customer-service/customer-information/Pages/personal-customers-info.aspx",
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/SiteCollectionDocuments/tcs-personal-banking.pdf",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "CallCentre"
+                    ],
+                    "ServicingAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "MobileBankingApp",
+                      "CallCentre",
+                      "Post"
+                    ],
+                    "MonthlyMaximumCharge": "75"
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "Danske Standard",
+              "Identification": "54F",
+              "Segment": [
+                "General"
+              ],
+              "PCAMarketingState": [
+                {
+                  "Identification": "54F",
+                  "MarketingState": "Regular",
+                  "Eligibility": {
+                    "OtherEligibility": [
+                      {
+                        "Name": "Ownership",
+                        "Description": "Customers are limited to one sole and/or one joint account",
+                        "Type": "Other"
+                      }
+                    ],
+                    "AgeEligibility": {
+                      "MinimumAge": 18
+                    },
+                    "ResidencyEligibility": {
+                      "ResidencyType": "Other",
+                      "ResidencyIncluded": [
+                        "EUEU"
+                      ]
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitGroup": [
+                      {}
+                    ],
+                    "Card": [
+                      {
+                        "Type": "DebitCard",
+                        "Scheme": "MasterCard",
+                        "ContactlessIndicator": true
+                      }
+                    ],
+                    "MobileWallet": [
+                      {
+                        "Type": "IssuerMobileApp"
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialChqPresentation",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "Daily",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Transaction",
+                        "FeeType": "TransReturnPayment",
+                        "FeeAmount": "15.00",
+                        "ApplicationFrequency": "Monthly",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "Max 3 per month (£45).  Not charged if debit balance would have been < £5"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ServiceCOther",
+                        "FeeAmount": "6.00",
+                        "ApplicationFrequency": "Daily",
+                        "CalculationFrequency": "PerSheet",
+                        "Notes": [
+                          "Copy of previous statement"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeAmount": "0.75",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqStopped",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "Daily",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Transaction",
+                        "FeeType": "TransCreditTransferUKDifferent",
+                        "FeeAmount": "3.00",
+                        "ApplicationFrequency": "Daily",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeAmount": "0.00",
+                        "FeeRate": "2.75",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransactionPercentage"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "FPSInBranch",
+                        "FeeAmount": "5.00",
+                        "ApplicationFrequency": "Daily",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopy1",
+                        "FeeAmount": "3.00",
+                        "ApplicationFrequency": "Daily",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayTransNonSterling",
+                        "FeeAmount": "1.25",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsBankers",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "Daily",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOutOnline",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "Daily",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayTransRateNonSterling",
+                        "FeeAmount": "0.00",
+                        "FeeRate": "2.75",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransactionPercentage"
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMForeignCashDebCard",
+                        "FeeAmount": "1.25",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductURL": "https://www.danskebank.co.uk/en-gb/Personal/Day-to-day/CurrentAccounts/Pages/danske-standard.aspx",
+                    "ProductDescription": "Danske Standard is specially designed for simple everyday banking. You can have your wages paid direct into the account and you can also set up direct debits and standing orders to pay bills from your account.",
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/SiteCollectionDocuments/tcs-personal-banking.pdf",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "CallCentre"
+                    ],
+                    "ServicingAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "MobileBankingApp",
+                      "CallCentre",
+                      "Post"
+                    ],
+                    "MonthlyMaximumCharge": "45"
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "Current Account",
+              "Identification": "40A",
+              "PCAMarketingState": [
+                {
+                  "Identification": "40A",
+                  "MarketingState": "Regular",
+                  "FirstMarketedDate": "1900-01-01",
+                  "LastMarketedDate": "2006-04-13",
+                  "Overdraft": {
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/SiteCollectionDocuments/tcs-personal-banking.pdf",
+                    "OverdraftTierBandSet": [
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "40A",
+                        "AuthorisedIndicator": true,
+                        "BufferAmount": "5",
+                        "OverdraftFeesCharges": [
+                          {
+                            "OverdraftFeeChargeCap": [
+                              {
+                                "FeeType": [
+                                  "UnauthorisedPaidTrans"
+                                ],
+                                "FeeMinMaxType": "Maximum",
+                                "FeeCapOccurrence": 1,
+                                "CappingPeriod": "Day"
+                              }
+                            ],
+                            "OverdraftFeeChargeDetail": [
+                              {
+                                "FeeType": "ArrangedOverdraft",
+                                "FeeAmount": "12",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "Monthly"
+                              },
+                              {
+                                "FeeType": "UnauthorisedPaidTrans",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              },
+                              {
+                                "FeeType": "UnauthorisedBorrowing",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "Monthly"
+                              },
+                              {
+                                "FeeType": "UnauthorisedUnpaidTrans",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "40A",
+                        "AuthorisedIndicator": false,
+                        "BufferAmount": "5",
+                        "OverdraftTierBand": [
+                          {
+                            "Identification": "40A",
+                            "TierValueMin": "0",
+                            "TierValueMax": "0",
+                            "OverdraftInterestChargingCoverage": "Whole",
+                            "EAR": "16.06",
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeCap": [
+                                  {
+                                    "FeeType": [
+                                      "UnauthorisedPaidTrans"
+                                    ],
+                                    "FeeMinMaxType": "Maximum",
+                                    "FeeCapOccurrence": 1,
+                                    "CappingPeriod": "Day"
+                                  }
+                                ],
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "UnauthorisedBorrowing",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "Monthly"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedUnpaidTrans",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedPaidTrans",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  },
+                                  {
+                                    "FeeType": "ArrangedOverdraft",
+                                    "FeeAmount": "12",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "Monthly"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "OverdraftFeesCharges": [
+                          {
+                            "OverdraftFeeChargeCap": [
+                              {
+                                "FeeType": [
+                                  "UnauthorisedPaidTrans"
+                                ],
+                                "FeeMinMaxType": "Maximum",
+                                "FeeCapOccurrence": 1,
+                                "CappingPeriod": "Day"
+                              }
+                            ],
+                            "OverdraftFeeChargeDetail": [
+                              {
+                                "FeeType": "UnauthorisedUnpaidTrans",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              },
+                              {
+                                "FeeType": "UnauthorisedPaidTrans",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              },
+                              {
+                                "FeeType": "ArrangedOverdraft",
+                                "FeeAmount": "12",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "Monthly"
+                              },
+                              {
+                                "FeeType": "UnauthorisedBorrowing",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "Monthly"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "Eligibility": {
+                    "AgeEligibility": {
+                      "MinimumAge": 18
+                    },
+                    "ResidencyEligibility": {
+                      "ResidencyType": "Other",
+                      "ResidencyIncluded": [
+                        "EUEU"
+                      ]
+                    },
+                    "CreditCheck": {
+                      "ScoringType": "Hard"
+                    },
+                    "IDVerificationCheck": {
+                      "URL": "https://www.danskebank.co.uk/en-gb/Personal/customer-service/Pages/Become-a-customer.aspx",
+                      "Notes": [
+                        "Identity Authenticate by Experian used for identity verification."
+                      ]
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitGroup": [
+                      {
+                        "FeatureBenefitItem": [
+                          {
+                            "Type": "AccountManagement",
+                            "Name": "Text Alerts",
+                            "Textual": "Free text and email alerts to help you manage your money"
+                          },
+                          {
+                            "Type": "AccountManagement",
+                            "Textual": "Lodge money, withdraw cash and check your balance at over 400 Post Office branches across Northern Ireland"
+                          },
+                          {
+                            "Type": "AccountManagement",
+                            "Textual": "Lodge and withdraw money at any of our 44 branches across Northern Ireland"
+                          }
+                        ]
+                      }
+                    ],
+                    "FeatureBenefitItem": [
+                      {
+                        "Type": "AccountManagement",
+                        "Name": "Text Alerts",
+                        "Textual": "Free text and email alerts to help you manage your money"
+                      },
+                      {
+                        "Type": "AccountManagement",
+                        "Textual": "Lodge money, withdraw cash and check your balance at over 400 Post Office branches across Northern Ireland"
+                      },
+                      {
+                        "Type": "AccountManagement",
+                        "Textual": "Lodge and withdraw money at any of our 44 branches across Northern Ireland"
+                      }
+                    ],
+                    "Card": [
+                      {
+                        "Type": "DebitCard",
+                        "Scheme": "MasterCard",
+                        "ContactlessIndicator": true
+                      }
+                    ],
+                    "MobileWallet": [
+                      {
+                        "Type": "Other",
+                        "Notes": [
+                          "FitBitPay"
+                        ]
+                      },
+                      {
+                        "Type": "ApplePay"
+                      },
+                      {
+                        "Type": "IssuerMobileApp"
+                      },
+                      {
+                        "Type": "Other",
+                        "Notes": [
+                          "Garminpay"
+                        ]
+                      },
+                      {
+                        "Type": "SamsungPay"
+                      },
+                      {
+                        "Type": "PayM"
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "Other",
+                        "FeeAmount": "2.5",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "Collect Cheque Book at Branch"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayTransRateNonSterling",
+                        "FeeRate": "2.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransactionPercentage"
+                      },
+                      {
+                        "FeeCategory": "Transaction",
+                        "FeeType": "TransCreditTransferUKDifferent",
+                        "FeeAmount": "3",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeAmount": "0.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopy1",
+                        "FeeAmount": "6",
+                        "ApplicationFrequency": "PerSheet",
+                        "CalculationFrequency": "PerSheet",
+                        "Notes": [
+                          "Copy of previous statement"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOutOnline",
+                        "FeeAmount": "20",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialChqPresentation",
+                        "FeeAmount": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "FPSInBranch",
+                        "FeeAmount": "5",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMForeignCashDebCard",
+                        "FeeAmount": "1.25",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSIn",
+                        "FeeAmount": "6",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqStopped",
+                        "FeeAmount": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsBankers",
+                        "FeeAmount": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayTransNonSterling",
+                        "FeeAmount": "1.25",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopyRegular",
+                        "FeeAmount": "3",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeRate": "2.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransactionPercentage"
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductURL": "https://danskebank.co.uk/en-gb/Personal/customer-service/customer-information/Pages/personal-customers-info.aspx",
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/SiteCollectionDocuments/tcs-personal-banking.pdf",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "CallCentre"
+                    ],
+                    "ServicingAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "MobileBankingApp",
+                      "CallCentre",
+                      "Post"
+                    ],
+                    "MonthlyMaximumCharge": "75"
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "CashMaster",
+              "Identification": "40F",
+              "PCAMarketingState": [
+                {
+                  "Identification": "40F",
+                  "MarketingState": "Regular",
+                  "FirstMarketedDate": "1900-01-01",
+                  "LastMarketedDate": "2006-04-13",
+                  "Overdraft": {
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/SiteCollectionDocuments/tcs-personal-banking.pdf",
+                    "OverdraftTierBandSet": [
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "40F",
+                        "AuthorisedIndicator": false,
+                        "BufferAmount": "5",
+                        "OverdraftTierBand": [
+                          {
+                            "Identification": "40F",
+                            "TierValueMin": "0",
+                            "TierValueMax": "0",
+                            "OverdraftInterestChargingCoverage": "Whole",
+                            "EAR": "16.06",
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeCap": [
+                                  {
+                                    "FeeType": [
+                                      "UnauthorisedPaidTrans"
+                                    ],
+                                    "FeeMinMaxType": "Maximum",
+                                    "FeeCapOccurrence": 1,
+                                    "CappingPeriod": "Day"
+                                  }
+                                ],
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "UnauthorisedPaidTrans",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  },
+                                  {
+                                    "FeeType": "ArrangedOverdraft",
+                                    "FeeAmount": "12",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "Monthly"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedUnpaidTrans",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedBorrowing",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "Monthly"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "40F",
+                        "AuthorisedIndicator": true,
+                        "BufferAmount": "5",
+                        "OverdraftFeesCharges": [
+                          {
+                            "OverdraftFeeChargeCap": [
+                              {
+                                "FeeType": [
+                                  "UnauthorisedPaidTrans"
+                                ],
+                                "FeeMinMaxType": "Maximum",
+                                "FeeCapOccurrence": 1,
+                                "CappingPeriod": "Day"
+                              }
+                            ],
+                            "OverdraftFeeChargeDetail": [
+                              {
+                                "FeeType": "UnauthorisedUnpaidTrans",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              },
+                              {
+                                "FeeType": "UnauthorisedBorrowing",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "Monthly"
+                              },
+                              {
+                                "FeeType": "UnauthorisedPaidTrans",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "Eligibility": {
+                    "AgeEligibility": {
+                      "MinimumAge": 18
+                    },
+                    "ResidencyEligibility": {
+                      "ResidencyType": "Other",
+                      "ResidencyIncluded": [
+                        "EUEU"
+                      ]
+                    },
+                    "CreditCheck": {
+                      "ScoringType": "Hard"
+                    },
+                    "IDVerificationCheck": {
+                      "URL": "https://www.danskebank.co.uk/en-gb/Personal/customer-service/Pages/Become-a-customer.aspx",
+                      "Notes": [
+                        "Identity Authenticate by Experian used for identity verification."
+                      ]
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitGroup": [
+                      {
+                        "FeatureBenefitItem": [
+                          {
+                            "Type": "AccountManagement",
+                            "Textual": "Lodge and withdraw money at any of our 44 branches across Northern Ireland"
+                          },
+                          {
+                            "Type": "AccountManagement",
+                            "Name": "Text Alerts",
+                            "Textual": "Free text and email alerts to help you manage your money"
+                          },
+                          {
+                            "Type": "AccountManagement",
+                            "Textual": "Lodge money, withdraw cash and check your balance at over 400 Post Office branches across Northern Ireland"
+                          }
+                        ]
+                      }
+                    ],
+                    "FeatureBenefitItem": [
+                      {
+                        "Type": "AccountManagement",
+                        "Textual": "Lodge and withdraw money at any of our 44 branches across Northern Ireland"
+                      },
+                      {
+                        "Type": "AccountManagement",
+                        "Name": "Text Alerts",
+                        "Textual": "Free text and email alerts to help you manage your money"
+                      },
+                      {
+                        "Type": "AccountManagement",
+                        "Textual": "Lodge money, withdraw cash and check your balance at over 400 Post Office branches across Northern Ireland"
+                      }
+                    ],
+                    "Card": [
+                      {
+                        "Type": "DebitCard",
+                        "Scheme": "MasterCard",
+                        "ContactlessIndicator": true
+                      }
+                    ],
+                    "MobileWallet": [
+                      {
+                        "Type": "PayM"
+                      },
+                      {
+                        "Type": "SamsungPay"
+                      },
+                      {
+                        "Type": "IssuerMobileApp"
+                      },
+                      {
+                        "Type": "Other",
+                        "Notes": [
+                          "FitBitPay"
+                        ]
+                      },
+                      {
+                        "Type": "ApplePay"
+                      },
+                      {
+                        "Type": "Other",
+                        "Notes": [
+                          "Garminpay"
+                        ]
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqStopped",
+                        "FeeAmount": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSIn",
+                        "FeeAmount": "6",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayTransNonSterling",
+                        "FeeAmount": "1.25",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsBankers",
+                        "FeeAmount": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopyRegular",
+                        "FeeAmount": "3",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "Other",
+                        "FeeAmount": "2.5",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "Collect Cheque Book at Branch"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeRate": "2.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransactionPercentage"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "FPSInBranch",
+                        "FeeAmount": "5",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopy1",
+                        "FeeAmount": "6",
+                        "ApplicationFrequency": "PerSheet",
+                        "CalculationFrequency": "PerSheet",
+                        "Notes": [
+                          "Copy of previous statement"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Transaction",
+                        "FeeType": "TransCreditTransferUKDifferent",
+                        "FeeAmount": "3",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeAmount": "0.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMForeignCashDebCard",
+                        "FeeAmount": "1.25",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialChqPresentation",
+                        "FeeAmount": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOutOnline",
+                        "FeeAmount": "20",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayTransRateNonSterling",
+                        "FeeRate": "2.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransactionPercentage"
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductURL": "https://danskebank.co.uk/en-gb/Personal/customer-service/customer-information/Pages/personal-customers-info.aspx",
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/SiteCollectionDocuments/tcs-personal-banking.pdf",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "CallCentre"
+                    ],
+                    "ServicingAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "MobileBankingApp",
+                      "CallCentre",
+                      "Post"
+                    ],
+                    "MonthlyMaximumCharge": "75"
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "Danske Choice",
+              "Identification": "54G",
+              "Segment": [
+                "General"
+              ],
+              "PCAMarketingState": [
+                {
+                  "Identification": "54G",
+                  "MarketingState": "Regular",
+                  "FirstMarketedDate": "1900-01-01",
+                  "LastMarketedDate": "9999-12-31",
+                  "Overdraft": {
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/SiteCollectionDocuments/tcs-personal-banking.pdf",
+                    "OverdraftTierBandSet": [
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "54G",
+                        "AuthorisedIndicator": true,
+                        "BufferAmount": "5",
+                        "OverdraftTierBand": [
+                          {
+                            "Identification": "54G",
+                            "TierValueMin": "101",
+                            "TierValueMax": "7500",
+                            "OverdraftInterestChargingCoverage": "Tiered",
+                            "EAR": "16.06"
+                          },
+                          {
+                            "Identification": "54G",
+                            "TierValueMin": "7501",
+                            "OverdraftInterestChargingCoverage": "Tiered",
+                            "EAR": "16.06"
+                          },
+                          {
+                            "Identification": "54G",
+                            "TierValueMin": "0",
+                            "TierValueMax": "100",
+                            "OverdraftInterestChargingCoverage": "Tiered",
+                            "EAR": "0",
+                            "Notes": [
+                              "Free Overdraft up to £100"
+                            ],
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeCap": [
+                                  {
+                                    "FeeType": [
+                                      "UnauthorisedPaidTrans"
+                                    ],
+                                    "FeeMinMaxType": "Maximum",
+                                    "FeeCapOccurrence": 1,
+                                    "CappingPeriod": "Day"
+                                  }
+                                ],
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "UnauthorisedUnpaidTrans",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedBorrowing",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "Monthly"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedPaidTrans",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  },
+                                  {
+                                    "FeeType": "ArrangedOverdraft",
+                                    "FeeAmount": "12",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "Monthly"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "OverdraftFeesCharges": [
+                          {
+                            "OverdraftFeeChargeCap": [
+                              {
+                                "FeeType": [
+                                  "UnauthorisedPaidTrans"
+                                ],
+                                "FeeMinMaxType": "Maximum",
+                                "FeeCapOccurrence": 1,
+                                "CappingPeriod": "Day"
+                              }
+                            ],
+                            "OverdraftFeeChargeDetail": [
+                              {
+                                "FeeType": "UnauthorisedBorrowing",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "Monthly"
+                              },
+                              {
+                                "FeeType": "UnauthorisedUnpaidTrans",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              },
+                              {
+                                "FeeType": "ArrangedOverdraft",
+                                "FeeAmount": "12",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "Monthly"
+                              },
+                              {
+                                "FeeType": "UnauthorisedPaidTrans",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "54G",
+                        "AuthorisedIndicator": true,
+                        "BufferAmount": "5"
+                      },
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "54G",
+                        "AuthorisedIndicator": false,
+                        "BufferAmount": "5"
+                      },
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "54G",
+                        "AuthorisedIndicator": true,
+                        "BufferAmount": "5"
+                      }
+                    ]
+                  },
+                  "Eligibility": {
+                    "AgeEligibility": {
+                      "MinimumAge": 18
+                    },
+                    "ResidencyEligibility": {
+                      "ResidencyIncluded": [
+                        "EUEU"
+                      ]
+                    },
+                    "CreditCheck": {
+                      "ScoringType": "Hard"
+                    },
+                    "IDVerificationCheck": {
+                      "URL": "https://www.danskebank.co.uk/en-gb/Personal/customer-service/Pages/Become-a-customer.aspx",
+                      "Notes": [
+                        "Identity Authenticate by Experian used for identity verification."
+                      ]
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitGroup": [
+                      {}
+                    ],
+                    "Card": [
+                      {
+                        "Type": "DebitCard",
+                        "Scheme": "MasterCard",
+                        "ContactlessIndicator": true
+                      }
+                    ],
+                    "MobileWallet": [
+                      {
+                        "Type": "ApplePay"
+                      },
+                      {
+                        "Type": "IssuerMobileApp"
+                      },
+                      {
+                        "Type": "PayM"
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopyRegular",
+                        "FeeRate": "3",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "Other",
+                        "FeeRate": "2.5",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "Collect Cheque Book at Branch"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "CounterServices",
+                        "FeeType": "CounterCashOut",
+                        "FeeRate": "0.7",
+                        "ApplicationFrequency": "Monthly",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "4 free per month"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeRate": "2.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransactionPercentage"
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopy1",
+                        "FeeRate": "6",
+                        "ApplicationFrequency": "PerSheet",
+                        "CalculationFrequency": "PerSheet",
+                        "Notes": [
+                          "Copy of previous statement"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Transaction",
+                        "FeeType": "TransCreditTransferUKDifferent",
+                        "FeeRate": "3",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "FPSInBranch",
+                        "FeeRate": "5",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeAmount": "0.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqOutIssued",
+                        "FeeRate": "0.7",
+                        "ApplicationFrequency": "Monthly",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "4 free per month"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOutOnline",
+                        "FeeRate": "20",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMForeignCashDebCard",
+                        "FeeAmount": "1.25",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsBankers",
+                        "FeeRate": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialChqPresentation",
+                        "FeeRate": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqStopped",
+                        "FeeRate": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayTransRateNonSterling",
+                        "FeeRate": "2.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransactionPercentage"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayTransNonSterling",
+                        "FeeAmount": "1.25",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductURL": "https://www.danskebank.co.uk/en-gb/Personal/Day-to-day/CurrentAccounts/products/Danske-Choice/Pages/danske-choice.aspx",
+                    "ProductDescription": "Danske Choice is a good all round current account.",
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/SiteCollectionDocuments/tcs-personal-banking.pdf",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "CallCentre"
+                    ],
+                    "ServicingAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "MobileBankingApp",
+                      "CallCentre",
+                      "Post"
+                    ],
+                    "MonthlyMaximumCharge": "75"
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "Danske Prestige",
+              "Identification": "54J",
+              "PCAMarketingState": [
+                {
+                  "Identification": "54J",
+                  "MarketingState": "Regular",
+                  "FirstMarketedDate": "2006-04-14",
+                  "LastMarketedDate": "2013-03-26",
+                  "CreditInterest": {
+                    "TierBandSet": [
+                      {
+                        "TierBandMethod": "Whole",
+                        "CalculationMethod": "Compound",
+                        "TierBand": [
+                          {
+                            "Identification": "54J",
+                            "CalculationFrequency": "Daily",
+                            "ApplicationFrequency": "Monthly",
+                            "DepositInterestAppliedCoverage": "Whole",
+                            "FixedVariableInterestRateType": "Variable",
+                            "AER": "0.25",
+                            "BankInterestRateType": "Gross"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "Overdraft": {
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/SiteCollectionDocuments/tcs-personal-banking.pdf",
+                    "OverdraftTierBandSet": [
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "54J",
+                        "AuthorisedIndicator": false,
+                        "BufferAmount": "5",
+                        "OverdraftTierBand": [
+                          {
+                            "Identification": "54J",
+                            "TierValueMin": "0",
+                            "TierValueMax": "0",
+                            "OverdraftInterestChargingCoverage": "Whole",
+                            "EAR": "10.46",
+                            "Notes": [
+                              "Rate is Negotiable up to max 10.46%"
+                            ],
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeCap": [
+                                  {
+                                    "FeeType": [
+                                      "UnauthorisedPaidTrans"
+                                    ],
+                                    "FeeMinMaxType": "Maximum",
+                                    "FeeCapOccurrence": 1,
+                                    "CappingPeriod": "Day"
+                                  }
+                                ],
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "UnauthorisedBorrowing",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "Monthly"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedUnpaidTrans",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedPaidTrans",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "54J",
+                        "AuthorisedIndicator": true,
+                        "BufferAmount": "5"
+                      }
+                    ]
+                  },
+                  "Eligibility": {
+                    "AgeEligibility": {
+                      "MinimumAge": 18
+                    },
+                    "ResidencyEligibility": {
+                      "ResidencyType": "Other",
+                      "ResidencyIncluded": [
+                        "EUEU"
+                      ]
+                    },
+                    "CreditCheck": {
+                      "ScoringType": "Hard"
+                    },
+                    "IDVerificationCheck": {
+                      "URL": "https://www.danskebank.co.uk/en-gb/Personal/customer-service/Pages/Become-a-customer.aspx",
+                      "Notes": [
+                        "Identity Authenticate by Experian used for identity verification."
+                      ]
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitGroup": [
+                      {
+                        "FeatureBenefitItem": [
+                          {
+                            "Type": "AccountManagement",
+                            "Textual": "Lodge and withdraw money at any of our 44 branches across Northern Ireland"
+                          },
+                          {
+                            "Identification": "Priority Pass",
+                            "Type": "Travel",
+                            "Textual": "Access to Airport Lounges.  Customer must have taken Mastercard Platinum as part of package"
+                          },
+                          {
+                            "Type": "AccountManagement",
+                            "Name": "Text Alerts",
+                            "Textual": "Free text and email alerts to help you manage your money"
+                          },
+                          {
+                            "Type": "AccountManagement",
+                            "Textual": "Lodge money, withdraw cash and check your balance at over 400 Post Office branches across Northern Ireland"
+                          }
+                        ]
+                      }
+                    ],
+                    "FeatureBenefitItem": [
+                      {
+                        "Type": "AccountManagement",
+                        "Textual": "Lodge and withdraw money at any of our 44 branches across Northern Ireland"
+                      },
+                      {
+                        "Identification": "Priority Pass",
+                        "Type": "Travel",
+                        "Textual": "Access to Airport Lounges.  Customer must have taken Mastercard Platinum as part of package"
+                      },
+                      {
+                        "Type": "AccountManagement",
+                        "Name": "Text Alerts",
+                        "Textual": "Free text and email alerts to help you manage your money"
+                      },
+                      {
+                        "Type": "AccountManagement",
+                        "Textual": "Lodge money, withdraw cash and check your balance at over 400 Post Office branches across Northern Ireland"
+                      }
+                    ],
+                    "Card": [
+                      {
+                        "Type": "DebitCard",
+                        "Scheme": "MasterCard",
+                        "ContactlessIndicator": true
+                      }
+                    ],
+                    "MobileWallet": [
+                      {
+                        "Type": "Other",
+                        "Notes": [
+                          "FitBitPay"
+                        ]
+                      },
+                      {
+                        "Type": "PayM"
+                      },
+                      {
+                        "Type": "SamsungPay"
+                      },
+                      {
+                        "Type": "Other",
+                        "Notes": [
+                          "Garminpay"
+                        ]
+                      },
+                      {
+                        "Type": "IssuerMobileApp"
+                      },
+                      {
+                        "Type": "ApplePay"
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMForeignCashDebCard",
+                        "FeeAmount": "1.25",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialChqPresentation",
+                        "FeeAmount": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "FPSInBranch",
+                        "FeeAmount": "5",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Transaction",
+                        "FeeType": "TransCreditTransferUKDifferent",
+                        "FeeAmount": "3",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Servicing",
+                        "FeeType": "ServiceCAccountFee",
+                        "FeeAmount": "11",
+                        "ApplicationFrequency": "Monthly",
+                        "CalculationFrequency": "Monthly",
+                        "Notes": [
+                          "Fee entitles customer to up to 5 accounts."
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayTransRateNonSterling",
+                        "FeeRate": "2.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransactionPercentage"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOutOnline",
+                        "FeeAmount": "20",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayTransNonSterling",
+                        "FeeAmount": "1.25",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopy1",
+                        "FeeAmount": "6",
+                        "ApplicationFrequency": "PerSheet",
+                        "CalculationFrequency": "PerSheet",
+                        "Notes": [
+                          "Copy of previous statement"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeRate": "2.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransactionPercentage"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSIn",
+                        "FeeAmount": "6",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "Other",
+                        "FeeAmount": "2.5",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "Collect Cheque Book at Branch"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeAmount": "0.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsBankers",
+                        "FeeAmount": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqStopped",
+                        "FeeAmount": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopyRegular",
+                        "FeeAmount": "3",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductURL": "https://danskebank.co.uk/en-gb/Personal/customer-service/customer-information/Pages/personal-customers-info.aspx",
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/SiteCollectionDocuments/tcs-personal-banking.pdf",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "CallCentre"
+                    ],
+                    "ServicingAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "MobileBankingApp",
+                      "CallCentre",
+                      "Post"
+                    ],
+                    "MonthlyMaximumCharge": "75"
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "ChequeMaster",
+              "Identification": "40D",
+              "PCAMarketingState": [
+                {
+                  "Identification": "40D",
+                  "MarketingState": "Regular",
+                  "FirstMarketedDate": "1900-01-01",
+                  "LastMarketedDate": "2006-04-13",
+                  "Overdraft": {
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/SiteCollectionDocuments/tcs-personal-banking.pdf",
+                    "OverdraftTierBandSet": [
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "40D",
+                        "AuthorisedIndicator": true,
+                        "BufferAmount": "5",
+                        "OverdraftTierBand": [
+                          {
+                            "Identification": "40D",
+                            "TierValueMin": "0",
+                            "TierValueMax": "0",
+                            "OverdraftInterestChargingCoverage": "Whole",
+                            "EAR": "16.06",
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeCap": [
+                                  {
+                                    "FeeType": [
+                                      "UnauthorisedPaidTrans"
+                                    ],
+                                    "FeeMinMaxType": "Maximum",
+                                    "FeeCapOccurrence": 1,
+                                    "CappingPeriod": "Day"
+                                  }
+                                ],
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "ArrangedOverdraft",
+                                    "FeeAmount": "12",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "Monthly"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedPaidTrans",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedUnpaidTrans",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedBorrowing",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "Monthly"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "OverdraftFeesCharges": [
+                          {
+                            "OverdraftFeeChargeCap": [
+                              {
+                                "FeeType": [
+                                  "UnauthorisedPaidTrans"
+                                ],
+                                "FeeMinMaxType": "Maximum",
+                                "FeeCapOccurrence": 1,
+                                "CappingPeriod": "Day"
+                              }
+                            ],
+                            "OverdraftFeeChargeDetail": [
+                              {
+                                "FeeType": "UnauthorisedPaidTrans",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              },
+                              {
+                                "FeeType": "UnauthorisedBorrowing",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "Monthly"
+                              },
+                              {
+                                "FeeType": "UnauthorisedUnpaidTrans",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "40D",
+                        "AuthorisedIndicator": false,
+                        "BufferAmount": "5",
+                        "OverdraftFeesCharges": [
+                          {
+                            "OverdraftFeeChargeCap": [
+                              {
+                                "FeeType": [
+                                  "UnauthorisedPaidTrans"
+                                ],
+                                "FeeMinMaxType": "Maximum",
+                                "FeeCapOccurrence": 1,
+                                "CappingPeriod": "Day"
+                              }
+                            ],
+                            "OverdraftFeeChargeDetail": [
+                              {
+                                "FeeType": "UnauthorisedBorrowing",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "Monthly"
+                              },
+                              {
+                                "FeeType": "UnauthorisedUnpaidTrans",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              },
+                              {
+                                "FeeType": "UnauthorisedPaidTrans",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "Eligibility": {
+                    "AgeEligibility": {
+                      "MinimumAge": 18
+                    },
+                    "ResidencyEligibility": {
+                      "ResidencyType": "Other",
+                      "ResidencyIncluded": [
+                        "EUEU"
+                      ]
+                    },
+                    "CreditCheck": {
+                      "ScoringType": "Hard"
+                    },
+                    "IDVerificationCheck": {
+                      "URL": "https://www.danskebank.co.uk/en-gb/Personal/customer-service/Pages/Become-a-customer.aspx",
+                      "Notes": [
+                        "Identity Authenticate by Experian used for identity verification."
+                      ]
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitGroup": [
+                      {
+                        "FeatureBenefitItem": [
+                          {
+                            "Type": "AccountManagement",
+                            "Textual": "Lodge and withdraw money at any of our 44 branches across Northern Ireland"
+                          },
+                          {
+                            "Type": "AccountManagement",
+                            "Textual": "Lodge money, withdraw cash and check your balance at over 400 Post Office branches across Northern Ireland"
+                          },
+                          {
+                            "Type": "AccountManagement",
+                            "Name": "Text Alerts",
+                            "Textual": "Free text and email alerts to help you manage your money"
+                          }
+                        ]
+                      }
+                    ],
+                    "FeatureBenefitItem": [
+                      {
+                        "Type": "AccountManagement",
+                        "Textual": "Lodge and withdraw money at any of our 44 branches across Northern Ireland"
+                      },
+                      {
+                        "Type": "AccountManagement",
+                        "Textual": "Lodge money, withdraw cash and check your balance at over 400 Post Office branches across Northern Ireland"
+                      },
+                      {
+                        "Type": "AccountManagement",
+                        "Name": "Text Alerts",
+                        "Textual": "Free text and email alerts to help you manage your money"
+                      }
+                    ],
+                    "Card": [
+                      {
+                        "Type": "DebitCard",
+                        "Scheme": "MasterCard",
+                        "ContactlessIndicator": true
+                      }
+                    ],
+                    "MobileWallet": [
+                      {
+                        "Type": "Other",
+                        "Notes": [
+                          "FitBitPay"
+                        ]
+                      },
+                      {
+                        "Type": "SamsungPay"
+                      },
+                      {
+                        "Type": "PayM"
+                      },
+                      {
+                        "Type": "Other",
+                        "Notes": [
+                          "Garminpay"
+                        ]
+                      },
+                      {
+                        "Type": "ApplePay"
+                      },
+                      {
+                        "Type": "IssuerMobileApp"
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSIn",
+                        "FeeAmount": "6",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqStopped",
+                        "FeeAmount": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopy1",
+                        "FeeAmount": "6",
+                        "ApplicationFrequency": "PerSheet",
+                        "CalculationFrequency": "PerSheet",
+                        "Notes": [
+                          "Copy of previous statement"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayTransNonSterling",
+                        "FeeAmount": "1.25",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsBankers",
+                        "FeeAmount": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopyRegular",
+                        "FeeAmount": "3",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeRate": "2.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransactionPercentage"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "FPSInBranch",
+                        "FeeAmount": "5",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayTransRateNonSterling",
+                        "FeeRate": "2.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransactionPercentage"
+                      },
+                      {
+                        "FeeCategory": "Transaction",
+                        "FeeType": "TransCreditTransferUKDifferent",
+                        "FeeAmount": "3",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeAmount": "0.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialChqPresentation",
+                        "FeeAmount": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOutOnline",
+                        "FeeAmount": "20",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "Other",
+                        "FeeAmount": "2.5",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "Collect Cheque Book at Branch"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMForeignCashDebCard",
+                        "FeeAmount": "1.25",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductURL": "https://danskebank.co.uk/en-gb/Personal/customer-service/customer-information/Pages/personal-customers-info.aspx",
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/SiteCollectionDocuments/tcs-personal-banking.pdf",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "CallCentre"
+                    ],
+                    "ServicingAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "MobileBankingApp",
+                      "CallCentre",
+                      "Post"
+                    ],
+                    "MonthlyMaximumCharge": "75"
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "Danske Freedom",
+              "Identification": "54H",
+              "Segment": [
+                "Student",
+                "Graduate",
+                "Youth"
+              ],
+              "PCAMarketingState": [
+                {
+                  "Identification": "54H",
+                  "MarketingState": "Regular",
+                  "FirstMarketedDate": "1900-01-01",
+                  "LastMarketedDate": "9999-12-31",
+                  "Overdraft": {
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/SiteCollectionDocuments/tcs-personal-banking.pdf",
+                    "OverdraftTierBandSet": [
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "54H",
+                        "AuthorisedIndicator": true,
+                        "BufferAmount": "5",
+                        "OverdraftTierBand": [
+                          {
+                            "Identification": "54H",
+                            "TierValueMin": "3001",
+                            "OverdraftInterestChargingCoverage": "Tiered",
+                            "EAR": "0",
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeCap": [
+                                  {
+                                    "FeeType": [
+                                      "UnauthorisedPaidTrans"
+                                    ],
+                                    "FeeMinMaxType": "Maximum",
+                                    "FeeCapOccurrence": 1,
+                                    "CappingPeriod": "Day"
+                                  }
+                                ],
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "UnauthorisedUnpaidTrans",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedBorrowing",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "Monthly"
+                                  },
+                                  {
+                                    "FeeType": "ArrangedOverdraft",
+                                    "FeeAmount": "12",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "Monthly"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedPaidTrans",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "54H",
+                            "TierValueMin": "0",
+                            "TierValueMax": "3000",
+                            "OverdraftInterestChargingCoverage": "Tiered",
+                            "EAR": "0"
+                          }
+                        ],
+                        "OverdraftFeesCharges": [
+                          {
+                            "OverdraftFeeChargeCap": [
+                              {
+                                "FeeType": [
+                                  "UnauthorisedPaidTrans"
+                                ],
+                                "FeeMinMaxType": "Maximum",
+                                "FeeCapOccurrence": 1,
+                                "CappingPeriod": "Day"
+                              }
+                            ],
+                            "OverdraftFeeChargeDetail": [
+                              {
+                                "FeeType": "UnauthorisedUnpaidTrans",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              },
+                              {
+                                "FeeType": "UnauthorisedBorrowing",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "Monthly"
+                              },
+                              {
+                                "FeeType": "ArrangedOverdraft",
+                                "FeeAmount": "12",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "Monthly"
+                              },
+                              {
+                                "FeeType": "UnauthorisedPaidTrans",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "54H",
+                        "AuthorisedIndicator": true,
+                        "BufferAmount": "5"
+                      },
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "54H",
+                        "AuthorisedIndicator": false,
+                        "BufferAmount": "5",
+                        "OverdraftFeesCharges": [
+                          {
+                            "OverdraftFeeChargeCap": [
+                              {
+                                "FeeType": [
+                                  "UnauthorisedPaidTrans"
+                                ],
+                                "FeeMinMaxType": "Maximum",
+                                "FeeCapOccurrence": 1,
+                                "CappingPeriod": "Day"
+                              }
+                            ],
+                            "OverdraftFeeChargeDetail": [
+                              {
+                                "FeeType": "UnauthorisedUnpaidTrans",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              },
+                              {
+                                "FeeType": "UnauthorisedBorrowing",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "Monthly"
+                              },
+                              {
+                                "FeeType": "UnauthorisedPaidTrans",
+                                "FeeAmount": "25",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "PerTransaction"
+                              },
+                              {
+                                "FeeType": "ArrangedOverdraft",
+                                "FeeAmount": "12",
+                                "ApplicationFrequency": "Monthly",
+                                "CalculationFrequency": "Monthly"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "Eligibility": {
+                    "AgeEligibility": {
+                      "MinimumAge": 18,
+                      "MaximumAge": 27
+                    },
+                    "ResidencyEligibility": {
+                      "ResidencyIncluded": [
+                        "EUEU"
+                      ]
+                    },
+                    "CreditCheck": {
+                      "ScoringType": "Hard"
+                    },
+                    "IDVerificationCheck": {
+                      "URL": "https://www.danskebank.co.uk/en-gb/Personal/customer-service/Pages/Become-a-customer.aspx",
+                      "Notes": [
+                        "Identity Authenticate by Experian used for identity verification."
+                      ]
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitGroup": [
+                      {}
+                    ],
+                    "Card": [
+                      {
+                        "Type": "DebitCard",
+                        "Scheme": "MasterCard",
+                        "ContactlessIndicator": true
+                      }
+                    ],
+                    "MobileWallet": [
+                      {
+                        "Type": "ApplePay"
+                      },
+                      {
+                        "Type": "IssuerMobileApp"
+                      },
+                      {
+                        "Type": "PayM"
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqOutIssued",
+                        "FeeRate": "0.7",
+                        "ApplicationFrequency": "Monthly",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "4 free per month"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsBankers",
+                        "FeeRate": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeRate": "2.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransactionPercentage"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialChqPresentation",
+                        "FeeRate": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOutOnline",
+                        "FeeRate": "20",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "Other",
+                        "FeeRate": "2.5",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "Collect Cheque Book at Branch"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayTransNonSterling",
+                        "FeeAmount": "1.25",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqStopped",
+                        "FeeRate": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Transaction",
+                        "FeeType": "TransCreditTransferUKDifferent",
+                        "FeeRate": "3",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayTransRateNonSterling",
+                        "FeeRate": "2.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransactionPercentage"
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopy1",
+                        "FeeRate": "6",
+                        "ApplicationFrequency": "PerSheet",
+                        "CalculationFrequency": "PerSheet",
+                        "Notes": [
+                          "Copy of previous statement"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopyRegular",
+                        "FeeRate": "3",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "CounterServices",
+                        "FeeType": "CounterCashOut",
+                        "FeeRate": "0.7",
+                        "ApplicationFrequency": "Monthly",
+                        "CalculationFrequency": "PerTransaction",
+                        "Notes": [
+                          "4 free per month"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "FPSInBranch",
+                        "FeeRate": "5",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeAmount": "0.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMForeignCashDebCard",
+                        "FeeAmount": "1.25",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductURL": "https://www.danskebank.co.uk/en-gb/personal/day-to-day/currentaccounts/products/danske-freedom/Pages/danske-freedom.aspx",
+                    "ProductDescription": "Aged 18 - 27? Whether you're working or studying, Danske Freedom offers superb flexibility to help you manage your account.",
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/SiteCollectionDocuments/tcs-personal-banking.pdf",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "CallCentre"
+                    ],
+                    "ServicingAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "MobileBankingApp",
+                      "CallCentre",
+                      "Post"
+                    ],
+                    "MonthlyMaximumCharge": "75"
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "Danske Choice Plus",
+              "Identification": "54I",
+              "PCAMarketingState": [
+                {
+                  "Identification": "54I",
+                  "MarketingState": "Regular",
+                  "FirstMarketedDate": "2006-04-14",
+                  "LastMarketedDate": "2013-03-26",
+                  "CreditInterest": {
+                    "TierBandSet": [
+                      {
+                        "TierBandMethod": "Whole",
+                        "CalculationMethod": "Compound",
+                        "TierBand": [
+                          {
+                            "Identification": "54I",
+                            "CalculationFrequency": "Daily",
+                            "ApplicationFrequency": "Monthly",
+                            "DepositInterestAppliedCoverage": "Whole",
+                            "FixedVariableInterestRateType": "Variable",
+                            "AER": "0.15",
+                            "BankInterestRateType": "Gross"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "Overdraft": {
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/SiteCollectionDocuments/tcs-personal-banking.pdf",
+                    "OverdraftTierBandSet": [
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "54I",
+                        "AuthorisedIndicator": false,
+                        "BufferAmount": "5"
+                      },
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "54I",
+                        "AuthorisedIndicator": true,
+                        "BufferAmount": "5",
+                        "OverdraftTierBand": [
+                          {
+                            "Identification": "54I",
+                            "TierValueMin": "0",
+                            "TierValueMax": "0",
+                            "OverdraftInterestChargingCoverage": "Whole",
+                            "EAR": "11.01",
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeCap": [
+                                  {
+                                    "FeeType": [
+                                      "UnauthorisedPaidTrans"
+                                    ],
+                                    "FeeMinMaxType": "Maximum",
+                                    "FeeCapOccurrence": 1,
+                                    "CappingPeriod": "Day"
+                                  }
+                                ],
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "UnauthorisedPaidTrans",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedBorrowing",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "Monthly"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedUnpaidTrans",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "Eligibility": {
+                    "AgeEligibility": {
+                      "MinimumAge": 18
+                    },
+                    "ResidencyEligibility": {
+                      "ResidencyType": "Other",
+                      "ResidencyIncluded": [
+                        "EUEU"
+                      ]
+                    },
+                    "CreditCheck": {
+                      "ScoringType": "Hard"
+                    },
+                    "IDVerificationCheck": {
+                      "URL": "https://www.danskebank.co.uk/en-gb/Personal/customer-service/Pages/Become-a-customer.aspx",
+                      "Notes": [
+                        "Identity Authenticate by Experian used for identity verification."
+                      ]
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitGroup": [
+                      {
+                        "FeatureBenefitItem": [
+                          {
+                            "Type": "AccountManagement",
+                            "Textual": "Lodge money, withdraw cash and check your balance at over 400 Post Office branches across Northern Ireland"
+                          },
+                          {
+                            "Type": "AccountManagement",
+                            "Name": "Text Alerts",
+                            "Textual": "Free text and email alerts to help you manage your money"
+                          },
+                          {
+                            "Identification": "Travel Insurance",
+                            "Type": "TravelInsurance",
+                            "Textual": "Worldwide Family Travel Insurance Benefits.  Customer must have taken Mastercard Gold as part of the package."
+                          },
+                          {
+                            "Type": "AccountManagement",
+                            "Textual": "Lodge and withdraw money at any of our 44 branches across Northern Ireland"
+                          }
+                        ]
+                      }
+                    ],
+                    "FeatureBenefitItem": [
+                      {
+                        "Type": "AccountManagement",
+                        "Textual": "Lodge money, withdraw cash and check your balance at over 400 Post Office branches across Northern Ireland"
+                      },
+                      {
+                        "Type": "AccountManagement",
+                        "Name": "Text Alerts",
+                        "Textual": "Free text and email alerts to help you manage your money"
+                      },
+                      {
+                        "Identification": "Travel Insurance",
+                        "Type": "TravelInsurance",
+                        "Textual": "Worldwide Family Travel Insurance Benefits.  Customer must have taken Mastercard Gold as part of the package."
+                      },
+                      {
+                        "Type": "AccountManagement",
+                        "Textual": "Lodge and withdraw money at any of our 44 branches across Northern Ireland"
+                      }
+                    ],
+                    "Card": [
+                      {
+                        "Type": "DebitCard",
+                        "Scheme": "MasterCard",
+                        "ContactlessIndicator": true
+                      }
+                    ],
+                    "MobileWallet": [
+                      {
+                        "Type": "IssuerMobileApp"
+                      },
+                      {
+                        "Type": "ApplePay"
+                      },
+                      {
+                        "Type": "Other",
+                        "Notes": [
+                          "Garminpay"
+                        ]
+                      },
+                      {
+                        "Type": "PayM"
+                      },
+                      {
+                        "Type": "Other",
+                        "Notes": [
+                          "FitBitPay"
+                        ]
+                      },
+                      {
+                        "Type": "SamsungPay"
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeAmount": "0.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqStopped",
+                        "FeeAmount": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOutOnline",
+                        "FeeAmount": "20",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopy1",
+                        "FeeAmount": "6",
+                        "ApplicationFrequency": "PerSheet",
+                        "CalculationFrequency": "PerSheet",
+                        "Notes": [
+                          "Copy of previous statement"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMForeignCashDebCard",
+                        "FeeAmount": "1.25",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialChqPresentation",
+                        "FeeAmount": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSIn",
+                        "FeeAmount": "6",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "Other",
+                        "FeeAmount": "2.5",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "Collect Cheque Book at Branch"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayTransRateNonSterling",
+                        "FeeRate": "2.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransactionPercentage"
+                      },
+                      {
+                        "FeeCategory": "Servicing",
+                        "FeeType": "ServiceCAccountFee",
+                        "FeeAmount": "11",
+                        "ApplicationFrequency": "Monthly",
+                        "CalculationFrequency": "Monthly",
+                        "Notes": [
+                          "Fee entitles customer to up to 5 accounts."
+                        ]
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsBankers",
+                        "FeeAmount": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopyRegular",
+                        "FeeAmount": "3",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayTransNonSterling",
+                        "FeeAmount": "1.25",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeRate": "2.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransactionPercentage"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "FPSInBranch",
+                        "FeeAmount": "5",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Transaction",
+                        "FeeType": "TransCreditTransferUKDifferent",
+                        "FeeAmount": "3",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductURL": "https://danskebank.co.uk/en-gb/Personal/customer-service/customer-information/Pages/personal-customers-info.aspx",
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/SiteCollectionDocuments/tcs-personal-banking.pdf",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "CallCentre"
+                    ],
+                    "ServicingAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "MobileBankingApp",
+                      "CallCentre",
+                      "Post"
+                    ],
+                    "MonthlyMaximumCharge": "75"
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "Current Account Plus",
+              "Identification": "40K",
+              "PCAMarketingState": [
+                {
+                  "Identification": "40K",
+                  "MarketingState": "Regular",
+                  "FirstMarketedDate": "1900-01-01",
+                  "LastMarketedDate": "2006-04-13",
+                  "Overdraft": {
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/SiteCollectionDocuments/tcs-personal-banking.pdf",
+                    "OverdraftTierBandSet": [
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "40K",
+                        "AuthorisedIndicator": false,
+                        "BufferAmount": "5",
+                        "OverdraftTierBand": [
+                          {
+                            "Identification": "40K",
+                            "TierValueMin": "0",
+                            "TierValueMax": "0",
+                            "OverdraftInterestChargingCoverage": "Whole",
+                            "EAR": "16.06",
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeCap": [
+                                  {
+                                    "FeeType": [
+                                      "UnauthorisedPaidTrans"
+                                    ],
+                                    "FeeMinMaxType": "Maximum",
+                                    "FeeCapOccurrence": 1,
+                                    "CappingPeriod": "Day"
+                                  }
+                                ],
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "UnauthorisedUnpaidTrans",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedPaidTrans",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "PerTransaction"
+                                  },
+                                  {
+                                    "FeeType": "ArrangedOverdraft",
+                                    "FeeAmount": "12",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "Monthly"
+                                  },
+                                  {
+                                    "FeeType": "UnauthorisedBorrowing",
+                                    "FeeAmount": "25",
+                                    "ApplicationFrequency": "Monthly",
+                                    "CalculationFrequency": "Monthly"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "TierBandMethod": "Tiered",
+                        "OverdraftType": "OnDemand",
+                        "Identification": "40K",
+                        "AuthorisedIndicator": true,
+                        "BufferAmount": "5"
+                      }
+                    ]
+                  },
+                  "Eligibility": {
+                    "AgeEligibility": {
+                      "MinimumAge": 18
+                    },
+                    "ResidencyEligibility": {
+                      "ResidencyType": "Other",
+                      "ResidencyIncluded": [
+                        "EUEU"
+                      ]
+                    },
+                    "CreditCheck": {
+                      "ScoringType": "Hard"
+                    },
+                    "IDVerificationCheck": {
+                      "URL": "https://www.danskebank.co.uk/en-gb/Personal/customer-service/Pages/Become-a-customer.aspx",
+                      "Notes": [
+                        "Identity Authenticate by Experian used for identity verification."
+                      ]
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitGroup": [
+                      {
+                        "FeatureBenefitItem": [
+                          {
+                            "Type": "AccountManagement",
+                            "Textual": "Lodge and withdraw money at any of our 44 branches across Northern Ireland"
+                          },
+                          {
+                            "Type": "AccountManagement",
+                            "Textual": "Lodge money, withdraw cash and check your balance at over 400 Post Office branches across Northern Ireland"
+                          },
+                          {
+                            "Type": "AccountManagement",
+                            "Name": "Text Alerts",
+                            "Textual": "Free text and email alerts to help you manage your money"
+                          }
+                        ]
+                      }
+                    ],
+                    "FeatureBenefitItem": [
+                      {
+                        "Type": "AccountManagement",
+                        "Textual": "Lodge and withdraw money at any of our 44 branches across Northern Ireland"
+                      },
+                      {
+                        "Type": "AccountManagement",
+                        "Textual": "Lodge money, withdraw cash and check your balance at over 400 Post Office branches across Northern Ireland"
+                      },
+                      {
+                        "Type": "AccountManagement",
+                        "Name": "Text Alerts",
+                        "Textual": "Free text and email alerts to help you manage your money"
+                      }
+                    ],
+                    "Card": [
+                      {
+                        "Type": "DebitCard",
+                        "Scheme": "MasterCard",
+                        "ContactlessIndicator": true
+                      }
+                    ],
+                    "MobileWallet": [
+                      {
+                        "Type": "IssuerMobileApp"
+                      },
+                      {
+                        "Type": "ApplePay"
+                      },
+                      {
+                        "Type": "Other",
+                        "Notes": [
+                          "FitBitPay"
+                        ]
+                      },
+                      {
+                        "Type": "SamsungPay"
+                      },
+                      {
+                        "Type": "PayM"
+                      },
+                      {
+                        "Type": "Other",
+                        "Notes": [
+                          "Garminpay"
+                        ]
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMForeignCashDebCard",
+                        "FeeAmount": "1.25",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialChqPresentation",
+                        "FeeAmount": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "FPSInBranch",
+                        "FeeAmount": "5",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Transaction",
+                        "FeeType": "TransCreditTransferUKDifferent",
+                        "FeeAmount": "3",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayTransRateNonSterling",
+                        "FeeRate": "2.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransactionPercentage"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOutOnline",
+                        "FeeAmount": "20",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopy1",
+                        "FeeAmount": "6",
+                        "ApplicationFrequency": "PerSheet",
+                        "CalculationFrequency": "PerSheet",
+                        "Notes": [
+                          "Copy of previous statement"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeRate": "2.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransactionPercentage"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayTransNonSterling",
+                        "FeeAmount": "1.25",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSIn",
+                        "FeeAmount": "6",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "Other",
+                        "FeeAmount": "2.5",
+                        "ApplicationFrequency": "PerOccurrence",
+                        "CalculationFrequency": "PerOccurrence",
+                        "Notes": [
+                          "Collect Cheque Book at Branch"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeAmount": "0.75",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqStopped",
+                        "FeeAmount": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsBankers",
+                        "FeeAmount": "10",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopyRegular",
+                        "FeeAmount": "3",
+                        "ApplicationFrequency": "PerTransaction",
+                        "CalculationFrequency": "PerTransaction"
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductURL": "https://danskebank.co.uk/en-gb/Personal/customer-service/customer-information/Pages/personal-customers-info.aspx",
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/SiteCollectionDocuments/tcs-personal-banking.pdf",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "CallCentre"
+                    ],
+                    "ServicingAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "MobileBankingApp",
+                      "CallCentre",
+                      "Post"
+                    ],
+                    "MonthlyMaximumCharge": "75"
+                  }
+                }
+              ]
+            },
+            {
+              "Name": "Danske Discovery",
+              "Identification": "54M",
+              "Segment": [
+                "Youth"
+              ],
+              "PCAMarketingState": [
+                {
+                  "Identification": "54M",
+                  "MarketingState": "Regular",
+                  "FirstMarketedDate": "2006-06-14",
+                  "LastMarketedDate": "9999-12-31",
+                  "Eligibility": {
+                    "AgeEligibility": {
+                      "MinimumAge": 11,
+                      "MaximumAge": 17
+                    },
+                    "ResidencyEligibility": {
+                      "ResidencyType": "Other",
+                      "ResidencyIncluded": [
+                        "EUEU"
+                      ]
+                    }
+                  },
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitGroup": [
+                      {}
+                    ],
+                    "Card": [
+                      {
+                        "Type": "DebitCard",
+                        "Scheme": "MasterCard",
+                        "ContactlessIndicator": true
+                      }
+                    ],
+                    "MobileWallet": [
+                      {
+                        "Type": "IssuerMobileApp"
+                      }
+                    ]
+                  },
+                  "OtherFeesCharges": {
+                    "FeeChargeDetail": [
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ReportStatementCopy1",
+                        "FeeAmount": "3.00",
+                        "ApplicationFrequency": "Daily",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "FPSInBranch",
+                        "FeeAmount": "5.00",
+                        "ApplicationFrequency": "Daily",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "ATM",
+                        "FeeType": "ATMForeignCashDebCard",
+                        "FeeAmount": "1.25",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayTransNonSterling",
+                        "FeeAmount": "1.25",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "BankersDrafts",
+                        "FeeType": "DraftsBankers",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "Daily",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Transaction",
+                        "FeeType": "TransCreditTransferUKDifferent",
+                        "FeeAmount": "3.00",
+                        "ApplicationFrequency": "Daily",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "PaymentScheme",
+                        "FeeType": "CHAPSOutOnline",
+                        "FeeAmount": "20.00",
+                        "ApplicationFrequency": "Daily",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayTransRateNonSterling",
+                        "FeeAmount": "0.00",
+                        "FeeRate": "2.75",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransactionPercentage"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqSpecialChqPresentation",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "Daily",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeAmount": "0.75",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransaction"
+                      },
+                      {
+                        "FeeCategory": "Cheque",
+                        "FeeType": "ChqStopped",
+                        "FeeAmount": "10.00",
+                        "ApplicationFrequency": "Daily",
+                        "CalculationFrequency": "PerOccurrence"
+                      },
+                      {
+                        "FeeCategory": "Report",
+                        "FeeType": "ServiceCOther",
+                        "FeeAmount": "6.00",
+                        "ApplicationFrequency": "Daily",
+                        "CalculationFrequency": "PerSheet",
+                        "Notes": [
+                          "Copy of previous statement"
+                        ]
+                      },
+                      {
+                        "FeeCategory": "Foreign",
+                        "FeeType": "IntlPayPurchaseNonSterling",
+                        "FeeAmount": "0.00",
+                        "FeeRate": "2.75",
+                        "ApplicationFrequency": "PerItem",
+                        "CalculationFrequency": "PerTransactionPercentage"
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductURL": "https://www.danskebank.co.uk/en-gb/Personal/Day-to-day/CurrentAccounts/products/Danske-Discovery/Pages/danske-discovery.aspx",
+                    "ProductDescription": "Aged 11 to 17? Our Danske Discovery current account gives you access to your account 24 hours a day, seven days a week.",
+                    "TcsAndCsURL": "http://www.danskebank.co.uk/SiteCollectionDocuments/tcs-personal-banking.pdf",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "CallCentre"
+                    ],
+                    "ServicingAccessChannels": [
+                      "Branch",
+                      "Online",
+                      "MobileBankingApp",
+                      "CallCentre",
+                      "Post"
+                    ],
+                    "MonthlyMaximumCharge": "0"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

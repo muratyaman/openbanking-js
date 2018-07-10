@@ -1,0 +1,1856 @@
+{
+  "meta": {
+    "LastUpdated": "2018-06-22T11:28:00.000Z",
+    "TotalResults": 15,
+    "Agreement": "Use of the APIs and any related data will be subject to the terms of the Open Licence and subject to terms and conditions",
+    "License": "https://www.openbanking.org.uk/open-licence",
+    "TermsOfUse": "https://www.openbanking.org.uk/terms"
+  },
+  "data": [
+    {
+      "Brand": [
+        {
+          "BrandName": "First Trust Bank",
+          "Branch": [
+            {
+              "Identification": "FTB1219657269664",
+              "SequenceNumber": "0",
+              "Name": "Kilkeel",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Corporate",
+                "Personal",
+                "SME",
+                "Business",
+                "Select",
+                "Private",
+                "Premier"
+              ],
+              "ServiceAndFacility": [
+                "OnlineBankingPoint",
+                "NightSafe",
+                "BureauDeChange",
+                "CounterServices",
+                "MortgageAdvisor",
+                "InternalQuickServicePoint",
+                "MeetingRooms",
+                "OnDemandCurrency",
+                "WiFi",
+                "QuickDeposit",
+                "ExternalATM"
+              ],
+              "Accessibility": [
+                "HelpingHandUnit",
+                "InductionLoop",
+                "LowerLevelCounter",
+                "WheelchairAccess"
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Sunday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "ContactInfo": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "+44 345 600 5925"
+                }
+              ],
+              "PostalAddress": {
+                "BuildingNumber": "30",
+                "StreetName": "Greencastle Street",
+                "TownName": "Kilkeel",
+                "Country": "UK",
+                "PostCode": "BT34 4BH",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.061965",
+                    "Longitude": "-6.008752"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "FTB1219657269670",
+              "SequenceNumber": "0",
+              "Name": "Coleraine",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Select",
+                "Business",
+                "Corporate",
+                "SME",
+                "Private",
+                "Premier",
+                "Personal"
+              ],
+              "ServiceAndFacility": [
+                "NightSafe",
+                "MeetingRooms",
+                "CounterServices",
+                "BureauDeChange",
+                "OnDemandCurrency",
+                "OnlineBankingPoint",
+                "WiFi",
+                "QuickDeposit",
+                "ExternalATM",
+                "InternalQuickServicePoint",
+                "MortgageAdvisor"
+              ],
+              "Accessibility": [
+                "LowerLevelCounter",
+                "InductionLoop",
+                "HelpingHandUnit",
+                "WheelchairAccess"
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Sunday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "ContactInfo": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "+44 345 600 5925"
+                }
+              ],
+              "PostalAddress": {
+                "BuildingNumber": "33",
+                "StreetName": "The Diamond",
+                "TownName": "Coleraine",
+                "Country": "UK",
+                "PostCode": "BT52 1DP",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "55.131728",
+                    "Longitude": "-6.670829"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "FTB1219750583130",
+              "SequenceNumber": "0",
+              "Name": "Ballymena",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "SME",
+                "Private",
+                "Corporate",
+                "Premier",
+                "Select",
+                "Business"
+              ],
+              "ServiceAndFacility": [
+                "MeetingRooms",
+                "ExternalATM",
+                "OnDemandCurrency",
+                "InternalATM",
+                "QuickDeposit",
+                "InternalQuickServicePoint",
+                "OnlineBankingPoint",
+                "CounterServices",
+                "MortgageAdvisor",
+                "WiFi",
+                "NightSafe",
+                "BureauDeChange"
+              ],
+              "Accessibility": [
+                "WheelchairAccess",
+                "InductionLoop",
+                "HelpingHandUnit",
+                "LowerLevelCounter"
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Sunday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "ContactInfo": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "+44 345 600 5925"
+                }
+              ],
+              "PostalAddress": {
+                "BuildingNumber": "78",
+                "StreetName": "Wellington Street",
+                "TownName": "Ballymena",
+                "Country": "UK",
+                "PostCode": "BT43 6AF",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.866155",
+                    "Longitude": "-6.274465"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "FTB1219657269673",
+              "SequenceNumber": "0",
+              "Name": "Meadowbank",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Private",
+                "Business",
+                "SME",
+                "Premier",
+                "Personal",
+                "Select",
+                "Corporate"
+              ],
+              "ServiceAndFacility": [
+                "QuickDeposit",
+                "InternalQuickServicePoint",
+                "OnlineBankingPoint",
+                "MeetingRooms",
+                "ExternalATM",
+                "MortgageAdvisor",
+                "WiFi",
+                "NightSafe",
+                "BureauDeChange",
+                "CounterServices",
+                "OnDemandCurrency"
+              ],
+              "Accessibility": [
+                "HelpingHandUnit",
+                "WheelchairAccess",
+                "InductionLoop",
+                "LowerLevelCounter"
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Sunday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "ContactInfo": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "+44 345 600 5925"
+                }
+              ],
+              "PostalAddress": {
+                "BuildingNumber": "Meadowbank",
+                "StreetName": "Strand Road",
+                "TownName": "Londonderry",
+                "Country": "UK",
+                "PostCode": "BT48 7TN",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "55.010478",
+                    "Longitude": "-7.316584"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "FTB1219657269665",
+              "SequenceNumber": "0",
+              "Name": "Newcastle",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Select",
+                "Corporate",
+                "Private",
+                "Premier",
+                "SME",
+                "Personal",
+                "Business"
+              ],
+              "ServiceAndFacility": [
+                "QuickDeposit",
+                "OnDemandCurrency",
+                "InternalQuickServicePoint",
+                "WiFi",
+                "NightSafe",
+                "CounterServices",
+                "BureauDeChange",
+                "MortgageAdvisor",
+                "OnlineBankingPoint",
+                "MeetingRooms",
+                "ExternalATM"
+              ],
+              "Accessibility": [
+                "WheelchairAccess",
+                "LowerLevelCounter",
+                "InductionLoop",
+                "HelpingHandUnit"
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Sunday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "ContactInfo": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "+44 345 600 5925"
+                }
+              ],
+              "PostalAddress": {
+                "BuildingNumber": "28-32",
+                "StreetName": "Main Street",
+                "TownName": "Newcastle",
+                "Country": "UK",
+                "PostCode": "BT33 0AD",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.213459",
+                    "Longitude": "-5.888867"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "FTB1219657269666",
+              "SequenceNumber": "0",
+              "Name": "Newry",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Private",
+                "Premier",
+                "Personal",
+                "Business",
+                "SME",
+                "Corporate",
+                "Select"
+              ],
+              "ServiceAndFacility": [
+                "InternalQuickServicePoint",
+                "NightSafe",
+                "ExternalATM",
+                "MortgageAdvisor",
+                "CounterServices",
+                "MeetingRooms",
+                "WiFi",
+                "QuickDeposit",
+                "OnDemandCurrency",
+                "InternalATM",
+                "OnlineBankingPoint",
+                "BureauDeChange"
+              ],
+              "Accessibility": [
+                "HelpingHandUnit",
+                "InductionLoop",
+                "LowerLevelCounter",
+                "WheelchairAccess"
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Sunday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "ContactInfo": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "+44 345 600 5925"
+                }
+              ],
+              "PostalAddress": {
+                "BuildingNumber": "42-44",
+                "StreetName": "Hill Street",
+                "TownName": "Newry",
+                "Country": "UK",
+                "PostCode": "BT34 1AU",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.174744",
+                    "Longitude": "-6.338329"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "FTB1219657269675",
+              "SequenceNumber": "0",
+              "Name": "Dungannon",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Premier",
+                "Corporate",
+                "Personal",
+                "SME",
+                "Business",
+                "Private",
+                "Select"
+              ],
+              "ServiceAndFacility": [
+                "BureauDeChange",
+                "QuickDeposit",
+                "ExternalATM",
+                "InternalQuickServicePoint",
+                "NightSafe",
+                "WiFi",
+                "OnlineBankingPoint",
+                "MeetingRooms",
+                "CounterServices",
+                "MortgageAdvisor",
+                "OnDemandCurrency"
+              ],
+              "Accessibility": [
+                "WheelchairAccess",
+                "LowerLevelCounter",
+                "HelpingHandUnit",
+                "InductionLoop"
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Sunday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "ContactInfo": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "+44 345 600 5925"
+                }
+              ],
+              "PostalAddress": {
+                "BuildingNumber": "18-20",
+                "StreetName": "Scotch Street",
+                "TownName": "Dungannon",
+                "Country": "UK",
+                "PostCode": "BT70 1AZ",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.503732",
+                    "Longitude": "-6.770307"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "FTB1221564396361",
+              "SequenceNumber": "0",
+              "Name": "Lisburn",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Business",
+                "Private",
+                "Premier",
+                "Personal",
+                "SME",
+                "Select",
+                "Corporate"
+              ],
+              "ServiceAndFacility": [
+                "QuickDeposit",
+                "OnDemandCurrency",
+                "OnlineBankingPoint",
+                "InternalQuickServicePoint",
+                "CounterServices",
+                "NightSafe",
+                "MortgageAdvisor",
+                "WiFi",
+                "InternalATM",
+                "ExternalATM",
+                "BureauDeChange",
+                "MeetingRooms"
+              ],
+              "Accessibility": [
+                "WheelchairAccess",
+                "HelpingHandUnit",
+                "LowerLevelCounter",
+                "InductionLoop"
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Sunday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "ContactInfo": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "+44 345 600 5925"
+                }
+              ],
+              "PostalAddress": {
+                "BuildingNumber": "34-36",
+                "StreetName": "Market Square",
+                "TownName": "Lisburn",
+                "Country": "UK",
+                "PostCode": "BT28 1AF",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.511165",
+                    "Longitude": "-6.044807"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "FTB1219657269669",
+              "SequenceNumber": "0",
+              "Name": "Enniskillen",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Personal",
+                "Select",
+                "Corporate",
+                "Business",
+                "Private",
+                "Premier",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "ExternalATM",
+                "MeetingRooms",
+                "QuickDeposit",
+                "OnlineBankingPoint",
+                "BureauDeChange",
+                "WiFi",
+                "InternalQuickServicePoint",
+                "MortgageAdvisor",
+                "OnDemandCurrency",
+                "CounterServices",
+                "NightSafe"
+              ],
+              "Accessibility": [
+                "WheelchairAccess",
+                "HelpingHandUnit",
+                "InductionLoop",
+                "LowerLevelCounter"
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Sunday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "ContactInfo": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "+44 345 600 5925"
+                }
+              ],
+              "PostalAddress": {
+                "BuildingNumber": "2-4",
+                "StreetName": "East Bridge Street",
+                "TownName": "Enniskillen",
+                "Country": "UK",
+                "PostCode": "BT74 7BT",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.344150",
+                    "Longitude": "-7.637090"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "FTB1219750569400",
+              "SequenceNumber": "0",
+              "Name": "Glengormley",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Business",
+                "Corporate",
+                "Private",
+                "Personal",
+                "Premier",
+                "SME",
+                "Select"
+              ],
+              "ServiceAndFacility": [
+                "OnDemandCurrency",
+                "MeetingRooms",
+                "InternalQuickServicePoint",
+                "NightSafe",
+                "WiFi",
+                "CounterServices",
+                "ExternalATM",
+                "MortgageAdvisor",
+                "QuickDeposit",
+                "OnlineBankingPoint",
+                "BureauDeChange"
+              ],
+              "Accessibility": [
+                "InductionLoop",
+                "WheelchairAccess",
+                "LowerLevelCounter",
+                "HelpingHandUnit"
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Sunday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "ContactInfo": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "+44 345 600 5925"
+                }
+              ],
+              "PostalAddress": {
+                "BuildingNumber": "322",
+                "StreetName": "Antrim Road",
+                "TownName": "Newtownabbey",
+                "Country": "UK",
+                "PostCode": "BT36 5EQ",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.671529",
+                    "Longitude": "-5.929030"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "FTB1219421708398",
+              "SequenceNumber": "0",
+              "Name": "Donegall Square North",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Business",
+                "SME",
+                "Select",
+                "Personal",
+                "Corporate",
+                "Private",
+                "Premier"
+              ],
+              "ServiceAndFacility": [
+                "MortgageAdvisor",
+                "WiFi",
+                "CounterServices",
+                "NightSafe",
+                "OnlineBankingPoint",
+                "ExternalATM",
+                "BureauDeChange",
+                "MeetingRooms",
+                "QuickDeposit",
+                "OnDemandCurrency",
+                "InternalATM",
+                "InternalQuickServicePoint"
+              ],
+              "Accessibility": [
+                "HelpingHandUnit",
+                "WheelchairAccess",
+                "InductionLoop",
+                "LowerLevelCounter"
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Sunday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "ContactInfo": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "+44 345 600 5925"
+                }
+              ],
+              "PostalAddress": {
+                "BuildingNumber": "11-15",
+                "StreetName": "Donegall Square North",
+                "TownName": "Belfast",
+                "Country": "UK",
+                "PostCode": "BT1 5GB ",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.597334",
+                    "Longitude": "-5.931288"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "FTB1219657269676",
+              "SequenceNumber": "0",
+              "Name": "Omagh",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Premier",
+                "Business",
+                "Select",
+                "Personal",
+                "Corporate",
+                "Private",
+                "SME"
+              ],
+              "ServiceAndFacility": [
+                "ExternalATM",
+                "BureauDeChange",
+                "CounterServices",
+                "MortgageAdvisor",
+                "OnlineBankingPoint",
+                "WiFi",
+                "InternalQuickServicePoint",
+                "OnDemandCurrency",
+                "NightSafe",
+                "MeetingRooms",
+                "QuickDeposit"
+              ],
+              "Accessibility": [
+                "HelpingHandUnit",
+                "InductionLoop",
+                "WheelchairAccess",
+                "LowerLevelCounter"
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Sunday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "ContactInfo": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "+44 345 600 5925"
+                }
+              ],
+              "PostalAddress": {
+                "BuildingNumber": "8",
+                "StreetName": "High Street",
+                "TownName": "Omagh",
+                "Country": "UK",
+                "PostCode": "BT78 1BH",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.600110",
+                    "Longitude": "-7.303728"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "FTB1219657269659",
+              "SequenceNumber": "0",
+              "Name": "Lurgan",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Corporate",
+                "SME",
+                "Premier",
+                "Private",
+                "Select",
+                "Business",
+                "Personal"
+              ],
+              "ServiceAndFacility": [
+                "QuickDeposit",
+                "ExternalATM",
+                "NightSafe",
+                "MortgageAdvisor",
+                "MeetingRooms",
+                "InternalQuickServicePoint",
+                "InternalATM",
+                "CounterServices",
+                "WiFi",
+                "BureauDeChange",
+                "OnDemandCurrency",
+                "OnlineBankingPoint"
+              ],
+              "Accessibility": [
+                "HelpingHandUnit",
+                "WheelchairAccess",
+                "LowerLevelCounter",
+                "InductionLoop"
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Sunday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "ContactInfo": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "+44 345 600 5925"
+                }
+              ],
+              "PostalAddress": {
+                "BuildingNumber": "4-8",
+                "StreetName": "Market Street",
+                "TownName": "Lurgan",
+                "Country": "UK",
+                "PostCode": "BT66 6AQ",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.462823",
+                    "Longitude": "-6.333080"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "FTB1219657269662",
+              "SequenceNumber": "0",
+              "Name": "Bangor",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "SME",
+                "Corporate",
+                "Personal",
+                "Business",
+                "Premier",
+                "Private",
+                "Select"
+              ],
+              "ServiceAndFacility": [
+                "QuickDeposit",
+                "InternalQuickServicePoint",
+                "MortgageAdvisor",
+                "CounterServices",
+                "NightSafe",
+                "OnlineBankingPoint",
+                "BureauDeChange",
+                "ExternalATM",
+                "OnDemandCurrency",
+                "MeetingRooms",
+                "WiFi"
+              ],
+              "Accessibility": [
+                "InductionLoop",
+                "WheelchairAccess",
+                "HelpingHandUnit",
+                "LowerLevelCounter"
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Sunday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "ContactInfo": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "+44 345 600 5925"
+                }
+              ],
+              "PostalAddress": {
+                "BuildingNumber": "85",
+                "StreetName": "Main Street",
+                "TownName": "Bangor",
+                "Country": "UK",
+                "PostCode": "BT20 4BA",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.660486",
+                    "Longitude": "-5.668152"
+                  }
+                }
+              }
+            },
+            {
+              "Identification": "FTB1219657269657",
+              "SequenceNumber": "0",
+              "Name": "University Road",
+              "Type": "Physical",
+              "CustomerSegment": [
+                "Premier",
+                "Corporate",
+                "Select",
+                "SME",
+                "Private",
+                "Business",
+                "Personal"
+              ],
+              "ServiceAndFacility": [
+                "BureauDeChange",
+                "OnDemandCurrency",
+                "WiFi",
+                "QuickDeposit",
+                "CounterServices",
+                "MortgageAdvisor",
+                "MeetingRooms",
+                "ExternalATM",
+                "OnlineBankingPoint",
+                "NightSafe",
+                "InternalATM",
+                "InternalQuickServicePoint"
+              ],
+              "Accessibility": [
+                "InductionLoop",
+                "WheelchairAccess",
+                "HelpingHandUnit",
+                "LowerLevelCounter"
+              ],
+              "Availability": {
+                "StandardAvailability": {
+                  "Day": [
+                    {
+                      "Name": "Friday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Monday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Sunday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "09:30",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "OpeningHours": [
+                        {
+                          "OpeningTime": "10:00",
+                          "ClosingTime": "16:30"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "ContactInfo": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "+44 345 600 5925"
+                }
+              ],
+              "PostalAddress": {
+                "BuildingNumber": "33-35",
+                "StreetName": "University Road",
+                "TownName": "Belfast",
+                "Country": "UK",
+                "PostCode": "BT7 1ND ",
+                "GeoLocation": {
+                  "GeographicCoordinates": {
+                    "Latitude": "54.586301",
+                    "Longitude": "-5.936054"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

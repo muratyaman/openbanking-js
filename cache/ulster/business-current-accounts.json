@@ -1,0 +1,1949 @@
+{
+  "meta": {
+    "LastUpdated": "2018-07-10T04:33:25.392Z",
+    "TotalResults": 1,
+    "Agreement": "Use of the APIs and any related data will be subject to the terms of the Open Licence and subject to terms and conditions",
+    "License": "https://www.openbanking.org.uk/open-licence",
+    "TermsOfUse": "https://www.openbanking.org.uk/terms"
+  },
+  "data": [
+    {
+      "Brand": [
+        {
+          "BrandName": "Ulster Bank (NI)",
+          "BCA": [
+            {
+              "Name": "Business Current Account - (UBNI)",
+              "Identification": "516",
+              "BCAMarketingState": [
+                {
+                  "Identification": "861",
+                  "MarketingState": "Promotional",
+                  "StateTenurePeriod": "Month",
+                  "StateTenureLength": 18,
+                  "Notes": [
+                    "Start Ups 18 Months Free Banking",
+                    "free banking for start ups",
+                    "Start up package is for businesses that have been trading less than a year and will have an annual turnover under £1m"
+                  ],
+                  "OtherFeesCharges": [
+                    {
+                      "FeeChargeDetail": [
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCashIn",
+                          "Notes": [
+                            "Charge - Branch Cash Paid In",
+                            "per hundred pounds"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "Other",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "TransManualTrans",
+                          "Notes": [
+                            "Charge - Manual Credits"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "PerTransaction",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "CounterCashIn",
+                          "Notes": [
+                            "Charge - Cash Paid In - Cash and Deposit Machine",
+                            "per hundred pounds"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "Other",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCashOut",
+                          "Notes": [
+                            "Charge - Branch Cash Paid Out",
+                            "per hundred pounds"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "Other",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCashOut",
+                          "Notes": [
+                            "Charge - Cash Centre Cash Out",
+                            "per hundred pounds"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "Other",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "AutoAutoCredit",
+                          "Notes": [
+                            "Charge - Automated Credits"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "PerTransaction",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "FPSInBranch",
+                          "Notes": [
+                            "Charge - Branch Faster Payment"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "PerTransaction",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "TransBillPaymentTelephone",
+                          "Notes": [
+                            "Charge - Telephone Transfer to non-RBSG Payee"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "PerTransaction",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "TransStandingOrd",
+                          "Notes": [
+                            "Charge - Standing Orders"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "PerTransaction",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterNotesLodged",
+                          "Notes": [
+                            "Charge - Cash Centre Notes In",
+                            "per hundred pounds"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "Other",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCoinHandling",
+                          "Notes": [
+                            "Charge - Cash (Coins) Paid In - Cash Centres",
+                            "per hundred pounds"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "Other",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "BACSItem",
+                          "Notes": [
+                            "Charge - BACS Usage"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "PerTransaction",
+                          "CalculationFrequency": "PerTransaction"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "FPSOut",
+                          "Notes": [
+                            "Charge - Online/Digital Faster Payment"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "PerTransaction",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "Other",
+                          "OtherFeeType": {
+                            "Name": "OtherPaymentFee",
+                            "Description": "OtherPaymentFee",
+                            "FeeCategory": "Transaction"
+                          },
+                          "Notes": [
+                            "Fee"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "Monthly",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "BACSItem",
+                          "Notes": [
+                            "Charge - BACS Direct Debits"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "PerTransaction",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "TransCreditTransferUKSame",
+                          "Notes": [
+                            "Charge - Telephone Transfer to RBSG Payee"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "PerTransaction",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "CounterCashIn",
+                          "Notes": [
+                            "Charge - Cheques Paid In - Branches"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "PerTransaction",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Cheque",
+                          "FeeType": "ChqTrans",
+                          "Notes": [
+                            "Charge - Cheques & Other Debits"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "PerTransaction",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCashX",
+                          "Notes": [
+                            "Charge - Branch Cash Exchange",
+                            "per hundred pounds"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "Other",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "BACSOnLineFile",
+                          "Notes": [
+                            "Charge - BACS Files"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "ChqIn",
+                          "Notes": [
+                            "Charge - Cheques Paid in - Cash Centres"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "PerTransaction",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "AutoAutomatedTrans",
+                          "Notes": [
+                            "Charge - Other Automated Debits"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "PerTransaction",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "Other",
+                          "OtherFeeType": {
+                            "Name": "AccountManagement",
+                            "Description": "AccountManagement",
+                            "FeeCategory": "Transaction"
+                          },
+                          "Notes": [
+                            "Charge - Maintenance"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "Monthly",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "Other",
+                          "OtherFeeType": {
+                            "Name": "OtherPaymentFee",
+                            "Description": "OtherPaymentFee",
+                            "FeeCategory": "CounterServices"
+                          },
+                          "Notes": [
+                            "Charge - Cash Sealed - Cash Centre",
+                            "per hundred pounds"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "Other",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCounterLodgement",
+                          "Notes": [
+                            "Charge - Fast Cash Paid In",
+                            "per hundred pounds"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "Other",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "Other",
+                          "OtherFeeType": {
+                            "Name": "OverdraftReview",
+                            "Description": "OverdraftReview",
+                            "FeeCategory": "Transaction"
+                          },
+                          "Notes": [
+                            "Overdraft - Interest Notes"
+                          ],
+                          "FeeRate": "17",
+                          "ApplicationFrequency": "Yearly",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "Other",
+                          "OtherFeeType": {
+                            "Name": "OtherPaymentFee",
+                            "Description": "OtherPaymentFee",
+                            "FeeCategory": "Transaction"
+                          },
+                          "Notes": [
+                            "Fee",
+                            "Autopay Payments"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "Other",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "ChqIn",
+                          "Notes": [
+                            "Charge - Cheques Returned In"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "Other",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "NightSafeNightSafe",
+                          "Notes": [
+                            "Charge - Night Safe Wallet Usage"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "PerTransaction",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "BACSOnLineOverlimit",
+                          "Notes": [
+                            "Charge - BACS Referral"
+                          ],
+                          "FeeAmount": "40.00",
+                          "ApplicationFrequency": "Other",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "Other",
+                          "OtherFeeType": {
+                            "Name": "UnauthorisedUnpaidTrans",
+                            "Description": "UnauthorisedUnpaidTrans",
+                            "FeeCategory": "Transaction"
+                          },
+                          "Notes": [
+                            "Charge - Unpaid item",
+                            "If the customer reaches 30 instances per quarterly this is the maximum number of unpaid we will charge for."
+                          ],
+                          "FeeAmount": "10.00",
+                          "ApplicationFrequency": "PerItem",
+                          "CalculationFrequency": "PerItem"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "Other",
+                          "OtherFeeType": {
+                            "Name": "UnauthorisedPaidTrans",
+                            "Description": "UnauthorisedPaidTrans",
+                            "FeeCategory": "Transaction"
+                          },
+                          "Notes": [
+                            "Charge - Paid Referral",
+                            "if customer reaches 18 instances per quarter this is the maximum number they will pay for."
+                          ],
+                          "FeeAmount": "15.00",
+                          "ApplicationFrequency": "Other",
+                          "CalculationFrequency": "PerItem"
+                        }
+                      ],
+                      "FeeChargeCap": [
+                        {
+                          "MinMaxType": "Maximum",
+                          "FeeType": [
+                            "Other"
+                          ],
+                          "OtherFeeType": [
+                            {
+                              "Name": "UnauthorisedUnpaidTrans",
+                              "Description": "UnauthorisedUnpaidTrans"
+                            }
+                          ],
+                          "CappingPeriod": "Quarter"
+                        },
+                        {
+                          "MinMaxType": "Maximum",
+                          "FeeType": [
+                            "Other"
+                          ],
+                          "OtherFeeType": [
+                            {
+                              "Name": "UnauthorisedPaidTrans",
+                              "Description": "UnauthorisedPaidTrans"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "Eligibility": {},
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitItem": [
+                      {
+                        "Identification": "2289",
+                        "Type": "AccountManagement",
+                        "Name": "Cheque Book and Credit book"
+                      },
+                      {
+                        "Identification": "2290",
+                        "Type": "AccountManagement",
+                        "Name": "Visa Debit Card"
+                      },
+                      {
+                        "Identification": "2291",
+                        "Type": "AccountManagement",
+                        "Name": "Monthly Statements"
+                      },
+                      {
+                        "Identification": "2292",
+                        "Type": "AccountManagement",
+                        "Name": "Pre-Notification of Charges"
+                      },
+                      {
+                        "Identification": "2293",
+                        "Type": "AccountManagement",
+                        "Name": "Automatic Money transafers (where requested /agreed)"
+                      },
+                      {
+                        "Identification": "2294",
+                        "Type": "AccountManagement",
+                        "Name": "Access to eBanking and Mobile Banking"
+                      },
+                      {
+                        "Identification": "2295",
+                        "Type": "AccountManagement",
+                        "Name": "Access to Bankline"
+                      },
+                      {
+                        "Identification": "2296",
+                        "Type": "AccountManagement",
+                        "Name": "International Payments"
+                      },
+                      {
+                        "Identification": "27587",
+                        "Name": "CardScheme",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "CardScheme",
+                          "Description": "The payment scheme whose logo appears on the card."
+                        },
+                        "Textual": "Visa"
+                      },
+                      {
+                        "Identification": "27580",
+                        "Name": "CreditInterestRateStructure",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "CreditInterestRateStructure",
+                          "Description": "States the structure applied on the credit interest."
+                        },
+                        "Textual": "N/A"
+                      },
+                      {
+                        "Identification": "27581",
+                        "Name": "Currency",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "Currency",
+                          "Description": "A system of money, in any form, that can be used as a unit of account, medium of exchange and store of value."
+                        },
+                        "Textual": "GBP"
+                      },
+                      {
+                        "Identification": "27582",
+                        "Name": "DebitCardType",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "DebitCardType",
+                          "Description": "Authorised and non-authorised (cannot use in an off-line situation)."
+                        },
+                        "Textual": "Authorised"
+                      },
+                      {
+                        "Identification": "27591",
+                        "Name": "OverdraftAvailable",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "OverdraftAvailable",
+                          "Description": "States if an overdraft is available."
+                        },
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "27583",
+                        "Name": "RegularTariffs",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "RegularTariffs",
+                          "Description": "The period in which the tariff is applied."
+                        },
+                        "Textual": "Monthly"
+                      },
+                      {
+                        "Identification": "27592",
+                        "Name": "DigitalServices",
+                        "Type": "AccountManagement",
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "27593",
+                        "Name": "DiscountBenefitsAccount",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "DiscountBenefitsAccount",
+                          "Description": "States if the product is able to offer any discounts/benefits."
+                        },
+                        "Indicator": false
+                      },
+                      {
+                        "Identification": "27594",
+                        "Name": "AccessToBankToYou",
+                        "Type": "AccountManagement",
+                        "Indicator": false
+                      },
+                      {
+                        "Identification": "27595",
+                        "Name": "AccessToBankline",
+                        "Type": "AccountManagement",
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "27596",
+                        "Name": "ChequeBookAvailable",
+                        "Type": "AccountManagement",
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "27597",
+                        "Name": "CreditInterestRatePayable",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "CreditInterestRatePayable",
+                          "Description": "This defines whether a credit interest is payable on the account."
+                        },
+                        "Indicator": false
+                      },
+                      {
+                        "Identification": "27598",
+                        "Name": "CurrentAccountSwitchService",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "CurrentAccountSwitchService",
+                          "Description": "States if the product can be used with the current account switch service."
+                        },
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "27599",
+                        "Name": "DebitCard",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "DebitCard",
+                          "Description": "States if the product is offered with a debit card."
+                        },
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "27600",
+                        "Name": "DirectDebits",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "DirectDebits",
+                          "Description": "This allows the customer to set up direct debits on the account."
+                        },
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "27584",
+                        "Name": "ElectronicPayments",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "ElectronicPayments",
+                          "Description": "States whether the product is in the form of an electronic payment, i.e. making payments over an electronic system."
+                        },
+                        "Textual": "BACS; Faster Payments; Domestic Payments; International Payments; CHAPS"
+                      },
+                      {
+                        "Identification": "27602",
+                        "Name": "InstantAccess",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "InstantAccess",
+                          "Description": "States if the product allows the customer to have instant access to their funds."
+                        },
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "27603",
+                        "Name": "MobileBanking",
+                        "Type": "AccountManagement",
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "27604",
+                        "Name": "MultipleAccountHolders",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "MultipleAccountHolders",
+                          "Description": "States if the product facilitates multiple signatories."
+                        },
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "27585",
+                        "Name": "PaymentClearingSystemSupported",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "PaymentClearingSystemSupported",
+                          "Description": "The payment systems supported by the product."
+                        },
+                        "Textual": "BACS; CHAPS; International systems"
+                      },
+                      {
+                        "Identification": "27606",
+                        "Name": "QuickDepositsServiceAvailability",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "QuickDepositsServiceAvailability",
+                          "Description": "States if 'quick deposits' are available with the product."
+                        },
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "27607",
+                        "Name": "SetOffArrangement",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "SetOffArrangement",
+                          "Description": "Set-off against other debt product."
+                        },
+                        "Indicator": false
+                      },
+                      {
+                        "Identification": "27608",
+                        "Name": "StandingOrderAvailability",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "StandingOrderAvailability",
+                          "Description": "States if standing orders can be used with this product."
+                        },
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "27610",
+                        "Name": "TransfersAllowed",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "TransfersAllowed",
+                          "Description": "Between other types of account."
+                        },
+                        "Indicator": true
+                      }
+                    ],
+                    "MobileWallet": [
+                      {
+                        "Type": "ApplePay"
+                      },
+                      {
+                        "Type": "MobileBankingApp"
+                      }
+                    ],
+                    "Card": [
+                      {
+                        "Scheme": [
+                          "Visa"
+                        ],
+                        "Type": "DebitCard",
+                        "ContactlessIndicator": true
+                      }
+                    ]
+                  },
+                  "CoreProduct": {
+                    "ProductDescription": "Business Current Account - Type 40 / Q9 (UBNI)",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "RelationshipManager",
+                      "Online",
+                      "CallCentre"
+                    ],
+                    "ServicingAccessChannels": [
+                      "ATM",
+                      "Branch",
+                      "CallCentre",
+                      "MobileBankingApp",
+                      "Online",
+                      "RelationshipManager"
+                    ],
+                    "ProductURL": "http://digital.ulsterbank.co.uk/business/accounts-and-services/business-current-accounts/business-current-account.html",
+                    "TcsAndCsURL": "http://digital.ulsterbank.co.uk/content/dam/Ulster/documents/ni-region/ni-business-ulst-brochures/business-banking-terms-and-conditions-ULST1572NI.pdf"
+                  },
+                  "FirstMarketedDate": "2016-07-06",
+                  "LastMarketedDate": "9999-09-09",
+                  "Overdraft": {
+                    "OverdraftTierBandSet": [
+                      {
+                        "Identification": "554",
+                        "Notes": [
+                          "Non Personal UBNI Overdrafts (On Demand overdrafts)",
+                          "Interest Tier (SME) Overdraft"
+                        ],
+                        "TierBandMethod": "Whole",
+                        "OverdraftTierBand": [
+                          {
+                            "Identification": "1585",
+                            "Notes": [
+                              "£5000"
+                            ],
+                            "TierValueMin": "0",
+                            "TierValueMax": "5000",
+                            "EAR": "7.71",
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "OverdraftSetup",
+                                    "Notes": [
+                                      "Overdraft - Setup Fee",
+                                      "1% (minimum £150)"
+                                    ],
+                                    "FeeAmount": "150",
+                                    "ApplicationFrequency": "OnOpening",
+                                    "CalculationFrequency": "OnOpening"
+                                  },
+                                  {
+                                    "FeeType": "OverdraftRenewal",
+                                    "Notes": [
+                                      "Overdraft - Review Fee",
+                                      "1% (minimum £150)"
+                                    ],
+                                    "FeeAmount": "150",
+                                    "ApplicationFrequency": "Yearly",
+                                    "CalculationFrequency": "Yearly"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "1586",
+                            "Notes": [
+                              "£10000"
+                            ],
+                            "TierValueMin": "5001",
+                            "TierValueMax": "10000",
+                            "EAR": "7.71",
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "OverdraftSetup",
+                                    "Notes": [
+                                      "Overdraft - Setup Fee",
+                                      "1% (minimum £150)"
+                                    ],
+                                    "FeeAmount": "150",
+                                    "ApplicationFrequency": "OnOpening",
+                                    "CalculationFrequency": "OnOpening"
+                                  },
+                                  {
+                                    "FeeType": "OverdraftRenewal",
+                                    "Notes": [
+                                      "Overdraft - Review Fee",
+                                      "1% (minimum £150)"
+                                    ],
+                                    "FeeAmount": "150",
+                                    "ApplicationFrequency": "Yearly",
+                                    "CalculationFrequency": "Yearly"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "1587",
+                            "Notes": [
+                              "£15000"
+                            ],
+                            "TierValueMin": "10001",
+                            "TierValueMax": "15000",
+                            "EAR": "7.71",
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "OverdraftSetup",
+                                    "Notes": [
+                                      "Overdraft - Setup Fee",
+                                      "1% (minimum £150)"
+                                    ],
+                                    "FeeAmount": "150",
+                                    "ApplicationFrequency": "OnOpening",
+                                    "CalculationFrequency": "OnOpening"
+                                  },
+                                  {
+                                    "FeeType": "OverdraftRenewal",
+                                    "Notes": [
+                                      "Overdraft - Review Fee",
+                                      "1% (minimum £150)"
+                                    ],
+                                    "FeeAmount": "150",
+                                    "ApplicationFrequency": "Yearly",
+                                    "CalculationFrequency": "Yearly"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "1588",
+                            "Notes": [
+                              "£20000"
+                            ],
+                            "TierValueMin": "15001",
+                            "TierValueMax": "20000",
+                            "EAR": "7.71",
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "OverdraftSetup",
+                                    "Notes": [
+                                      "Overdraft - Setup Fee",
+                                      "1% (minimum £150)"
+                                    ],
+                                    "FeeAmount": "200",
+                                    "ApplicationFrequency": "OnOpening",
+                                    "CalculationFrequency": "OnOpening"
+                                  },
+                                  {
+                                    "FeeType": "OverdraftRenewal",
+                                    "Notes": [
+                                      "Overdraft - Review Fee",
+                                      "1% (minimum £150)"
+                                    ],
+                                    "FeeAmount": "150",
+                                    "ApplicationFrequency": "Yearly",
+                                    "CalculationFrequency": "Yearly"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "1589",
+                            "Notes": [
+                              "£25000"
+                            ],
+                            "TierValueMin": "20001",
+                            "TierValueMax": "25000",
+                            "EAR": "7.71",
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "OverdraftSetup",
+                                    "Notes": [
+                                      "Overdraft - Setup Fee",
+                                      "1% (minimum £150)"
+                                    ],
+                                    "FeeAmount": "250",
+                                    "ApplicationFrequency": "OnOpening",
+                                    "CalculationFrequency": "OnOpening"
+                                  },
+                                  {
+                                    "FeeType": "OverdraftRenewal",
+                                    "Notes": [
+                                      "Overdraft - Review Fee",
+                                      "1% (minimum £150)"
+                                    ],
+                                    "FeeAmount": "150",
+                                    "ApplicationFrequency": "Yearly",
+                                    "CalculationFrequency": "Yearly"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "OverdraftFeesCharges": [
+                          {
+                            "OverdraftFeeChargeCap": [],
+                            "OverdraftFeeChargeDetail": [
+                              {
+                                "FeeType": "UnauthorisedBorrowing",
+                                "Notes": [
+                                  "Overdraft - Unarranged Overdraft Rate"
+                                ],
+                                "FeeRate": "17",
+                                "ApplicationFrequency": "Quarterly",
+                                "CalculationFrequency": "Daily"
+                              },
+                              {
+                                "FeeType": "UnauthorisedUnpaidTrans",
+                                "Notes": [
+                                  "Overdraft - Unpaid Transaction Fee"
+                                ],
+                                "FeeAmount": "10",
+                                "ApplicationFrequency": "PerOccurrence",
+                                "CalculationFrequency": "PerOccurrence"
+                              },
+                              {
+                                "FeeType": "OverdraftSetup",
+                                "Notes": [
+                                  "Overdraft - Setup Fee",
+                                  "minimum £150"
+                                ],
+                                "FeeRate": "1",
+                                "ApplicationFrequency": "Other",
+                                "OtherApplicationFrequency": {
+                                  "Name": "One Off",
+                                  "Description": "One Off"
+                                },
+                                "CalculationFrequency": "Other",
+                                "OtherCalculationFrequency": {
+                                  "Name": "OnAccountOpening",
+                                  "Description": "OnAccountOpening"
+                                }
+                              },
+                              {
+                                "FeeType": "OverdraftRenewal",
+                                "Notes": [
+                                  "Overdraft - Review Fee",
+                                  "minimum £150"
+                                ],
+                                "FeeRate": "1",
+                                "ApplicationFrequency": "Other",
+                                "OtherApplicationFrequency": {
+                                  "Name": "At Maturity",
+                                  "Description": "At Maturity"
+                                },
+                                "CalculationFrequency": "Yearly"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Identification": "862",
+                  "MarketingState": "Regular",
+                  "Notes": [
+                    "Standard Tariff"
+                  ],
+                  "OtherFeesCharges": [
+                    {
+                      "FeeChargeDetail": [
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCashIn",
+                          "Notes": [
+                            "Charge - Branch Cash Paid In",
+                            "Per Hundred Pounds"
+                          ],
+                          "FeeAmount": "0.70",
+                          "ApplicationFrequency": "Other",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "TransManualTrans",
+                          "Notes": [
+                            "Charge - Manual Credits"
+                          ],
+                          "FeeAmount": "0.58",
+                          "ApplicationFrequency": "PerTransaction",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "CounterCashIn",
+                          "Notes": [
+                            "Charge - Cash Paid In - Cash and Deposit Machine",
+                            "per hundred pounds"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "Other",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "CounterCashOut",
+                          "Notes": [
+                            "Charge - Branch Cash Paid Out",
+                            "Per Hundred Pounds"
+                          ],
+                          "FeeAmount": "0.70",
+                          "ApplicationFrequency": "Other",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCashOut",
+                          "Notes": [
+                            "Charge - Cash Centre Cash Out",
+                            "per hundred pounds"
+                          ],
+                          "FeeAmount": "0.70",
+                          "ApplicationFrequency": "Other",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "AutoAutoCredit",
+                          "Notes": [
+                            "Charge - Automated Credits"
+                          ],
+                          "FeeAmount": "0.43",
+                          "ApplicationFrequency": "PerTransaction",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "FPSInBranch",
+                          "Notes": [
+                            "Charge - Branch Faster Payment"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "PerTransaction",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "TransBillPaymentTelephone",
+                          "Notes": [
+                            "Charge - Telephone Transfer to non-RBSG Payee"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "PerTransaction",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "TransStandingOrd",
+                          "Notes": [
+                            "Charge - Standing Orders"
+                          ],
+                          "FeeAmount": "0.58",
+                          "ApplicationFrequency": "PerTransaction",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterNotesLodged",
+                          "Notes": [
+                            "Charge - Cash Centre Notes In",
+                            "per hundred pounds"
+                          ],
+                          "FeeAmount": "0.70",
+                          "ApplicationFrequency": "Other",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCoinHandling",
+                          "Notes": [
+                            "Charge - Cash (Coins) Paid In - Cash Centres",
+                            "Per hundred pounds"
+                          ],
+                          "FeeAmount": "0.70",
+                          "ApplicationFrequency": "Other",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "BACSOnLinePayment",
+                          "Notes": [
+                            "Charge - BACS Usage",
+                            "0.065",
+                            "rate per transaction is 0.065p.  If you have 3 transactions, the 3rd payment will be charged at 0.06p"
+                          ],
+                          "ApplicationFrequency": "PerTransaction",
+                          "CalculationFrequency": "PerTransaction"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "FPSOut",
+                          "Notes": [
+                            "Charge - Online/Digital Faster Payment"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "PerTransaction",
+                          "CalculationFrequency": "Monthly"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "Other",
+                          "OtherFeeType": {
+                            "Name": "OtherPaymentFee",
+                            "Description": "OtherPaymentFee",
+                            "FeeCategory": "Transaction"
+                          },
+                          "Notes": [
+                            "Fee"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "Monthly",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "BACSItem",
+                          "Notes": [
+                            "Charge - BACS Direct Debits"
+                          ],
+                          "FeeAmount": "0.43",
+                          "ApplicationFrequency": "PerTransaction",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "TransCreditTransferUKSame",
+                          "Notes": [
+                            "Charge - Telephone Transfer to RBSG Payee"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "PerTransaction",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "CounterCashIn",
+                          "Notes": [
+                            "Charge - Cheques Paid In - Branches"
+                          ],
+                          "FeeAmount": "0.40",
+                          "ApplicationFrequency": "PerTransaction",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Cheque",
+                          "FeeType": "ChqTrans",
+                          "Notes": [
+                            "Charge - Cheques & Other Debits"
+                          ],
+                          "FeeAmount": "0.58",
+                          "ApplicationFrequency": "PerTransaction",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCashX",
+                          "Notes": [
+                            "Charge - Branch Cash Exchange",
+                            "Per hundred pounds"
+                          ],
+                          "FeeAmount": "1.15",
+                          "ApplicationFrequency": "Other",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "BACSOnLineFile",
+                          "Notes": [
+                            "Charge - BACS Files"
+                          ],
+                          "FeeAmount": "4.50",
+                          "ApplicationFrequency": "PerOccurrence",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "ChqIn",
+                          "Notes": [
+                            "Charge - Cheques Paid in - Cash Centres"
+                          ],
+                          "FeeAmount": "0.40",
+                          "ApplicationFrequency": "PerTransaction",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "AutoAutomatedTrans",
+                          "Notes": [
+                            "Charge - Other Automated Debits"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "PerTransaction",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "Other",
+                          "OtherFeeType": {
+                            "Name": "AccountManagement",
+                            "Description": "AccountManagement",
+                            "FeeCategory": "Transaction"
+                          },
+                          "Notes": [
+                            "Charge - Maintenance"
+                          ],
+                          "FeeAmount": "8.00",
+                          "ApplicationFrequency": "Monthly",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "Other",
+                          "OtherFeeType": {
+                            "Name": "OtherPaymentFee",
+                            "Description": "OtherPaymentFee",
+                            "FeeCategory": "CounterServices"
+                          },
+                          "Notes": [
+                            "Charge - Cash Sealed - Cash Centre",
+                            "per hundred pounds"
+                          ],
+                          "FeeAmount": "0.70",
+                          "ApplicationFrequency": "Other",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "CounterServices",
+                          "FeeType": "CounterCounterLodgement",
+                          "Notes": [
+                            "Charge - Fast Cash Paid In",
+                            "Per Hundred Pounds"
+                          ],
+                          "FeeAmount": "0.70",
+                          "ApplicationFrequency": "Other",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "Other",
+                          "OtherFeeType": {
+                            "Name": "OverdraftReview",
+                            "Description": "OverdraftReview",
+                            "FeeCategory": "Transaction"
+                          },
+                          "Notes": [
+                            "Overdraft - Interest Notes"
+                          ],
+                          "FeeRate": "17",
+                          "ApplicationFrequency": "Yearly",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "Other",
+                          "OtherFeeType": {
+                            "Name": "OtherPaymentFee",
+                            "Description": "OtherPaymentFee",
+                            "FeeCategory": "Transaction"
+                          },
+                          "Notes": [
+                            "Fee",
+                            "Autopay Payments"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "Other",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "ChqIn",
+                          "Notes": [
+                            "Charge - Cheques Returned In"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "Other",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "NightSafeNightSafe",
+                          "Notes": [
+                            "Charge - Night Safe Wallet Usage"
+                          ],
+                          "FeeAmount": "0",
+                          "ApplicationFrequency": "PerTransaction",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "PaymentScheme",
+                          "FeeType": "BACSOnLineOverlimit",
+                          "Notes": [
+                            "Charge - BACS Referral"
+                          ],
+                          "FeeAmount": "40.00",
+                          "ApplicationFrequency": "Other",
+                          "CalculationFrequency": "Other"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "Other",
+                          "OtherFeeType": {
+                            "Name": "UnauthorisedUnpaidTrans",
+                            "Description": "UnauthorisedUnpaidTrans",
+                            "FeeCategory": "Transaction"
+                          },
+                          "Notes": [
+                            "Charge - Unpaid item",
+                            "If the customer reaches 30 instances per quarterly this is the maximum number of unpaid we will charge for."
+                          ],
+                          "FeeAmount": "10.00",
+                          "ApplicationFrequency": "PerItem",
+                          "CalculationFrequency": "PerItem"
+                        },
+                        {
+                          "FeeCategory": "Transaction",
+                          "FeeType": "Other",
+                          "OtherFeeType": {
+                            "Name": "UnauthorisedPaidTrans",
+                            "Description": "UnauthorisedPaidTrans",
+                            "FeeCategory": "Transaction"
+                          },
+                          "Notes": [
+                            "Charge - Paid Referral",
+                            "if customer reaches 18 instances per quarter this is the maximum number they will pay for."
+                          ],
+                          "FeeAmount": "15.00",
+                          "ApplicationFrequency": "Other",
+                          "CalculationFrequency": "PerItem"
+                        }
+                      ],
+                      "FeeChargeCap": [
+                        {
+                          "MinMaxType": "Maximum",
+                          "FeeType": [
+                            "Other"
+                          ],
+                          "OtherFeeType": [
+                            {
+                              "Name": "UnauthorisedUnpaidTrans",
+                              "Description": "UnauthorisedUnpaidTrans"
+                            }
+                          ],
+                          "CappingPeriod": "Quarter"
+                        },
+                        {
+                          "MinMaxType": "Maximum",
+                          "FeeType": [
+                            "Other"
+                          ],
+                          "OtherFeeType": [
+                            {
+                              "Name": "UnauthorisedPaidTrans",
+                              "Description": "UnauthorisedPaidTrans"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "Eligibility": {},
+                  "FeaturesAndBenefits": {
+                    "FeatureBenefitItem": [
+                      {
+                        "Identification": "2289",
+                        "Type": "AccountManagement",
+                        "Name": "Cheque Book and Credit book"
+                      },
+                      {
+                        "Identification": "2290",
+                        "Type": "AccountManagement",
+                        "Name": "Visa Debit Card"
+                      },
+                      {
+                        "Identification": "2291",
+                        "Type": "AccountManagement",
+                        "Name": "Monthly Statements"
+                      },
+                      {
+                        "Identification": "2292",
+                        "Type": "AccountManagement",
+                        "Name": "Pre-Notification of Charges"
+                      },
+                      {
+                        "Identification": "2293",
+                        "Type": "AccountManagement",
+                        "Name": "Automatic Money transafers (where requested /agreed)"
+                      },
+                      {
+                        "Identification": "2294",
+                        "Type": "AccountManagement",
+                        "Name": "Access to eBanking and Mobile Banking"
+                      },
+                      {
+                        "Identification": "2295",
+                        "Type": "AccountManagement",
+                        "Name": "Access to Bankline"
+                      },
+                      {
+                        "Identification": "2296",
+                        "Type": "AccountManagement",
+                        "Name": "International Payments"
+                      },
+                      {
+                        "Identification": "27587",
+                        "Name": "CardScheme",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "CardScheme",
+                          "Description": "The payment scheme whose logo appears on the card."
+                        },
+                        "Textual": "Visa"
+                      },
+                      {
+                        "Identification": "27580",
+                        "Name": "CreditInterestRateStructure",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "CreditInterestRateStructure",
+                          "Description": "States the structure applied on the credit interest."
+                        },
+                        "Textual": "N/A"
+                      },
+                      {
+                        "Identification": "27581",
+                        "Name": "Currency",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "Currency",
+                          "Description": "A system of money, in any form, that can be used as a unit of account, medium of exchange and store of value."
+                        },
+                        "Textual": "GBP"
+                      },
+                      {
+                        "Identification": "27582",
+                        "Name": "DebitCardType",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "DebitCardType",
+                          "Description": "Authorised and non-authorised (cannot use in an off-line situation)."
+                        },
+                        "Textual": "Authorised"
+                      },
+                      {
+                        "Identification": "27591",
+                        "Name": "OverdraftAvailable",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "OverdraftAvailable",
+                          "Description": "States if an overdraft is available."
+                        },
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "27583",
+                        "Name": "RegularTariffs",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "RegularTariffs",
+                          "Description": "The period in which the tariff is applied."
+                        },
+                        "Textual": "Monthly"
+                      },
+                      {
+                        "Identification": "27592",
+                        "Name": "DigitalServices",
+                        "Type": "AccountManagement",
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "27593",
+                        "Name": "DiscountBenefitsAccount",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "DiscountBenefitsAccount",
+                          "Description": "States if the product is able to offer any discounts/benefits."
+                        },
+                        "Indicator": false
+                      },
+                      {
+                        "Identification": "27594",
+                        "Name": "AccessToBankToYou",
+                        "Type": "AccountManagement",
+                        "Indicator": false
+                      },
+                      {
+                        "Identification": "27595",
+                        "Name": "AccessToBankline",
+                        "Type": "AccountManagement",
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "27596",
+                        "Name": "ChequeBookAvailable",
+                        "Type": "AccountManagement",
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "27597",
+                        "Name": "CreditInterestRatePayable",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "CreditInterestRatePayable",
+                          "Description": "This defines whether a credit interest is payable on the account."
+                        },
+                        "Indicator": false
+                      },
+                      {
+                        "Identification": "27598",
+                        "Name": "CurrentAccountSwitchService",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "CurrentAccountSwitchService",
+                          "Description": "States if the product can be used with the current account switch service."
+                        },
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "27599",
+                        "Name": "DebitCard",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "DebitCard",
+                          "Description": "States if the product is offered with a debit card."
+                        },
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "27600",
+                        "Name": "DirectDebits",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "DirectDebits",
+                          "Description": "This allows the customer to set up direct debits on the account."
+                        },
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "27584",
+                        "Name": "ElectronicPayments",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "ElectronicPayments",
+                          "Description": "States whether the product is in the form of an electronic payment, i.e. making payments over an electronic system."
+                        },
+                        "Textual": "BACS; Faster Payments; Domestic Payments; International Payments; CHAPS"
+                      },
+                      {
+                        "Identification": "27602",
+                        "Name": "InstantAccess",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "InstantAccess",
+                          "Description": "States if the product allows the customer to have instant access to their funds."
+                        },
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "27603",
+                        "Name": "MobileBanking",
+                        "Type": "AccountManagement",
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "27604",
+                        "Name": "MultipleAccountHolders",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "MultipleAccountHolders",
+                          "Description": "States if the product facilitates multiple signatories."
+                        },
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "27585",
+                        "Name": "PaymentClearingSystemSupported",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "PaymentClearingSystemSupported",
+                          "Description": "The payment systems supported by the product."
+                        },
+                        "Textual": "BACS; CHAPS; International systems"
+                      },
+                      {
+                        "Identification": "27606",
+                        "Name": "QuickDepositsServiceAvailability",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "QuickDepositsServiceAvailability",
+                          "Description": "States if 'quick deposits' are available with the product."
+                        },
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "27607",
+                        "Name": "SetOffArrangement",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "SetOffArrangement",
+                          "Description": "Set-off against other debt product."
+                        },
+                        "Indicator": false
+                      },
+                      {
+                        "Identification": "27608",
+                        "Name": "StandingOrderAvailability",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "StandingOrderAvailability",
+                          "Description": "States if standing orders can be used with this product."
+                        },
+                        "Indicator": true
+                      },
+                      {
+                        "Identification": "27610",
+                        "Name": "TransfersAllowed",
+                        "Type": "Other",
+                        "OtherType": {
+                          "Name": "TransfersAllowed",
+                          "Description": "Between other types of account."
+                        },
+                        "Indicator": true
+                      }
+                    ],
+                    "MobileWallet": [
+                      {
+                        "Type": "ApplePay"
+                      },
+                      {
+                        "Type": "MobileBankingApp"
+                      }
+                    ],
+                    "Card": [
+                      {
+                        "Scheme": [
+                          "Visa"
+                        ],
+                        "Type": "DebitCard",
+                        "ContactlessIndicator": true
+                      }
+                    ]
+                  },
+                  "PredecessorID": "861",
+                  "CoreProduct": {
+                    "ProductDescription": "Business Current Account - Type 40 / Q9 (UBNI)",
+                    "SalesAccessChannels": [
+                      "Branch",
+                      "RelationshipManager",
+                      "Online",
+                      "CallCentre"
+                    ],
+                    "ServicingAccessChannels": [
+                      "ATM",
+                      "Branch",
+                      "CallCentre",
+                      "MobileBankingApp",
+                      "Online",
+                      "RelationshipManager"
+                    ],
+                    "ProductURL": "http://digital.ulsterbank.co.uk/business/accounts-and-services/business-current-accounts/business-current-account.html",
+                    "TcsAndCsURL": "http://digital.ulsterbank.co.uk/content/dam/Ulster/documents/ni-region/ni-business-ulst-brochures/business-banking-terms-and-conditions-ULST1572NI.pdf"
+                  },
+                  "FirstMarketedDate": "2016-07-06",
+                  "LastMarketedDate": "9999-09-09",
+                  "Overdraft": {
+                    "OverdraftTierBandSet": [
+                      {
+                        "Identification": "554",
+                        "Notes": [
+                          "Non Personal UBNI Overdrafts (On Demand overdrafts)",
+                          "Interest Tier (SME) Overdraft"
+                        ],
+                        "TierBandMethod": "Whole",
+                        "OverdraftTierBand": [
+                          {
+                            "Identification": "1585",
+                            "Notes": [
+                              "£5000"
+                            ],
+                            "TierValueMin": "0",
+                            "TierValueMax": "5000",
+                            "EAR": "7.71",
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "OverdraftSetup",
+                                    "Notes": [
+                                      "Overdraft - Setup Fee",
+                                      "1% (minimum £150)"
+                                    ],
+                                    "FeeAmount": "150",
+                                    "ApplicationFrequency": "OnOpening",
+                                    "CalculationFrequency": "OnOpening"
+                                  },
+                                  {
+                                    "FeeType": "OverdraftRenewal",
+                                    "Notes": [
+                                      "Overdraft - Review Fee",
+                                      "1% (minimum £150)"
+                                    ],
+                                    "FeeAmount": "150",
+                                    "ApplicationFrequency": "Yearly",
+                                    "CalculationFrequency": "Yearly"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "1586",
+                            "Notes": [
+                              "£10000"
+                            ],
+                            "TierValueMin": "5001",
+                            "TierValueMax": "10000",
+                            "EAR": "7.71",
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "OverdraftSetup",
+                                    "Notes": [
+                                      "Overdraft - Setup Fee",
+                                      "1% (minimum £150)"
+                                    ],
+                                    "FeeAmount": "150",
+                                    "ApplicationFrequency": "OnOpening",
+                                    "CalculationFrequency": "OnOpening"
+                                  },
+                                  {
+                                    "FeeType": "OverdraftRenewal",
+                                    "Notes": [
+                                      "Overdraft - Review Fee",
+                                      "1% (minimum £150)"
+                                    ],
+                                    "FeeAmount": "150",
+                                    "ApplicationFrequency": "Yearly",
+                                    "CalculationFrequency": "Yearly"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "1587",
+                            "Notes": [
+                              "£15000"
+                            ],
+                            "TierValueMin": "10001",
+                            "TierValueMax": "15000",
+                            "EAR": "7.71",
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "OverdraftSetup",
+                                    "Notes": [
+                                      "Overdraft - Setup Fee",
+                                      "1% (minimum £150)"
+                                    ],
+                                    "FeeAmount": "150",
+                                    "ApplicationFrequency": "OnOpening",
+                                    "CalculationFrequency": "OnOpening"
+                                  },
+                                  {
+                                    "FeeType": "OverdraftRenewal",
+                                    "Notes": [
+                                      "Overdraft - Review Fee",
+                                      "1% (minimum £150)"
+                                    ],
+                                    "FeeAmount": "150",
+                                    "ApplicationFrequency": "Yearly",
+                                    "CalculationFrequency": "Yearly"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "1588",
+                            "Notes": [
+                              "£20000"
+                            ],
+                            "TierValueMin": "15001",
+                            "TierValueMax": "20000",
+                            "EAR": "7.71",
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "OverdraftSetup",
+                                    "Notes": [
+                                      "Overdraft - Setup Fee",
+                                      "1% (minimum £150)"
+                                    ],
+                                    "FeeAmount": "200",
+                                    "ApplicationFrequency": "OnOpening",
+                                    "CalculationFrequency": "OnOpening"
+                                  },
+                                  {
+                                    "FeeType": "OverdraftRenewal",
+                                    "Notes": [
+                                      "Overdraft - Review Fee",
+                                      "1% (minimum £150)"
+                                    ],
+                                    "FeeAmount": "150",
+                                    "ApplicationFrequency": "Yearly",
+                                    "CalculationFrequency": "Yearly"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Identification": "1589",
+                            "Notes": [
+                              "£25000"
+                            ],
+                            "TierValueMin": "20001",
+                            "TierValueMax": "25000",
+                            "EAR": "7.71",
+                            "OverdraftFeesCharges": [
+                              {
+                                "OverdraftFeeChargeDetail": [
+                                  {
+                                    "FeeType": "OverdraftSetup",
+                                    "Notes": [
+                                      "Overdraft - Setup Fee",
+                                      "1% (minimum £150)"
+                                    ],
+                                    "FeeAmount": "250",
+                                    "ApplicationFrequency": "OnOpening",
+                                    "CalculationFrequency": "OnOpening"
+                                  },
+                                  {
+                                    "FeeType": "OverdraftRenewal",
+                                    "Notes": [
+                                      "Overdraft - Review Fee",
+                                      "1% (minimum £150)"
+                                    ],
+                                    "FeeAmount": "150",
+                                    "ApplicationFrequency": "Yearly",
+                                    "CalculationFrequency": "Yearly"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "OverdraftFeesCharges": [
+                          {
+                            "OverdraftFeeChargeCap": [],
+                            "OverdraftFeeChargeDetail": [
+                              {
+                                "FeeType": "UnauthorisedBorrowing",
+                                "Notes": [
+                                  "Overdraft - Unarranged Overdraft Rate"
+                                ],
+                                "FeeRate": "17",
+                                "ApplicationFrequency": "Quarterly",
+                                "CalculationFrequency": "Daily"
+                              },
+                              {
+                                "FeeType": "UnauthorisedUnpaidTrans",
+                                "Notes": [
+                                  "Overdraft - Unpaid Transaction Fee"
+                                ],
+                                "FeeAmount": "10",
+                                "ApplicationFrequency": "PerOccurrence",
+                                "CalculationFrequency": "PerOccurrence"
+                              },
+                              {
+                                "FeeType": "OverdraftSetup",
+                                "Notes": [
+                                  "Overdraft - Setup Fee",
+                                  "minimum £150"
+                                ],
+                                "FeeRate": "1",
+                                "ApplicationFrequency": "Other",
+                                "OtherApplicationFrequency": {
+                                  "Name": "One Off",
+                                  "Description": "One Off"
+                                },
+                                "CalculationFrequency": "Other",
+                                "OtherCalculationFrequency": {
+                                  "Name": "OnAccountOpening",
+                                  "Description": "OnAccountOpening"
+                                }
+                              },
+                              {
+                                "FeeType": "OverdraftRenewal",
+                                "Notes": [
+                                  "Overdraft - Review Fee",
+                                  "minimum £150"
+                                ],
+                                "FeeRate": "1",
+                                "ApplicationFrequency": "Other",
+                                "OtherApplicationFrequency": {
+                                  "Name": "At Maturity",
+                                  "Description": "At Maturity"
+                                },
+                                "CalculationFrequency": "Yearly"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ],
+              "Segment": [
+                "Switcher",
+                "Standard",
+                "Startup"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

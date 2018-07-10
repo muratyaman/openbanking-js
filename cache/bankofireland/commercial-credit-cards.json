@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "LastUpdated": "2018-01-05T04:39:02.725Z",
+    "TotalResults": 1,
+    "Agreement": "Use of the APIs and any related data will be subject to the terms of the Open Licence and subject to terms and conditions",
+    "License": "https://openbanking.org.uk/open-licence",
+    "TermsOfUse": "https://openbanking.org.uk/terms"
+  },
+  "data": {
+    "Brand": [
+      {
+        "BrandName": "Bank of Ireland (UK) plc",
+        "CCC": [
+          {
+            "Name": "Mastercard Commercial Credit Card",
+            "Identification": "Commercial Credit Card",
+            "Segment": [
+              "General"
+            ],
+            "CCCMarketingState": [
+              {
+                "Identification": "Commercial Credit Card",
+                "MarketingState": "Regular",
+                "Repayment": {
+                  "MinBalanceRepaymentRate": "100",
+                  "NonRepaymentFeeCharges": [
+                    {
+                      "NonRepaymentFeeChargeDetail": [
+                        {
+                          "FeeType": "ReturnPayment",
+                          "ApplicationFrequency": "Monthly",
+                          "CalculationFrequency": "Daily"
+                        }
+                      ]
+                    }
+                  ],
+                  "RepaymentAllocation": {
+                    "Notes": [
+                      "N/A"
+                    ]
+                  }
+                },
+                "Eligibility": {
+                  "AgeEligibility": {
+                    "MinimumAge": 18,
+                    "Notes": [
+                      "All Business Current Account holders over the age of 18 are eligible for a Commercial Credit Card subject to credit underwriting."
+                    ]
+                  },
+                  "IndustryEligibility": {
+                    "Notes": [
+                      "All Business Current Account holders over the age of 18 are eligible for a Commercial Credit Card subject to credit underwriting."
+                    ]
+                  }
+                },
+                "FeaturesAndBenefits": {
+                  "FeatureBenefitGroup": [
+                    {
+                      "Name": "Travel Insurance",
+                      "Type": "TravelInsurance",
+                      "ApplicationFrequency": "PerStatementDate",
+                      "CalculationFrequency": "Daily",
+                      "FeatureBenefitEligibility": [
+                        {
+                          "Name": "All",
+                          "Description": "All Business Current Account holders over the age of 18 are eligible for a Commercial Credit Card subject to credit underwriting.",
+                          "Type": "AnyBusinessCustomer",
+                          "Amount": "18",
+                          "Indicator": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "OtherFeesCharges": {
+                  "FeeChargeDetail": [
+                    {
+                      "FeeCategory": "CashAdvance",
+                      "FeeType": "CashAdvance",
+                      "ApplicationFrequency": "Flexible",
+                      "CalculationFrequency": "Flexible"
+                    },
+                    {
+                      "FeeCategory": "FX",
+                      "FeeType": "ForeignCash",
+                      "ApplicationFrequency": "Flexible",
+                      "CalculationFrequency": "Flexible"
+                    }
+                  ],
+                  "FeeChargeCap": [
+                    {
+                      "FeeType": [
+                        "Handling"
+                      ],
+                      "MinMaxType": "Minimum"
+                    },
+                    {
+                      "FeeType": [
+                        "ForeignCash"
+                      ],
+                      "MinMaxType": "Minimum"
+                    }
+                  ]
+                },
+                "CoreProduct": {
+                  "ProductURL": "https://boini.bankofireland.com/business/credit-cards/",
+                  "TcsAndCsURL": "https://boini.bankofireland.com/fs/doc/wysiwyg/approved-omi011433-commercial-card-tscs-v1-v3.pdf",
+                  "MinCreditLimit": "500",
+                  "MaxPurchaseInterestFreeLengthDays": 37,
+                  "SalesAccessChannels": [
+                    "Branch",
+                    "RelationshipManager"
+                  ],
+                  "ServicingAccessChannels": [
+                    "ATM",
+                    "Branch",
+                    "CallCentre",
+                    "PostOffice",
+                    "RelationshipManager",
+                    "Online"
+                  ],
+                  "CardScheme": [
+                    "Mastercard"
+                  ],
+                  "ContactlessIndicator": true,
+                  "PeriodicFee": "25",
+                  "PeriodicFeePeriod": "Year",
+                  "APR": "25.7",
+                  "Notes": [
+                    "The balance on the card is paid off entirely by the repayment due date."
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
